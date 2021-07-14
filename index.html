@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The One</title>
+    <style>
+        .wrapper{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            background-color: #f1eeec;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgDiv{
+            position: relative;
+            width: 50%;
+            height: 50%;
+            background-image: url(img/soon.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        .imgDiv::after{
+            position: absolute;
+            content: "יגיע בהמשך";
+            text-align: center;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="imgDiv"></div>
+    </div>
+    
+</body>
+</html>
