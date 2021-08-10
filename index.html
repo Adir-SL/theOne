@@ -49,7 +49,7 @@
             left: 0;
             height: 100vh;
             width: 100vw;
-            background-color: #f1eeec;
+            background-color: #F1EEEC;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -58,6 +58,7 @@
             position: absolute;
             width: 100vw;
             height: 100vh;
+            max-width: 600px;
             background-image: url(img/first_screen_01.jpg);
             background-repeat: no-repeat;
             background-position: center;
@@ -68,7 +69,7 @@
             content: "האחד";
             text-align: center;
             width: 100%;
-            top: 28%;
+            top: calc(50% - 140px);
             font-family: 'Franky', serif;
             font-size: 70px;
             font-weight: 400;
@@ -76,9 +77,12 @@
         }
         .textDiv{
             font-family: 'Franky', serif;
-            font-size: 12px;
-            font-weight: 400;
-            position: relative;
+            font-size: 22px;
+            font-weight: 200;
+            text-align: center;
+            color: #647C6E;
+            position: absolute;
+            bottom: 10vh;
             z-index: 2;
         }
     </style>
