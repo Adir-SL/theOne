@@ -55,7 +55,7 @@
             align-items: center;
         }
         .imgDiv{
-            position: relative;
+            position: absolute;
             width: 100vw;
             height: 100vh;
             background-image: url(img/first_screen_01.jpg);
@@ -74,11 +74,19 @@
             font-weight: 400;
             color: white;
         }
+        .textDiv{
+            font-family: 'Franky', serif;
+            font-size: 12px;
+            font-weight: 400;
+            position: relative;
+            z-index: 2;
+        }
     </style>
 </head>
 <body>
     <div class="wrapper">
         <div class="imgDiv"></div>
+        <div class="textDiv">ספר אינטראקטיבי<br/>מאת נעמי פוקס רוזט</div>
     </div>
     <!-- Coming Soon -->
 </body>
