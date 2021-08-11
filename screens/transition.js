@@ -18,9 +18,7 @@ window.addEventListener('load', function () {
         frame.id = "nextFrame_" + i;
         this.document.body.appendChild(frame);
 
-        x[i].addEventListener("load", function() {
-            openLink(x[i].href);
-          });
+        x[i].setAttribute("onclick","openLink('screen_02.html');");
         x[i].href="";
         
     }
