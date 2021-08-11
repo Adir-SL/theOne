@@ -10,4 +10,5 @@ iframe{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    transition: all 300ms linear 0s;
 }
