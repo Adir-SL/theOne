@@ -18,8 +18,11 @@ window.addEventListener('load', function () {
         frame.id = "nextFrame_" + i;
         this.document.body.appendChild(frame);
 
-        x[i].onclick="openLink("+x[i].href+")";
-        x[i].href="";
+        x[i].addEventListener("click", function() {
+            openLink(x[i].href);
+            x[i].href="";
+          });
+        
     }
 })
 
