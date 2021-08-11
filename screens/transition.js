@@ -18,14 +18,19 @@ window.addEventListener('load', function () {
         frame.id = "nextFrame_" + i;
         this.document.body.appendChild(frame);
 
-        x[i].setAttribute("onclick","openLink('screen_02.html');");
+        x[i].setAttribute("onclick","openLink('screen_02.html', event);");
+        x[i].id = "linkNum_" + i;
         x[i].href="";
         
     }
 })
 
-function openLink(x){
+function openLink(x, e){
     // window.loaction = x;
+    tempTest = e.target.id;
+    alert(e.target.id);
     document.getElementById("nextFrame_").style.opacity = "1";
-    setTimeout(function(){ window.location = x; }, 300);
+    
+    // document.getElementById("nextFrame_").style.opacity = "1";
+    // setTimeout(function(){ window.location = x; }, 300);
 }
