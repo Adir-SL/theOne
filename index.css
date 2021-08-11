@@ -12,3 +12,7 @@ iframe{
     overflow: hidden;
     transition: all 300ms linear 0s;
 }
+.opacMe{
+    opacity: 0;
+    pointer-events: none;
+}
