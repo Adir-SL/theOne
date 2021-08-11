@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The One</title>
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="https://adir-sl.github.io/theOne">
+    <meta property="twitter:title" content="https://adir-sl.github.io/theOne">
+    <meta property="twitter:description" content="The One, An Interactive Book Experience.">
+    <meta property="twitter:creator" content="@adircode">
+    <meta name="twitter:image" content="https://adir-sl.github.io/theOne/img/social.jpg">
+    <meta property="og:title" content="https://adir-sl.github.io/theOne" />
+    <meta property="og:description" content="The One, An Interactive Book Experience." />
+    <meta property="og:image" content="https://adir-sl.github.io/theOne/img/social.jpg" />
+
+    <style>
+        /* Frank Ruhl Libre */
+        @font-face {
+            font-family: 'Franky';
+            src: url('Frank_Ruhl_Libre/FrankRuhlLibre-Light.ttf') format("truetype");
+            font-weight: 200;
+        }
+        @font-face {
+            font-family: 'Franky';
+            src: url('Frank_Ruhl_Libre/FrankRuhlLibre-Regular.ttf') format("truetype");
+            font-weight: 300;
+        }
+        @font-face {
+            font-family: 'Franky';
+            src: url('Frank_Ruhl_Libre/FrankRuhlLibre-Medium.ttf') format("truetype");
+            font-weight: 400;
+        }
+        @font-face {
+            font-family: 'Franky';
+            src: url('Frank_Ruhl_Libre/FrankRuhlLibre-Bold.ttf') format("truetype");
+            font-weight: 500;
+        }
+        @font-face {
+            font-family: 'Franky';
+            src: url('Frank_Ruhl_Libre/FrankRuhlLibre-Black.ttf') format("truetype");
+            font-weight: 600;
+        }
+        .wrapper{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            margin: 0;
+            overflow: hidden;
+            background-color: #F1EEEC;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imgDiv{
+            position: absolute;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            max-width: 600px;
+            background-image: url(img/first_screen_01.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        .imgDiv::after{
+            position: absolute;
+            content: "האחד";
+            text-align: center;
+            width: 100%;
+            top: calc(50% - 140px);
+            font-family: 'Franky', serif;
+            font-size: 70px;
+            font-weight: 400;
+            color: white;
+        }
+        .textDiv{
+            font-family: 'Franky', serif;
+            font-size: 22px;
+            font-weight: 200;
+            text-align: center;
+            color: #647C6E;
+            position: absolute;
+            bottom: 20vh;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body onclick="window.location='screen_02.html';">
+    <div class="wrapper">
+        <div class="imgDiv"></div>
+        <div class="textDiv">ספר אינטראקטיבי<br/>מאת נעמי פוקס רוזט</div>
+    </div>
+    <!-- Coming Soon -->
+</body>
+</html>
