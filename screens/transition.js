@@ -1,9 +1,10 @@
 window.addEventListener('load', function () {
-    var x = document.getElementsByTagName("a");
+    var x = document.getElementsByClassName("transjs");
     var i;
     for (i = 0; i < x.length; i++) {
         var frame = document.createElement("iframe");
-        frame.src = x[i].href;
+        frameTest = x[i].onclick.toString();
+        frame.src = frameTest = frameTest.slice(frameTest.lastIndexOf("(")+2, frameTest.lastIndexOf(",")-1);
         frame.style.position = "absolute";
         frame.style.width = "100%";
         frame.style.height = "100%";
@@ -18,18 +19,18 @@ window.addEventListener('load', function () {
         frame.id = "nextFrame_" + i;
         this.document.body.appendChild(frame);
 
-        x[i].setAttribute("onclick","openLink('screen_02.html', event);");
+        // x[i].setAttribute("onclick","openLink('screen_02.html', event);");
         x[i].id = "linkNum_" + i;
-        x[i].href="";
         
     }
 })
 
-function openLink(x, e){
+function openLink(x,e){
     // window.loaction = x;
     tempTest = e.target.id;
-    alert(e.target.id);
-    document.getElementById("nextFrame_").style.opacity = "1";
+    tempTest = tempTest.slice(tempTest.lastIndexOf("_")+1);
+    document.getElementById("nextFrame_"+tempTest).style.opacity = "1";
+    setTimeout(function(){ window.location = x; }, 300);
     
     // document.getElementById("nextFrame_").style.opacity = "1";
     // setTimeout(function(){ window.location = x; }, 300);
