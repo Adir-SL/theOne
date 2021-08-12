@@ -14,4 +14,4 @@ function fadeLink(url){
     setTimeout(function(){ window.location = url; }, 300);
 }
 
-setTimeout(function(){ document.getElementsByClassName("wrapper")[0].style.opacity = 1; }, 10);
+setTimeout(function(){ document.getElementsByClassName("wrapper")[0].style.opacity = 1; }, 100);
