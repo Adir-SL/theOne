@@ -2,9 +2,9 @@ window.addEventListener('load', function () {
     var x = document.getElementsByClassName("transjs");
     var i;
     for (i = 0; i < x.length; i++) {
-        var frame = document.createElement("iframe");
+        var frame = document.createElement("object");
         frameTest = x[i].onclick.toString();
-        frame.src = frameTest = frameTest.slice(frameTest.lastIndexOf("(")+2, frameTest.lastIndexOf(",")-1);
+        frame.data = frameTest = frameTest.slice(frameTest.lastIndexOf("(")+2, frameTest.lastIndexOf(",")-1);
         frame.style.position = "absolute";
         frame.style.width = "100%";
         frame.style.height = "100%";
@@ -32,7 +32,7 @@ function openLink(x,e){
     document.getElementById("nextFrame_"+tempTest).style.opacity = "1";
     document.getElementById("nextFrame_"+tempTest).style.pointerEvents = "all";
     document.getElementById("nextFrame_"+tempTest).style.overflow = "auto";
-    // setTimeout(function(){ window.location = x; }, 300);
+    setTimeout(function(){ window.location = x; }, 300);
     
     // document.getElementById("nextFrame_").style.opacity = "1";
     // setTimeout(function(){ window.location = x; }, 300);
