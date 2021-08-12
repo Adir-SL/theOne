@@ -2,9 +2,9 @@ window.addEventListener('load', function () {
     var x = document.getElementsByClassName("transjs");
     var i;
     for (i = 0; i < x.length; i++) {
-        var frame = document.createElement("object");
+        var frame = document.createElement("iframe");
         frameTest = x[i].onclick.toString();
-        frame.data = frameTest = frameTest.slice(frameTest.lastIndexOf("(")+2, frameTest.lastIndexOf(",")-1);
+        frame.src = frameTest = frameTest.slice(frameTest.lastIndexOf("(")+2, frameTest.lastIndexOf(",")-1);
         frame.style.position = "absolute";
         frame.style.width = "100%";
         frame.style.height = "100%";
