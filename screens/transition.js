@@ -1,5 +1,5 @@
 function fadeLink(url){
-    document.getElementsByClassName("wrapper")[0].style.opacity = 0;
+    document.getElementsByClassName("wrapper")[0].classList.add("fadeMeOut");
     setTimeout(function(){ window.location.href = url; }, 300);
 }
 
