@@ -32,7 +32,7 @@ function openLink(x,e){
     document.getElementById("nextFrame_"+tempTest).style.opacity = "1";
     document.getElementById("nextFrame_"+tempTest).style.pointerEvents = "all";
     document.getElementById("nextFrame_"+tempTest).style.overflow = "auto";
-    setTimeout(function(){ window.location = x; }, 300);
+    // setTimeout(function(){ window.location = x; }, 300);
     
     // document.getElementById("nextFrame_").style.opacity = "1";
     // setTimeout(function(){ window.location = x; }, 300);
