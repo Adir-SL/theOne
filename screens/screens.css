@@ -1,7 +1,9 @@
 .wrapper{
-    animation: fadeMe 300ms linear forwards;
+    opacity: 0;
+    transition: opacity 300ms linear;
+    /* animation: fadeMe 300ms linear forwards; */
 }
-.fadeMeOut{
+/* .fadeMeOut{
     animation: fadeOut 300ms linear forwards;
 }
 @keyframes fadeMe {
@@ -11,4 +13,4 @@
 @keyframes fadeOut {
     0%{opacity:1;}
     100%{opacity:0;}
-}
+} */
