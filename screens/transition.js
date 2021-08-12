@@ -30,6 +30,7 @@ function openLink(x,e){
     tempTest = e.target.id;
     tempTest = tempTest.slice(tempTest.lastIndexOf("_")+1);
     document.getElementById("nextFrame_"+tempTest).style.opacity = "1";
+    document.getElementById("nextFrame_"+tempTest).style.pointerEvents = "all";
     // setTimeout(function(){ window.location = x; }, 300);
     
     // document.getElementById("nextFrame_").style.opacity = "1";
