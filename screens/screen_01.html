@@ -44,6 +44,14 @@
             src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Black.ttf') format("truetype");
             font-weight: 600;
         }
+        body{
+            font-family: 'Franky', serif;
+            background-color: #F1EEEC;
+        }
+        .wrapper{
+            opacity: 0;
+            transition: opacity 300ms linear;
+        }
         .wrapper{
             position: absolute;
             top: 0;
@@ -90,14 +98,21 @@
             bottom: 20vh;
             z-index: 2;
         }
+        #screen_02{
+            position: absolute;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: 999;
+        }
     </style>
 </head>
 <!-- <body onclick="window.top.document.getElementById('frame_01').classList.add('opacMe');"></body> -->
 <body>
     <div class="wrapper">
-        <div class="imgDiv transjs" onclick="openLink('screen_02.html');"></div>
+        <div class="imgDiv transjs" onclick="fadeLink('screen_02.html');"></div>
         <div class="textDiv">ספר אינטראקטיבי<br/>מאת נעמי פוקס רוזט</div>
     </div>
+    <!-- <div id="screen_02"></div> -->
     <!-- Coming Soon -->
 </body>
 </html>
