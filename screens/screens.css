@@ -38,7 +38,7 @@ body{
     font-family: 'Franky', serif;
     background-color: #F8F6F5;
 }
-.firstBody{
+.first{
     background-color: #F1EEEC;
 }
 .wrapper{
@@ -106,6 +106,7 @@ body{
 }
 .footer button{
     font-family: 'Franky';
+    color: #647C6E;
     font-weight: 300;
     font-size: 20px;
     flex-grow: 1;
