@@ -9,14 +9,17 @@ window.addEventListener("load", function(event) { document.getElementsByClassNam
 function openLink (e, url) {
     (e || window.event).preventDefault();
 
-    fetch(url)
-    .then((response) => response.text())
-    .then((html) => {
-        document.body.innerHTML = html;
-    })
-    .catch((error) => {
-        console.warn(error);
-    });
+    document.getElementsByClassName("wrapper")[0].style.opacity = "0";
+    setTimeout(function(){
+        fetch(url)
+        .then((response) => response.text())
+        .then((html) => {
+            document.body.innerHTML = html;
+        })
+        .catch((error) => {
+            console.warn(error);
+        });
+    }, 300);
 } 
 
-document.body.addEventListener("beforeunload", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "0";});
+// document.body.addEventListener("beforeunload", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "0";});

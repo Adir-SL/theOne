@@ -1,6 +1,6 @@
 .wrapper{
-    /* opacity: 0;
-    transition: opacity 300ms linear; */
+    /* opacity: 0; */
+    transition: opacity 300ms linear;
     animation: fadeMe 300ms linear forwards;
 }
 @keyframes fadeMe {
