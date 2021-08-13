@@ -22,5 +22,7 @@ function openLink (e, url) {
 
         document.getElementsByClassName("footer")[0].style.opacity = "1";
         document.getElementsByClassName("footer")[0].style.pointerEvents = "all";
+
+        window.scrollTo(0,0);
     }, 300);
 }
