@@ -31,7 +31,7 @@
 }
 body{
     font-family: 'Franky', serif;
-    background-color: #F8F6F5;
+    background-color: #F1EEEC;
 }
 .first{
     background-color: #F1EEEC;
@@ -43,7 +43,7 @@ body{
     min-height: 100%;
     width: 100%;
     margin: 0;
-    background-color: #F8F6F5;
+    background-color: #F1EEEC;
     transition: opacity 300ms linear;
     animation: fadeMe 300ms linear forwards;
 }
@@ -133,7 +133,7 @@ h1{
     text-align: center;
     color: #647C6E;
     padding: 32px 0;
-    background-color: #F8F6F5;
+    background-color: #F1EEEC;
 }
 .flexDiv{
     display: flex;
