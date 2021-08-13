@@ -6,3 +6,8 @@ function buttonSelect(e){
     }
     e.target.classList.add("blackText");
 }
+
+function resetMenu(){
+    document.getElementById('storyMenu').style.transform='translateY(120%)';
+    document.getElementById('dataMenu').style.transform='translateY(120%)';
+}
