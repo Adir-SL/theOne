@@ -95,7 +95,9 @@ body{
 }
 
 .footer{
-    
+    position: sticky;
+    bottom: 0;
+    direction: rtl;
 }
 
 h1{
