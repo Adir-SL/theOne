@@ -159,6 +159,8 @@ h1{
     font-family: 'Franky', serif;
     background-color: #F8F6F5;
     color: #647C6E;
+    font-size: 15px;
+    line-height: 30px;
     margin: 0;
     overflow: scroll;
     direction: rtl;
