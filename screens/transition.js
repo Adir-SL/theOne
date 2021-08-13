@@ -20,6 +20,4 @@ function openLink (e, url) {
             console.warn(error);
         });
     }, 300);
-} 
-
-// document.body.addEventListener("beforeunload", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "0";});
+}
