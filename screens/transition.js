@@ -14,7 +14,7 @@ function openLink (e, url) {
         fetch(url)
         .then((response) => response.text())
         .then((html) => {
-            document.body.innerHTML = html;
+            document.getElementsByClassName("wrapper")[0].innerHTML = html;
         })
         .catch((error) => {
             console.warn(error);
