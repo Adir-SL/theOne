@@ -9,8 +9,8 @@ window.addEventListener("load", function(event) { document.getElementsByClassNam
 function openLink (e, url) {
     (e || window.event).preventDefault();
 
-    document.getElementsByClassName("wrapper")[0].style.opacity = "0";
-    setTimeout(function(){
+    // document.getElementsByClassName("wrapper")[0].style.opacity = "0";
+    // setTimeout(function(){
         fetch(url)
         .then((response) => response.text())
         .then((html) => {
@@ -24,5 +24,7 @@ function openLink (e, url) {
         document.getElementsByClassName("footer")[0].style.pointerEvents = "all";
 
         window.scrollTo(0,0);
-    }, 300);
+    // }, 300);
 }
+
+document.getElementsByClassName("wrapper")[0].addEventListener("beforeunload", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "0";});
