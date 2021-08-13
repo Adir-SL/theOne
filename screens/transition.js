@@ -19,5 +19,8 @@ function openLink (e, url) {
         .catch((error) => {
             console.warn(error);
         });
+
+        document.getElementsByClassName("footer")[0].style.opacity = "1";
+        document.getElementsByClassName("footer")[0].style.pointerEvents = "all";
     }, 300);
 }
