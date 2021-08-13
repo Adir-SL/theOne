@@ -151,13 +151,14 @@ h1{
     direction: rtl;
 }
 #storyMenu, #dataMenu{
-    position: static;
+    position: fixed;
     width: 100%;
     height: calc(100% - 95px);
     left: 0;
     top: 0;
     background-color: pink;
     margin: 0;
+    overflow: scroll;
     direction: rtl;
     transform: translateY(120%);
     transition: transform 300ms ease-out;
