@@ -172,10 +172,11 @@ h1{
     position: sticky;
     top: 16px;
     left: 48px;
-    width: 15px;
-    height: 15px;
+    width: 30px;
+    height: 30px;
     transform: translateX(calc(-80vw + 24px));
     background-image: url(../img/close.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 50%;
+    background-position: center;
 }
