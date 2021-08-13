@@ -99,6 +99,13 @@ body{
     bottom: 0;
     direction: rtl;
 }
+.footer button{
+    font-family: 'Franky';
+    font-weight: 300;
+}
+.blackText{
+    font-weight: 600;
+}
 
 h1{
     font-size: 20px;
