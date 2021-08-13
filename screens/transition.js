@@ -6,10 +6,10 @@ window.addEventListener("beforeunload", function(event) { document.getElementsBy
 window.addEventListener("load", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "1";});
 */
 
-function openLink (e) {
+function openLink (e, url) {
     (e || window.event).preventDefault();
 
-    fetch("screen_02.html" /*, options */)
+    fetch(url)
     .then((response) => response.text())
     .then((html) => {
         document.body.innerHTML = html;
