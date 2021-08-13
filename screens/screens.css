@@ -169,11 +169,12 @@ h1{
     transition: transform 300ms ease-out;
 }
 .closeButton{
-    position: absolute;
-    top: 48px;
+    position: sticky;
+    top: 16px;
     left: 48px;
     width: 15px;
     height: 15px;
+    transform: translateX(calc(-80vw + 24px));
     background-image: url(../img/close.svg);
     background-repeat: no-repeat;
     background-size: contain;
