@@ -1,16 +1,118 @@
 .wrapper{
-    opacity: 0;
-    transition: opacity 300ms linear;
-    /* animation: fadeMe 300ms linear forwards; */
-}
-/* .fadeMeOut{
-    animation: fadeOut 300ms linear forwards;
+    /* opacity: 0;
+    transition: opacity 300ms linear; */
+    animation: fadeMe 300ms linear forwards;
 }
 @keyframes fadeMe {
     0%{opacity:0;}
     100%{opacity:1;}
 }
-@keyframes fadeOut {
-    0%{opacity:1;}
-    100%{opacity:0;}
-} */
+
+/* Frank Ruhl Libre */
+@font-face {
+    font-family: 'Franky';
+    src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Light.ttf') format("truetype");
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Franky';
+    src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Regular.ttf') format("truetype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Franky';
+    src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Medium.ttf') format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Franky';
+    src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Bold.ttf') format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Franky';
+    src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Black.ttf') format("truetype");
+    font-weight: 600;
+}
+body{
+    font-family: 'Franky', serif;
+    background-color: #F1EEEC;
+}
+.wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #F1EEEC;
+}
+.noFlow{
+    overflow: hidden;
+}
+.vFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgDiv{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    max-width: 600px;
+    background-image: url(../img/first_screen_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.imgDiv::after{
+    position: absolute;
+    content: "האחד";
+    text-align: center;
+    width: 100%;
+    top: calc(50% - 140px);
+    font-family: 'Franky', serif;
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+}
+.textDiv{
+    font-family: 'Franky', serif;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+    color: #647C6E;
+    position: absolute;
+    bottom: 20vh;
+    z-index: 2;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: #647C6E;
+    padding: 32px 0;
+    background-color: #F1EEEC;
+}
+.flexDiv{
+    display: flex;
+    justify-content: center;
+    margin: 0 48px;
+    width: 80vw;
+}
+.storyDiv{
+    color: #647C6E;
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 200%;
+    width: 80%;
+}
