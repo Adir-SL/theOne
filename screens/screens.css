@@ -152,8 +152,9 @@ h1{
 }
 #storyMenu, #dataMenu{
     position: fixed;
-    width: 100%;
-    height: calc(100% - 95px);
+    width: calc(100% - 96px);
+    padding: 48px;
+    height: calc(100% - 192px);
     left: 0;
     top: 0;
     font-family: 'Franky', serif;
