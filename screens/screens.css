@@ -107,6 +107,8 @@ body{
     height: 95px;
     opacity: 0;
     gap: 0;
+    background-color: #F1EEEC;
+    border-top: 1px solid #647C6E;
     pointer-events: none;
     transition: opacity 300ms linear;
 }
@@ -119,7 +121,6 @@ body{
     background-color: #F1EEEC;
     border: 0;
     margin: 0;
-    border-top: 1px solid #647C6E;
     outline: none;
 }
 .blackText{
