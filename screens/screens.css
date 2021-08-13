@@ -112,6 +112,7 @@ body{
     flex-grow: 1;
     background-color: #F1EEEC;
     border: 0;
+    border-top: 1px solid #647C6E;
     outline: none;
 }
 .blackText{
