@@ -156,7 +156,9 @@ h1{
     height: calc(100% - 95px);
     left: 0;
     top: 0;
-    background-color: pink;
+    font-family: 'Franky', serif;
+    background-color: #F8F6F5;
+    color: #647C6E;
     margin: 0;
     overflow: scroll;
     direction: rtl;
