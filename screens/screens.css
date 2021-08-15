@@ -138,7 +138,7 @@ h1{
 .flexDiv{
     display: flex;
     justify-content: center;
-    margin: 0 48px;
+    margin: 0 10vw;
     width: 80vw;
 }
 .storyDiv{
