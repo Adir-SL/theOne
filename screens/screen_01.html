@@ -108,8 +108,8 @@
     </div>
     <div class="footer">
         <!-- <button onclick="openLink(event, 'screen_02.html');buttonSelect(event);" class="blackText">הסיפורים</button> -->
-        <button onclick="document.getElementById('storyMenu').style.transform='translateY(0)';document.getElementById('dataMenu').style.transform='translateY(120%)';this.classList.add('blackText');document.getElementById('secondMenuButton').classList.remove('blackText');" class="blackText">הסיפורים</button>
-        <button onclick="document.getElementById('dataMenu').style.transform='translateY(0)';document.getElementById('storyMenu').style.transform='translateY(120%)';this.classList.add('blackText');document.getElementById('firstMenuButton').classList.remove('blackText');">הדאטה</button>
+        <button id="firstMenuButton" onclick="document.getElementById('storyMenu').style.transform='translateY(0)';document.getElementById('dataMenu').style.transform='translateY(120%)';this.classList.add('blackText');document.getElementById('secondMenuButton').classList.remove('blackText');" class="blackText">הסיפורים</button>
+        <button id="secondMenuButton" onclick="document.getElementById('dataMenu').style.transform='translateY(0)';document.getElementById('storyMenu').style.transform='translateY(120%)';this.classList.add('blackText');document.getElementById('firstMenuButton').classList.remove('blackText');">הדאטה</button>
         <!-- <button onclick="openLink(event, 'screen_03.html');buttonSelect(event);">הדאטה</button> -->
     </div>
 </body>
