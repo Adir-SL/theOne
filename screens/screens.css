@@ -1,7 +1,7 @@
 :root{
     --primary: #F1EEEC;
     --text: #647C6E;
-    --franky: 'Franky', serif;
+    --frankFont: 'Franky', serif;
 }
 @keyframes fadeMe {
     0%{opacity:0;}
@@ -81,13 +81,13 @@ body{
     text-align: center;
     width: 100%;
     top: calc(50% - 140px);
-    font-family: var(--franky);
+    font-family: var(--frankFont);
     font-size: 70px;
     font-weight: 400;
     color: white;
 }
 .textDiv{
-    font-family: var(--franky);
+    font-family: var(--frankFont);
     font-size: 22px;
     font-weight: 200;
     text-align: center;
@@ -118,7 +118,7 @@ body{
     transition: opacity 300ms linear;
 }
 .footer button{
-    font-family: var(--franky);
+    font-family: var(--frankFont);
     color: var(--text);
     font-weight: 300;
     font-size: 20px;
@@ -162,7 +162,7 @@ h1{
     height: calc(100% - 192px);
     left: 0;
     top: 0;
-    font-family: var(--franky);
+    font-family: var(--frankFont);
     background-color: #F8F6F5;
     color: var(--text);
     font-size: 15px;
