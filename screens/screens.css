@@ -157,8 +157,6 @@ h1{
 }
 #storyMenu, #dataMenu{
     position: fixed;
-    /* display: flex;
-    justify-content: center; */
     width: calc(100% - 96px);
     padding: 48px;
     height: calc(100% - 192px);
