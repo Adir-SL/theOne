@@ -1,3 +1,4 @@
+:root{}
 @keyframes fadeMe {
     0%{opacity:0;}
     100%{opacity:1;}
@@ -31,10 +32,10 @@
 }
 body{
     font-family: 'Franky', serif;
-    background-color: #F1EEEC;
+    background-color: var(--primary);
 }
 .first{
-    background-color: #F1EEEC;
+    background-color: var(--primary);
 }
 .wrapper{
     position: absolute;
@@ -43,7 +44,7 @@ body{
     min-height: 100%;
     width: 100%;
     margin: 0;
-    background-color: #F1EEEC;
+    background-color: var(--primary);
     transition: opacity 300ms linear;
     animation: fadeMe 300ms linear forwards;
 }
@@ -107,7 +108,7 @@ body{
     height: 95px;
     opacity: 0;
     gap: 0;
-    background-color: #F1EEEC;
+    background-color: var(--primary);
     border-top: 1px solid #647C6E;
     pointer-events: none;
     transition: opacity 300ms linear;
@@ -118,7 +119,7 @@ body{
     font-weight: 300;
     font-size: 20px;
     flex-grow: 1;
-    background-color: #F1EEEC;
+    background-color: var(--primary);
     border: 0;
     margin: 0;
     outline: none;
@@ -133,7 +134,7 @@ h1{
     text-align: center;
     color: #647C6E;
     padding: 32px 0;
-    background-color: #F1EEEC;
+    background-color: var(--primary);
 }
 .flexDiv{
     display: flex;
