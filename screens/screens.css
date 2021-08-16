@@ -118,7 +118,7 @@ body{
     transition: opacity 300ms linear;
 }
 .footer button{
-    font-family: 'Franky';
+    font-family: var(--franky);
     color: var(--text);
     font-weight: 300;
     font-size: 20px;
@@ -162,7 +162,7 @@ h1{
     height: calc(100% - 192px);
     left: 0;
     top: 0;
-    font-family: 'Franky', serif;
+    font-family: var(--franky);
     background-color: #F8F6F5;
     color: var(--text);
     font-size: 15px;
