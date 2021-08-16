@@ -25,7 +25,6 @@
         <div class="textDiv">ספר אינטראקטיבי<br/>מאת נעמי פוקס רוזט</div>
     </div>
     <div id="storyMenu">
-        <div class="closeButton" onclick="resetMenu();"></div>
         פרולוג<br/><br/>
         הבליינד-דייט הראשון<br/>
                 האחד הלא זכיר<br/>
@@ -71,7 +70,6 @@
                 אפילוג: האחד<br/>
     </div>
     <div id="dataMenu">
-        <div class="closeButton" onclick="resetMenu();"></div>
         התחלה<br/>
 איך הכרנו<br/>
 <br/>
@@ -112,5 +110,6 @@
         <button id="secondMenuButton" onclick="document.getElementById('dataMenu').style.transform='translateY(0)';document.getElementById('storyMenu').style.transform='translateY(120%)';this.classList.add('blackText');document.getElementById('firstMenuButton').classList.remove('blackText');">הדאטה</button>
         <!-- <button onclick="openLink(event, 'screen_03.html');buttonSelect(event);">הדאטה</button> -->
     </div>
+    <div class="closeButton" onclick="resetMenu();"></div>
 </body>
 </html>

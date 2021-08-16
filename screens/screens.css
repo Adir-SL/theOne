@@ -176,7 +176,7 @@ h1{
     transition: transform 300ms ease-out;
 }
 .closeButton{
-    position: sticky;
+    position: fixed;
     top: 16px;
     left: 48px;
     width: 30px;
@@ -186,4 +186,5 @@ h1{
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
+    z-index: 99;
 }
