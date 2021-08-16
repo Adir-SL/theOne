@@ -181,7 +181,7 @@ h1{
     left: 48px;
     width: 30px;
     height: 30px;
-    transform: translateX(calc(-80vw + 24px));
+    /* transform: translateX(calc(-80vw + 24px)); */
     background-image: url(../img/close.svg);
     background-repeat: no-repeat;
     background-size: 50%;
