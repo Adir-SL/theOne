@@ -157,8 +157,8 @@ h1{
 }
 #storyMenu, #dataMenu{
     position: fixed;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     width: calc(100% - 96px);
     padding: 48px;
     height: calc(100% - 192px);
@@ -177,8 +177,8 @@ h1{
 }
 .closeButton{
     position: fixed;
-    top: 16px;
-    left: 48px;
+    top: 40px;
+    left: 40px;
     width: 30px;
     height: 30px;
     /* transform: translateX(calc(-80vw + 24px)); */
