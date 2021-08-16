@@ -1,5 +1,7 @@
 :root{
     --primary: #F1EEEC;
+    --text: #647C6E;
+    --franky: 'Franky', serif;
 }
 @keyframes fadeMe {
     0%{opacity:0;}
@@ -79,13 +81,13 @@ body{
     text-align: center;
     width: 100%;
     top: calc(50% - 140px);
-    font-family: 'Franky', serif;
+    font-family: var(--franky);
     font-size: 70px;
     font-weight: 400;
     color: white;
 }
 .textDiv{
-    font-family: 'Franky', serif;
+    font-family: var(--franky);
     font-size: 22px;
     font-weight: 200;
     text-align: center;
