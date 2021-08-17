@@ -161,7 +161,7 @@ h1{
     font-family: var(--frankFont);
     font-weight: 400;
     background-color: #F8F6F5;
-    color: var(--text);
+    color: rgba(0,0,0,0.2);
     font-size: 15px;
     line-height: 30px;
     margin: 0;
@@ -169,6 +169,12 @@ h1{
     direction: rtl;
     transform: translateY(120%);
     transition: transform 300ms ease-out;
+}
+#storyMenu a, #dataMenu a{
+    color: var(--text);
+}
+a{
+    cursor: pointer;
 }
 .closeButton, .infoButton, .forButton, .backButton{
     position: fixed;
