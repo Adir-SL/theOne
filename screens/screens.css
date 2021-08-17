@@ -174,7 +174,7 @@ h1{
     transform: translateY(120%);
     transition: transform 300ms ease-out;
 }
-.closeButton{
+.closeButton, .infoButton{
     position: fixed;
     top: 40px;
     left: 40px;
@@ -185,4 +185,8 @@ h1{
     background-size: 50%;
     background-position: center;
     z-index: 99;
+}
+.infoButton{
+    top: 80px;
+    background-image: url(../img/info.svg);
 }
