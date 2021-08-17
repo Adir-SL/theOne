@@ -53,9 +53,6 @@ body{
     transition: opacity 300ms linear;
     animation: fadeMe 300ms linear forwards;
 }
-.noFlow{
-    /* overflow: hidden; */
-}
 .vFlex{
     display: flex;
     justify-content: center;
