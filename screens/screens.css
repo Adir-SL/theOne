@@ -149,9 +149,10 @@ h1{
 .storyDiv{
     color: var(--text);
     text-align: right;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 18px;
     line-height: 200%;
+    max-width: 23ch;
     width: 80%;
     direction: rtl;
 }
