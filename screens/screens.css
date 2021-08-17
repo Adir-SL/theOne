@@ -173,7 +173,7 @@ h1{
 #storyMenu a, #dataMenu a{
     color: var(--text);
 }
-a{
+a, button{
     cursor: pointer;
 }
 .closeButton, .infoButton, .forButton, .backButton{
