@@ -163,6 +163,7 @@ h1{
     left: 0;
     top: 0;
     font-family: var(--frankFont);
+    font-weight: 400;
     background-color: #F8F6F5;
     color: var(--text);
     font-size: 15px;
