@@ -152,7 +152,7 @@ h1{
     font-weight: 300;
     font-size: 18px;
     line-height: 200%;
-    max-width: 23ch;
+    /* max-width: 24ch; */
     width: 80%;
     direction: rtl;
 }
