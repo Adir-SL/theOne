@@ -194,6 +194,7 @@ a, button{
     background-image: url(../img/info.svg);
 }
 .forButton, .backButton{
+    background-size: 35%;
     background-image: url(../img/chev.svg);
 }
 .backButton{
