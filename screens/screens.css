@@ -191,6 +191,7 @@ a, button{
 }
 .infoButton{
     top: 80px;
+    background-size: 65%;
     background-image: url(../img/info.svg);
 }
 .forButton, .backButton{
