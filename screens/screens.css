@@ -150,6 +150,7 @@ h1{
     /* max-width: 24ch; */
     /* width: 80%; */
     direction: rtl;
+    margin-bottom: 80px;
 }
 #storyMenu, #dataMenu{
     position: fixed;
