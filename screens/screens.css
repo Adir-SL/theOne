@@ -212,9 +212,10 @@ a, button{
     left: calc(50% - 15px);
     width: 30px;
     height: 30px;
-    background-image: url(../img/close.svg);
+    background-image: url(../img/cross.svg);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: center;
     cursor: pointer;
+    display: none;
 }
