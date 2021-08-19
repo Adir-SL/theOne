@@ -217,5 +217,7 @@ a, button{
     background-size: 50%;
     background-position: center;
     cursor: pointer;
-    display: none;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 300ms linear 200ms;
 }

@@ -13,3 +13,8 @@ function resetMenu(){
     // document.getElementById('firstMenuButton').classList.remove("blackText");
     // document.getElementById('secondMenuButton').classList.remove("blackText");
 }
+
+function addCross(){
+    document.getElementById('moreData').style.opacity = '1';
+    document.getElementById('moreData').style.pointerEvents = 'all';
+}
