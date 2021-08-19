@@ -18,3 +18,6 @@ function addCross(){
     document.getElementById('moreData').style.opacity = '1';
     document.getElementById('moreData').style.pointerEvents = 'all';
 }
+function crossClick(){
+    document.getElementById('moreData').classList.toggle("openCross");
+}
