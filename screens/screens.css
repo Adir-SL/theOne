@@ -94,7 +94,9 @@ body{
 
 .header{
     position: sticky;
+    width: 100%;
     top: 0;
+    z-index: 99;
 }
 
 .footer{
@@ -142,7 +144,7 @@ h1{
     justify-content: center;
     margin: 0 10vw;
     width: 80vw;
-    /* mix-blend-mode: multiply; */
+    mix-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: top center;
