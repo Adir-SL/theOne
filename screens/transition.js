@@ -28,7 +28,7 @@ function openLink (e, url) {
 
     setTimeout(function(){
         window.whatPageSlice = window.whatPage.slice(window.whatPage.indexOf("_"), window.whatPage.indexOf("."));
-        document.getElementsByClassName("storyDiv")[0].style.backgroundImage = "url(story"+window.whatPageSlice+".svg)";
+        document.getElementsByClassName("storyDiv")[0].style.backgroundImage = "url(story"+window.whatPageSlice+".png)";
     }, 300);
 
     crossReset();
