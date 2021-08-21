@@ -142,6 +142,7 @@ h1{
     justify-content: center;
     margin: 0 10vw;
     width: 80vw;
+    mix-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: top center;
