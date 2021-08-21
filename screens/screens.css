@@ -157,6 +157,8 @@ h1{
     font-weight: 300;
     font-size: 18px;
     line-height: 150%;
+    background-repeat: no-repeat;
+    background-size: 0;
     /* max-width: 24ch; */
     /* width: 80%; */
     direction: rtl;
