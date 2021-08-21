@@ -26,6 +26,12 @@ function openLink (e, url) {
         window.scrollTo(0,0);
     // }, 300);
 
+    setTimeout(function(){
+        window.whatPageSlice = window.whatPage.slice(window.whatPage.indexOf("_"), window.whatPage.indexOf("."));
+        document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "url(story"+window.whatPageSlice+".svg)";
+        document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "";
+    }, 300);
+
     crossReset();
 }
 
