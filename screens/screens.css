@@ -144,7 +144,7 @@ h1{
     width: 80vw;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 0 5em;
+    background-position: 0;
 }
 .storyDiv{
     color: var(--text);
