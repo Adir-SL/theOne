@@ -8,7 +8,7 @@ window.addEventListener("load", function(event) { document.getElementsByClassNam
 
 function openLink (e, url) {
     (e || window.event).preventDefault();
-
+    window.whatPage = url;
     // document.getElementsByClassName("wrapper")[0].style.opacity = "0";
     // setTimeout(function(){
         fetch(url)
