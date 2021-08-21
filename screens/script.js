@@ -21,3 +21,6 @@ function addCross(){
 function crossClick(){
     document.getElementById('moreData').classList.toggle("openCross");
 }
+function crossReset(){
+    document.getElementById('moreData').classList.remove("openCross");
+}

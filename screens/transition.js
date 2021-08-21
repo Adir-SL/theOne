@@ -25,6 +25,8 @@ function openLink (e, url) {
 
         window.scrollTo(0,0);
     // }, 300);
+
+    crossReset();
 }
 
 document.getElementsByClassName("wrapper")[0].addEventListener("beforeunload", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "0";});
