@@ -23,6 +23,7 @@ function crossClick(){
     whatPageSlice = whatPage.slice(whatPage.indexOf("_"), whatPage.indexOf("."));
     if(document.getElementById('moreData').className == "openCross"){
         document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "url(story"+whatPageSlice+".svg)";
+        alert("url(story"+whatPageSlice+".svg)")
     }else{
         document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "";
     }
