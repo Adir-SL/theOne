@@ -146,7 +146,7 @@ h1{
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: top center;
-    min-height: 100vh;
+    min-height: 70vh;
     transition: background-image 300ms linear 0s;
 }
 .storyDiv{
