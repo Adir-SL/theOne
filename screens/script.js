@@ -21,7 +21,11 @@ function addCross(){
 function crossClick(){
     document.getElementById('moreData').classList.toggle("openCross");
     whatPageSlice = whatPage.slice(whatPage.indexOf("_"), whatPage.indexOf("."));
-    document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "url(story"+whatPageSlice+".svg)";
+    if(document.getElementById('moreData').className == "openCross"){
+        document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "url(story"+whatPageSlice+".svg)";
+    }else{
+        document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "";
+    }
 }
 function crossReset(){
     document.getElementById('moreData').classList.remove("openCross");
