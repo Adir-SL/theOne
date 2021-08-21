@@ -48,9 +48,6 @@ body{
     min-height: calc(100% - 95px);
     width: 100%;
     margin: 0;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0 5em;
     padding-bottom: 95px;
     background-color: var(--primary);
     transition: opacity 300ms linear;
@@ -145,6 +142,9 @@ h1{
     justify-content: center;
     margin: 0 10vw;
     width: 80vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 5em;
 }
 .storyDiv{
     color: var(--text);

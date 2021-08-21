@@ -20,7 +20,7 @@ function addCross(){
 }
 function crossClick(){
     document.getElementById('moreData').classList.toggle("openCross");
-    document.getElementsByClassName("wrapper")[1].style.backgroundImage = "url(story_02.svg)";
+    document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "url(story_02.svg)";
 }
 function crossReset(){
     document.getElementById('moreData').classList.remove("openCross");
