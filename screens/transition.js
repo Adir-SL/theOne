@@ -28,8 +28,7 @@ function openLink (e, url) {
 
     setTimeout(function(){
         window.whatPageSlice = window.whatPage.slice(window.whatPage.indexOf("_"), window.whatPage.indexOf("."));
-        document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "url(story"+window.whatPageSlice+".svg)";
-        document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "";
+        document.getElementsByClassName("storyDiv")[0].style.backgroundImage = "url(story"+window.whatPageSlice+".svg)";
     }, 300);
 
     crossReset();
