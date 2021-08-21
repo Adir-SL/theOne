@@ -143,8 +143,9 @@ h1{
     margin: 0 10vw;
     width: 80vw;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0;
+    background-size: 80%;
+    background-position: top center;
+    min-height: 100vh;
     transition: background-image 300ms linear 0s;
 }
 .storyDiv{
