@@ -145,6 +145,7 @@ h1{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0;
+    transition: background-image 300ms linear 0s;
 }
 .storyDiv{
     color: var(--text);
