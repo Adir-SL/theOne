@@ -164,6 +164,9 @@ h1{
     direction: rtl;
     margin-bottom: 80px;
 }
+.storyDiv p{
+    margin-bottom: 56px;
+}
 #storyMenu, #dataMenu{
     position: fixed;
     width: calc(100% - 96px);
