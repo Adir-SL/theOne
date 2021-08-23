@@ -140,6 +140,7 @@ h1{
     background-color: var(--primary);
 }
 .flexDiv{
+    position: relative;
     display: flex;
     justify-content: center;
     margin: 0 10vw;
