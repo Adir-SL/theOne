@@ -245,7 +245,7 @@ a, button{
     height: 100%;
     transform-origin: top center;
     transform: scale(0.6);
-    /* top: -3.2%; */
+    top: -1vh;
     /* left: 20%; */
     z-index: 999;
 }
