@@ -241,9 +241,11 @@ a, button{
 }
 #svgLayer{
     position: absolute;
-    width: 60%;
-    height: 60%;
-    top: -3.2%;
-    left: 20%;
+    width: 100%;
+    height: 100%;
+    transform-origin: top center;
+    transform: scale(0.6);
+    /* top: -3.2%; */
+    /* left: 20%; */
     z-index: 999;
 }
