@@ -146,8 +146,8 @@ h1{
     width: 80vw;
     mix-blend-mode: multiply;
     background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: top center;
+    background-size: 60%;
+    background-position: center top;
     min-height: 70vh;
     transition: background-image 300ms linear 0s;
 }
