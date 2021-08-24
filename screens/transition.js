@@ -27,11 +27,14 @@ function openLink (e, url) {
     // }, 300);
 
     setTimeout(function(){
+    document.getElementById("svgLayer").style.opacity = "0";
+    document.getElementById("svgLayer").style.pointerEvents = "none";
+    }, 50);
+
+    setTimeout(function(){
         window.whatPageSlice = window.whatPage.slice(window.whatPage.indexOf("_"), window.whatPage.indexOf("."));
         document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
-        document.getElementById("svgLayer").style.opacity = "0";
-        document.getElementById("svgLayer").style.pointerEvents = "none";
-    }, 300);
+    }, 400);
 
     crossReset();
 }
