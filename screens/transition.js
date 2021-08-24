@@ -2,19 +2,19 @@ function openLink (e, url) {
     (e || window.event).preventDefault();
     window.whatPage = url;
     
-        fetch(url)
-        .then((response) => response.text())
-        .then((html) => {
-            document.getElementsByClassName("wrapper")[0].innerHTML = html;
-        })
-        .catch((error) => {
-            console.warn(error);
-        });
+    fetch(url)
+    .then((response) => response.text())
+    .then((html) => {
+        document.getElementsByClassName("wrapper")[0].innerHTML = html;
+    })
+    .catch((error) => {
+        console.warn(error);
+    });
 
-        document.getElementsByClassName("footer")[0].style.opacity = "1";
-        document.getElementsByClassName("footer")[0].style.pointerEvents = "all";
+    document.getElementsByClassName("footer")[0].style.opacity = "1";
+    document.getElementsByClassName("footer")[0].style.pointerEvents = "all";
 
-        window.scrollTo(0,0);
+    window.scrollTo(0,0);
 
     setTimeout(function(){
         document.getElementById("svgLayer").style.transition = "opacity 1ms linear 0s";
