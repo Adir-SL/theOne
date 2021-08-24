@@ -25,19 +25,19 @@ function crossClick(){
         // document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "url(story"+whatPageSlice+".png)";
         // document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
         document.getElementById("svgLayer").style.opacity = "1";
+        document.getElementById("svgLayer").style.pointerEvents = "all";
         document.getElementsByClassName("storyDiv")[0].style.opacity = ".6";
         // document.getElementById("svgLayer").style.opacity = "1";
-        // document.getElementById("svgLayer").style.pointerEvents = "all";
         // alert("url(story"+whatPageSlice+".svg)")
     }else{
         // document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "";
         document.getElementById("svgLayer").style.opacity = "0";
+        document.getElementById("svgLayer").style.pointerEvents = "none";
         document.getElementsByClassName("storyDiv")[0].style.opacity = "1";
         // setTimeout(function(){
         //     document.getElementById("svgLayer").data = "";
         // }, 300);
         // document.getElementById("svgLayer").style.opacity = "0";
-        // document.getElementById("svgLayer").style.pointerEvents = "none";
     }
 }
 function crossReset(){
