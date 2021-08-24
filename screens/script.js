@@ -23,7 +23,7 @@ function crossClick(){
     whatPageSlice = whatPage.slice(whatPage.indexOf("_"), whatPage.indexOf("."));
     if(document.getElementById('moreData').className == "openCross"){
         // document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "url(story"+whatPageSlice+".png)";
-        document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
+        // document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
         document.getElementById("svgLayer").style.opacity = "1";
         document.getElementsByClassName("storyDiv")[0].style.opacity = ".6";
         // document.getElementById("svgLayer").style.opacity = "1";
@@ -33,9 +33,9 @@ function crossClick(){
         // document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "";
         document.getElementById("svgLayer").style.opacity = "0";
         document.getElementsByClassName("storyDiv")[0].style.opacity = "1";
-        setTimeout(function(){
-            document.getElementById("svgLayer").data = "";
-        }, 300);
+        // setTimeout(function(){
+        //     document.getElementById("svgLayer").data = "";
+        // }, 300);
         // document.getElementById("svgLayer").style.opacity = "0";
         // document.getElementById("svgLayer").style.pointerEvents = "none";
     }
