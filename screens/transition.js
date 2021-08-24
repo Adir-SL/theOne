@@ -26,15 +26,15 @@ function openLink (e, url) {
         window.scrollTo(0,0);
     // }, 300);
 
-    setTimeout(function(){
-    document.getElementById("svgLayer").style.opacity = "0";
-    document.getElementById("svgLayer").style.pointerEvents = "none";
-    }, 100);
 
     setTimeout(function(){
+        document.getElementById("svgLayer").style.opacity = "0";
+        document.getElementById("svgLayer").style.pointerEvents = "none";
+        setTimeout(function(){
         window.whatPageSlice = window.whatPage.slice(window.whatPage.indexOf("_"), window.whatPage.indexOf("."));
         document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
-    }, 500);
+        }, 300);
+    }, 100);
 
     crossReset();
 }
