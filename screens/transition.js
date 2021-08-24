@@ -31,7 +31,7 @@ function openLink (e, url) {
         // document.getElementsByClassName("storyDiv")[0].style.backgroundImage = "url(story"+window.whatPageSlice+".png)";
         document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
         document.getElementById("svgLayer").style.opacity = "0";
-        document.getElementById("svgLayer").style.pointerEvents = "none";
+        // document.getElementById("svgLayer").style.pointerEvents = "none";
     }, 300);
 
     crossReset();
