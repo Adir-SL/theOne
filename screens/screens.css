@@ -246,8 +246,6 @@ a, button{
     height: 100%;
     transform-origin: top center;
     transform: scale(0.63);
-    /* top: -1vh; */
-    /* left: 20%; */
     z-index: 999;
     transition: opacity 300ms linear 0ms;
 }
