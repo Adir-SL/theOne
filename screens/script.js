@@ -25,8 +25,6 @@ function crossClick(){
         document.getElementById("svgLayer").style.opacity = "1";
         document.getElementById("svgLayer").style.pointerEvents = "all";
         document.getElementsByClassName("storyDiv")[0].style.opacity = ".6";
-        // document.getElementById("svgLayer").style.opacity = "1";
-        // alert("url(story"+whatPageSlice+".svg)")
     }else{
         // document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "";
         document.getElementById("svgLayer").style.opacity = "0";
