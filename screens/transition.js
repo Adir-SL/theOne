@@ -15,7 +15,6 @@ function openLink (e, url) {
         document.getElementsByClassName("footer")[0].style.pointerEvents = "all";
 
         window.scrollTo(0,0);
-    // }, 300);
 
     setTimeout(function(){
         document.getElementById("svgLayer").style.transition = "opacity 1ms linear 0s";
