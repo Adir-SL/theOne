@@ -10,8 +10,6 @@ function buttonSelect(e){
 function resetMenu(){
     document.getElementById('storyMenu').style.transform='translateY(120%)';
     document.getElementById('dataMenu').style.transform='translateY(120%)';
-    // document.getElementById('firstMenuButton').classList.remove("blackText");
-    // document.getElementById('secondMenuButton').classList.remove("blackText");
 }
 
 function addCross(){
