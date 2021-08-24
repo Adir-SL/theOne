@@ -28,7 +28,7 @@ function openLink (e, url) {
 
 
     setTimeout(function(){
-        document.getElementById("svgLayer").style.opacity = "0";
+        // document.getElementById("svgLayer").style.opacity = "0";
         // document.getElementById("svgLayer").style.pointerEvents = "none";
         setTimeout(function(){
             window.whatPageSlice = window.whatPage.slice(window.whatPage.indexOf("_"), window.whatPage.indexOf("."));
