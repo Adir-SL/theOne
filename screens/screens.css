@@ -160,8 +160,6 @@ h1{
     line-height: 28px;
     background-repeat: no-repeat;
     background-size: 0;
-    /* max-width: 24ch; */
-    /* width: 80%; */
     direction: rtl;
     margin-bottom: 80px;
     transition: all 300ms linear 0s;
