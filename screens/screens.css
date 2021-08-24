@@ -249,7 +249,7 @@ a, button{
     /* top: -1vh; */
     /* left: 20%; */
     z-index: 999;
-    transition: opacity 300ms linear 100ms;
+    transition: opacity 300ms linear 0ms;
 }
 @media only screen and (max-device-width: 480px){
     #svgLayer{
