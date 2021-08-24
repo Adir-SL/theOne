@@ -22,8 +22,6 @@ function crossClick(){
     document.getElementById('moreData').classList.toggle("openCross");
     whatPageSlice = whatPage.slice(whatPage.indexOf("_"), whatPage.indexOf("."));
     if(document.getElementById('moreData').className == "openCross"){
-        // document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "url(story"+whatPageSlice+".png)";
-        // document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
         document.getElementById("svgLayer").style.opacity = "1";
         document.getElementById("svgLayer").style.pointerEvents = "all";
         document.getElementsByClassName("storyDiv")[0].style.opacity = ".6";
