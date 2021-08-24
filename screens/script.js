@@ -24,6 +24,7 @@ function crossClick(){
     if(document.getElementById('moreData').className == "openCross"){
         // document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "url(story"+whatPageSlice+".png)";
         document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
+        document.getElementById("svgLayer").style.opacity = "1";
         document.getElementsByClassName("storyDiv")[0].style.opacity = ".6";
         // document.getElementById("svgLayer").style.opacity = "1";
         // document.getElementById("svgLayer").style.pointerEvents = "all";
@@ -31,6 +32,7 @@ function crossClick(){
     }else{
         document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "";
         document.getElementById("svgLayer").data = "";
+        document.getElementById("svgLayer").style.opacity = "0";
         document.getElementsByClassName("storyDiv")[0].style.opacity = "1";
         // document.getElementById("svgLayer").style.opacity = "0";
         // document.getElementById("svgLayer").style.pointerEvents = "none";
