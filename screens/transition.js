@@ -26,12 +26,12 @@ function openLink (e, url) {
         window.scrollTo(0,0);
     // }, 300);
 
-    // setTimeout(function(){
-    //     window.whatPageSlice = window.whatPage.slice(window.whatPage.indexOf("_"), window.whatPage.indexOf("."));
-    //     document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
-    //     document.getElementById("svgLayer").style.opacity = "0";
-    //     document.getElementById("svgLayer").style.pointerEvents = "none";
-    // }, 300);
+    setTimeout(function(){
+        window.whatPageSlice = window.whatPage.slice(window.whatPage.indexOf("_"), window.whatPage.indexOf("."));
+        document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
+        document.getElementById("svgLayer").style.opacity = "0";
+        document.getElementById("svgLayer").style.pointerEvents = "none";
+    }, 300);
 
     crossReset();
 }
