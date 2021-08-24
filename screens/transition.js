@@ -30,7 +30,7 @@ function openLink (e, url) {
         window.whatPageSlice = window.whatPage.slice(window.whatPage.indexOf("_"), window.whatPage.indexOf("."));
         // document.getElementsByClassName("storyDiv")[0].style.backgroundImage = "url(story"+window.whatPageSlice+".png)";
         document.getElementById("svgLayer").data = "story"+whatPageSlice+".svg";
-        document.getElementById("svgLayer").style.opacity = "0";
+        // document.getElementById("svgLayer").style.opacity = "0";
         // document.getElementById("svgLayer").style.pointerEvents = "none";
     }, 300);
 
