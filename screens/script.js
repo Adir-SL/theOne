@@ -29,10 +29,6 @@ function crossClick(){
         document.getElementById("svgLayer").style.opacity = "0";
         document.getElementById("svgLayer").style.pointerEvents = "none";
         document.getElementsByClassName("storyDiv")[0].style.opacity = "1";
-        // setTimeout(function(){
-        //     document.getElementById("svgLayer").data = "";
-        // }, 300);
-        // document.getElementById("svgLayer").style.opacity = "0";
     }
 }
 function crossReset(){
