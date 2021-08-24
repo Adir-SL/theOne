@@ -30,7 +30,7 @@ function crossClick(){
         // alert("url(story"+whatPageSlice+".svg)")
     }else{
         document.getElementsByClassName("flexDiv")[0].style.backgroundImage = "";
-        // document.getElementById("svgLayer").data = "";
+        document.getElementById("svgLayer").data = "";
         document.getElementsByClassName("storyDiv")[0].style.opacity = "1";
         // document.getElementById("svgLayer").style.opacity = "0";
         // document.getElementById("svgLayer").style.pointerEvents = "none";
