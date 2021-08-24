@@ -164,6 +164,7 @@ h1{
     /* width: 80%; */
     direction: rtl;
     margin-bottom: 80px;
+    transition: all 300ms linear 0s;
 }
 .storyDiv p{
     margin-bottom: 56px;
