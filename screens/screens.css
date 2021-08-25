@@ -49,6 +49,7 @@ body{
     width: 100%;
     margin: 0;
     padding-bottom: 95px;
+    overflow-x: hidden;
     background-color: var(--primary);
     transition: opacity 300ms linear;
     animation: fadeMe 300ms linear forwards;
