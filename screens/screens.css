@@ -150,10 +150,10 @@ h1{
     margin: 0 10vw;
     margin-top: 132px;
     /* margin-bottom: 95px; */
-    padding-bottom: 200px;
-    height: calc(100vh - 132px);
-    overflow-x: hidden;
-    /* height: 100vh; */
+    /* padding-bottom: 200px; */
+    /* height: calc(100vh - 132px); */
+    overflow: hidden;
+    height: fit-content;
     width: 80vw;
     mix-blend-mode: multiply;
     background-repeat: no-repeat;
@@ -251,17 +251,18 @@ a, button{
 #svgLayer{
     position: absolute;
     width: 100%;
-    height: 100%;
-    top: -3vh;
+    top: 264px;
+    /* height: 100%; */
+    /* top: -3vh; */
     transform-origin: center;
     transform: scale(1);
     /* transform: scale(0.63); */
-    z-index: 999;
+    z-index: 9;
     transition: opacity 300ms linear 0ms;
 }
 @media only screen and (max-device-width: 480px){
     #svgLayer{
-        transform: scale(2);
+        transform: scale(1.6);
         /* top: -16vh; */
         /* width: 200%; */
     }
