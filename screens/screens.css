@@ -155,7 +155,6 @@ h1{
     overflow: hidden;
     height: fit-content;
     width: 80vw;
-    mix-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: 60%;
     background-position: center top;
@@ -251,6 +250,7 @@ a, button{
 #svgLayer{
     position: absolute;
     width: 100%;
+    mix-blend-mode: multiply;
     /* height: 100%; */
     /* top: -3vh; */
     transform-origin: center;
