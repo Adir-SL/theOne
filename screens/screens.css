@@ -150,7 +150,7 @@ h1{
     margin: 0 10vw;
     margin-top: 132px;
     /* margin-bottom: 95px; */
-    padding-bottom: 200%;
+    padding-bottom: 200px;
     overflow: hidden;
     height: calc(100vh - 132px);
     width: 80vw;
