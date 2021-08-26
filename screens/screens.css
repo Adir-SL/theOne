@@ -98,6 +98,7 @@ body{
     height: 132px;
     width: 100%;
     top: 0;
+    background-color: var(--primary);
     z-index: 99;
 }
 .header .header{
