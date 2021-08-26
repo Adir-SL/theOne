@@ -147,7 +147,10 @@ h1{
     display: flex;
     justify-content: center;
     margin: 0 10vw;
+    margin-top: 132px;
+    margin-bottom: 95px;
     width: 80vw;
+    height: calc(100vh - 132px);
     mix-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: 60%;
