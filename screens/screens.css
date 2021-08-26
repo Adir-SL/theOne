@@ -251,6 +251,7 @@ a, button{
     position: absolute;
     width: 100%;
     height: 100%;
+    top: -3vh;
     transform-origin: center;
     transform: scale(1);
     /* transform: scale(0.63); */
