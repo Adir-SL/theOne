@@ -251,7 +251,6 @@ a, button{
 #svgLayer{
     position: absolute;
     width: 100%;
-    top: 264px;
     /* height: 100%; */
     /* top: -3vh; */
     transform-origin: center;
@@ -263,6 +262,7 @@ a, button{
 @media only screen and (max-device-width: 480px){
     #svgLayer{
         transform: scale(1.6);
+        top: 264px;
         /* top: -16vh; */
         /* width: 200%; */
     }
