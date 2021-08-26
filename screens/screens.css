@@ -40,6 +40,7 @@ body{
 }
 .first{
     background-color: var(--primary);
+    overflow: hidden;
 }
 .wrapper{
     position: absolute;
@@ -252,7 +253,7 @@ a, button{
     width: 100%;
     mix-blend-mode: multiply;
     /* height: 100%; */
-    /* top: -3vh; */
+    top: -3vh;
     transform-origin: center;
     transform: scale(1);
     /* transform: scale(0.63); */
