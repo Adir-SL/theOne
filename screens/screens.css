@@ -150,8 +150,8 @@ h1{
     margin: 0 10vw;
     margin-top: 132px;
     margin-bottom: 95px;
-    width: 80vw;
     height: calc(100vh - 132px);
+    width: 80vw;
     mix-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: 60%;
