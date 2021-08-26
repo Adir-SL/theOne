@@ -151,7 +151,7 @@ h1{
     margin-top: 132px;
     /* margin-bottom: 95px; */
     padding-bottom: 200px;
-    overflow: hidden;
+    overflow-y: hidden;
     height: calc(100vh - 132px);
     width: 80vw;
     mix-blend-mode: multiply;
