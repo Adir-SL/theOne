@@ -162,6 +162,9 @@ h1{
     min-height: 70vh;
     transition: background-image 300ms linear 0s;
 }
+.flexDiv a{
+    color: var(--text);
+}
 .storyDiv{
     color: var(--text);
     text-align: right;
