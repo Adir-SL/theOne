@@ -424,8 +424,8 @@
       <path d="M581.35,664.45a.38.38,0,0,1-.2-.51l2.78-6.81h-4.25a.57.57,0,0,1-.55-.57v-4.23a.36.36,0,0,1,.33-.37h1.27a.36.36,0,0,1,.33.37v2.87h4.07a1,1,0,0,1,1.07,1.07,1.27,1.27,0,0,1-.11.46l-3.05,8a.34.34,0,0,1-.49.2Z" style="fill: #f59774"/>
       <path d="M508.63,666.87v-.44h78.9v.44Z" style="fill: #f59774"/>
     </g>
-    <rect x="418.11" y="596.96" width="193.1" height="105.86" style="fill: #f59774;opacity: 0"/>
-    <rect x="897.14" y="1408.22" width="282.4" height="79.15" style="fill: #f59774;opacity: 0"/>
-    <rect x="427.95" y="1365.65" width="198.97" height="70.77" style="fill: #f59774;opacity: 0"/>
+    <a href="data_navigation.html" target="_top"><rect x="418.11" y="596.96" width="193.1" height="105.86" style="fill: #f59774;opacity: 0"/></a>
+    <a href="data_ends.html" target="_top"><rect x="897.14" y="1408.22" width="282.4" height="79.15" style="fill: #f59774;opacity: 0"/></a>
+    <a href="data_cloth.html" target="_top"><rect x="427.95" y="1365.65" width="198.97" height="70.77" style="fill: #f59774;opacity: 0"/></a>
   </g>
 </svg>
