@@ -456,9 +456,9 @@
       <path d="M580.3,792.7a.38.38,0,0,1-.2-.51l2.79-6.84h-4.27a.56.56,0,0,1-.54-.56v-4.25a.35.35,0,0,1,.32-.37h1.28a.36.36,0,0,1,.33.37v2.88h4.08a1.06,1.06,0,0,1,1.08,1.08,1.22,1.22,0,0,1-.11.45L582,793a.36.36,0,0,1-.5.2Z" style="fill: #f59774"/>
       <path d="M442.14,795.13v-.44H586.5v.44Z" style="fill: #f59774"/>
     </g>
-    <rect x="1049.48" y="448.86" width="156.77" height="117.65" style="fill: #f59774;opacity: 0"/>
-    <rect x="386.36" y="730.7" width="216.31" height="99.71" style="fill: #f59774;opacity: 0"/>
-    <rect x="995.12" y="1464.82" width="188.07" height="99.71" style="fill: #f59774;opacity: 0"/>
-    <rect x="516.64" y="1476.77" width="168.48" height="67.67" style="fill: #f59774;opacity: 0"/>
+    <a href="data_dati.html" target="_top"><rect x="1049.48" y="448.86" width="156.77" height="117.65" style="fill: #f59774;opacity: 0"/></a>
+    <a href="data_height.html" target="_top"><rect x="386.36" y="730.7" width="216.31" height="99.71" style="fill: #f59774;opacity: 0"/></a>
+    <a href="data_dates.html" target="_top"><rect x="995.12" y="1464.82" width="188.07" height="99.71" style="fill: #f59774;opacity: 0"/></a>
+    <a href="data_cloth.html" target="_top"><rect x="516.64" y="1476.77" width="168.48" height="67.67" style="fill: #f59774;opacity: 0"/></a>
   </g>
 </svg>
