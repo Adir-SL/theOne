@@ -254,7 +254,7 @@ a, button{
 #svgLayer{
     position: absolute;
     width: 100%;
-    /* mix-blend-mode: multiply; */
+    mix-blend-mode: multiply;
     height: 100%;
     top: -3vh;
     transform-origin: center;
