@@ -3,8 +3,14 @@
 .popup{
   opacity: 0;
   pointer-events: none;
+  transition: opacity 300ms linear 0s;
 }
 </style>
+<script>
+function resetPopups(){
+  alert('l');
+}
+</script>
   <defs>
     <radialGradient id="e8697ee8-1e64-4aea-87dc-36e90619efe0" cx="547.97" cy="502.42" r="33.47" gradientTransform="translate(25.72 58.64) scale(0.97 0.97)" gradientUnits="userSpaceOnUse">
       <stop offset="0.2" stop-color="#f8b090"/>
@@ -150,7 +156,7 @@
           <ellipse cx="867.92" cy="586.8" rx="32.3" ry="32.38" style="fill: url(#a43e6621-1223-4a33-9362-5389345d733d)"/>
           <ellipse cx="958.76" cy="456.16" rx="32.3" ry="32.38" style="fill: url(#a33d1b36-8e24-4455-89d9-979e3bfb9621)"/>
         </g>
-        <ellipse cx="480.45" cy="1037.33" rx="32.3" ry="32.38" style="fill: url(#f9220f8f-4b96-4418-867e-1fba5696a910)"/>
+        <ellipse onclick="resetPopups();document.getElementsByClassName('popup')[1].style.opacity=1;" cx="480.45" cy="1037.33" rx="32.3" ry="32.38" style="fill: url(#f9220f8f-4b96-4418-867e-1fba5696a910)"/>
         <ellipse cx="600.82" cy="1069.72" rx="32.3" ry="32.38" style="fill: url(#f9dee392-9abf-4218-b42c-65de9b286d24)"/>
         <ellipse cx="680.79" cy="1227.07" rx="32.3" ry="32.38" style="fill: url(#f45cf207-98c3-438b-9b91-454c67a4796b)"/>
         <ellipse cx="818.87" cy="1227.07" rx="32.3" ry="32.38" style="fill: url(#bd75c285-534f-4e0f-a172-2ab8f53aaf3e)"/>
