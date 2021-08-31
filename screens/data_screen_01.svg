@@ -8,7 +8,12 @@
 </style>
 <script>
 function resetPopups(){
-  alert('l');
+  var x = document.getElementsByClassName("popup");
+  var i;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.opacity = "0";
+    x[i].style.pointerEvents = "none";
+  }
 }
 </script>
   <defs>
