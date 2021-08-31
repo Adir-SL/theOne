@@ -2,6 +2,7 @@
 <style>
 .popup{
   opacity: 0;
+  pointer-events: none;
 }
 </style>
   <defs>
