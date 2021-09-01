@@ -6,10 +6,7 @@
   transition: opacity 300ms linear 0s;
 }
 .label{
-  opacity:.5;
-}
-.closeBtn line{
-  stroke: red !important;
+  opacity:0;
 }
 </style>
   <defs>
@@ -420,7 +417,7 @@
         <path d="M812.27,397.73v-.57h142.1v.57Z" style="fill: #48554e"/>
       </g>
       <g class="closeBtn">
-      <rect x="620" y="60" width="50" height="50" style="fill: #ff0000;"/>
+      <rect x="620" y="60" width="50" height="50" style="fill: #ff000000;"/>
         <line x1="640.91" y1="81.3" x2="654.87" y2="95.26" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="654.87" y1="81.3" x2="640.91" y2="95.26" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -610,7 +607,7 @@
         <path d="M287.16,429.73v-.58h247.6v.58Z" style="fill: #48554e"/>
       </g>
       <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
-      <rect x="200" y="60" width="50" height="50" style="fill: #ff0000;"/>
+      <rect x="200" y="60" width="50" height="50" style="fill: #ff000000;"/>
         <line x1="221.3" y1="81.3" x2="235.26" y2="95.26" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="235.26" y1="81.3" x2="221.3" y2="95.26" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -848,7 +845,7 @@
         <path d="M382.82,948.54V948H534.76v.58Z" style="fill: #48554e"/>
       </g>
       <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
-      <rect x="200" y="515" width="50" height="50" style="fill: #ff0000;"/>
+      <rect x="200" y="515" width="50" height="50" style="fill: #ff000000;"/>
         <line x1="221.3" y1="536.14" x2="235.26" y2="550.1" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="235.26" y1="536.14" x2="221.3" y2="550.1" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -1047,7 +1044,7 @@
         <path d="M280.54,1400.24v-.58H534.76v.58Z" style="fill: #48554e"/>
       </g>
       <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
-      <rect x="200" y="1030" width="50" height="50" style="fill: #ff0000;"/>
+      <rect x="200" y="1030" width="50" height="50" style="fill: #ff000000;"/>
         <line x1="221.3" y1="1051.83" x2="235.26" y2="1065.79" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="235.26" y1="1051.83" x2="221.3" y2="1065.79" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -1314,7 +1311,7 @@
         <path d="M690,984.45v-.58H954.37v.58Z" style="fill: #48554e"/>
       </g>
       <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
-      <rect x="620" y="490" width="50" height="50" style="fill: #ff0000;"/>
+      <rect x="620" y="490" width="50" height="50" style="fill: #ff000000;"/>
         <line x1="640.91" y1="508.04" x2="654.87" y2="522" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="654.87" y1="508.04" x2="640.91" y2="522" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -1499,7 +1496,7 @@
         <path d="M1207.5,1297.77v-.58h237.72v.58Z" style="fill: #48554e"/>
       </g>
       <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
-      <rect x="200" y="60" width="50" height="50" style="fill: #ff0000;"/>
+      <rect x="1120" y="940" width="50" height="50" style="fill: #ff000000;"/>
         <line x1="1131.75" y1="949.36" x2="1145.72" y2="963.32" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="1145.72" y1="949.36" x2="1131.75" y2="963.32" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -1652,7 +1649,7 @@
         <path d="M869.65,1415.7v-.57h84.72v.57Z" style="fill: #48554e"/>
       </g>
       <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
-      <rect x="620" y="1080" width="50" height="50" style="fill: #ff0000;"/>
+      <rect x="620" y="1080" width="50" height="50" style="fill: #ff000000;"/>
         <line x1="640.91" y1="1099.29" x2="654.87" y2="1113.26" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="654.87" y1="1099.29" x2="640.91" y2="1113.26" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
