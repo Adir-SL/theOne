@@ -33,7 +33,7 @@ function crossReset(){
     document.getElementById('moreData').classList.remove("openCross");
     setTimeout(function(){
     if(document.getElementsByClassName("wrapper")[1].getElementsByTagName("object")[0].id == "dataLayer"){
-        alert("NO");
+        document.getElementById('moreData').style.opacity = "0";
     }
-    }, 300);
+    }, 200);
 }
