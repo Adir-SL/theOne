@@ -32,8 +32,10 @@ function crossClick(){
 function crossReset(){
     document.getElementById('moreData').classList.remove("openCross");
     setTimeout(function(){
-    if(document.getElementsByClassName("wrapper")[1].getElementsByTagName("object")[0].id == "dataLayer"){
-        document.getElementById('moreData').style.opacity = "0";
-    }
+        if(document.getElementsByClassName("wrapper")[1].getElementsByTagName("object")[0].id == "dataLayer"){
+            document.getElementById('moreData').style.opacity = "0";
+        }else{
+            document.getElementById('moreData').style.opacity = "1";
+        }
     }, 200);
 }
