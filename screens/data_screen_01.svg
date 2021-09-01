@@ -8,6 +8,9 @@
 .label{
   opacity:.5;
 }
+.closeBtn line{
+  stroke: red !important;
+}
 </style>
   <defs>
     <radialGradient id="e8697ee8-1e64-4aea-87dc-36e90619efe0" cx="547.97" cy="502.42" r="33.47" gradientTransform="translate(25.72 58.64) scale(0.97 0.97)" gradientUnits="userSpaceOnUse">
@@ -605,7 +608,7 @@
         <path d="M532.34,426.8h-1.17a.36.36,0,0,1-.36-.36v-8.66a1.62,1.62,0,0,0-1.64-1.61H524a.37.37,0,0,1-.36-.36v-1.2a.35.35,0,0,1,.36-.34h5.18a3.51,3.51,0,0,1,3.53,3.51v8.66A.37.37,0,0,1,532.34,426.8Zm-6.72-4.39v4a.35.35,0,0,1-.33.36h-1.2a.36.36,0,0,1-.36-.36v-4.08c0-.57.24-2.88.24-2.88a.32.32,0,0,1,.38-.31l1.17.12a.33.33,0,0,1,.32.38S525.62,421.88,525.62,422.41Z" style="fill: #48554e"/>
         <path d="M287.16,429.73v-.58h247.6v.58Z" style="fill: #48554e"/>
       </g>
-      <g>
+      <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
         <line x1="221.3" y1="81.3" x2="235.26" y2="95.26" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="235.26" y1="81.3" x2="221.3" y2="95.26" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -842,7 +845,7 @@
         <path d="M532.34,945.61h-1.17a.36.36,0,0,1-.36-.36v-8.66a1.62,1.62,0,0,0-1.64-1.61H524a.37.37,0,0,1-.36-.36v-1.2a.35.35,0,0,1,.36-.34h5.18a3.51,3.51,0,0,1,3.53,3.51v8.66A.37.37,0,0,1,532.34,945.61Zm-6.72-4.39v4a.35.35,0,0,1-.33.36h-1.2a.36.36,0,0,1-.36-.36v-4.08c0-.57.24-2.88.24-2.88a.32.32,0,0,1,.38-.31l1.17.12a.33.33,0,0,1,.32.38S525.62,940.69,525.62,941.22Z" style="fill: #48554e"/>
         <path d="M382.82,948.54V948H534.76v.58Z" style="fill: #48554e"/>
       </g>
-      <g>
+      <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
         <line x1="221.3" y1="536.14" x2="235.26" y2="550.1" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="235.26" y1="536.14" x2="221.3" y2="550.1" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -1040,7 +1043,7 @@
         <path d="M532.34,1397.31h-1.17a.36.36,0,0,1-.36-.36v-8.67a1.61,1.61,0,0,0-1.64-1.6H524a.37.37,0,0,1-.36-.36v-1.2a.35.35,0,0,1,.36-.34h5.18a3.51,3.51,0,0,1,3.53,3.5V1397A.37.37,0,0,1,532.34,1397.31Zm-6.72-4.39v4a.35.35,0,0,1-.33.36h-1.2a.36.36,0,0,1-.36-.36v-4.08c0-.58.24-2.88.24-2.88a.31.31,0,0,1,.38-.31l1.17.12a.32.32,0,0,1,.32.38S525.62,1392.39,525.62,1392.92Z" style="fill: #48554e"/>
         <path d="M280.54,1400.24v-.58H534.76v.58Z" style="fill: #48554e"/>
       </g>
-      <g>
+      <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
         <line x1="221.3" y1="1051.83" x2="235.26" y2="1065.79" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="235.26" y1="1051.83" x2="221.3" y2="1065.79" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -1306,7 +1309,7 @@
         <path d="M951.94,981.52h-1.17a.37.37,0,0,1-.36-.36v-8.67a1.61,1.61,0,0,0-1.63-1.6h-5.19a.37.37,0,0,1-.36-.36v-1.2a.35.35,0,0,1,.36-.34h5.19a3.51,3.51,0,0,1,3.52,3.5v8.67A.36.36,0,0,1,951.94,981.52Zm-6.72-4.39v4a.35.35,0,0,1-.33.36h-1.2a.37.37,0,0,1-.36-.36v-4.08c0-.58.24-2.88.24-2.88a.31.31,0,0,1,.38-.31l1.18.12a.32.32,0,0,1,.31.38S945.22,976.6,945.22,977.13Z" style="fill: #48554e"/>
         <path d="M690,984.45v-.58H954.37v.58Z" style="fill: #48554e"/>
       </g>
-      <g>
+      <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
         <line x1="640.91" y1="508.04" x2="654.87" y2="522" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="654.87" y1="508.04" x2="640.91" y2="522" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -1490,7 +1493,7 @@
         <path d="M1442.8,1294.84h-1.18a.37.37,0,0,1-.36-.36v-8.66a1.61,1.61,0,0,0-1.63-1.61h-5.19a.37.37,0,0,1-.36-.36v-1.2a.35.35,0,0,1,.36-.34h5.19a3.51,3.51,0,0,1,3.52,3.51v8.66A.36.36,0,0,1,1442.8,1294.84Zm-6.73-4.39v4a.35.35,0,0,1-.33.36h-1.2a.37.37,0,0,1-.36-.36v-4.08c0-.57.24-2.88.24-2.88a.32.32,0,0,1,.38-.31l1.18.12a.32.32,0,0,1,.31.38S1436.07,1289.92,1436.07,1290.45Z" style="fill: #48554e"/>
         <path d="M1207.5,1297.77v-.58h237.72v.58Z" style="fill: #48554e"/>
       </g>
-      <g>
+      <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
         <line x1="1131.75" y1="949.36" x2="1145.72" y2="963.32" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="1145.72" y1="949.36" x2="1131.75" y2="963.32" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -1642,7 +1645,7 @@
         <path d="M951.94,1412.77h-1.17a.36.36,0,0,1-.36-.36v-8.66a1.61,1.61,0,0,0-1.63-1.61h-5.19a.37.37,0,0,1-.36-.36v-1.2a.35.35,0,0,1,.36-.34h5.19a3.51,3.51,0,0,1,3.52,3.51v8.66A.36.36,0,0,1,951.94,1412.77Zm-6.72-4.39v4a.34.34,0,0,1-.33.36h-1.2a.36.36,0,0,1-.36-.36v-4.08c0-.57.24-2.88.24-2.88a.32.32,0,0,1,.38-.31l1.18.12a.33.33,0,0,1,.31.39S945.22,1407.85,945.22,1408.38Z" style="fill: #48554e"/>
         <path d="M869.65,1415.7v-.57h84.72v.57Z" style="fill: #48554e"/>
       </g>
-      <g>
+      <g class="closeBtn" onclick="document.getElementsByClassName('popup')[0].style.opacity=0;document.getElementsByClassName('popup')[0].style.pointerEvents='none';document.getElementsByClassName('popup')[1].style.opacity=0;document.getElementsByClassName('popup')[1].style.pointerEvents='none';document.getElementsByClassName('popup')[2].style.opacity=0;document.getElementsByClassName('popup')[2].style.pointerEvents='none';document.getElementsByClassName('popup')[3].style.opacity=0;document.getElementsByClassName('popup')[3].style.pointerEvents='none';document.getElementsByClassName('popup')[4].style.opacity=0;document.getElementsByClassName('popup')[4].style.pointerEvents='none';document.getElementsByClassName('popup')[5].style.opacity=0;document.getElementsByClassName('popup')[5].style.pointerEvents='none';document.getElementsByClassName('popup')[6].style.opacity=0;document.getElementsByClassName('popup')[6].style.pointerEvents='none';">
         <line x1="640.91" y1="1099.29" x2="654.87" y2="1113.26" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="654.87" y1="1099.29" x2="640.91" y2="1113.26" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
