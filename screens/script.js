@@ -31,7 +31,4 @@ function crossClick(){
 }
 function crossReset(){
     document.getElementById('moreData').classList.remove("openCross");
-    if(document.getElementsByClassName("wrapper")[1].getElementsByTagName("object")[0].id == "dataLayer"){
-        alert("NO");
-    }
 }
