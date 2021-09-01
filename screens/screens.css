@@ -264,8 +264,8 @@ a, button{
     transition: opacity 300ms linear 0ms;
 }
 #dataLayer{
-    top: 132px;
-    height: calc(100% - 132px);
+    /* top: 132px;
+    height: calc(100% - 132px); */
 }
 @media only screen and (max-device-width: 480px){
     #svgLayer{
