@@ -34,8 +34,10 @@ function crossReset(){
     setTimeout(function(){
         if(document.getElementsByClassName("wrapper")[1].getElementsByTagName("object")[0].id == "dataLayer"){
             document.getElementById('moreData').style.opacity = "0";
+            document.getElementsByClassName("footer")[0].querySelectorAll("button")[0].classList.remove("blackText");
         }else{
             document.getElementById('moreData').style.opacity = "1";
+            document.getElementsByClassName("footer")[0].querySelectorAll("button")[0].classList.add("blackText");
         }
     }, 200);
 }
