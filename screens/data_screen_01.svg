@@ -154,19 +154,19 @@
         <ellipse onclick="familyClick();" cx="480.45" cy="1037.33" rx="32.3" ry="32.38" style="fill: url(#f95d2291-c4e3-40f9-9161-f83649c1eaa9)"/>
         <ellipse onclick="familyClick();" cx="600.82" cy="1069.72" rx="32.3" ry="32.38" style="fill: url(#eb818c65-c541-4021-b1dc-2a252ed99f62)"/>
         <ellipse onclick="familyClick();" cx="680.79" cy="1227.07" rx="32.3" ry="32.38" style="fill: url(#b0fc42e8-6533-442f-aa51-8154bbe7ae00)"/>
-        <ellipse cx="818.87" cy="1227.07" rx="32.3" ry="32.38" style="fill: url(#a8645275-691f-4209-aa50-dcc824409826)"/>
-        <ellipse cx="942.75" cy="994.52" rx="32.3" ry="32.38" style="fill: url(#a6ec1144-bf16-4c4f-8908-056175059a46)"/>
-        <ellipse cx="1039.86" cy="1170.02" rx="32.3" ry="32.38" style="fill: url(#bf143142-f203-4fbc-bbcf-3f92a549e235)"/>
-        <ellipse cx="725.68" cy="399.22" rx="32.3" ry="32.38" style="fill: url(#b50f01ea-3826-4a57-a14f-989fa43e17b1)"/>
-        <ellipse cx="865.69" cy="405.89" rx="32.3" ry="32.38" style="fill: url(#e9151707-cba5-47fa-8a5e-9314fa9afea4)"/>
+        <ellipse onclick="meizamClick();" cx="818.87" cy="1227.07" rx="32.3" ry="32.38" style="fill: url(#a8645275-691f-4209-aa50-dcc824409826)"/>
+        <ellipse onclick="meizamClick();" cx="942.75" cy="994.52" rx="32.3" ry="32.38" style="fill: url(#a6ec1144-bf16-4c4f-8908-056175059a46)"/>
+        <ellipse onclick="meizamClick();" cx="1039.86" cy="1170.02" rx="32.3" ry="32.38" style="fill: url(#bf143142-f203-4fbc-bbcf-3f92a549e235)"/>
+        <ellipse onclick="meizamClick();" cx="725.68" cy="399.22" rx="32.3" ry="32.38" style="fill: url(#b50f01ea-3826-4a57-a14f-989fa43e17b1)"/>
+        <ellipse onclick="meizamClick();" cx="865.69" cy="405.89" rx="32.3" ry="32.38" style="fill: url(#e9151707-cba5-47fa-8a5e-9314fa9afea4)"/>
         <ellipse onclick="motherFriendClick();" cx="1003.36" cy="695.11" rx="32.3" ry="32.38" style="fill: url(#a1c1c0b2-09f9-464f-8ad1-f94ccdb7a931)"/>
         <ellipse onclick="motherFriendClick();" cx="1012.69" cy="554.42" rx="32.3" ry="32.38" style="fill: url(#b20a7ef4-00ac-4fde-bb1d-bedcd0862845)"/>
         <ellipse onclick="motherFriendClick();" cx="865.69" cy="725.01" rx="32.3" ry="32.38" style="fill: url(#f0c72a0f-9958-4da3-8525-eb2e368d40a0)"/>
-        <ellipse cx="822.31" cy="1044.59" rx="32.3" ry="32.38" style="fill: url(#f5acfb4d-ab04-45df-9024-b959f486ec59)"/>
-        <ellipse cx="689.94" cy="850.86" rx="32.3" ry="32.38" style="fill: url(#ac77d01f-4ed0-4507-b4a8-3ad30908b510)"/>
-        <ellipse cx="930.25" cy="1120.59" rx="32.3" ry="32.38" style="fill: url(#a53fcc4b-ead9-40d4-8da1-7a197277e05d)"/>
-        <ellipse cx="1167.54" cy="698.47" rx="32.3" ry="32.38" style="fill: url(#b311c2eb-6862-4729-8aad-c59263f2d930)"/>
-        <ellipse cx="1115.24" cy="533.86" rx="32.3" ry="32.38" style="fill: url(#e6684baf-de17-48e5-8cb4-f1ebb322f14c)"/>
+        <ellipse onclick="motherClick();" cx="822.31" cy="1044.59" rx="32.3" ry="32.38" style="fill: url(#f5acfb4d-ab04-45df-9024-b959f486ec59)"/>
+        <ellipse onclick="makarClick();" cx="689.94" cy="850.86" rx="32.3" ry="32.38" style="fill: url(#ac77d01f-4ed0-4507-b4a8-3ad30908b510)"/>
+        <ellipse onclick="motherClick();" cx="930.25" cy="1120.59" rx="32.3" ry="32.38" style="fill: url(#a53fcc4b-ead9-40d4-8da1-7a197277e05d)"/>
+        <ellipse onclick="makarClick();" cx="1167.54" cy="698.47" rx="32.3" ry="32.38" style="fill: url(#b311c2eb-6862-4729-8aad-c59263f2d930)"/>
+        <ellipse onclick="makarClick();" cx="1115.24" cy="533.86" rx="32.3" ry="32.38" style="fill: url(#e6684baf-de17-48e5-8cb4-f1ebb322f14c)"/>
         <ellipse onclick="atarClick();" cx="1061.19" cy="786.09" rx="32.3" ry="32.38" style="fill: url(#aede5d3c-8488-44f5-9c06-a7bc75fc2998)"/>
         <ellipse onclick="atarClick();" cx="1108.5" cy="1104.17" rx="32.3" ry="32.38" style="fill: url(#b1790edb-b250-44c2-9665-9436a0b4c30c)"/>
         <ellipse onclick="atarClick();" cx="1183.25" cy="926.18" rx="32.3" ry="32.38" style="fill: url(#faa94e3f-a249-4f81-9323-aeb3594fb848)"/>
@@ -440,7 +440,7 @@
         <path d="M950.4,780.86h-1.18a.37.37,0,0,1-.36-.36v-8.66a1.61,1.61,0,0,0-1.63-1.61H942a.36.36,0,0,1-.35-.36v-1.2a.35.35,0,0,1,.35-.34h5.19a3.52,3.52,0,0,1,3.53,3.51v8.66A.37.37,0,0,1,950.4,780.86Zm-6.72-4.39v4a.35.35,0,0,1-.34.36h-1.2a.37.37,0,0,1-.36-.36v-4.08c0-.57.24-2.88.24-2.88a.32.32,0,0,1,.38-.31l1.18.12a.31.31,0,0,1,.31.38S943.68,775.94,943.68,776.47Z" style="fill: #48554e"/>
         <path d="M698.59,783.79v-.58H952.82v.58Z" style="fill: #48554e"/>
       </g>
-      <g>
+      <g onclick="resetPopups();">
         <line x1="639.36" y1="435.38" x2="653.32" y2="449.34" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="653.32" y1="435.38" x2="639.36" y2="449.34" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -593,7 +593,7 @@
         <path d="M1190.69,877.85h-1.18a.37.37,0,0,1-.36-.36v-8.66a1.61,1.61,0,0,0-1.63-1.61h-5.18a.37.37,0,0,1-.36-.36v-1.2a.35.35,0,0,1,.36-.34h5.18a3.51,3.51,0,0,1,3.53,3.51v8.66A.37.37,0,0,1,1190.69,877.85Zm-6.72-4.39v4a.35.35,0,0,1-.34.36h-1.2a.37.37,0,0,1-.36-.36v-4.08c0-.58.24-2.88.24-2.88a.32.32,0,0,1,.39-.31l1.17.12a.33.33,0,0,1,.32.38S1184,872.93,1184,873.46Z" style="fill: #48554e"/>
         <path d="M1108.39,880.78v-.58h84.72v.58Z" style="fill: #48554e"/>
       </g>
-      <g>
+      <g onclick="resetPopups();">
         <line x1="879.65" y1="564.38" x2="893.61" y2="578.35" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="893.61" y1="564.38" x2="879.65" y2="578.35" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
@@ -1747,26 +1747,59 @@
     document.getElementById("motherFriend").style.opacity = 0;
     document.getElementById("atar").style.opacity = 0;
     document.getElementById("friend").style.opacity = 0;
+    document.getElementById("mother").style.opacity = 0;
+    document.getElementById("meizam").style.opacity = 0;
+    document.getElementById("makar").style.opacity = 0;
+
+    document.getElementById("family").style.pointerEvents = "none";
+    document.getElementById("motherFriend").style.pointerEvents = "none";
+    document.getElementById("atar").style.pointerEvents = "none";
+    document.getElementById("friend").style.pointerEvents = "none";
+    document.getElementById("mother").style.pointerEvents = "none";
+    document.getElementById("meizam").style.pointerEvents = "none";
+    document.getElementById("makar").style.pointerEvents = "none";
   }
 
   function familyClick(){
     resetPopups();
     document.getElementById("family").style.opacity = 1;
+    document.getElementById("family").style.pointerEvents = "all";
   }
 
   function motherFriendClick(){
     resetPopups();
     document.getElementById("motherFriend").style.opacity = 1;
+    document.getElementById("motherFriend").style.pointerEvents = "all";
   }
 
   function atarClick(){
     resetPopups();
     document.getElementById("atar").style.opacity = 1;
+    document.getElementById("atar").style.pointerEvents = "all";
   }
 
   function friendClick(){
     resetPopups();
     document.getElementById("friend").style.opacity = 1;
+    document.getElementById("friend").style.pointerEvents = "all";
+  }
+
+  function motherClick(){
+    resetPopups();
+    document.getElementById("mother").style.opacity = 1;
+    document.getElementById("mother").style.pointerEvents = "all";
+  }
+
+  function meizamClick(){
+    resetPopups();
+    document.getElementById("meizam").style.opacity = 1;
+    document.getElementById("meizam").style.pointerEvents = "all";
+  }
+
+  function makarClick(){
+    resetPopups();
+    document.getElementById("makar").style.opacity = 1;
+    document.getElementById("makar").style.pointerEvents = "all";
   }
   </script>
 </svg>
