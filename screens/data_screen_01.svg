@@ -130,26 +130,26 @@
       </g>
       <g>
         <g>
-          <ellipse cx="554.59" cy="544.77" rx="32.3" ry="32.38" style="fill: url(#e05e14ff-08c6-4849-ac39-eabfc211aae3)"/>
-          <ellipse cx="756.51" cy="574.7" rx="32.3" ry="32.38" style="fill: url(#e9eb5d7a-ee74-49de-a86a-c64f1d402a56)"/>
-          <ellipse cx="600.26" cy="423.78" rx="32.3" ry="32.38" style="fill: url(#e6016c8e-c0d1-44e7-b29a-3138dd11de2d)"/>
-          <ellipse cx="684.51" cy="509.79" rx="32.3" ry="32.38" style="fill: url(#a6a8acb8-0346-4a7a-96a9-07cf6f97e743)"/>
-          <ellipse cx="392.93" cy="554.42" rx="32.3" ry="32.38" style="fill: url(#a0b23003-b259-45ed-92d3-d2008d218b64)"/>
-          <ellipse cx="292.85" cy="840.21" rx="32.3" ry="32.38" style="fill: url(#b298354c-66a9-4a7d-a47b-89b1bb046991)"/>
-          <ellipse cx="466.88" cy="900.19" rx="32.3" ry="32.38" style="fill: url(#fd780fff-d021-4280-846b-79bc7f97df7d)"/>
-          <ellipse cx="600.26" cy="935.26" rx="32.3" ry="32.38" style="fill: url(#ba36751b-c70b-4411-9ae5-0edeca4f1be8)"/>
-          <ellipse cx="971.63" cy="853.99" rx="32.3" ry="32.38" style="fill: url(#b78a440e-131e-4d77-96fa-334a79b25bde)"/>
-          <ellipse cx="803.4" cy="879.77" rx="32.3" ry="32.38" style="fill: url(#b6be1412-450a-43af-9f48-c5e41d285786)"/>
-          <ellipse cx="736.87" cy="1000.19" rx="32.3" ry="32.38" style="fill: url(#f0867658-2472-4291-8427-6cf316ee8d67)"/>
-          <ellipse cx="339.44" cy="992.71" rx="32.3" ry="32.38" style="fill: url(#fa9dd630-37e9-4686-be2f-d9aeac2d2ce7)"/>
-          <ellipse cx="617.46" cy="790.78" rx="32.3" ry="32.38" style="fill: url(#ffcc3f0f-94fa-40be-a15f-e30103ca74a4)"/>
-          <ellipse cx="546.69" cy="632.2" rx="32.3" ry="32.38" style="fill: url(#f95720fd-dc77-4348-8869-39760d38c024)"/>
-          <ellipse cx="316.23" cy="670.21" rx="32.3" ry="32.38" style="fill: url(#be127050-5bba-4899-82d5-9b99e677dba1)"/>
-          <ellipse cx="475.41" cy="477.4" rx="32.3" ry="32.38" style="fill: url(#a3bc8816-26b8-4d1f-9361-b48f65dc2f10)"/>
-          <ellipse cx="644.59" cy="636.93" rx="32.3" ry="32.38" style="fill: url(#e9affa2d-d24f-4480-97b9-685f8799cc59)"/>
-          <ellipse cx="744.08" cy="695.11" rx="32.3" ry="32.38" style="fill: url(#b905bbe5-a17e-481b-8549-f07a4f9e8f5e)"/>
-          <ellipse cx="867.92" cy="586.8" rx="32.3" ry="32.38" style="fill: url(#a7d306bb-64c5-47fd-9496-1fe8c383fa8a)"/>
-          <ellipse cx="958.76" cy="456.16" rx="32.3" ry="32.38" style="fill: url(#eca2aea5-89bb-47d5-adf3-e66d1bd463e8)"/>
+          <ellipse onclick="friendClick();" cx="554.59" cy="544.77" rx="32.3" ry="32.38" style="fill: url(#e05e14ff-08c6-4849-ac39-eabfc211aae3)"/>
+          <ellipse onclick="friendClick();" cx="756.51" cy="574.7" rx="32.3" ry="32.38" style="fill: url(#e9eb5d7a-ee74-49de-a86a-c64f1d402a56)"/>
+          <ellipse onclick="friendClick();" cx="600.26" cy="423.78" rx="32.3" ry="32.38" style="fill: url(#e6016c8e-c0d1-44e7-b29a-3138dd11de2d)"/>
+          <ellipse onclick="friendClick();" cx="684.51" cy="509.79" rx="32.3" ry="32.38" style="fill: url(#a6a8acb8-0346-4a7a-96a9-07cf6f97e743)"/>
+          <ellipse onclick="friendClick();" cx="392.93" cy="554.42" rx="32.3" ry="32.38" style="fill: url(#a0b23003-b259-45ed-92d3-d2008d218b64)"/>
+          <ellipse onclick="friendClick();" cx="292.85" cy="840.21" rx="32.3" ry="32.38" style="fill: url(#b298354c-66a9-4a7d-a47b-89b1bb046991)"/>
+          <ellipse onclick="friendClick();" cx="466.88" cy="900.19" rx="32.3" ry="32.38" style="fill: url(#fd780fff-d021-4280-846b-79bc7f97df7d)"/>
+          <ellipse onclick="friendClick();" cx="600.26" cy="935.26" rx="32.3" ry="32.38" style="fill: url(#ba36751b-c70b-4411-9ae5-0edeca4f1be8)"/>
+          <ellipse onclick="friendClick();" cx="971.63" cy="853.99" rx="32.3" ry="32.38" style="fill: url(#b78a440e-131e-4d77-96fa-334a79b25bde)"/>
+          <ellipse onclick="friendClick();" cx="803.4" cy="879.77" rx="32.3" ry="32.38" style="fill: url(#b6be1412-450a-43af-9f48-c5e41d285786)"/>
+          <ellipse onclick="friendClick();" cx="736.87" cy="1000.19" rx="32.3" ry="32.38" style="fill: url(#f0867658-2472-4291-8427-6cf316ee8d67)"/>
+          <ellipse onclick="friendClick();" cx="339.44" cy="992.71" rx="32.3" ry="32.38" style="fill: url(#fa9dd630-37e9-4686-be2f-d9aeac2d2ce7)"/>
+          <ellipse onclick="friendClick();" cx="617.46" cy="790.78" rx="32.3" ry="32.38" style="fill: url(#ffcc3f0f-94fa-40be-a15f-e30103ca74a4)"/>
+          <ellipse onclick="friendClick();" cx="546.69" cy="632.2" rx="32.3" ry="32.38" style="fill: url(#f95720fd-dc77-4348-8869-39760d38c024)"/>
+          <ellipse onclick="friendClick();" cx="316.23" cy="670.21" rx="32.3" ry="32.38" style="fill: url(#be127050-5bba-4899-82d5-9b99e677dba1)"/>
+          <ellipse onclick="friendClick();" cx="475.41" cy="477.4" rx="32.3" ry="32.38" style="fill: url(#a3bc8816-26b8-4d1f-9361-b48f65dc2f10)"/>
+          <ellipse onclick="friendClick();" cx="644.59" cy="636.93" rx="32.3" ry="32.38" style="fill: url(#e9affa2d-d24f-4480-97b9-685f8799cc59)"/>
+          <ellipse onclick="friendClick();" cx="744.08" cy="695.11" rx="32.3" ry="32.38" style="fill: url(#b905bbe5-a17e-481b-8549-f07a4f9e8f5e)"/>
+          <ellipse onclick="friendClick();" cx="867.92" cy="586.8" rx="32.3" ry="32.38" style="fill: url(#a7d306bb-64c5-47fd-9496-1fe8c383fa8a)"/>
+          <ellipse onclick="friendClick();" cx="958.76" cy="456.16" rx="32.3" ry="32.38" style="fill: url(#eca2aea5-89bb-47d5-adf3-e66d1bd463e8)"/>
         </g>
         <ellipse onclick="familyClick();" cx="480.45" cy="1037.33" rx="32.3" ry="32.38" style="fill: url(#f95d2291-c4e3-40f9-9161-f83649c1eaa9)"/>
         <ellipse onclick="familyClick();" cx="600.82" cy="1069.72" rx="32.3" ry="32.38" style="fill: url(#eb818c65-c541-4021-b1dc-2a252ed99f62)"/>
@@ -167,10 +167,10 @@
         <ellipse cx="930.25" cy="1120.59" rx="32.3" ry="32.38" style="fill: url(#a53fcc4b-ead9-40d4-8da1-7a197277e05d)"/>
         <ellipse cx="1167.54" cy="698.47" rx="32.3" ry="32.38" style="fill: url(#b311c2eb-6862-4729-8aad-c59263f2d930)"/>
         <ellipse cx="1115.24" cy="533.86" rx="32.3" ry="32.38" style="fill: url(#e6684baf-de17-48e5-8cb4-f1ebb322f14c)"/>
-        <ellipse cx="1061.19" cy="786.09" rx="32.3" ry="32.38" style="fill: url(#aede5d3c-8488-44f5-9c06-a7bc75fc2998)"/>
-        <ellipse cx="1108.5" cy="1104.17" rx="32.3" ry="32.38" style="fill: url(#b1790edb-b250-44c2-9665-9436a0b4c30c)"/>
-        <ellipse cx="1183.25" cy="926.18" rx="32.3" ry="32.38" style="fill: url(#faa94e3f-a249-4f81-9323-aeb3594fb848)"/>
-        <ellipse cx="1035.66" cy="940.15" rx="32.3" ry="32.38" style="fill: url(#b0481df7-8e35-486a-9661-c7bf8675525e)"/>
+        <ellipse onclick="atarClick();" cx="1061.19" cy="786.09" rx="32.3" ry="32.38" style="fill: url(#aede5d3c-8488-44f5-9c06-a7bc75fc2998)"/>
+        <ellipse onclick="atarClick();" cx="1108.5" cy="1104.17" rx="32.3" ry="32.38" style="fill: url(#b1790edb-b250-44c2-9665-9436a0b4c30c)"/>
+        <ellipse onclick="atarClick();" cx="1183.25" cy="926.18" rx="32.3" ry="32.38" style="fill: url(#faa94e3f-a249-4f81-9323-aeb3594fb848)"/>
+        <ellipse onclick="atarClick();" cx="1035.66" cy="940.15" rx="32.3" ry="32.38" style="fill: url(#b0481df7-8e35-486a-9661-c7bf8675525e)"/>
         <ellipse onclick="familyClick();" cx="466.88" cy="1180.52" rx="32.3" ry="32.38" style="fill: url(#fd81e513-87cb-4589-bcfc-0e7c7d30efa5)"/>
       </g>
     </g>
@@ -1745,6 +1745,8 @@
   function resetPopups(){
     document.getElementById("family").style.opacity = 0;
     document.getElementById("motherFriend").style.opacity = 0;
+    document.getElementById("atar").style.opacity = 0;
+    document.getElementById("friend").style.opacity = 0;
   }
 
   function familyClick(){
@@ -1755,6 +1757,16 @@
   function motherFriendClick(){
     resetPopups();
     document.getElementById("motherFriend").style.opacity = 1;
+  }
+
+  function atarClick(){
+    resetPopups();
+    document.getElementById("atar").style.opacity = 1;
+  }
+
+  function friendClick(){
+    resetPopups();
+    document.getElementById("friend").style.opacity = 1;
   }
   </script>
 </svg>
