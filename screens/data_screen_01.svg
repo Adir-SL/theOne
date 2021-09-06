@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875" width="100%" height="100%">
+<style>
+.popup{
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 300ms linear 0s;
+}
+</style>
   <defs>
     <radialGradient id="e05e14ff-08c6-4849-ac39-eabfc211aae3" cx="598.62" cy="502.42" r="33.47" gradientTransform="translate(-23.17 58.64) scale(0.97 0.97)" gradientUnits="userSpaceOnUse">
       <stop offset="0.2" stop-color="#f8b090"/>
@@ -144,17 +151,17 @@
           <ellipse cx="867.92" cy="586.8" rx="32.3" ry="32.38" style="fill: url(#a7d306bb-64c5-47fd-9496-1fe8c383fa8a)"/>
           <ellipse cx="958.76" cy="456.16" rx="32.3" ry="32.38" style="fill: url(#eca2aea5-89bb-47d5-adf3-e66d1bd463e8)"/>
         </g>
-        <ellipse cx="480.45" cy="1037.33" rx="32.3" ry="32.38" style="fill: url(#f95d2291-c4e3-40f9-9161-f83649c1eaa9)"/>
-        <ellipse cx="600.82" cy="1069.72" rx="32.3" ry="32.38" style="fill: url(#eb818c65-c541-4021-b1dc-2a252ed99f62)"/>
-        <ellipse cx="680.79" cy="1227.07" rx="32.3" ry="32.38" style="fill: url(#b0fc42e8-6533-442f-aa51-8154bbe7ae00)"/>
+        <ellipse onclick="familyClick();" cx="480.45" cy="1037.33" rx="32.3" ry="32.38" style="fill: url(#f95d2291-c4e3-40f9-9161-f83649c1eaa9)"/>
+        <ellipse onclick="familyClick();" cx="600.82" cy="1069.72" rx="32.3" ry="32.38" style="fill: url(#eb818c65-c541-4021-b1dc-2a252ed99f62)"/>
+        <ellipse onclick="familyClick();" cx="680.79" cy="1227.07" rx="32.3" ry="32.38" style="fill: url(#b0fc42e8-6533-442f-aa51-8154bbe7ae00)"/>
         <ellipse cx="818.87" cy="1227.07" rx="32.3" ry="32.38" style="fill: url(#a8645275-691f-4209-aa50-dcc824409826)"/>
         <ellipse cx="942.75" cy="994.52" rx="32.3" ry="32.38" style="fill: url(#a6ec1144-bf16-4c4f-8908-056175059a46)"/>
         <ellipse cx="1039.86" cy="1170.02" rx="32.3" ry="32.38" style="fill: url(#bf143142-f203-4fbc-bbcf-3f92a549e235)"/>
         <ellipse cx="725.68" cy="399.22" rx="32.3" ry="32.38" style="fill: url(#b50f01ea-3826-4a57-a14f-989fa43e17b1)"/>
         <ellipse cx="865.69" cy="405.89" rx="32.3" ry="32.38" style="fill: url(#e9151707-cba5-47fa-8a5e-9314fa9afea4)"/>
-        <ellipse cx="1003.36" cy="695.11" rx="32.3" ry="32.38" style="fill: url(#a1c1c0b2-09f9-464f-8ad1-f94ccdb7a931)"/>
-        <ellipse cx="1012.69" cy="554.42" rx="32.3" ry="32.38" style="fill: url(#b20a7ef4-00ac-4fde-bb1d-bedcd0862845)"/>
-        <ellipse cx="865.69" cy="725.01" rx="32.3" ry="32.38" style="fill: url(#f0c72a0f-9958-4da3-8525-eb2e368d40a0)"/>
+        <ellipse onclick="motherFriendClick();" cx="1003.36" cy="695.11" rx="32.3" ry="32.38" style="fill: url(#a1c1c0b2-09f9-464f-8ad1-f94ccdb7a931)"/>
+        <ellipse onclick="motherFriendClick();" cx="1012.69" cy="554.42" rx="32.3" ry="32.38" style="fill: url(#b20a7ef4-00ac-4fde-bb1d-bedcd0862845)"/>
+        <ellipse onclick="motherFriendClick();" cx="865.69" cy="725.01" rx="32.3" ry="32.38" style="fill: url(#f0c72a0f-9958-4da3-8525-eb2e368d40a0)"/>
         <ellipse cx="822.31" cy="1044.59" rx="32.3" ry="32.38" style="fill: url(#f5acfb4d-ab04-45df-9024-b959f486ec59)"/>
         <ellipse cx="689.94" cy="850.86" rx="32.3" ry="32.38" style="fill: url(#ac77d01f-4ed0-4507-b4a8-3ad30908b510)"/>
         <ellipse cx="930.25" cy="1120.59" rx="32.3" ry="32.38" style="fill: url(#a53fcc4b-ead9-40d4-8da1-7a197277e05d)"/>
@@ -164,7 +171,7 @@
         <ellipse cx="1108.5" cy="1104.17" rx="32.3" ry="32.38" style="fill: url(#b1790edb-b250-44c2-9665-9436a0b4c30c)"/>
         <ellipse cx="1183.25" cy="926.18" rx="32.3" ry="32.38" style="fill: url(#faa94e3f-a249-4f81-9323-aeb3594fb848)"/>
         <ellipse cx="1035.66" cy="940.15" rx="32.3" ry="32.38" style="fill: url(#b0481df7-8e35-486a-9661-c7bf8675525e)"/>
-        <ellipse cx="466.88" cy="1180.52" rx="32.3" ry="32.38" style="fill: url(#fd81e513-87cb-4589-bcfc-0e7c7d30efa5)"/>
+        <ellipse onclick="familyClick();" cx="466.88" cy="1180.52" rx="32.3" ry="32.38" style="fill: url(#fd81e513-87cb-4589-bcfc-0e7c7d30efa5)"/>
       </g>
     </g>
     <g>
@@ -240,7 +247,7 @@
     </g>
   </g>
   <g id="e65dc40d-1cb4-4581-82e2-c910e6202306" data-name="+">
-    <g>
+    <g class="popup" id="meizam">
       <rect x="609.36" y="405.38" width="377.67" height="422.72" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M710,487.94a.35.35,0,0,1-.53,0l-.77-.72a.34.34,0,0,1,0-.48c1.49-1.56,1.47-2.11,1.47-4.32a.15.15,0,0,0-.17-.17h-3.6a.37.37,0,0,1-.36-.36v-1.2a.35.35,0,0,1,.36-.34h4.39a1.24,1.24,0,0,1,1.28,1.2V483A6,6,0,0,1,710,487.94Z" style="fill: #48554e"/>
@@ -439,7 +446,7 @@
       </g>
       <circle cx="943.7" cy="486.55" r="9.12" style="fill: #954299"/>
     </g>
-    <g>
+    <g class="popup" id="makar">
       <rect x="849.65" y="534.38" width="377.67" height="388.29" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M898.88,621.85h-1.2a.37.37,0,0,1-.36-.36v-8.66a1.61,1.61,0,0,0-1.61-1.61h-1.87a5.9,5.9,0,0,0-1.8,4.39,7.77,7.77,0,0,0,1.66,4.7v1a.56.56,0,0,1-.56.55h-3a.36.36,0,0,1-.36-.36v-1a.36.36,0,0,1,.36-.36h1.58a7,7,0,0,1-1.54-4.44,6.07,6.07,0,0,1,1.76-4.51h-1.68a.35.35,0,0,1-.34-.36v-1.2a.33.33,0,0,1,.34-.34h5.42a3.5,3.5,0,0,1,3.51,3.51v8.66A.35.35,0,0,1,898.88,621.85Z" style="fill: #48554e"/>
@@ -592,7 +599,7 @@
       </g>
       <circle cx="1183.99" cy="615.55" r="9.12" style="fill: #a36361"/>
     </g>
-    <g>
+    <g class="popup" id="family">
       <rect x="303.21" y="974.05" width="377.67" height="381.7" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M378.31,1061.54h-1.18a.37.37,0,0,1-.36-.36v-8.66a1.61,1.61,0,0,0-1.63-1.61H370a.37.37,0,0,1-.36-.36v-1.2a.35.35,0,0,1,.36-.34h5.19a3.52,3.52,0,0,1,3.53,3.51v8.66A.37.37,0,0,1,378.31,1061.54Zm-6.72-4.39v4a.35.35,0,0,1-.34.36h-1.2a.37.37,0,0,1-.36-.36v-4.08c0-.57.24-2.88.24-2.88a.32.32,0,0,1,.38-.31l1.18.12a.31.31,0,0,1,.31.38S371.59,1056.62,371.59,1057.15Z" style="fill: #48554e"/>
@@ -764,7 +771,7 @@
       </g>
       <circle cx="637.55" cy="1055.23" r="9.12" style="fill: #e3c867"/>
     </g>
-    <g>
+    <g class="popup" id="motherFriend">
       <rect x="625.53" y="624.48" width="377.67" height="420.91" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M686,712h-1.2a.36.36,0,0,1-.36-.36v-8.66a1.61,1.61,0,0,0-1.61-1.61H681a5.9,5.9,0,0,0-1.8,4.39,7.8,7.8,0,0,0,1.66,4.71v1a.56.56,0,0,1-.55.55h-3a.36.36,0,0,1-.36-.36v-1a.37.37,0,0,1,.36-.36h1.58a7,7,0,0,1-1.53-4.44,6.11,6.11,0,0,1,1.75-4.51h-1.68a.35.35,0,0,1-.34-.36v-1.2a.34.34,0,0,1,.34-.34h5.42a3.5,3.5,0,0,1,3.51,3.51v8.66A.34.34,0,0,1,686,712Z" style="fill: #48554e"/>
@@ -949,7 +956,7 @@
       </g>
       <circle cx="959.88" cy="705.65" r="9.12" style="fill: #3d576e"/>
     </g>
-    <g>
+    <g class="popup" id="friend">
       <rect x="240.67" y="544.6" width="377.67" height="542.85" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M276.85,632.08h-1.18a.37.37,0,0,1-.36-.36v-8.67a1.61,1.61,0,0,0-1.63-1.61h-5.19a.36.36,0,0,1-.36-.36v-1.2a.35.35,0,0,1,.36-.33h5.19a3.51,3.51,0,0,1,3.52,3.5v8.67A.36.36,0,0,1,276.85,632.08Zm-6.73-4.4v4a.35.35,0,0,1-.33.36h-1.2a.37.37,0,0,1-.36-.36v-4.08c0-.58.24-2.88.24-2.88a.33.33,0,0,1,.38-.32l1.18.12a.33.33,0,0,1,.31.39S270.12,627.16,270.12,627.68Z" style="fill: #48554e"/>
@@ -1216,7 +1223,7 @@
       </g>
       <circle cx="575.01" cy="625.77" r="9.12" style="fill: #f8b090"/>
     </g>
-    <g>
+    <g class="popup" id="atar">
       <rect x="899.74" y="927.51" width="377.67" height="477.18" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M975.49,1004.27l-1.13-.53a.33.33,0,0,1-.17-.46l.53-1.13a.32.32,0,0,1,.46-.14l.93.43h6.17a1.67,1.67,0,0,1,1.68,1.68v9.51a1.34,1.34,0,0,1-1.34,1.34h-6.7a.45.45,0,0,1-.43-.46Zm6.57.21c0-.09,0-.14-.16-.14h-4.56v8.73h4.56c.12,0,.16,0,.16-.16Z" style="fill: #48554e"/>
@@ -1454,7 +1461,7 @@
       </g>
       <circle cx="1234.08" cy="1008.66" r="9.12" style="fill: #647c6e"/>
     </g>
-    <g>
+    <g class="popup" id="mother">
       <rect x="551.48" y="943.96" width="377.67" height="411.7" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M589.77,1030.16a.35.35,0,0,1-.53,0l-.77-.72a.34.34,0,0,1,0-.48c1.49-1.56,1.46-2.11,1.46-4.32a.15.15,0,0,0-.17-.17h-3.59a.38.38,0,0,1-.37-.36v-1.2a.35.35,0,0,1,.36-.33h4.4a1.23,1.23,0,0,1,1.27,1.2v1.49A6,6,0,0,1,589.77,1030.16Z" style="fill: #48554e"/>
@@ -1734,4 +1741,20 @@
       </g>
     </g>
   </g>
+  <script>
+  function resetPopups(){
+    document.getElementById("family").style.opacity = 0;
+    document.getElementById("motherFriend").style.opacity = 0;
+  }
+
+  function familyClick(){
+    resetPopups();
+    document.getElementById("family").style.opacity = 1;
+  }
+
+  function motherFriendClick(){
+    resetPopups();
+    document.getElementById("motherFriend").style.opacity = 1;
+  }
+  </script>
 </svg>
