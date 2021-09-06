@@ -5,6 +5,9 @@
   opacity: 0;
   transition: opacity 300ms linear 0s;
 }
+.closeBtn{
+  opacity: 0;
+}
 </style>
   <defs>
     <radialGradient id="e05e14ff-08c6-4849-ac39-eabfc211aae3" cx="598.62" cy="502.42" r="33.47" gradientTransform="translate(-23.17 58.64) scale(0.97 0.97)" gradientUnits="userSpaceOnUse">
