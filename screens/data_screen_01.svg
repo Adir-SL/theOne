@@ -771,6 +771,7 @@
         <line x1="333.21" y1="1004.05" x2="347.17" y2="1018.01" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="347.17" y1="1004.05" x2="333.21" y2="1018.01" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
+      <rect onclick="resetPopups();" class="closeBtn" x="310" y="980" width="50" height="50" style="fill: #f00;"/>
       <circle cx="637.55" cy="1055.23" r="9.12" style="fill: #e3c867"/>
     </g>
     <g class="popup" id="motherFriend">
@@ -1463,6 +1464,7 @@
         <line x1="929.74" y1="957.51" x2="943.7" y2="971.47" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="943.7" y1="957.51" x2="929.74" y2="971.47" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
+      <rect onclick="resetPopups();" class="closeBtn" x="910" y="930" width="50" height="50" style="fill: #f00;"/>
       <circle cx="1234.08" cy="1008.66" r="9.12" style="fill: #647c6e"/>
     </g>
     <g class="popup" id="mother">
@@ -1653,6 +1655,7 @@
         <line x1="581.4" y1="974.03" x2="595.37" y2="987.99" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="595.36" y1="974.03" x2="581.41" y2="988" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
+      <rect onclick="resetPopups();" class="closeBtn" x="560" y="950" width="50" height="50" style="fill: #f00;"/>
       <circle cx="885.77" cy="1025.08" r="9.12" style="fill: #9dcbc1"/>
     </g>
   </g>
