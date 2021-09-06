@@ -8,6 +8,9 @@
 .closeBtn{
   opacity: 0;
 }
+.info{
+  display: none;
+}
 </style>
   <defs>
     <radialGradient id="e05e14ff-08c6-4849-ac39-eabfc211aae3" cx="598.62" cy="502.42" r="33.47" gradientTransform="translate(-23.17 58.64) scale(0.97 0.97)" gradientUnits="userSpaceOnUse">
@@ -1662,7 +1665,7 @@
       <circle cx="885.77" cy="1025.08" r="9.12" style="fill: #9dcbc1"/>
     </g>
   </g>
-  <g id="e7372608-115c-4439-8f92-22961c81ddda" data-name="info">
+  <g id="e7372608-115c-4439-8f92-22961c81ddda" class="info" data-name="info">
     <g>
       <rect x="753.55" y="679.72" width="183.36" height="41.76" style="fill: #f7e921"/>
       <g>
