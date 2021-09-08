@@ -132,13 +132,13 @@
           <g style="mix-blend-mode: multiply" onclick="resetAllPopups();glowingFunc();">
             <ellipse cx="581.85891" cy="456.33907" rx="55.35985" ry="55.36386" transform="translate(-152.00798 547.1384) rotate(-45.15951)" style="fill: url(#ac45b399-3cb6-4c32-8fdb-a2773831db66)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();aristoFunc();">
             <ellipse cx="779.61265" cy="548.64129" rx="55.35993" ry="55.36394" transform="translate(-159.14651 714.57617) rotate(-45.15947)" style="fill: url(#ebf1a3ea-fa87-4649-8183-81edc677c8a3)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();emberessedFunc();">
             <ellipse cx="878.91467" cy="481.89122" rx="55.35989" ry="55.3639" transform="translate(-82.53528 765.30635) rotate(-45.15947)" style="fill: url(#aaa9e4c6-b1e9-4352-aa65-15ea0a708703)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();behindFunc();">
             <ellipse cx="994.39377" cy="590.47696" rx="55.35989" ry="55.36389" transform="translate(-125.47974 879.20754) rotate(-45.15948)" style="fill: url(#ecb77b76-4817-40c3-9408-797fa1b73056)"/>
           </g>
           <g style="mix-blend-mode: multiply">
