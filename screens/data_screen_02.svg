@@ -7,7 +7,10 @@
 }
 .placeButton{
   fill: red;
-  opacity: .4;
+  opacity: 0;
+}
+#b083e995-046c-4014-ba1d-e11243083d88{
+  display: none;
 }
 </style>
   <defs>
