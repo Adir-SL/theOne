@@ -2208,162 +2208,242 @@
   function firstFunc(){
     document.getElementById("first").style.opacity = "1";
     document.getElementById("first").style.pointerEvents = "all";
+    window.svg = document.getElementById("first");
+    makeCloseButton();
   }
   function memFunc(){
     document.getElementById("memreble").style.opacity = "1";
     document.getElementById("memreble").style.pointerEvents = "all";
+    window.svg = document.getElementById("memreble");
+    makeCloseButton();
   }
   function lecturerFunc(){
     document.getElementById("lecturer").style.opacity = "1";
     document.getElementById("lecturer").style.pointerEvents = "all";
+    window.svg = document.getElementById("lecturer");
+    makeCloseButton();
   }
   function glowingFunc(){
     document.getElementById("glowing").style.opacity = "1";
     document.getElementById("glowing").style.pointerEvents = "all";
+    window.svg = document.getElementById("glowing");
+    makeCloseButton();
   }
   function aristoFunc(){
     document.getElementById("aristo").style.opacity = "1";
     document.getElementById("aristo").style.pointerEvents = "all";
+    window.svg = document.getElementById("aristo");
+    makeCloseButton();
   }
   function emberessedFunc(){
     document.getElementById("emberessed").style.opacity = "1";
     document.getElementById("emberessed").style.pointerEvents = "all";
+    window.svg = document.getElementById("emberessed");
+    makeCloseButton();
   }
   function behindFunc(){
     document.getElementById("behind").style.opacity = "1";
     document.getElementById("behind").style.pointerEvents = "all";
+    window.svg = document.getElementById("behind");
+    makeCloseButton();
   }
   function onionFunc(){
     document.getElementById("onion").style.opacity = "1";
     document.getElementById("onion").style.pointerEvents = "all";
+    window.svg = document.getElementById("onion");
+    makeCloseButton();
   }
   function twinFunc(){
     document.getElementById("twin").style.opacity = "1";
     document.getElementById("twin").style.pointerEvents = "all";
+    window.svg = document.getElementById("twin");
+    makeCloseButton();
   }
   function liedFunc(){
     document.getElementById("lied").style.opacity = "1";
     document.getElementById("lied").style.pointerEvents = "all";
+    window.svg = document.getElementById("lied");
+    makeCloseButton();
   }
   function disapointFunc(){
     document.getElementById("disapoint").style.opacity = "1";
     document.getElementById("disapoint").style.pointerEvents = "all";
+    window.svg = document.getElementById("disapoint");
+    makeCloseButton();
   }
   function sisterFunc(){
     document.getElementById("sister").style.opacity = "1";
     document.getElementById("sister").style.pointerEvents = "all";
+    window.svg = document.getElementById("sister");
+    makeCloseButton();
   }
   function mansplainFunc(){
     document.getElementById("mansplain").style.opacity = "1";
     document.getElementById("mansplain").style.pointerEvents = "all";
+    window.svg = document.getElementById("mansplain");
+    makeCloseButton();
   }
   function decideFunc(){
     document.getElementById("decide").style.opacity = "1";
     document.getElementById("decide").style.pointerEvents = "all";
+    window.svg = document.getElementById("decide");
+    makeCloseButton();
   }
   function cheapFunc(){
     document.getElementById("cheap").style.opacity = "1";
     document.getElementById("cheap").style.pointerEvents = "all";
+    window.svg = document.getElementById("cheap");
+    makeCloseButton();
   }
   function presuadeFunc(){
     document.getElementById("presuade").style.opacity = "1";
     document.getElementById("presuade").style.pointerEvents = "all";
+    window.svg = document.getElementById("presuade");
+    makeCloseButton();
   }
   function forgotFunc(){
     document.getElementById("forgot").style.opacity = "1";
     document.getElementById("forgot").style.pointerEvents = "all";
+    window.svg = document.getElementById("forgot");
+    makeCloseButton();
   }
   function wantedFunc(){
     document.getElementById("wanted").style.opacity = "1";
     document.getElementById("wanted").style.pointerEvents = "all";
+    window.svg = document.getElementById("wanted");
+    makeCloseButton();
   }
   function surpriseFunc(){
     document.getElementById("surprise").style.opacity = "1";
     document.getElementById("surprise").style.pointerEvents = "all";
+    window.svg = document.getElementById("surprise");
+    makeCloseButton();
   }
   function rightwingFunc(){
     document.getElementById("rightwing").style.opacity = "1";
     document.getElementById("rightwing").style.pointerEvents = "all";
+    window.svg = document.getElementById("rightwing");
+    makeCloseButton();
   }
   function highFunc(){
     document.getElementById("high").style.opacity = "1";
     document.getElementById("high").style.pointerEvents = "all";
+    window.svg = document.getElementById("high");
+    makeCloseButton();
   }
   function importantFunc(){
     document.getElementById("important").style.opacity = "1";
     document.getElementById("important").style.pointerEvents = "all";
+    window.svg = document.getElementById("important");
+    makeCloseButton();
   }
   function detectiveFunc(){
     document.getElementById("detective").style.opacity = "1";
     document.getElementById("detective").style.pointerEvents = "all";
+    window.svg = document.getElementById("detective");
+    makeCloseButton();
   }
   function rabbiFunc(){
     document.getElementById("rabbi").style.opacity = "1";
     document.getElementById("rabbi").style.pointerEvents = "all";
+    window.svg = document.getElementById("rabbi");
+    makeCloseButton();
   }
   function beforeFunc(){
     document.getElementById("before").style.opacity = "1";
     document.getElementById("before").style.pointerEvents = "all";
+    window.svg = document.getElementById("before");
+    makeCloseButton();
   }
   function breatheFunc(){
     document.getElementById("breathe").style.opacity = "1";
     document.getElementById("breathe").style.pointerEvents = "all";
+    window.svg = document.getElementById("breathe");
+    makeCloseButton();
   }
   function blinkFunc(){
     document.getElementById("blink").style.opacity = "1";
     document.getElementById("blink").style.pointerEvents = "all";
+    window.svg = document.getElementById("blink");
+    makeCloseButton();
   }
   function pomelaFunc(){
     document.getElementById("pomela").style.opacity = "1";
     document.getElementById("pomela").style.pointerEvents = "all";
+    window.svg = document.getElementById("pomela");
+    makeCloseButton();
   }
   function disappointFunc(){
     document.getElementById("disappoint").style.opacity = "1";
     document.getElementById("disappoint").style.pointerEvents = "all";
+    window.svg = document.getElementById("disappoint");
+    makeCloseButton();
   }
   function laughFunc(){
     document.getElementById("laugh").style.opacity = "1";
     document.getElementById("laugh").style.pointerEvents = "all";
+    window.svg = document.getElementById("laugh");
+    makeCloseButton();
   }
   function exitFunc(){
     document.getElementById("exit").style.opacity = "1";
     document.getElementById("exit").style.pointerEvents = "all";
+    window.svg = document.getElementById("exit");
+    makeCloseButton();
   }
   function lateFunc(){
     document.getElementById("late").style.opacity = "1";
     document.getElementById("late").style.pointerEvents = "all";
+    window.svg = document.getElementById("late");
+    makeCloseButton();
   }
   function disappearFunc(){
     document.getElementById("disappear").style.opacity = "1";
     document.getElementById("disappear").style.pointerEvents = "all";
+    window.svg = document.getElementById("disappear");
+    makeCloseButton();
   }
   function shanonFunc(){
     document.getElementById("shanon").style.opacity = "1";
     document.getElementById("shanon").style.pointerEvents = "all";
+    window.svg = document.getElementById("shanon");
+    makeCloseButton();
   }
   function poetFunc(){
     document.getElementById("poet").style.opacity = "1";
     document.getElementById("poet").style.pointerEvents = "all";
+    window.svg = document.getElementById("poet");
+    makeCloseButton();
   }
   function epilougeFunc(){
     document.getElementById("epilouge").style.opacity = "1";
     document.getElementById("epilouge").style.pointerEvents = "all";
+    window.svg = document.getElementById("epilouge");
+    makeCloseButton();
   }
   function freezeFunc(){
     document.getElementById("freeze").style.opacity = "1";
     document.getElementById("freeze").style.pointerEvents = "all";
+    window.svg = document.getElementById("freeze");
+    makeCloseButton();
   }
   function commonFunc(){
     document.getElementById("commonist").style.opacity = "1";
     document.getElementById("commonist").style.pointerEvents = "all";
+    window.svg = document.getElementById("commonist");
+    makeCloseButton();
   }
   function cordoroyFunc(){
     document.getElementById("cordoroy").style.opacity = "1";
     document.getElementById("cordoroy").style.pointerEvents = "all";
+    window.svg = document.getElementById("cordoroy");
+    makeCloseButton();
   }
   function psychoFunc(){
     document.getElementById("psycho").style.opacity = "1";
     document.getElementById("psycho").style.pointerEvents = "all";
+    window.svg = document.getElementById("psycho");
+    makeCloseButton();
   }
 
   function makeCloseButton(){
