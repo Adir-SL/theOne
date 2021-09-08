@@ -257,6 +257,14 @@
         </g>
       </g>
     </g>
+    <rect x="910" y="210" width="150" height="100" class="placeButton" onclick="northFunc();" />
+  <rect x="400" y="680" width="150" height="100" class="placeButton" onclick="telavivFunc();" />
+  <rect x="550" y="300" width="150" height="100" class="placeButton" onclick="natanyaFunc();" />
+  <rect x="600" y="510" width="150" height="100" class="placeButton" onclick="rananaFunc();" />
+  <rect x="770" y="600" width="150" height="100" class="placeButton" onclick="roshHaainFunc();" />
+  <rect x="570" y="710" width="150" height="160" class="placeButton" onclick="givatShmuelFunc();" />
+  <rect x="330" y="1320" width="150" height="120" class="placeButton" onclick="ashkelonFunc();" />
+  <rect x="580" y="900" width="650" height="700" class="placeButton" onclick="jerusalemFunc();" />
     <g id="a4fa3217-05a3-499c-a509-0f490a8e637c" data-name="+">
       <g class="popup" id="north">
         <rect x="899.77" y="265.92" width="377.67" height="502.85" style="fill: #e5e4e3;opacity: 0.85"/>
@@ -1683,14 +1691,6 @@
       </g>
     </g>
   </g>
-  <rect x="910" y="210" width="150" height="100" class="placeButton" onclick="northFunc();" />
-  <rect x="400" y="680" width="150" height="100" class="placeButton" onclick="telavivFunc();" />
-  <rect x="550" y="300" width="150" height="100" class="placeButton" onclick="natanyaFunc();" />
-  <rect x="600" y="510" width="150" height="100" class="placeButton" onclick="rananaFunc();" />
-  <rect x="770" y="600" width="150" height="100" class="placeButton" onclick="roshHaainFunc();" />
-  <rect x="570" y="710" width="150" height="160" class="placeButton" onclick="givatShmuelFunc();" />
-  <rect x="330" y="1320" width="150" height="120" class="placeButton" onclick="ashkelonFunc();" />
-  <rect x="580" y="900" width="650" height="700" class="placeButton" onclick="jerusalemFunc();" />
 
   <script>
   function resetPopups(){
@@ -1716,36 +1716,50 @@
     resetPopups();
     document.getElementById("north").style.opacity = "1";
     document.getElementById("north").style.pointerEvents = "all";
+    window.svg = document.getElementById("north");
+    makeCloseButton();
   }
   function telavivFunc(){
     resetPopups();
     document.getElementById("telaviv").style.opacity = "1";
     document.getElementById("telaviv").style.pointerEvents = "all";
+    window.svg = document.getElementById("telaviv");
+    makeCloseButton();
   }
   function natanyaFunc(){
     resetPopups();
     document.getElementById("natanya").style.opacity = "1";
     document.getElementById("natanya").style.pointerEvents = "all";
+    window.svg = document.getElementById("natanya");
+    makeCloseButton();
   }
   function rananaFunc(){
     resetPopups();
     document.getElementById("raanana").style.opacity = "1";
     document.getElementById("raanana").style.pointerEvents = "all";
+    window.svg = document.getElementById("raanana");
+    makeCloseButton();
   }
   function roshHaainFunc(){
     resetPopups();
     document.getElementById("roshhaain").style.opacity = "1";
     document.getElementById("roshhaain").style.pointerEvents = "all";
+    window.svg = document.getElementById("roshhaain");
+    makeCloseButton();
   }
   function givatShmuelFunc(){
     resetPopups();
     document.getElementById("givatshmuel").style.opacity = "1";
     document.getElementById("givatshmuel").style.pointerEvents = "all";
+    window.svg = document.getElementById("givatshmuel");
+    makeCloseButton();
   }
   function ashkelonFunc(){
     resetPopups();
     document.getElementById("ashkelon").style.opacity = "1";
     document.getElementById("ashkelon").style.pointerEvents = "all";
+    window.svg = document.getElementById("ashkelon");
+    makeCloseButton();
   }
   function jerusalemFunc(){
     resetPopups();
@@ -1757,13 +1771,13 @@
 
   function makeCloseButton(){
     var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
-    newElement.setAttribute("width","55");
-    newElement.setAttribute("height","55");
+    newElement.setAttribute("width","70");
+    newElement.setAttribute("height","70");
     newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
     newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y"));
     newElement.style.fill = "#f00";
-    newElement.style.opacity = ".5";
-    newElement.addEventListener("click", resetAllPopups, false); 
+    newElement.style.opacity = "0";
+    newElement.addEventListener("click", resetPopups, false); 
     window.svg.appendChild(newElement);
   }
   </script>
