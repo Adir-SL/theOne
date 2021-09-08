@@ -1687,7 +1687,7 @@
   <rect x="770" y="600" width="150" height="100" class="placeButton" onclick="roshHaainFunc();" />
   <rect x="570" y="710" width="150" height="160" class="placeButton" onclick="givatShmuelFunc();" />
   <rect x="330" y="1320" width="150" height="120" class="placeButton" onclick="ashkelonFunc();" />
-  <rect x="580" y="900" width="650" height="700" class="placeButton" onclick="JerusalemFunc();" />
+  <rect x="580" y="900" width="650" height="700" class="placeButton" onclick="jerusalemFunc();" />
 
   <script>
   function resetPopups(){
@@ -1718,6 +1718,36 @@
     resetPopups();
     document.getElementById("telaviv").style.opacity = "1";
     document.getElementById("telaviv").style.pointerEvents = "all";
+  }
+  function natanyaFunc(){
+    resetPopups();
+    document.getElementById("north").style.opacity = "1";
+    document.getElementById("north").style.pointerEvents = "all";
+  }
+  function rananaFunc(){
+    resetPopups();
+    document.getElementById("north").style.opacity = "1";
+    document.getElementById("north").style.pointerEvents = "all";
+  }
+  function roshHaainFunc(){
+    resetPopups();
+    document.getElementById("north").style.opacity = "1";
+    document.getElementById("north").style.pointerEvents = "all";
+  }
+  function givatShmuelFunc(){
+    resetPopups();
+    document.getElementById("north").style.opacity = "1";
+    document.getElementById("north").style.pointerEvents = "all";
+  }
+  function ashkelonFunc(){
+    resetPopups();
+    document.getElementById("north").style.opacity = "1";
+    document.getElementById("north").style.pointerEvents = "all";
+  }
+  function jerusalemFunc(){
+    resetPopups();
+    document.getElementById("jerusalem").style.opacity = "1";
+    document.getElementById("jerusalem").style.pointerEvents = "all";
   }
   </script>
 </svg>
