@@ -156,10 +156,10 @@
           <g style="mix-blend-mode: multiply" onclick="resetAllPopups();sisterFunc();">
             <ellipse cx="764.77034" cy="695.95269" rx="55.35989" ry="55.36389" transform="translate(-267.97734 747.48949) rotate(-45.15951)" style="fill: url(#e6237c3d-0055-4b34-8b27-009dee2798a9)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();mansplainFunc();">
             <ellipse cx="821.7421" cy="826.07611" rx="55.35989" ry="55.3639" transform="translate(-343.44535 826.25534) rotate(-45.15951)" style="fill: url(#b6a01a16-3477-45cc-916a-5e7c20115867)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();decideFunc();">
             <ellipse cx="1008.19093" cy="1157.74282" rx="55.35989" ry="55.3639" transform="translate(-523.64398 1056.25784) rotate(-45.15951)" style="fill: url(#f80ba66b-89b9-4341-b6fc-4249d889a0e5)"/>
           </g>
           <g style="mix-blend-mode: multiply">
