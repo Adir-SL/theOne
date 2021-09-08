@@ -174,22 +174,22 @@
           <g style="mix-blend-mode: multiply">
             <ellipse cx="715.54028" cy="1170.30001" rx="55.35985" ry="55.36386" transform="translate(-618.84012 852.44947) rotate(-45.15949)" style="fill: url(#b0b6e634-51ae-4c34-aa13-40c027e9a9ee)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();wantedFunc();">
             <ellipse cx="804.31184" cy="1193.92289" rx="55.35985" ry="55.36386" transform="translate(-609.41489 922.36047) rotate(-45.15949)" style="fill: url(#aea6656b-adda-4343-b683-0ea12afb6f99)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();surpriseFunc();">
             <ellipse cx="914.03146" cy="1199.25918" rx="55.35985" ry="55.36386" transform="translate(-580.8463 1001.7331) rotate(-45.15949)" style="fill: url(#a2dddf54-3deb-40c1-99c8-0628c5c6a5b9)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();rightwingFunc();">
             <ellipse cx="1078.95129" cy="1220.73069" rx="55.35985" ry="55.36386" transform="translate(-547.4422 1125.00437) rotate(-45.15949)" style="fill: url(#f8886add-7b00-400f-9066-75a8e274cec2)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();highFunc();">
             <ellipse cx="780.1702" cy="1292.02067" rx="55.35985" ry="55.36386" transform="translate(-686.09182 934.16783) rotate(-45.15949)" style="fill: url(#a821bd93-8c75-4a3c-bc23-2550a84af8cd)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();importantFunc();">
             <ellipse cx="958.69116" cy="1303.89531" rx="55.35985" ry="55.36386" transform="translate(-641.87234 1064.25351) rotate(-45.15949)" style="fill: url(#a26d61cd-f83a-434c-a9b4-e69a735b0231)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();detectiveFunc();">
             <ellipse cx="868.53028" cy="1330.74524" rx="55.35985" ry="55.36386" transform="translate(-687.49611 1008.24001) rotate(-45.15949)" style="fill: url(#a3a736fc-c393-4fea-b445-873c327bc870)"/>
           </g>
           <g style="mix-blend-mode: multiply">
