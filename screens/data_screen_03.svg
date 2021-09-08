@@ -2161,5 +2161,17 @@
     document.getElementById("disapoint").style.opacity = "1";
     document.getElementById("disapoint").style.pointerEvents = "all";
   }
+  function sisterFunc(){
+    document.getElementById("sister").style.opacity = "1";
+    document.getElementById("sister").style.pointerEvents = "all";
+  }
+  function mansplainFunc(){
+    document.getElementById("mansplain").style.opacity = "1";
+    document.getElementById("mansplain").style.pointerEvents = "all";
+  }
+  function decideFunc(){
+    document.getElementById("decide").style.opacity = "1";
+    document.getElementById("decide").style.pointerEvents = "all";
+  }
   </script>
 </svg>
