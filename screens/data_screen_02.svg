@@ -1676,5 +1676,13 @@
       </g>
     </g>
   </g>
-  <rect x="935" y="210" width="100" height="100" fill="#f00" />
+  <rect x="935" y="210" width="100" height="100" fill="#f00" onclick="northFunc();" />
+
+  <script>
+  function northFunc(){
+    resetPopups();
+    document.getElementById("north").style.opacity = "1";
+    document.getElementById("north").style.pointerEvents = "all";
+  }
+  </script>
 </svg>
