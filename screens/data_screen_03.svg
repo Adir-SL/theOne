@@ -2141,5 +2141,25 @@
     document.getElementById("emberessed").style.opacity = "1";
     document.getElementById("emberessed").style.pointerEvents = "all";
   }
+  function behindFunc(){
+    document.getElementById("behind").style.opacity = "1";
+    document.getElementById("behind").style.pointerEvents = "all";
+  }
+  function onionFunc(){
+    document.getElementById("onion").style.opacity = "1";
+    document.getElementById("onion").style.pointerEvents = "all";
+  }
+  function twinFunc(){
+    document.getElementById("twin").style.opacity = "1";
+    document.getElementById("twin").style.pointerEvents = "all";
+  }
+  function liedFunc(){
+    document.getElementById("lied").style.opacity = "1";
+    document.getElementById("lied").style.pointerEvents = "all";
+  }
+  function disapointFunc(){
+    document.getElementById("disapoint").style.opacity = "1";
+    document.getElementById("disapoint").style.pointerEvents = "all";
+  }
   </script>
 </svg>
