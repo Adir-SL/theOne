@@ -171,73 +171,73 @@
           <g style="mix-blend-mode: multiply" onclick="resetAllPopups();forgotFunc();">
             <ellipse cx="731.72702" cy="855.16586" rx="55.35989" ry="55.36389" transform="translate(-390.61434 771.0056) rotate(-45.15951)" style="fill: url(#acad57ad-cb42-41b3-89de-366a600362b3)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();wantedFunc();">
             <ellipse cx="715.54028" cy="1170.30001" rx="55.35985" ry="55.36386" transform="translate(-618.84012 852.44947) rotate(-45.15949)" style="fill: url(#b0b6e634-51ae-4c34-aa13-40c027e9a9ee)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();wantedFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();surpriseFunc();">
             <ellipse cx="804.31184" cy="1193.92289" rx="55.35985" ry="55.36386" transform="translate(-609.41489 922.36047) rotate(-45.15949)" style="fill: url(#aea6656b-adda-4343-b683-0ea12afb6f99)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();surpriseFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();rightwingFunc();">
             <ellipse cx="914.03146" cy="1199.25918" rx="55.35985" ry="55.36386" transform="translate(-580.8463 1001.7331) rotate(-45.15949)" style="fill: url(#a2dddf54-3deb-40c1-99c8-0628c5c6a5b9)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();rightwingFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();highFunc();">
             <ellipse cx="1078.95129" cy="1220.73069" rx="55.35985" ry="55.36386" transform="translate(-547.4422 1125.00437) rotate(-45.15949)" style="fill: url(#f8886add-7b00-400f-9066-75a8e274cec2)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();highFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();importantFunc();">
             <ellipse cx="780.1702" cy="1292.02067" rx="55.35985" ry="55.36386" transform="translate(-686.09182 934.16783) rotate(-45.15949)" style="fill: url(#a821bd93-8c75-4a3c-bc23-2550a84af8cd)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();importantFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();detectiveFunc();">
             <ellipse cx="958.69116" cy="1303.89531" rx="55.35985" ry="55.36386" transform="translate(-641.87234 1064.25351) rotate(-45.15949)" style="fill: url(#a26d61cd-f83a-434c-a9b4-e69a735b0231)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();detectiveFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();rabbiFunc();">
             <ellipse cx="868.53028" cy="1330.74524" rx="55.35985" ry="55.36386" transform="translate(-687.49611 1008.24001) rotate(-45.15949)" style="fill: url(#a3a736fc-c393-4fea-b445-873c327bc870)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();beforeFunc();">
             <ellipse cx="1053.19836" cy="1368.28567" rx="55.35985" ry="55.36386" transform="translate(-659.66297 1150.25237) rotate(-45.15949)" style="fill: url(#bc6b71ea-a68a-469d-993e-c8ebb3a3ecfa)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();breatheFunc();">
             <ellipse cx="941.95335" cy="1107.45573" rx="55.35992" ry="55.36393" transform="translate(-507.5178 994.46148) rotate(-45.15946)" style="fill: url(#ad0af766-f208-4004-a851-4b38ae170ff1)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();blinkFunc();">
             <ellipse cx="1114.54402" cy="1129.01151" rx="55.35992" ry="55.36393" transform="translate(-471.91164 1123.19672) rotate(-45.15946)" style="fill: url(#a142b6f6-b1cd-4b78-a751-8c0829bcb3ee)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();pomelaFunc();">
             <ellipse cx="972.54187" cy="925.37592" rx="55.35993" ry="55.36394" transform="translate(-369.39065 962.46232) rotate(-45.15947)" style="fill: url(#a5afbf97-b1c9-4f5d-a9cf-628dd90f5c1f)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();disappointFunc();">
             <ellipse cx="602.64557" cy="962.32435" rx="55.35993" ry="55.36394" transform="translate(-504.65885 711.07394) rotate(-45.15947)" style="fill: url(#fdf6f71a-30a1-4208-8981-fb2073e10192)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();laughFunc();">
             <ellipse cx="615.11633" cy="810.12217" rx="55.35993" ry="55.36394" transform="translate(-393.05946 675.03847) rotate(-45.15951)" style="fill: url(#abf353b5-5d53-4c69-94eb-2728de569f0a)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();exitFunc();">
             <ellipse cx="995.02856" cy="429.58077" rx="55.35992" ry="55.36393" transform="translate(-11.20553 832.21513) rotate(-45.15948)" style="fill: url(#ed21cd85-09b0-429b-acbf-495bad67cc19)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();lateFunc();">
             <ellipse cx="766.15537" cy="914.18446" rx="55.35992" ry="55.36393" transform="translate(-422.31105 812.81957) rotate(-45.15947)" style="fill: url(#f4d5ece2-04ca-4697-9792-53d4cce7d5b9)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();disappearFunc();">
             <ellipse cx="605.96063" cy="1135.79781" rx="55.35989" ry="55.3639" transform="translate(-626.68681 764.57654) rotate(-45.15951)" style="fill: url(#bded9e40-2f0d-4cd2-bb9e-afab9d61c4e6)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();shanonFunc();">
             <ellipse cx="717.12091" cy="1026.57393" rx="55.35989" ry="55.3639" transform="translate(-516.46193 811.19102) rotate(-45.15951)" style="fill: url(#b928f514-b541-4064-965f-fdf4fc862f3b)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();poetFunc();">
             <ellipse cx="895.37243" cy="1019.38259" rx="55.35989" ry="55.3639" transform="translate(-458.80271 935.4638) rotate(-45.15951)" style="fill: url(#af42fb13-6b86-4249-952e-c5b7edb90d80)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();epilougeFunc();">
             <ellipse cx="983.58648" cy="1382.94454" rx="55.35989" ry="55.3639" transform="translate(-690.58333 1105.21549) rotate(-45.15951)" style="fill: url(#fa321770-241c-431a-b36f-84e9baea6bb2)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();freezeFunc();">
             <ellipse cx="1050.03675" cy="842.12833" rx="55.35992" ry="55.36393" transform="translate(-287.51156 992.86589) rotate(-45.1595)" style="fill: url(#ed5e1cd2-dc3c-42e2-a71f-15f3e17e993d)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();commonFunc();">
             <ellipse cx="859.07213" cy="935.96709" rx="55.35983" ry="55.36384" transform="translate(-410.35874 885.12826) rotate(-45.15952)" style="fill: url(#a1902ca8-2240-466e-a819-fee0460f6616)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();cordoroyFunc();">
             <ellipse cx="1030.2788" cy="974.56414" rx="55.35984" ry="55.36385" transform="translate(-387.24407 1017.90662) rotate(-45.1595)" style="fill: url(#a200e466-0bee-4205-b02a-0e2cde45a0e9)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();psychoFunc();">
             <ellipse cx="787.58366" cy="1093.8144" rx="55.35989" ry="55.36389" transform="translate(-543.36332 880.98089) rotate(-45.1595)" style="fill: url(#adbf4b23-ee46-4b4f-ad3c-a0b4ba645fbc)"/>
           </g>
         </g>
@@ -2156,7 +2156,7 @@
     document.getElementsByClassName("popup")[38].style.opacity = "0";
     document.getElementsByClassName("popup")[39].style.opacity = "0";
     document.getElementsByClassName("popup")[40].style.opacity = "0";
-    document.getElementsByClassName("popup")[41].style.opacity = "0";
+    <!-- document.getElementsByClassName("popup")[41].style.opacity = "0"; -->
 
     document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
@@ -2197,7 +2197,7 @@
     document.getElementsByClassName("popup")[38].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[39].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[40].style.pointerEvents = "none";
-    document.getElementsByClassName("popup")[41].style.pointerEvents = "none";
+    <!-- document.getElementsByClassName("popup")[41].style.pointerEvents = "none"; -->
   }
   function masmasFunc(){
     document.getElementById("masmas").style.opacity = "1";
