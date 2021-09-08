@@ -1721,28 +1721,28 @@
   }
   function natanyaFunc(){
     resetPopups();
-    document.getElementById("north").style.opacity = "1";
-    document.getElementById("north").style.pointerEvents = "all";
+    document.getElementById("natanya").style.opacity = "1";
+    document.getElementById("natanya").style.pointerEvents = "all";
   }
   function rananaFunc(){
     resetPopups();
-    document.getElementById("north").style.opacity = "1";
-    document.getElementById("north").style.pointerEvents = "all";
+    document.getElementById("raanana").style.opacity = "1";
+    document.getElementById("raanana").style.pointerEvents = "all";
   }
   function roshHaainFunc(){
     resetPopups();
-    document.getElementById("north").style.opacity = "1";
-    document.getElementById("north").style.pointerEvents = "all";
+    document.getElementById("roshhaain").style.opacity = "1";
+    document.getElementById("roshhaain").style.pointerEvents = "all";
   }
   function givatShmuelFunc(){
     resetPopups();
-    document.getElementById("north").style.opacity = "1";
-    document.getElementById("north").style.pointerEvents = "all";
+    document.getElementById("givatshmuel").style.opacity = "1";
+    document.getElementById("givatshmuel").style.pointerEvents = "all";
   }
   function ashkelonFunc(){
     resetPopups();
-    document.getElementById("north").style.opacity = "1";
-    document.getElementById("north").style.pointerEvents = "all";
+    document.getElementById("ashkelon").style.opacity = "1";
+    document.getElementById("ashkelon").style.pointerEvents = "all";
   }
   function jerusalemFunc(){
     resetPopups();
