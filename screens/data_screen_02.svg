@@ -5,6 +5,10 @@
   pointer-events: none;
   transition: opacity 300ms linear 0s;
 }
+.placeButton{
+  fill: red;
+  opacity: .4;
+}
 </style>
   <defs>
     <clipPath id="a85cc126-0396-40f2-8f73-80791a447829">
@@ -1676,7 +1680,10 @@
       </g>
     </g>
   </g>
-  <rect x="935" y="210" width="100" height="100" fill="#f00" onclick="northFunc();" />
+  <rect x="935" y="210" width="100" height="100" class="placeButton" onclick="northFunc();" />
+  <rect x="400" y="680" width="150" height="100" class="placeButton" onclick="telavivFunc();" />
+  <rect x="550" y="300" width="150" height="100" class="placeButton" onclick="natanyaFunc();" />
+  <rect x="600" y="510" width="150" height="100" class="placeButton" onclick="rananaFunc();" />
 
   <script>
   function resetPopups(){
