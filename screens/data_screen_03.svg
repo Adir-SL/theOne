@@ -144,10 +144,10 @@
           <g style="mix-blend-mode: multiply" onclick="resetAllPopups();onionFunc();">
             <ellipse cx="871.34067" cy="621.14676" rx="55.35989" ry="55.3639" transform="translate(-183.51069 800.99798) rotate(-45.15951)" style="fill: url(#b897a49c-094c-45d2-94ca-584a0492eb0f)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();twinFunc();">
             <ellipse cx="635.30698" cy="676.47197" rx="55.35989" ry="55.36389" transform="translate(-292.33824 649.94591) rotate(-45.15948)" style="fill: url(#b98c9009-5570-4599-a4e3-b480ced495f5)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();liedFunc();">
             <ellipse cx="1012.00749" cy="760.55059" rx="55.35992" ry="55.36393" transform="translate(-240.88048 941.84616) rotate(-45.15951)" style="fill: url(#bb802abc-a6ac-4968-a206-cd3e5278c770)"/>
           </g>
           <g style="mix-blend-mode: multiply">
