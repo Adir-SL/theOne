@@ -141,7 +141,7 @@
           <g style="mix-blend-mode: multiply" onclick="resetAllPopups();behindFunc();">
             <ellipse cx="994.39377" cy="590.47696" rx="55.35989" ry="55.36389" transform="translate(-125.47974 879.20754) rotate(-45.15948)" style="fill: url(#ecb77b76-4817-40c3-9408-797fa1b73056)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();onionFunc();">
             <ellipse cx="871.34067" cy="621.14676" rx="55.35989" ry="55.3639" transform="translate(-183.51069 800.99798) rotate(-45.15951)" style="fill: url(#b897a49c-094c-45d2-94ca-584a0492eb0f)"/>
           </g>
           <g style="mix-blend-mode: multiply">
