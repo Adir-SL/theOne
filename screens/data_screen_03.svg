@@ -1,4 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
+<style>
+#b30bc61e-d5de-4bb2-bdc5-6b0170064337{
+  display: none;
+}
+#beb3b3f5-ce3b-4c2d-99b3-f2805e1f27fb > g{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms linear 0s;
+}
+
+</style>
   <defs>
     <radialGradient id="f58de2a8-9a27-47ad-b35e-8ed30bba879b" cx="5698.37337" cy="-5011.82412" r="69.17642" gradientTransform="matrix(0.56739, -0.5644, 0.56435, 0.56744, 731.16854, 7019.33027)" gradientUnits="userSpaceOnUse">
       <stop offset="0.2" stop-color="#954299"/>
@@ -242,7 +253,7 @@
       </g>
     </g>
     <g id="b6e08ad4-7b63-4680-a986-90634806dcf7" data-name="+">
-      <g>
+      <g class="popup" id="memreble">
         <rect x="479.83093" y="243.13964" width="220" height="220" style="fill: #e5e4e3;opacity: 0.85"/>
         <g>
           <path d="M564.49849,320.89179l3.57031,5.27978a.40518.40518,0,0,1-.08984.6001l-1.23047.87012a.40431.40431,0,0,1-.59961-.09033l-5.91016-8.75928c-1.16992.83984-1.43945,2.09961-1.43945,4.10986v4.16944a.43633.43633,0,0,1-.41992.45019h-1.5a.4614.4614,0,0,1-.4502-.45019V322.902c0-2.55029.62989-4.56006,2.58008-5.93994l-2.66992-3.92969a.40446.40446,0,0,1,.08984-.60009l1.2295-.87012a.40513.40513,0,0,1,.60058.09033l4.76953,7.04932,2.7002-6.35938c.17969-.45019.35937-.48.71972-.48h1.25977a.4882.4882,0,0,1,.48047.71973Z" style="fill: #48554e"/>
@@ -270,7 +281,7 @@
           <line x1="514.51248" y1="263.04273" x2="500.55137" y2="277.00378" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         </g>
       </g>
-      <g>
+      <g class="popup" id="first">
         <rect x="793.75629" y="232.54092" width="220" height="220" style="fill: #e5e4e3;opacity: 0.85"/>
         <g>
           <path d="M819.56441,317.23749a.44986.44986,0,0,1-.48047-.45019l-.71973-15.08936a.40192.40192,0,0,1,.41992-.44971h1.46973a.40232.40232,0,0,1,.4502.41993l.59961,13.10937c4.7705-.6001,6.5996-3.6001,6.5996-8.63965v-2.21972c0-.15039-.05957-.18018-.21-.21045l-3.38964-.44971a.38406.38406,0,0,1-.35938-.48l.23926-1.46973a.41088.41088,0,0,1,.50976-.36035l3.90039.54a1.71,1.71,0,0,1,1.67969,1.89014v2.75976C830.27339,313.09736,826.7939,317.23749,819.56441,317.23749Z" style="fill: #48554e"/>
@@ -2102,4 +2113,349 @@
       </g>
     </g>
   </g>
+  <script>
+  function resetAllPopups(){
+    document.getElementsByClassName("popup")[0].style.opacity = "0";
+    document.getElementsByClassName("popup")[1].style.opacity = "0";
+    document.getElementsByClassName("popup")[2].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[4].style.opacity = "0";
+    document.getElementsByClassName("popup")[5].style.opacity = "0";
+    document.getElementsByClassName("popup")[6].style.opacity = "0";
+    document.getElementsByClassName("popup")[7].style.opacity = "0";
+    document.getElementsByClassName("popup")[8].style.opacity = "0";
+    document.getElementsByClassName("popup")[9].style.opacity = "0";
+    document.getElementsByClassName("popup")[10].style.opacity = "0";
+    document.getElementsByClassName("popup")[11].style.opacity = "0";
+    document.getElementsByClassName("popup")[12].style.opacity = "0";
+    document.getElementsByClassName("popup")[13].style.opacity = "0";
+    document.getElementsByClassName("popup")[14].style.opacity = "0";
+    document.getElementsByClassName("popup")[15].style.opacity = "0";
+    document.getElementsByClassName("popup")[16].style.opacity = "0";
+    document.getElementsByClassName("popup")[17].style.opacity = "0";
+    document.getElementsByClassName("popup")[18].style.opacity = "0";
+    document.getElementsByClassName("popup")[19].style.opacity = "0";
+    document.getElementsByClassName("popup")[20].style.opacity = "0";
+    document.getElementsByClassName("popup")[21].style.opacity = "0";
+    document.getElementsByClassName("popup")[22].style.opacity = "0";
+    document.getElementsByClassName("popup")[23].style.opacity = "0";
+    document.getElementsByClassName("popup")[24].style.opacity = "0";
+    document.getElementsByClassName("popup")[25].style.opacity = "0";
+    document.getElementsByClassName("popup")[26].style.opacity = "0";
+    document.getElementsByClassName("popup")[27].style.opacity = "0";
+    document.getElementsByClassName("popup")[28].style.opacity = "0";
+    document.getElementsByClassName("popup")[29].style.opacity = "0";
+    document.getElementsByClassName("popup")[30].style.opacity = "0";
+    document.getElementsByClassName("popup")[31].style.opacity = "0";
+    document.getElementsByClassName("popup")[32].style.opacity = "0";
+    document.getElementsByClassName("popup")[33].style.opacity = "0";
+    document.getElementsByClassName("popup")[34].style.opacity = "0";
+    document.getElementsByClassName("popup")[35].style.opacity = "0";
+    document.getElementsByClassName("popup")[36].style.opacity = "0";
+    document.getElementsByClassName("popup")[37].style.opacity = "0";
+    document.getElementsByClassName("popup")[38].style.opacity = "0";
+    document.getElementsByClassName("popup")[39].style.opacity = "0";
+    document.getElementsByClassName("popup")[40].style.opacity = "0";
+    document.getElementsByClassName("popup")[41].style.opacity = "0";
+
+    document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[2].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[6].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[7].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[9].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[10].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[11].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[12].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[13].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[14].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[15].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[16].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[17].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[18].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[19].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[20].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[21].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[22].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[23].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[24].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[25].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[26].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[27].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[29].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[30].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[31].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[32].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[33].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[34].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[35].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[36].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[37].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[38].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[39].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[40].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[41].style.pointerEvents = "none";
+  }
+  function masmasFunc(){
+    document.getElementById("masmas").style.opacity = "1";
+    document.getElementById("masmas").style.pointerEvents = "all";
+    window.svg = document.getElementById("masmas");
+    makeCloseButton();
+  }
+  function firstFunc(){
+    document.getElementById("first").style.opacity = "1";
+    document.getElementById("first").style.pointerEvents = "all";
+    window.svg = document.getElementById("first");
+    makeCloseButton();
+  }
+  function memFunc(){
+    document.getElementById("memreble").style.opacity = "1";
+    document.getElementById("memreble").style.pointerEvents = "all";
+    window.svg = document.getElementById("memreble");
+    makeCloseButton();
+  }
+  function lecturerFunc(){
+    document.getElementById("lecturer").style.opacity = "1";
+    document.getElementById("lecturer").style.pointerEvents = "all";
+    window.svg = document.getElementById("lecturer");
+    makeCloseButton();
+  }
+  function glowingFunc(){
+    document.getElementById("glowing").style.opacity = "1";
+    document.getElementById("glowing").style.pointerEvents = "all";
+    window.svg = document.getElementById("glowing");
+    makeCloseButton();
+  }
+  function aristoFunc(){
+    document.getElementById("aristo").style.opacity = "1";
+    document.getElementById("aristo").style.pointerEvents = "all";
+    window.svg = document.getElementById("aristo");
+    makeCloseButton();
+  }
+  function emberessedFunc(){
+    document.getElementById("emberessed").style.opacity = "1";
+    document.getElementById("emberessed").style.pointerEvents = "all";
+    window.svg = document.getElementById("emberessed");
+    makeCloseButton();
+  }
+  function behindFunc(){
+    document.getElementById("behind").style.opacity = "1";
+    document.getElementById("behind").style.pointerEvents = "all";
+    window.svg = document.getElementById("behind");
+    makeCloseButton();
+  }
+  function onionFunc(){
+    document.getElementById("onion").style.opacity = "1";
+    document.getElementById("onion").style.pointerEvents = "all";
+    window.svg = document.getElementById("onion");
+    makeCloseButton();
+  }
+  function twinFunc(){
+    document.getElementById("twin").style.opacity = "1";
+    document.getElementById("twin").style.pointerEvents = "all";
+    window.svg = document.getElementById("twin");
+    makeCloseButton();
+  }
+  function liedFunc(){
+    document.getElementById("lied").style.opacity = "1";
+    document.getElementById("lied").style.pointerEvents = "all";
+    window.svg = document.getElementById("lied");
+    makeCloseButton();
+  }
+  function disapointFunc(){
+    document.getElementById("disapoint").style.opacity = "1";
+    document.getElementById("disapoint").style.pointerEvents = "all";
+    window.svg = document.getElementById("disapoint");
+    makeCloseButton();
+  }
+  function sisterFunc(){
+    document.getElementById("sister").style.opacity = "1";
+    document.getElementById("sister").style.pointerEvents = "all";
+    window.svg = document.getElementById("sister");
+    makeCloseButton();
+  }
+  function mansplainFunc(){
+    document.getElementById("mansplain").style.opacity = "1";
+    document.getElementById("mansplain").style.pointerEvents = "all";
+    window.svg = document.getElementById("mansplain");
+    makeCloseButton();
+  }
+  function decideFunc(){
+    document.getElementById("decide").style.opacity = "1";
+    document.getElementById("decide").style.pointerEvents = "all";
+    window.svg = document.getElementById("decide");
+    makeCloseButton();
+  }
+  function cheapFunc(){
+    document.getElementById("cheap").style.opacity = "1";
+    document.getElementById("cheap").style.pointerEvents = "all";
+    window.svg = document.getElementById("cheap");
+    makeCloseButton();
+  }
+  function presuadeFunc(){
+    document.getElementById("presuade").style.opacity = "1";
+    document.getElementById("presuade").style.pointerEvents = "all";
+    window.svg = document.getElementById("presuade");
+    makeCloseButton();
+  }
+  function forgotFunc(){
+    document.getElementById("forgot").style.opacity = "1";
+    document.getElementById("forgot").style.pointerEvents = "all";
+    window.svg = document.getElementById("forgot");
+    makeCloseButton();
+  }
+  function wantedFunc(){
+    document.getElementById("wanted").style.opacity = "1";
+    document.getElementById("wanted").style.pointerEvents = "all";
+    window.svg = document.getElementById("wanted");
+    makeCloseButton();
+  }
+  function surpriseFunc(){
+    document.getElementById("surprise").style.opacity = "1";
+    document.getElementById("surprise").style.pointerEvents = "all";
+    window.svg = document.getElementById("surprise");
+    makeCloseButton();
+  }
+  function rightwingFunc(){
+    document.getElementById("rightwing").style.opacity = "1";
+    document.getElementById("rightwing").style.pointerEvents = "all";
+    window.svg = document.getElementById("rightwing");
+    makeCloseButton();
+  }
+  function highFunc(){
+    document.getElementById("high").style.opacity = "1";
+    document.getElementById("high").style.pointerEvents = "all";
+    window.svg = document.getElementById("high");
+    makeCloseButton();
+  }
+  function importantFunc(){
+    document.getElementById("important").style.opacity = "1";
+    document.getElementById("important").style.pointerEvents = "all";
+    window.svg = document.getElementById("important");
+    makeCloseButton();
+  }
+  function detectiveFunc(){
+    document.getElementById("detective").style.opacity = "1";
+    document.getElementById("detective").style.pointerEvents = "all";
+    window.svg = document.getElementById("detective");
+    makeCloseButton();
+  }
+  function rabbiFunc(){
+    document.getElementById("rabbi").style.opacity = "1";
+    document.getElementById("rabbi").style.pointerEvents = "all";
+    window.svg = document.getElementById("rabbi");
+    makeCloseButton();
+  }
+  function beforeFunc(){
+    document.getElementById("before").style.opacity = "1";
+    document.getElementById("before").style.pointerEvents = "all";
+    window.svg = document.getElementById("before");
+    makeCloseButton();
+  }
+  function breatheFunc(){
+    document.getElementById("breathe").style.opacity = "1";
+    document.getElementById("breathe").style.pointerEvents = "all";
+    window.svg = document.getElementById("breathe");
+    makeCloseButton();
+  }
+  function blinkFunc(){
+    document.getElementById("blink").style.opacity = "1";
+    document.getElementById("blink").style.pointerEvents = "all";
+    window.svg = document.getElementById("blink");
+    makeCloseButton();
+  }
+  function pomelaFunc(){
+    document.getElementById("pomela").style.opacity = "1";
+    document.getElementById("pomela").style.pointerEvents = "all";
+    window.svg = document.getElementById("pomela");
+    makeCloseButton();
+  }
+  function disappointFunc(){
+    document.getElementById("disappoint").style.opacity = "1";
+    document.getElementById("disappoint").style.pointerEvents = "all";
+    window.svg = document.getElementById("disappoint");
+    makeCloseButton();
+  }
+  function laughFunc(){
+    document.getElementById("laugh").style.opacity = "1";
+    document.getElementById("laugh").style.pointerEvents = "all";
+    window.svg = document.getElementById("laugh");
+    makeCloseButton();
+  }
+  function exitFunc(){
+    document.getElementById("exit").style.opacity = "1";
+    document.getElementById("exit").style.pointerEvents = "all";
+    window.svg = document.getElementById("exit");
+    makeCloseButton();
+  }
+  function lateFunc(){
+    document.getElementById("late").style.opacity = "1";
+    document.getElementById("late").style.pointerEvents = "all";
+    window.svg = document.getElementById("late");
+    makeCloseButton();
+  }
+  function disappearFunc(){
+    document.getElementById("disappear").style.opacity = "1";
+    document.getElementById("disappear").style.pointerEvents = "all";
+    window.svg = document.getElementById("disappear");
+    makeCloseButton();
+  }
+  function shanonFunc(){
+    document.getElementById("shanon").style.opacity = "1";
+    document.getElementById("shanon").style.pointerEvents = "all";
+    window.svg = document.getElementById("shanon");
+    makeCloseButton();
+  }
+  function poetFunc(){
+    document.getElementById("poet").style.opacity = "1";
+    document.getElementById("poet").style.pointerEvents = "all";
+    window.svg = document.getElementById("poet");
+    makeCloseButton();
+  }
+  function epilougeFunc(){
+    document.getElementById("epilouge").style.opacity = "1";
+    document.getElementById("epilouge").style.pointerEvents = "all";
+    window.svg = document.getElementById("epilouge");
+    makeCloseButton();
+  }
+  function freezeFunc(){
+    document.getElementById("freeze").style.opacity = "1";
+    document.getElementById("freeze").style.pointerEvents = "all";
+    window.svg = document.getElementById("freeze");
+    makeCloseButton();
+  }
+  function commonFunc(){
+    document.getElementById("commonist").style.opacity = "1";
+    document.getElementById("commonist").style.pointerEvents = "all";
+    window.svg = document.getElementById("commonist");
+    makeCloseButton();
+  }
+  function cordoroyFunc(){
+    document.getElementById("cordoroy").style.opacity = "1";
+    document.getElementById("cordoroy").style.pointerEvents = "all";
+    window.svg = document.getElementById("cordoroy");
+    makeCloseButton();
+  }
+  function psychoFunc(){
+    document.getElementById("psycho").style.opacity = "1";
+    document.getElementById("psycho").style.pointerEvents = "all";
+    window.svg = document.getElementById("psycho");
+    makeCloseButton();
+  }
+
+  function makeCloseButton(){
+    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
+    newElement.setAttribute("width","55");
+    newElement.setAttribute("height","55");
+    newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
+    newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y"));
+    newElement.style.fill = "#f00";
+    newElement.style.opacity = "0";
+    newElement.addEventListener("click", resetAllPopups, false); 
+    window.svg.appendChild(newElement);
+  }
+  </script>
 </svg>
