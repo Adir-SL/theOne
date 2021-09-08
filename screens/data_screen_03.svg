@@ -6,6 +6,7 @@
 #beb3b3f5-ce3b-4c2d-99b3-f2805e1f27fb > g{
   opacity: 0;
   pointer-events: none;
+  transition: opacity 300ms linear 0s;
 }
 
 </style>
@@ -116,127 +117,127 @@
           <line x1="456.99" y1="1360.01" x2="742.47" y2="1359.99" style="fill: none;stroke: #647c6e;stroke-miterlimit: 10;stroke-width: 0.506001491583064px"/>
         </g>
         <g>
-          <g style="mix-blend-mode: multiply" onclick="masmasFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();masmasFunc();">
             <ellipse cx="1135.95" cy="959.31" rx="55.36" ry="55.36" transform="translate(-345.27 1088.34) rotate(-45.16)" style="fill: url(#f9ac262f-ffa7-4249-8076-24bb5dce4393)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="firstFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();firstFunc();">
             <ellipse cx="791.36" cy="356.24" rx="55.36" ry="55.36" transform="translate(-19.26 666.17) rotate(-45.16)" style="fill: url(#f3d0f100-697c-4960-b848-61f30015340f)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="memFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();memFunc();">
             <ellipse cx="700.31" cy="376.24" rx="55.36" ry="55.36" transform="translate(-60.29 607.51) rotate(-45.16)" style="fill: url(#a9d94777-5e52-4d45-90bc-e59bd46c46a6)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="lecturerFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();lecturerFunc();">
             <ellipse cx="687.42" cy="502.7" rx="55.36" ry="55.36" transform="translate(-153.76 635.66) rotate(-45.16)" style="fill: url(#e22785d0-ff89-4b91-883a-8e1cbb82d898)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="glowingFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();glowingFunc();">
             <ellipse cx="581.86" cy="456.34" rx="55.36" ry="55.36" transform="translate(-152.01 547.14) rotate(-45.16)" style="fill: url(#f365e322-8f2b-409b-b60b-d5f2454302c7)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="aristoFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();aristoFunc();">
             <ellipse cx="779.61" cy="548.64" rx="55.36" ry="55.36" transform="translate(-159.15 714.58) rotate(-45.16)" style="fill: url(#b12d3f5a-b18d-4950-8753-edb4c11fa435)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="emberessedFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();emberessedFunc();">
             <ellipse cx="878.91" cy="481.89" rx="55.36" ry="55.36" transform="translate(-82.54 765.31) rotate(-45.16)" style="fill: url(#e3962876-dae1-4d58-89e3-aab46d4ea91f)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="behindFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();behindFunc();">
             <ellipse cx="994.39" cy="590.48" rx="55.36" ry="55.36" transform="translate(-125.48 879.21) rotate(-45.16)" style="fill: url(#af398d42-7d8c-48d7-9703-bc97c9766b82)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="onionFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();onionFunc();">
             <ellipse cx="871.34" cy="621.15" rx="55.36" ry="55.36" transform="translate(-183.51 801) rotate(-45.16)" style="fill: url(#b1e64957-653a-4b92-a3cc-565a895906f6)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="twinFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();twinFunc();">
             <ellipse cx="635.31" cy="676.47" rx="55.36" ry="55.36" transform="translate(-292.34 649.95) rotate(-45.16)" style="fill: url(#ee5c15f8-fbaf-4464-adc5-196aab49299f)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="liedFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();liedFunc();">
             <ellipse cx="1012.01" cy="760.55" rx="55.36" ry="55.36" transform="translate(-240.88 941.85) rotate(-45.16)" style="fill: url(#ff38cb6d-41a3-437f-b3a3-1559e62392a8)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="disapointFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();disapointFunc();">
             <ellipse cx="907.32" cy="770.42" rx="55.36" ry="55.36" transform="translate(-278.75 870.52) rotate(-45.16)" style="fill: url(#ea0a9c58-5fd6-4297-97af-caac550c4b7d)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="sisterFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();sisterFunc();">
             <ellipse cx="764.77" cy="695.95" rx="55.36" ry="55.36" transform="translate(-267.98 747.49) rotate(-45.16)" style="fill: url(#f6fc49a1-a3cb-404a-9859-bda81d801fe3)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="mansplainFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();mansplainFunc();">
             <ellipse cx="821.74" cy="826.08" rx="55.36" ry="55.36" transform="translate(-343.45 826.26) rotate(-45.16)" style="fill: url(#a8ed9f6b-5e19-4d9b-b5f6-15ead16398ee)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="decideFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();decideFunc();">
             <ellipse cx="1008.19" cy="1157.74" rx="55.36" ry="55.36" transform="translate(-523.64 1056.26) rotate(-45.16)" style="fill: url(#b13d4b02-6dca-419c-b5e1-05d90160d58d)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="cheapFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();cheapFunc();">
             <ellipse cx="699.17" cy="1250.55" rx="55.36" ry="55.36" transform="translate(-680.57 864.51) rotate(-45.16)" style="fill: url(#a0fe4a4b-d588-4016-9c32-8fc4383f006b)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="presuadeFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();presuadeFunc();">
             <ellipse cx="602.78" cy="1254.81" rx="55.36" ry="55.36" transform="translate(-712.01 797.41) rotate(-45.16)" style="fill: url(#bccaae4c-f193-4e30-8a10-5f6d37ab7db4)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="forgotFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();forgotFunc();">
             <ellipse cx="731.73" cy="855.17" rx="55.36" ry="55.36" transform="translate(-390.61 771.01) rotate(-45.16)" style="fill: url(#a41229da-3709-4794-a6e7-d87a707fa1c6)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="wantedFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();wantedFunc();">
             <ellipse cx="715.54" cy="1170.3" rx="55.36" ry="55.36" transform="translate(-618.84 852.45) rotate(-45.16)" style="fill: url(#a1d64028-4a2a-4cad-8450-bd1b1ef9bb01)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="surpriseFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();surpriseFunc();">
             <ellipse cx="804.31" cy="1193.92" rx="55.36" ry="55.36" transform="translate(-609.41 922.36) rotate(-45.16)" style="fill: url(#bbb60b14-4e2b-4bae-a179-6d2b68fe3863)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="rightwingFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();rightwingFunc();">
             <ellipse cx="914.03" cy="1199.26" rx="55.36" ry="55.36" transform="translate(-580.85 1001.73) rotate(-45.16)" style="fill: url(#fff62f3e-fceb-46d9-a46f-61bc410a94b2)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="highFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();highFunc();">
             <ellipse cx="1078.95" cy="1220.73" rx="55.36" ry="55.36" transform="translate(-547.44 1125) rotate(-45.16)" style="fill: url(#ad4f6a3c-2714-4d6e-b8e1-c2d80f3b0452)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="importantFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();importantFunc();">
             <ellipse cx="780.17" cy="1292.02" rx="55.36" ry="55.36" transform="translate(-686.09 934.17) rotate(-45.16)" style="fill: url(#e8e1f4fd-554d-4e33-b6e5-d44561cbb1a5)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="detectiveFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();detectiveFunc();">
             <ellipse cx="958.69" cy="1303.9" rx="55.36" ry="55.36" transform="translate(-641.87 1064.25) rotate(-45.16)" style="fill: url(#a3178727-3a6d-4d62-8ed4-ab4e5282699a)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="rabbiFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();rabbiFunc();">
             <ellipse cx="868.53" cy="1330.75" rx="55.36" ry="55.36" transform="translate(-687.5 1008.24) rotate(-45.16)" style="fill: url(#b124d48c-8225-4a72-98f6-7e222e47ad15)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="beforeFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();beforeFunc();">
             <ellipse cx="1053.2" cy="1368.29" rx="55.36" ry="55.36" transform="translate(-659.66 1150.25) rotate(-45.16)" style="fill: url(#ec1f0dcd-6000-49d2-97c6-3244b85f5077)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="breatheFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();breatheFunc();">
             <ellipse cx="941.95" cy="1107.46" rx="55.36" ry="55.36" transform="translate(-507.52 994.46) rotate(-45.16)" style="fill: url(#bca223bd-9646-4923-9541-27967313b730)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="blinkFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();blinkFunc();">
             <ellipse cx="1114.54" cy="1129.01" rx="55.36" ry="55.36" transform="translate(-471.91 1123.2) rotate(-45.16)" style="fill: url(#bfab2d86-9e5e-4938-9a00-7544146dfe4f)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="pomelaFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();pomelaFunc();">
             <ellipse cx="972.54" cy="925.38" rx="55.36" ry="55.36" transform="translate(-369.39 962.46) rotate(-45.16)" style="fill: url(#a19d4f6f-9c4c-4662-b030-4d6df0fc1193)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="disappointFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();disappointFunc();">
             <ellipse cx="602.65" cy="962.32" rx="55.36" ry="55.36" transform="translate(-504.66 711.07) rotate(-45.16)" style="fill: url(#fb1fda8a-2f94-43a4-87c8-7fa149276318)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="laughFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();laughFunc();">
             <ellipse cx="615.12" cy="810.12" rx="55.36" ry="55.36" transform="translate(-393.06 675.04) rotate(-45.16)" style="fill: url(#a33a18be-82e7-492d-a87d-4ec86054e231)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="exitFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();exitFunc();">
             <ellipse cx="995.03" cy="429.58" rx="55.36" ry="55.36" transform="translate(-11.21 832.22) rotate(-45.16)" style="fill: url(#bdffabc1-8c06-4d4f-b75b-5c38f3deb6ab)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="lateFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();lateFunc();">
             <ellipse cx="766.16" cy="914.18" rx="55.36" ry="55.36" transform="translate(-422.31 812.82) rotate(-45.16)" style="fill: url(#b8e0c6f4-eeda-4fc3-875b-16655a2cdbbf)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="disappearFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();disappearFunc();">
             <ellipse cx="605.96" cy="1135.8" rx="55.36" ry="55.36" transform="translate(-626.69 764.58) rotate(-45.16)" style="fill: url(#e983a52e-6824-4525-add6-620efaa78faa)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="shanonFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();shanonFunc();">
             <ellipse cx="717.12" cy="1026.57" rx="55.36" ry="55.36" transform="translate(-516.46 811.19) rotate(-45.16)" style="fill: url(#be60fe0d-0e5a-4551-b3bc-d4d0156999f0)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="poetFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();poetFunc();">
             <ellipse cx="895.37" cy="1019.38" rx="55.36" ry="55.36" transform="translate(-458.8 935.46) rotate(-45.16)" style="fill: url(#b914763e-0061-4fc9-a61e-db95e5617255)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="epilougeFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();epilougeFunc();">
             <ellipse cx="983.59" cy="1382.94" rx="55.36" ry="55.36" transform="translate(-690.58 1105.22) rotate(-45.16)" style="fill: url(#e77a5f2a-8976-4441-a9ab-e757130b4821)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="freezeFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();freezeFunc();">
             <ellipse cx="1050.04" cy="842.13" rx="55.36" ry="55.36" transform="translate(-287.51 992.87) rotate(-45.16)" style="fill: url(#e284c7a1-69b9-4853-93a9-d23f1c08e8c9)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="commonFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();commonFunc();">
             <ellipse cx="859.07" cy="935.97" rx="55.36" ry="55.36" transform="translate(-410.36 885.13) rotate(-45.16)" style="fill: url(#e45225e9-e7fd-4c61-9f4d-e562f1bb8214)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="cordoroyFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();cordoroyFunc();">
             <ellipse cx="1030.28" cy="974.56" rx="55.36" ry="55.36" transform="translate(-387.24 1017.91) rotate(-45.16)" style="fill: url(#a265cf58-91a8-42e7-9a94-5798f6584650)"/>
           </g>
-          <g style="mix-blend-mode: multiply" onclick="psychoFunc();">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();psychoFunc();">
             <ellipse cx="787.58" cy="1093.81" rx="55.36" ry="55.36" transform="translate(-543.36 880.98) rotate(-45.16)" style="fill: url(#fe294811-aa08-4c24-a9aa-3eb785a12f28)"/>
           </g>
           <g>
@@ -900,7 +901,7 @@
           <line x1="844.35" y1="774.47" x2="830.39" y2="788.43" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         </g>
       </g>
-      <g class="popup" id="disapoint">
+      <g class="popup" id="disappoint">
         <rect x="384.89" y="745.17" width="220" height="220" style="fill: #e5e4e3;opacity: 0.85"/>
         <g>
           <path d="M530.55,816.29H528.3v12.84a.46.46,0,0,1-.45.45h-1.47a.44.44,0,0,1-.45-.45V816.29h-6.18a.46.46,0,0,1-.45-.45v-1.5a.44.44,0,0,1,.45-.42h10.8a.44.44,0,0,1,.45.42v1.5A.46.46,0,0,1,530.55,816.29Z" style="fill: #48554e"/>
@@ -2113,9 +2114,96 @@
     </g>
   </g>
   <script>
+  function resetAllPopups(){
+    document.getElementsByClassName("popup")[0].style.opacity = "0";
+    document.getElementsByClassName("popup")[1].style.opacity = "0";
+    document.getElementsByClassName("popup")[2].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[4].style.opacity = "0";
+    document.getElementsByClassName("popup")[5].style.opacity = "0";
+    document.getElementsByClassName("popup")[6].style.opacity = "0";
+    document.getElementsByClassName("popup")[7].style.opacity = "0";
+    document.getElementsByClassName("popup")[8].style.opacity = "0";
+    document.getElementsByClassName("popup")[9].style.opacity = "0";
+    document.getElementsByClassName("popup")[10].style.opacity = "0";
+    document.getElementsByClassName("popup")[11].style.opacity = "0";
+    document.getElementsByClassName("popup")[12].style.opacity = "0";
+    document.getElementsByClassName("popup")[13].style.opacity = "0";
+    document.getElementsByClassName("popup")[14].style.opacity = "0";
+    document.getElementsByClassName("popup")[15].style.opacity = "0";
+    document.getElementsByClassName("popup")[16].style.opacity = "0";
+    document.getElementsByClassName("popup")[17].style.opacity = "0";
+    document.getElementsByClassName("popup")[18].style.opacity = "0";
+    document.getElementsByClassName("popup")[19].style.opacity = "0";
+    document.getElementsByClassName("popup")[20].style.opacity = "0";
+    document.getElementsByClassName("popup")[21].style.opacity = "0";
+    document.getElementsByClassName("popup")[22].style.opacity = "0";
+    document.getElementsByClassName("popup")[23].style.opacity = "0";
+    document.getElementsByClassName("popup")[24].style.opacity = "0";
+    document.getElementsByClassName("popup")[25].style.opacity = "0";
+    document.getElementsByClassName("popup")[26].style.opacity = "0";
+    document.getElementsByClassName("popup")[27].style.opacity = "0";
+    document.getElementsByClassName("popup")[28].style.opacity = "0";
+    document.getElementsByClassName("popup")[29].style.opacity = "0";
+    document.getElementsByClassName("popup")[30].style.opacity = "0";
+    document.getElementsByClassName("popup")[31].style.opacity = "0";
+    document.getElementsByClassName("popup")[32].style.opacity = "0";
+    document.getElementsByClassName("popup")[33].style.opacity = "0";
+    document.getElementsByClassName("popup")[34].style.opacity = "0";
+    document.getElementsByClassName("popup")[35].style.opacity = "0";
+    document.getElementsByClassName("popup")[36].style.opacity = "0";
+    document.getElementsByClassName("popup")[37].style.opacity = "0";
+    document.getElementsByClassName("popup")[38].style.opacity = "0";
+    document.getElementsByClassName("popup")[39].style.opacity = "0";
+    document.getElementsByClassName("popup")[40].style.opacity = "0";
+    document.getElementsByClassName("popup")[41].style.opacity = "0";
+
+    document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[2].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[6].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[7].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[9].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[10].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[11].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[12].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[13].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[14].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[15].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[16].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[17].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[18].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[19].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[20].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[21].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[22].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[23].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[24].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[25].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[26].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[27].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[29].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[30].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[31].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[32].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[33].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[34].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[35].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[36].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[37].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[38].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[39].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[40].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[41].style.pointerEvents = "none";
+  }
   function masmasFunc(){
     document.getElementById("masmas").style.opacity = "1";
     document.getElementById("masmas").style.pointerEvents = "all";
+    window.svg = document.getElementById("masmas");
+    makeCloseButton();
   }
   function firstFunc(){
     document.getElementById("first").style.opacity = "1";
@@ -2208,6 +2296,86 @@
   function detectiveFunc(){
     document.getElementById("detective").style.opacity = "1";
     document.getElementById("detective").style.pointerEvents = "all";
+  }
+  function rabbiFunc(){
+    document.getElementById("rabbi").style.opacity = "1";
+    document.getElementById("rabbi").style.pointerEvents = "all";
+  }
+  function beforeFunc(){
+    document.getElementById("before").style.opacity = "1";
+    document.getElementById("before").style.pointerEvents = "all";
+  }
+  function breatheFunc(){
+    document.getElementById("breathe").style.opacity = "1";
+    document.getElementById("breathe").style.pointerEvents = "all";
+  }
+  function blinkFunc(){
+    document.getElementById("blink").style.opacity = "1";
+    document.getElementById("blink").style.pointerEvents = "all";
+  }
+  function pomelaFunc(){
+    document.getElementById("pomela").style.opacity = "1";
+    document.getElementById("pomela").style.pointerEvents = "all";
+  }
+  function disappointFunc(){
+    document.getElementById("disappoint").style.opacity = "1";
+    document.getElementById("disappoint").style.pointerEvents = "all";
+  }
+  function laughFunc(){
+    document.getElementById("laugh").style.opacity = "1";
+    document.getElementById("laugh").style.pointerEvents = "all";
+  }
+  function exitFunc(){
+    document.getElementById("exit").style.opacity = "1";
+    document.getElementById("exit").style.pointerEvents = "all";
+  }
+  function lateFunc(){
+    document.getElementById("late").style.opacity = "1";
+    document.getElementById("late").style.pointerEvents = "all";
+  }
+  function disappearFunc(){
+    document.getElementById("disappear").style.opacity = "1";
+    document.getElementById("disappear").style.pointerEvents = "all";
+  }
+  function shanonFunc(){
+    document.getElementById("shanon").style.opacity = "1";
+    document.getElementById("shanon").style.pointerEvents = "all";
+  }
+  function poetFunc(){
+    document.getElementById("poet").style.opacity = "1";
+    document.getElementById("poet").style.pointerEvents = "all";
+  }
+  function epilougeFunc(){
+    document.getElementById("epilouge").style.opacity = "1";
+    document.getElementById("epilouge").style.pointerEvents = "all";
+  }
+  function freezeFunc(){
+    document.getElementById("freeze").style.opacity = "1";
+    document.getElementById("freeze").style.pointerEvents = "all";
+  }
+  function commonFunc(){
+    document.getElementById("commonist").style.opacity = "1";
+    document.getElementById("commonist").style.pointerEvents = "all";
+  }
+  function cordoroyFunc(){
+    document.getElementById("cordoroy").style.opacity = "1";
+    document.getElementById("cordoroy").style.pointerEvents = "all";
+  }
+  function psychoFunc(){
+    document.getElementById("psycho").style.opacity = "1";
+    document.getElementById("psycho").style.pointerEvents = "all";
+  }
+
+  function makeCloseButton(){
+    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
+    newElement.setAttribute("width","55");
+    newElement.setAttribute("height","55");
+    newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
+    newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y"));
+    newElement.style.fill = "#f00";
+    newElement.style.opacity = "0.3";
+    newElement.addEventListener("click", resetAllPopups, false); 
+    window.svg.appendChild(newElement);
   }
   </script>
 </svg>
