@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
 <style>
+#b30bc61e-d5de-4bb2-bdc5-6b0170064337{
+  display: none;
+}
 #beb3b3f5-ce3b-4c2d-99b3-f2805e1f27fb > g{
   opacity: 0;
 }
@@ -278,7 +281,7 @@
           <line x1="514.51" y1="263.04" x2="500.55" y2="277" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         </g>
       </g>
-      <g class="popup" id="embaressed">
+      <g class="popup" id="first">
         <rect x="793.76" y="232.54" width="220" height="220" style="fill: #e5e4e3;opacity: 0.85"/>
         <g>
           <path d="M819.56,317.24a.45.45,0,0,1-.48-.45l-.72-15.09a.4.4,0,0,1,.42-.45h1.47a.4.4,0,0,1,.45.42l.6,13.11c4.77-.6,6.6-3.6,6.6-8.64v-2.22c0-.15-.06-.18-.21-.21l-3.39-.45a.38.38,0,0,1-.36-.48l.24-1.47a.41.41,0,0,1,.51-.36l3.9.54a1.71,1.71,0,0,1,1.68,1.89v2.76C830.27,313.1,826.79,317.24,819.56,317.24Z" style="fill: #48554e"/>
@@ -2110,4 +2113,14 @@
       </g>
     </g>
   </g>
+  <script>
+  function masmasFunc(){
+    document.getElementById("masmas").style.opacity = "1";
+    document.getElementById("masmas").style.pointerEvents = "all";
+  }
+  function firstFunc(){
+    document.getElementById("first").style.opacity = "1";
+    document.getElementById("first").style.pointerEvents = "all";
+  }
+  </script>
 </svg>
