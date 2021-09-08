@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
 <style>
-#b30bc61e-d5de-4bb2-bdc5-6b0170064337{
+#e2cf7453-b2cf-4ccb-a110-2b4af0e8c33e{
   display: none;
 }
-#beb3b3f5-ce3b-4c2d-99b3-f2805e1f27fb > g{
+#b6e08ad4-7b63-4680-a986-90634806dcf7 > g{
   opacity: 0;
   pointer-events: none;
   transition: opacity 300ms linear 0s;
@@ -117,19 +117,19 @@
           <line x1="456.99176" y1="1360.01087" x2="742.4709" y2="1359.9941" style="fill: none;stroke: #647c6e;stroke-miterlimit: 10;stroke-width: 0.506001491583064px"/>
         </g>
         <g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();masmasFunc();">
             <ellipse cx="1135.94952" cy="959.30629" rx="55.35984" ry="55.36385" transform="translate(-345.26662 1088.33582) rotate(-45.1595)" style="fill: url(#f58de2a8-9a27-47ad-b35e-8ed30bba879b)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();firstFunc();">
             <ellipse cx="791.35916" cy="356.24262" rx="55.35988" ry="55.36389" transform="translate(-19.25812 666.17448) rotate(-45.15951)" style="fill: url(#a63086f5-6c9a-469c-b91a-a4e13ba775de)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();memFunc();">
             <ellipse cx="700.30634" cy="376.24383" rx="55.35993" ry="55.36394" transform="translate(-60.28886 607.50846) rotate(-45.15947)" style="fill: url(#a303708f-da55-4062-a7cb-41d4531063fc)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();lecturerFunc();">
             <ellipse cx="687.41637" cy="502.70359" rx="55.35993" ry="55.36394" transform="translate(-153.75873 635.65705) rotate(-45.15947)" style="fill: url(#ae67749e-6643-4f01-819a-44db60f334f3)"/>
           </g>
-          <g style="mix-blend-mode: multiply">
+          <g style="mix-blend-mode: multiply" onclick="resetAllPopups();glowingFunc();">
             <ellipse cx="581.85891" cy="456.33907" rx="55.35985" ry="55.36386" transform="translate(-152.00798 547.1384) rotate(-45.15951)" style="fill: url(#ac45b399-3cb6-4c32-8fdb-a2773831db66)"/>
           </g>
           <g style="mix-blend-mode: multiply">
