@@ -2173,5 +2173,41 @@
     document.getElementById("decide").style.opacity = "1";
     document.getElementById("decide").style.pointerEvents = "all";
   }
+  function cheapFunc(){
+    document.getElementById("cheap").style.opacity = "1";
+    document.getElementById("cheap").style.pointerEvents = "all";
+  }
+  function presuadeFunc(){
+    document.getElementById("presuade").style.opacity = "1";
+    document.getElementById("presuade").style.pointerEvents = "all";
+  }
+  function forgotFunc(){
+    document.getElementById("forgot").style.opacity = "1";
+    document.getElementById("forgot").style.pointerEvents = "all";
+  }
+  function wantedFunc(){
+    document.getElementById("wanted").style.opacity = "1";
+    document.getElementById("wanted").style.pointerEvents = "all";
+  }
+  function surpriseFunc(){
+    document.getElementById("surprise").style.opacity = "1";
+    document.getElementById("surprise").style.pointerEvents = "all";
+  }
+  function rightwingFunc(){
+    document.getElementById("rightwing").style.opacity = "1";
+    document.getElementById("rightwing").style.pointerEvents = "all";
+  }
+  function highFunc(){
+    document.getElementById("high").style.opacity = "1";
+    document.getElementById("high").style.pointerEvents = "all";
+  }
+  function importantFunc(){
+    document.getElementById("important").style.opacity = "1";
+    document.getElementById("important").style.pointerEvents = "all";
+  }
+  function detectiveFunc(){
+    document.getElementById("detective").style.opacity = "1";
+    document.getElementById("detective").style.pointerEvents = "all";
+  }
   </script>
 </svg>
