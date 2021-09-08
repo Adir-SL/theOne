@@ -1679,10 +1679,34 @@
   <rect x="935" y="210" width="100" height="100" fill="#f00" onclick="northFunc();" />
 
   <script>
+  function resetPopups(){
+    document.getElementsByClassName("popup")[0].style.opacity = "0";
+    document.getElementsByClassName("popup")[1].style.opacity = "0";
+    document.getElementsByClassName("popup")[2].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[4].style.opacity = "0";
+    document.getElementsByClassName("popup")[5].style.opacity = "0";
+    document.getElementsByClassName("popup")[6].style.opacity = "0";
+    document.getElementsByClassName("popup")[7].style.opacity = "0";
+
+    document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[2].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[6].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[7].style.pointerEvents = "none";
+  }
   function northFunc(){
     resetPopups();
     document.getElementById("north").style.opacity = "1";
     document.getElementById("north").style.pointerEvents = "all";
+  }
+  function telavivFunc(){
+    resetPopups();
+    document.getElementById("telaviv").style.opacity = "1";
+    document.getElementById("telaviv").style.pointerEvents = "all";
   }
   </script>
 </svg>
