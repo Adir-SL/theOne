@@ -1,4 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
+<style>
+#e2cf7453-b2cf-4ccb-a110-2b4af0e8c33e{
+  display: none;
+}
+#b6e08ad4-7b63-4680-a986-90634806dcf7 > g{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms linear 0s;
+}
+</style>
   <defs>
     <radialGradient id="a98f4601-ba17-435a-9ead-678be57052cc" cx="1049.36" cy="494.69" r="154.96" gradientUnits="userSpaceOnUse">
       <stop offset="0.73" stop-color="#9dcbc1"/>
@@ -48,7 +58,7 @@
       </g>
     </g>
     <g id="ba870531-38a1-4501-9097-f9e620a8459c" data-name="+">
-      <g>
+      <g class="popup" id="miz">
         <rect x="668.42" y="460.32" width="417.67" height="446.87" style="fill: #e5e4e3;opacity: 0.85"/>
         <g>
           <path d="M703.84,537.1l-1.12-.53a.33.33,0,0,1-.17-.46l.53-1.13a.31.31,0,0,1,.45-.14l.94.43h6.17a1.68,1.68,0,0,1,1.68,1.68v9.51A1.34,1.34,0,0,1,711,547.8h-6.69a.45.45,0,0,1-.44-.45Zm6.58.21c0-.09,0-.14-.17-.14h-4.56v8.74h4.56c.12,0,.17,0,.17-.17Z" style="fill: #48554e"/>
@@ -296,7 +306,7 @@
         </g>
         <circle cx="1042.77" cy="537.48" r="9.12" style="fill: #9dcbc1;mix-blend-mode: multiply"/>
       </g>
-      <g>
+      <g class="popup" id="ash">
         <rect x="404.07" y="1030.64" width="417.67" height="412.43" style="fill: #e5e4e3;opacity: 0.85"/>
         <g>
           <path d="M496.51,1118.09h-1.18a.35.35,0,0,1-.36-.36v-10s0-.07-.07-.1l-2.76-.69a.34.34,0,0,1-.24-.43l.29-1.11a.36.36,0,0,1,.46-.26l3.43.89a.92.92,0,0,1,.79,1v10.65A.36.36,0,0,1,496.51,1118.09Z" style="fill: #48554e"/>
