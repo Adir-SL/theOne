@@ -215,7 +215,7 @@
           <line x1="657.9" y1="347.34" x2="643.94" y2="361.3" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         </g>
       </g>
-      <g>
+      <g class="popup" id="expect">
         <rect x="715.15" y="327.44" width="220" height="220" style="fill: #e5e4e3;opacity: 0.85"/>
         <g>
           <path d="M860.81,371.23h-2.25v12.84a.46.46,0,0,1-.45.45h-1.47a.44.44,0,0,1-.45-.45V371.23H850a.46.46,0,0,1-.45-.45v-1.5a.44.44,0,0,1,.45-.42h10.8a.44.44,0,0,1,.45.42v1.5A.46.46,0,0,1,860.81,371.23Z" style="fill: #48554e"/>
