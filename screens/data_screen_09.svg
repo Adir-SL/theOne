@@ -6,7 +6,7 @@
 .popup{
   opacity: 0;
   pointer-events: none;
-  transition: opacity 300 linear 0s;
+  transition: opacity 300ms linear 0s;
 }
 </style>
   <g id="e96d63d3-01bb-4123-bf1f-2cfe1fbe10e3" data-name="text">
@@ -2090,6 +2090,104 @@
     document.getElementsByClassName("popup")[37].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[38].style.pointerEvents = "none";
   }
+  function shanonFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("shanon");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function liedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("lied");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function lateFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("late");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function rabbiFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("rabbi");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function breatheFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("breathe");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function lecturerFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("lecturer");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function pomelaFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("pomela]");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function aristoFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("aristo");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function exitFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("exit");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function memrableFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("memrable");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function epilougeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("epilouge");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function expectFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("expect");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function laughFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("laugh");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function juiceFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("juice");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   function mansplainFunc(){
     resetAllPopups();
     window.svg = document.getElementById("mansplain");
@@ -2135,6 +2233,13 @@
   function rightwingFunc(){
     resetAllPopups();
     window.svg = document.getElementById("rightwing");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function sisterFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("sister");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
