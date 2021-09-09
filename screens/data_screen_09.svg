@@ -2090,6 +2090,13 @@
     document.getElementsByClassName("popup")[37].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[38].style.pointerEvents = "none";
   }
+  function behindFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("behind");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   function importantFunc(){
     resetAllPopups();
     window.svg = document.getElementById("important");
@@ -2218,7 +2225,7 @@
   }
   function pomelaFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("pomela]");
+    window.svg = document.getElementById("pomela");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
