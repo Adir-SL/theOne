@@ -5,6 +5,9 @@
   pointer-events: none;
   transition: opacity 300ms linear 0s;
 }
+#f41a7e0c-aa92-4c02-9356-ed944af67b81{
+  display: none;
+}
 </style>
   <g id="a97d8128-ff9f-47ae-b75b-f29911cbcc58" data-name="text">
     <g>
@@ -73,6 +76,8 @@
       <circle cx="751.87" cy="1594.79" r="9.12" style="fill: #954299"/>
     </g>
   </g>
+  <rect x="300" y="320" width="930" height="1100" fill="#00f" style="opacity:0;" onclick="abroadFunc();" />
+  <rect x="660" y="790" width="220" height="260" fill="#f00" style="opacity:0;" onclick="israeliFunc();" />
   <g id="a8988f96-0082-4255-8edd-be70d0bdde77" data-name="+">
     <g class="popup" id="israeli">
       <rect x="343.38" y="914.01" width="417.67" height="412.43" style="fill: #e5e4e3;opacity: 0.85"/>
@@ -607,4 +612,39 @@
       </g>
     </g>
   </g>
+  <script>
+  function resetAllPopups(){
+    document.getElementsByClassName("popup")[0].style.opacity = "0";
+    document.getElementsByClassName("popup")[1].style.opacity = "0";
+
+    document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
+  }
+  function israeliFunc(){
+    resetAllPopups();
+    document.getElementById("israeli").style.opacity = "1";
+    document.getElementById("israeli").style.pointerEvents = "all";
+    window.svg = document.getElementById("israeli");
+    makeCloseButton();
+  }
+  function abroadFunc(){
+    resetAllPopups();
+    document.getElementById("abroad").style.opacity = "1";
+    document.getElementById("abroad").style.pointerEvents = "all";
+    window.svg = document.getElementById("abroad");
+    makeCloseButton();
+  }
+
+  function makeCloseButton(){
+    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
+    newElement.setAttribute("width","55");
+    newElement.setAttribute("height","55");
+    newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
+    newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y"));
+    newElement.style.fill = "#f00";
+    newElement.style.opacity = "0";
+    newElement.addEventListener("click", resetAllPopups, false); 
+    window.svg.appendChild(newElement);
+  }
+  </script>
 </svg>
