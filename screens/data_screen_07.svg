@@ -114,7 +114,7 @@
       <line x1="1064.96" y1="1288.79" x2="1064.96" y2="1345.3" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 3.04213584517743px"/>
     </g>
     <g onclick="lateFunc();">
-    <circle cx="650" cy="1050" r="380" fill="#f00" opacity=".5" />
+    <circle cx="650" cy="1050" r="380" fill="#f00" opacity="0" />
       <line x1="703.83" y1="693.18" x2="644.91" y2="1046.22" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 4.56320376776615px"/>
       <line x1="761.13" y1="707.69" x2="644.91" y2="1046.22" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 4.56320376776615px"/>
       <line x1="815.27" y1="731.44" x2="644.91" y2="1046.22" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 4.56320376776615px"/>
