@@ -1130,7 +1130,7 @@
     newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
     newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y"));
     newElement.style.fill = "#f00";
-    newElement.style.opacity = ".4";
+    newElement.style.opacity = "0";
     newElement.addEventListener("click", resetAllPopups, false); 
     window.svg.appendChild(newElement);
   }
