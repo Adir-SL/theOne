@@ -1069,9 +1069,9 @@
     document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
   }
-  function breatheFunc(){
+  function mansplainFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("breathe");
+    window.svg = document.getElementById("mansplain");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
@@ -1083,23 +1083,23 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function presuadeFunc(){
+  function cordoroyFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("presuade");
+    window.svg = document.getElementById("cordoroy");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function disapointFunc(){
+  function beforeFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("disapoint");
+    window.svg = document.getElementById("before");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function epilougeFunc(){
+  function rightwingFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("epilouge");
+    window.svg = document.getElementById("rightwing");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
