@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
 <style>
-#e2cf7453-b2cf-4ccb-a110-2b4af0e8c33e{
-  display: none;
-}
-#b6e08ad4-7b63-4680-a986-90634806dcf7 > g{
+#ba870531-38a1-4501-9097-f9e620a8459c > g{
   opacity: 0;
   pointer-events: none;
   transition: opacity 300ms linear 0s;
