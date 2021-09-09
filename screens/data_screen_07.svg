@@ -43,6 +43,7 @@
       </g>
     </g>
     <g onclick="wantedFunc();">
+    <circle cx="960" cy="640" r="300" fill="#f00" opacity="0" />
       <line x1="1019.24" y1="365.89" x2="960.49" y2="642.29" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 4.56320376776615px"/>
       <line x1="1075.42" y1="384.15" x2="960.49" y2="642.29" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 4.56320376776615px"/>
       <line x1="1126.58" y1="413.68" x2="960.49" y2="642.29" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 4.56320376776615px"/>
