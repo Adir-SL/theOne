@@ -192,7 +192,7 @@
         <polygon points="489.93 1166.31 350.9 1166.31 350.9 1305.34 489.93 1305.34 628.97 1305.34 628.97 1166.31 489.93 1166.31" style="fill: url(#b8b63b3b-4de1-46ff-808d-ddf17e065d2a)"/>
         <polygon points="489.93 888.24 350.9 888.24 350.9 1027.27 350.9 1166.31 489.93 1166.31 628.97 1166.31 628.97 1027.27 628.97 888.24 489.93 888.24" style="fill: url(#b9fca1dc-900f-46d5-8048-95a821aaa164)"/>
         <polygon points="1046.07 332.1 907.03 332.1 768 332.1 628.97 332.1 489.93 332.1 489.93 471.13 628.97 471.13 768 471.13 907.03 471.13 1046.07 471.13 1185.1 471.13 1185.1 332.1 1046.07 332.1" style="fill: url(#a1c9bd3b-8f4c-44ff-a228-9a1aa0765133)"/>
-        <polygon points="1046.07 471.13 907.03 471.13 768 471.13 628.97 471.13 628.97 610.17 628.97 749.21 628.97 888.24 628.97 1027.27 628.97 1166.31 768 1166.31 907.03 1166.31 1046.07 1166.31 1185.1 1166.31 1185.1 1027.27 1185.1 888.24 1185.1 749.21 1185.1 610.17 1185.1 471.13 1046.07 471.13" style="fill: url(#b8b63b3b-4de1-46ff-808d-ddf17e065d2a)"/>
+        <polygon points="1046.07 471.13 907.03 471.13 768 471.13 628.97 471.13 628.97 610.17 628.97 749.21 628.97 888.24 628.97 1027.27 628.97 1166.31 768 1166.31 907.03 1166.31 1046.07 1166.31 1185.1 1166.31 1185.1 1027.27 1185.1 888.24 1185.1 749.21 1185.1 610.17 1185.1 471.13 1046.07 471.13" style="fill: url(#b8b63b3b-4de1-46ff-808d-ddf17e065d2a)" onclick="twinFunc();"/>
         <rect x="628.97" y="1166.31" width="139.03" height="139.03" style="fill: url(#a98d18fb-896f-4102-a90d-14dc01e3c2a4)"/>
       </g>
     </g>
@@ -1062,12 +1062,16 @@
     document.getElementsByClassName("popup")[2].style.opacity = "0";
     document.getElementsByClassName("popup")[3].style.opacity = "0";
     document.getElementsByClassName("popup")[4].style.opacity = "0";
+    document.getElementsByClassName("popup")[5].style.opacity = "0";
+    document.getElementsByClassName("popup")[6].style.opacity = "0";
 
     document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[2].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[6].style.pointerEvents = "none";
   }
   function mansplainFunc(){
     resetAllPopups();
@@ -1093,6 +1097,20 @@
   function beforeFunc(){
     resetAllPopups();
     window.svg = document.getElementById("before");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function twinFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("twin");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function poetFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("poet");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
