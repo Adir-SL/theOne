@@ -95,7 +95,7 @@
       <line x1="1013.39" y1="1066.57" x2="1013.39" y2="1141.92" style="fill: none;stroke: #9dcbc1;stroke-miterlimit: 10;stroke-width: 3.04213584517743px"/>
     </g>
     <g onclick="liedFunc();">
-    <circle cx="1010" cy="1140" r="90" fill="#f00" opacity=".6" />
+    <circle cx="1060" cy="1350" r="70" fill="#f00" opacity="0" />
       <line x1="1086.59" y1="1293.09" x2="1064.96" y2="1345.3" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 3.04213584517743px"/>
       <line x1="1104.93" y1="1305.34" x2="1064.96" y2="1345.3" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 3.04213584517743px"/>
       <line x1="1117.18" y1="1323.68" x2="1064.96" y2="1345.3" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 3.04213584517743px"/>
