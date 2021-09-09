@@ -2090,6 +2090,90 @@
     document.getElementsByClassName("popup")[37].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[38].style.pointerEvents = "none";
   }
+  function importantFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("important");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function masmasFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("masmas");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function cheapFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("cheap");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function blinkFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("blink");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function emberessedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("emberessed");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function forgotFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("forgot");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function firstFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("first");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function freezeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("freeze");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function presuadeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("presuade");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function surpriseFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("surprise");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function disappearFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("disappear");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function commonFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("common");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   function shanonFunc(){
     resetAllPopups();
     window.svg = document.getElementById("shanon");
