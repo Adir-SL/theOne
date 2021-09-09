@@ -4,10 +4,9 @@
   display: none;
 }
 .popup{
-  display: none;
-}
-.popup:nth-of-type(1){
-  display: block;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300 linear 0s;
 }
 </style>
   <g id="e96d63d3-01bb-4123-bf1f-2cfe1fbe10e3" data-name="text">
