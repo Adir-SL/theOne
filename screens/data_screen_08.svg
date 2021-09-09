@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
+<style>
+.popup{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms linear 0s;
+}
+</style>
   <defs>
     <pattern id="ac3339de-93ec-48fa-af57-d6d9806b12b6" data-name="New Pattern Swatch 6" width="40" height="64.94" patternTransform="translate(-1588.29 -803.98) rotate(-90) scale(1.82)" patternUnits="userSpaceOnUse" viewBox="0 0 40 64.94">
       <rect width="40" height="64.94" style="fill: none"/>
