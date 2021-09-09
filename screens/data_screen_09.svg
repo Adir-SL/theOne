@@ -89,7 +89,7 @@
         <rect x="623.82" y="502.93" width="45.51" height="44.5" style="fill: #f8b090" onclick="epilougeFunc();"/>
         <rect x="532.77" y="1125.89" width="45.51" height="44.5" style="fill: #f8b090" onclick="onionFunc();"/>
         <rect x="532.77" y="947.9" width="45.51" height="44.5" style="fill: #f8b090" onclick="twinFunc();"/>
-        <rect x="532.77" y="814.42" width="45.51" height="44.5" style="fill: #f8b090" onclick="disappointFunc();"/>
+        <rect x="532.77" y="814.42" width="45.51" height="44.5" style="fill: #f8b090" onclick="disapointFunc();"/>
         <rect x="532.77" y="636.44" width="45.51" height="44.48" style="fill: #f8b090" onclick="exitFunc();"/>
         <rect x="532.77" y="547.44" width="45.51" height="44.5" style="fill: #f8b090" onclick="laughFunc();"/>
         <rect x="487.23" y="1214.89" width="45.54" height="44.5" style="fill: #f8b090" onclick="cheapFunc();"/>
