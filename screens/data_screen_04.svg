@@ -505,4 +505,6 @@
       </g>
     </g>
   </g>
+  <rect x="300" y="450" width="930" height="930" fill="#f00" style="opacity:0.3" onclick="ashFunc();" />
+  <rect x="890" y="330" width="320" height="320" fill="#f00" style="opacity:0.3" onclick="mizFunc();" />
 </svg>
