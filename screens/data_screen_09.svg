@@ -2286,6 +2286,13 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
+  function onionFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("onion");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   function cordoroyFunc(){
     resetAllPopups();
     window.svg = document.getElementById("cordoroy");
@@ -2324,6 +2331,34 @@
   function sisterFunc(){
     resetAllPopups();
     window.svg = document.getElementById("sister");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function wantedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("wanted");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function disapointFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("disapoint");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function decideFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("decide");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function psychoFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("psycho");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
