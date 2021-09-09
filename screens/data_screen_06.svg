@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
+<style>
+.popup{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms linear 0s;
+}
+</style>
   <defs>
     <radialGradient id="e563e403-9741-4b14-860d-a0b5967e53aa" cx="9334.09472" cy="-15266.95081" r="28.10442" gradientTransform="matrix(0.57525, -0.5754, 0.57536, 0.57529, 3846.96709, 15130.99638)" gradientUnits="userSpaceOnUse">
       <stop offset="0.2" stop-color="#9dcbc1"/>
@@ -223,44 +230,44 @@
       <path d="M619.86688,1538.2449a.43054.43054,0,0,1-.03027-.66845l.97266-1.0337a.41694.41694,0,0,1,.63769-.03027l1.55078,1.459c5.47071-2.03663,7.751-.57764,7.93262,2.06689l.72949,11.30713a1.43927,1.43927,0,0,1-1.42871,1.61084h-4.46777a.46769.46769,0,0,1-.45606-.45606V1551.011a.46769.46769,0,0,1,.45606-.45606h3.25293a.19153.19153,0,0,0,.21191-.21289l-.57715-9.78711c-.09082-1.459-1.125-1.88476-5.13672-.42578l-1.39843,12.37109a.49008.49008,0,0,1-.54688.45606h-1.36816a.424.424,0,0,1-.45606-.5166l1.459-12.94873Z" style="fill: #e3c867"/>
     </g>
     <circle cx="397.10436" cy="1524.78397" r="20.80232" transform="translate(-964.09061 731.18062) rotate(-45.15951)" style="fill: url(#fc6c0787-6421-4e01-8e99-5542573aeb5c)"/>
-    <g>
+    <g onclick="presuadeFunc();">
       <g>
         <line x1="898.83433" y1="374.54429" x2="919.94296" y2="374.54429" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
         <line x1="909.38865" y1="363.98997" x2="909.38865" y2="385.09861" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
       </g>
-      <circle cx="909.3883" cy="374.54401" r="20" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
+      <circle cx="909.3883" cy="374.54401" r="20" style="fill: #ff000000;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
     </g>
-    <g>
+    <g onclick="disapointFunc();">
       <g>
         <line x1="688.73349" y1="634.34928" x2="709.84213" y2="634.34928" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
         <line x1="699.28781" y1="623.79496" x2="699.28781" y2="644.9036" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
       </g>
-      <circle cx="699.28746" cy="634.349" r="20" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
+      <circle cx="699.28746" cy="634.349" r="20" style="fill: #ff000000;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
     </g>
-    <g>
+    <g onclick="epilougeFunc();">
       <g>
         <line x1="1157.44603" y1="904.69665" x2="1178.55466" y2="904.69665" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
         <line x1="1168.00035" y1="894.14234" x2="1168.00035" y2="915.25097" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
       </g>
-      <circle cx="1168" cy="904.69637" r="20" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
+      <circle cx="1168" cy="904.69637" r="20" style="fill: #ff000000;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
     </g>
-    <g>
+    <g onclick="breatheFunc();">
       <g>
         <line x1="902.89381" y1="1176.26753" x2="924.00245" y2="1176.26753" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
         <line x1="913.44813" y1="1165.71322" x2="913.44813" y2="1186.82185" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
       </g>
-      <circle cx="913.44778" cy="1176.26726" r="20" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
+      <circle cx="913.44778" cy="1176.26726" r="20" style="fill: #ff000000;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.05275317439658px"/>
     </g>
-    <g>
+    <g onclick="detectiveFunc();">
       <g>
         <line x1="755.95045" y1="1447.16846" x2="780.50757" y2="1447.16846" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.38810473124186px"/>
         <line x1="768.22901" y1="1434.8899" x2="768.22901" y2="1459.44702" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.38810473124186px"/>
       </g>
-      <circle cx="768.22861" cy="1447.16813" r="23.26737" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.38810473124186px"/>
+      <circle cx="768.22861" cy="1447.16813" r="23.26737" style="fill: #ff000000;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.38810473124186px"/>
     </g>
   </g>
   <g id="f90cad96-789f-45f1-907d-a24e91237544" data-name="+">
-    <g>
+    <g class="popup" id="presuade">
       <rect x="889.3883" y="424.54401" width="377.66615" height="415.30701" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M946.20087,512.01639h-1.17676a.36892.36892,0,0,1-.35937-.35987v-8.665a1.61386,1.61386,0,0,0-1.63282-1.60791h-5.18457a.369.369,0,0,1-.35937-.36035v-1.1997a.34862.34862,0,0,1,.35937-.33643h5.18457a3.51377,3.51377,0,0,1,3.52832,3.50439v8.665A.36893.36893,0,0,1,946.20087,512.01639Zm-6.72071-4.39258v4.03271a.349.349,0,0,1-.33593.35987H937.944a.36911.36911,0,0,1-.36035-.35987V507.576c0-.57617.24023-2.88037.24023-2.88037a.32294.32294,0,0,1,.38379-.312l1.17579.12012a.32342.32342,0,0,1,.3125.38428S939.48016,507.096,939.48016,507.62381Z" style="fill: #48554e"/>
@@ -452,7 +459,7 @@
         <line x1="933.3494" y1="454.54404" x2="919.3883" y2="468.50509" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g>
+    <g class="popup" id="epilouge">
       <rect x="810.33385" y="954.69637" width="377.66615" height="352.68552" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M893.76239,1042.10086h-8.64062a.36911.36911,0,0,1-.36036-.35986v-1.17627a.35351.35351,0,0,1,.36036-.35987h5.54394v-7.1289a1.6078,1.6078,0,0,0-1.6084-1.60791h-3.168a.3692.3692,0,0,1-.36035-.36035V1029.908a.34888.34888,0,0,1,.36035-.33643h3.168a3.49378,3.49378,0,0,1,3.50489,3.5044v7.1289h1.20019a.35329.35329,0,0,1,.35938.35987v1.17627A.36893.36893,0,0,1,893.76239,1042.10086Z" style="fill: #48554e"/>
@@ -600,7 +607,7 @@
         <line x1="854.29495" y1="984.6964" x2="840.33385" y2="998.65745" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g>
+    <g class="popup" id="disapoint">
       <rect x="438.3919" y="614.349" width="210.89556" height="173.77855" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M571.46259,691.19119h-1.80078v10.273a.36892.36892,0,0,1-.35938.35986h-1.17676a.353.353,0,0,1-.35937-.35986v-10.273H562.822a.3692.3692,0,0,1-.36035-.36035v-1.19971a.34887.34887,0,0,1,.36035-.33642h8.64063a.34949.34949,0,0,1,.36035.33642v1.19971A.36988.36988,0,0,1,571.46259,691.19119Z" style="fill: #48554e"/>
@@ -623,7 +630,7 @@
         <line x1="482.353" y1="644.34903" x2="468.3919" y2="658.31008" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g>
+    <g class="popup" id="breathe">
       <rect x="652.55222" y="1156.26726" width="210.89556" height="173.77855" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M694.13641,1246.57449h-1.17675a.353.353,0,0,1-.35938-.35986v-12.8169c0-.04834,0-.07226-.07226-.09619l-2.76075-.69629a.34245.34245,0,0,1-.23925-.43164l.28711-1.10449a.33283.33283,0,0,1,.45605-.26367l3.43262.88818a.99811.99811,0,0,1,.792,1.104v13.417A.36893.36893,0,0,1,694.13641,1246.57449Z" style="fill: #48554e"/>
@@ -652,7 +659,7 @@
         <line x1="696.51333" y1="1186.26728" x2="682.55222" y2="1200.22833" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g>
+    <g class="popup" id="detective">
       <rect x="337.29509" y="1218.82064" width="377.66615" height="413.77855" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M390.96356,1295.64871h-1.80078v10.273a.36892.36892,0,0,1-.35937.35986h-1.17676a.353.353,0,0,1-.35938-.35986v-10.273h-4.94433a.3692.3692,0,0,1-.36035-.36035v-1.19971a.34887.34887,0,0,1,.36035-.33642h8.64062a.34948.34948,0,0,1,.36035.33642v1.19971A.36988.36988,0,0,1,390.96356,1295.64871Z" style="fill: #48554e"/>
