@@ -63,38 +63,38 @@
     </g>
     <g>
       <g>
-        <rect x="1079.09" y="1481.85" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="1079.09" y="1437.37" width="45.54" height="44.48" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="1079.09" y="1392.87" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="1033.57" y="1437.37" width="45.51" height="44.48" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="988.04" y="1348.37" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="988.04" y="1125.89" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="942.5" y="1214.89" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="942.5" y="1081.38" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="896.99" y="992.41" width="45.51" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="896.99" y="903.4" width="45.51" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="896.99" y="769.92" width="45.51" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="851.45" y="814.42" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="851.45" y="636.44" width="45.54" height="44.48" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="805.92" y="947.9" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="805.92" y="858.92" width="45.54" height="44.48" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="760.4" y="680.92" width="45.51" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="760.4" y="591.94" width="45.51" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="714.87" y="858.92" width="45.54" height="44.48" style="fill: #f8b090" onclick="alert('click');"/>
+        <rect x="1079.09" y="1481.85" width="45.54" height="44.5" style="fill: #f8b090" onclick="blinkFunc();"/>
+        <rect x="1079.09" y="1437.37" width="45.54" height="44.48" style="fill: #f8b090" onclick="cordoroyFunc();"/>
+        <rect x="1079.09" y="1392.87" width="45.54" height="44.5" style="fill: #f8b090" onclick="detectiveFunc();"/>
+        <rect x="1033.57" y="1437.37" width="45.51" height="44.48" style="fill: #f8b090" onclick="wantedFunc();"/>
+        <rect x="988.04" y="1348.37" width="45.54" height="44.5" style="fill: #f8b090" onclick="masmasFunc();"/>
+        <rect x="988.04" y="1125.89" width="45.54" height="44.5" style="fill: #f8b090" onclick="disapointFunc();"/>
+        <rect x="942.5" y="1214.89" width="45.54" height="44.5" style="fill: #f8b090" onclick="juiceFunc();"/>
+        <rect x="942.5" y="1081.38" width="45.54" height="44.5" style="fill: #f8b090" onclick="decideFunc();"/>
+        <rect x="896.99" y="992.41" width="45.51" height="44.5" style="fill: #f8b090" onclick="freezeFunc();"/>
+        <rect x="896.99" y="903.4" width="45.51" height="44.5" style="fill: #f8b090" onclick="behindFunc();"/>
+        <rect x="896.99" y="769.92" width="45.51" height="44.5" style="fill: #f8b090" onclick="surpriseFunc();"/>
+        <rect x="851.45" y="814.42" width="45.54" height="44.5" style="fill: #f8b090" onclick="psychoFunc();"/>
+        <rect x="851.45" y="636.44" width="45.54" height="44.48" style="fill: #f8b090" onclick="breatheFunc();"/>
+        <rect x="805.92" y="947.9" width="45.54" height="44.5" style="fill: #f8b090" onclick="presuadeFunc();"/>
+        <rect x="805.92" y="858.92" width="45.54" height="44.48" style="fill: #f8b090" onclick="commonFunc();"/>
+        <rect x="760.4" y="680.92" width="45.51" height="44.5" style="fill: #f8b090" onclick="lecturerFunc();"/>
+        <rect x="760.4" y="591.94" width="45.51" height="44.5" style="fill: #f8b090" onclick="pomelaFunc();"/>
+        <rect x="714.87" y="858.92" width="45.54" height="44.48" style="fill: #f8b090" onclick="disappearFunc();"/>
         <rect x="714.87" y="502.93" width="45.54" height="44.5" style="fill: #f8b090" onclick="expectFunc();"/>
-        <rect x="669.33" y="903.4" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="669.33" y="769.92" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="623.82" y="725.42" width="45.51" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="623.82" y="591.94" width="45.51" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
+        <rect x="669.33" y="903.4" width="45.54" height="44.5" style="fill: #f8b090" onclick="sisterFunc();"/>
+        <rect x="669.33" y="769.92" width="45.54" height="44.5" style="fill: #f8b090" onclick="liedFunc();"/>
+        <rect x="623.82" y="725.42" width="45.51" height="44.5" style="fill: #f8b090" onclick="mansplainFunc();"/>
+        <rect x="623.82" y="591.94" width="45.51" height="44.5" style="fill: #f8b090" onclick="aristoFunc();"/>
         <rect x="623.82" y="502.93" width="45.51" height="44.5" style="fill: #f8b090" onclick="epilougeFunc();"/>
-        <rect x="532.77" y="1125.89" width="45.51" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="532.77" y="947.9" width="45.51" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="532.77" y="814.42" width="45.51" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="532.77" y="636.44" width="45.51" height="44.48" style="fill: #f8b090" onclick="alert('click');"/>
+        <rect x="532.77" y="1125.89" width="45.51" height="44.5" style="fill: #f8b090" onclick="onionFunc();"/>
+        <rect x="532.77" y="947.9" width="45.51" height="44.5" style="fill: #f8b090" onclick="twinFunc();"/>
+        <rect x="532.77" y="814.42" width="45.51" height="44.5" style="fill: #f8b090" onclick="disappointFunc();"/>
+        <rect x="532.77" y="636.44" width="45.51" height="44.48" style="fill: #f8b090" onclick="exitFunc();"/>
         <rect x="532.77" y="547.44" width="45.51" height="44.5" style="fill: #f8b090" onclick="laughFunc();"/>
-        <rect x="487.23" y="1214.89" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="487.23" y="992.41" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
-        <rect x="487.23" y="680.92" width="45.54" height="44.5" style="fill: #f8b090" onclick="alert('click');"/>
+        <rect x="487.23" y="1214.89" width="45.54" height="44.5" style="fill: #f8b090" onclick="cheapFunc();"/>
+        <rect x="487.23" y="992.41" width="45.54" height="44.5" style="fill: #f8b090" onclick="poetFunc();"/>
+        <rect x="487.23" y="680.92" width="45.54" height="44.5" style="fill: #f8b090" onclick="rabbiFunc();"/>
         <rect x="487.23" y="591.94" width="45.54" height="44.5" style="fill: #f8b090" onclick="memrableFunc();"/>
         <rect x="441.69" y="1170.39" width="45.54" height="44.5" style="fill: #f8b090" onclick="importantFunc();"/>
         <rect x="441.69" y="1036.91" width="45.54" height="44.48" style="fill: #f8b090" onclick="beforeFunc();"/>
