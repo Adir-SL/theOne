@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1875">
 <style>
 #aa5941c4-6fe2-48bd-8582-da0b26a60a7e{
-  <!-- display: none; -->
+  display: none;
 }
 .popup{
   opacity: 0;
@@ -2109,6 +2109,8 @@
     document.getElementsByClassName("popup")[36].style.opacity = "0";
     document.getElementsByClassName("popup")[37].style.opacity = "0";
     document.getElementsByClassName("popup")[38].style.opacity = "0";
+    document.getElementsByClassName("popup")[39].style.opacity = "0";
+    document.getElementsByClassName("popup")[40].style.opacity = "0";
 
     document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
@@ -2149,6 +2151,8 @@
     document.getElementsByClassName("popup")[36].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[37].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[38].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[39].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[40].style.pointerEvents = "none";
   }
   function behindFunc(){
     resetAllPopups();
