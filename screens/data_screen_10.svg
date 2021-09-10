@@ -42,8 +42,8 @@
           <path d="M1011.90289,1540.10891h-6.23144a.467.467,0,0,1-.45508-.457v-1.48828a.467.467,0,0,1,.45508-.457h6.23144a2.04953,2.04953,0,0,0,2.06739-2.06641v-6.96045a2.0438,2.0438,0,0,0-2.06739-2.03662h-5.68359a.46726.46726,0,0,1-.45606-.45556v-1.52a.44155.44155,0,0,1,.45606-.4253h5.68359a4.42988,4.42988,0,0,1,4.46778,4.4375v6.96045A4.47513,4.47513,0,0,1,1011.90289,1540.10891Z" style="fill: #647c6e"/>
           <path d="M1029.50348,1533.39114l3.61719,5.34961a.41112.41112,0,0,1-.0918.6084l-1.24609.88086a.40913.40913,0,0,1-.60743-.0918l-5.98828-8.875c-1.18554.85107-1.459,2.12793-1.459,4.16455v4.22412a.4422.4422,0,0,1-.42578.457h-1.51953a.46787.46787,0,0,1-.45606-.457v-4.22412c0-2.584.63867-4.62012,2.61426-6.01855l-2.70508-3.98194a.40966.40966,0,0,1,.09082-.60791l1.2461-.88134a.41055.41055,0,0,1,.60839.0913l4.833,7.14258,2.73535-6.44336c.18262-.45605.36524-.48633.7295-.48633h1.27636a.49425.49425,0,0,1,.48633.7295Z" style="fill: #647c6e"/>
         </g>
-        <circle cx="1062.15503" cy="1477.4062" r="9.12" style="fill: #9dcbc1"/>
-        <circle cx="1062.15503" cy="1531.98698" r="9.12" style="fill: #e3c867"/>
+        <circle cx="1062.15503" cy="1477.4062" r="9.12" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <circle cx="1062.15503" cy="1531.98698" r="9.12" style="fill: #e3c867" onclick="onionFunc();"/>
         <g>
           <path d="M733.84137,1485.564h-1.48926a.46768.46768,0,0,1-.45605-.45605v-10.97266a2.04357,2.04357,0,0,0-2.06641-2.03662h-6.56543a.46768.46768,0,0,1-.45605-.45605v-1.51954a.44194.44194,0,0,1,.45605-.42578h6.56543a4.44954,4.44954,0,0,1,4.46777,4.438v10.97266A.46768.46768,0,0,1,733.84137,1485.564Zm-8.51074-5.5625v5.10645a.44194.44194,0,0,1-.42578.45605h-1.51953a.46768.46768,0,0,1-.45606-.45605v-5.167c0-.7295.30469-3.64747.30469-3.64747a.40836.40836,0,0,1,.48633-.395l1.48925.15186a.40875.40875,0,0,1,.39454.48633S725.33063,1479.333,725.33063,1480.00149Z" style="fill: #647c6e"/>
           <path d="M750.37848,1485.01663a.39774.39774,0,0,1-.39453.54736h-1.42871a.55754.55754,0,0,1-.57715-.395l-1.67188-5.77539-5.80566,6.41358a.407.407,0,0,1-.6084,0l-1.124-1.0337a.44018.44018,0,0,1,0-.63818l6.80859-7.29492-1.30762-4.58936c-.03027-.12207-.09082-.15234-.21289-.15234H742.233a.44194.44194,0,0,1-.42578-.45605v-1.51954a.47.47,0,0,1,.48633-.42578h2.55371a1.22177,1.22177,0,0,1,1.36719,1.03369Z" style="fill: #647c6e"/>
@@ -92,7 +92,7 @@
         <rect x="496.84066" y="1103.81467" width="91.28358" height="91.28358" style="fill: #647c6e"/>
         <rect x="607.01507" y="1103.81467" width="91.28358" height="91.28358" style="fill: #647c6e"/>
         <rect x="717.18949" y="1103.81467" width="91.28358" height="91.28358" style="fill: #647c6e"/>
-        <rect x="386.66625" y="1103.81467" width="91.28358" height="91.28358" style="fill: #e3c867"/>
+        <rect x="386.66625" y="1103.81467" width="91.28358" height="91.28358" style="fill: #e3c867" onclick="onionFunc();"/>
         <rect x="827.3639" y="1103.81467" width="91.28358" height="91.28358" style="fill: #647c6e"/>
         <rect x="937.53831" y="1103.81467" width="91.28358" height="91.28358" style="fill: #647c6e"/>
         <rect x="1047.71272" y="1103.81467" width="91.28358" height="91.28358" style="fill: #647c6e"/>
@@ -107,67 +107,67 @@
         <rect x="717.18949" y="1214.05955" width="91.28358" height="91.28358" style="fill: #a36361"/>
       </g>
       <g>
-        <rect x="386.66625" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="496.84066" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="607.01507" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="717.18949" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="827.3639" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="937.53831" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="1047.71272" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
+        <rect x="386.66625" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="496.84066" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="607.01507" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="717.18949" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="827.3639" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="937.53831" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="1047.71272" y="332.10053" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
       </g>
       <g>
-        <rect x="386.66625" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="496.84066" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="607.01507" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="717.18949" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="827.3639" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="937.53831" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="1047.71272" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
+        <rect x="386.66625" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="496.84066" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="607.01507" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="717.18949" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="827.3639" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="937.53831" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="1047.71272" y="442.34541" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
       </g>
       <g>
-        <rect x="386.66625" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="496.84066" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="607.01507" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="717.18949" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="827.3639" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="937.53831" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="1047.71272" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
+        <rect x="386.66625" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="496.84066" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="607.01507" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="717.18949" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="827.3639" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="937.53831" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="1047.71272" y="552.59028" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
       </g>
       <g>
-        <rect x="386.66625" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="496.84066" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="607.01507" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="717.18949" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="827.3639" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="937.53831" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="1047.71272" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
+        <rect x="386.66625" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="496.84066" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="607.01507" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="717.18949" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="827.3639" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="937.53831" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="1047.71272" y="662.83516" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
       </g>
       <g>
-        <rect x="386.66625" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="496.84066" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="607.01507" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="717.18949" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="827.3639" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="937.53831" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="1047.71272" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
+        <rect x="386.66625" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="496.84066" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="607.01507" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="717.18949" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="827.3639" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="937.53831" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="1047.71272" y="773.08004" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
       </g>
       <g>
-        <rect x="386.66625" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="496.84066" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="607.01507" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="717.18949" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="827.3639" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="937.53831" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
-        <rect x="1047.71272" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1"/>
+        <rect x="386.66625" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="496.84066" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="607.01507" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="717.18949" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="827.3639" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="937.53831" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
+        <rect x="1047.71272" y="883.32492" width="91.28358" height="91.28358" style="fill: #9dcbc1" onclick="wantedFunc();"/>
       </g>
       <g>
-        <rect x="386.66625" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867"/>
-        <rect x="496.84066" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867"/>
-        <rect x="607.01507" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867"/>
-        <rect x="717.18949" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867"/>
-        <rect x="827.3639" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867"/>
-        <rect x="937.53831" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867"/>
-        <rect x="1047.71272" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867"/>
+        <rect x="386.66625" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867" onclick="onionFunc();"/>
+        <rect x="496.84066" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867" onclick="onionFunc();"/>
+        <rect x="607.01507" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867" onclick="onionFunc();"/>
+        <rect x="717.18949" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867" onclick="onionFunc();"/>
+        <rect x="827.3639" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867" onclick="onionFunc();"/>
+        <rect x="937.53831" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867" onclick="onionFunc();"/>
+        <rect x="1047.71272" y="993.5698" width="91.28358" height="91.28358" style="fill: #e3c867" onclick="onionFunc();"/>
       </g>
       <g>
         <g>
@@ -548,7 +548,7 @@
         <line x1="321.53192" y1="394.59682" x2="335.49296" y2="408.55792" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="335.49299" y1="394.59684" x2="321.53189" y2="408.55789" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
-      <circle cx="625.87438" cy="445.75757" r="9.12" style="fill: #9dcbc1"/>
+      <circle cx="625.87438" cy="445.75757" r="9.12" style="fill: #9dcbc1" onclick="wantedFunc();"/>
     </g>
     <g class="popup" id="behind">
       <rect x="291.53189" y="887.02152" width="377.66615" height="380.30184" style="fill: #e5e4e3;opacity: 0.85"/>
@@ -1430,7 +1430,7 @@
         <line x1="606.75043" y1="682.31213" x2="620.71148" y2="696.27323" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
         <line x1="620.71151" y1="682.31216" x2="606.75041" y2="696.27321" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
-      <circle cx="911.09289" cy="733.47383" r="9.12" style="fill: #e3c867"/>
+      <circle cx="911.09289" cy="733.47383" r="9.12" style="fill: #e3c867" onclick="onionFunc();"/>
     </g>
   </g>
 </svg>
