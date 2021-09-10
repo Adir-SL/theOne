@@ -1449,51 +1449,44 @@
     document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
   }
-  function mansplainFunc(){
+  function glowingFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("mansplain");
+    window.svg = document.getElementById("glowing");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function detectiveFunc(){
+  function wantedFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("detective");
+    window.svg = document.getElementById("wanted");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function cordoroyFunc(){
+  function behindFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("cordoroy");
+    window.svg = document.getElementById("behind");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function beforeFunc(){
+  function firstFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("before");
+    window.svg = document.getElementById("first");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function twinFunc(){
+  function disappearFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("twin");
+    window.svg = document.getElementById("disappear");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function poetFunc(){
+  function onionFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("poet");
-    window.svg.style.opacity = "1";
-    window.svg.style.pointerEvents = "all";
-    makeCloseButton();
-  }
-  function rightwingFunc(){
-    resetAllPopups();
-    window.svg = document.getElementById("rightwing");
+    window.svg = document.getElementById("onion");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
