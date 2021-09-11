@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
 <style>
+#bc317294-b750-4395-9b89-d62f4b073316{
+  pointer-events: none;
+}
 #f1908085-b46c-48f4-88a8-bde1a366afa6{
   display: none;
 }
@@ -280,7 +283,7 @@
         <ellipse cx="681.02" cy="995.63" rx="48.96" ry="48.92" style="fill: url(#a3a98bef-be8f-4ae6-9dc4-559155ff7075)"/>
       </g>
       <g>
-        <ellipse cx="503.36" cy="560.8" rx="39.07" ry="39.04" style="fill: url(#b4a90eee-40b9-4c53-8f7c-6635c9e0b137)"/>
+        <ellipse cx="503.36" cy="560.8" rx="39.07" ry="39.04" style="fill: url(#b4a90eee-40b9-4c53-8f7c-6635c9e0b137)" onclick="disapointFunc();"/>
         <ellipse cx="687.67" cy="775.12" rx="39.07" ry="39.04" style="fill: url(#a5034f3d-5f9c-4f85-9053-bde2cd74a842)"/>
         <ellipse cx="998.96" cy="933.92" rx="39.07" ry="39.04" style="fill: url(#e607b53b-1cc2-4969-8daf-2ffba45d65ce)"/>
         <ellipse cx="982.37" cy="516.77" rx="39.07" ry="39.04" style="fill: url(#ba6c5d10-105c-4203-bb89-a20a29d11711)"/>
@@ -297,7 +300,7 @@
         <ellipse cx="966.69" cy="1149.68" rx="39.07" ry="39.04" style="fill: url(#e430459c-0f43-4d23-872f-2aa69146d1b3)"/>
       </g>
       <g>
-        <ellipse cx="937.33" cy="661.48" rx="63.03" ry="62.99" style="fill: url(#bc078b92-401e-4d3a-94bf-9225422db0ca)"/>
+        <ellipse cx="937.33" cy="661.48" rx="63.03" ry="62.99" style="fill: url(#bc078b92-401e-4d3a-94bf-9225422db0ca)" onclick="sisterFunc();"/>
         <ellipse cx="568.3" cy="743.2" rx="39.07" ry="39.04" style="fill: url(#a471cde7-19a4-43c9-b050-d97dfdc3ff70)"/>
         <ellipse cx="1123.94" cy="590.24" rx="39.07" ry="39.04" style="fill: url(#bbb18f30-7a3b-4069-ba91-60cf4097d581)"/>
         <ellipse cx="1174.27" cy="833.29" rx="39.07" ry="39.04" style="fill: url(#a45ec612-36e4-40e8-9ee8-f2062da120df)"/>
@@ -353,7 +356,7 @@
         <ellipse cx="926.35" cy="1082.96" rx="20.53" ry="20.52" style="fill: url(#ebc5a848-19ae-451b-b9a1-7ad54d400637)"/>
         <ellipse cx="1050.24" cy="976.28" rx="20.53" ry="20.52" style="fill: url(#bf37dae8-7907-4310-a98f-446c9f59213c)"/>
         <ellipse cx="630.73" cy="739.98" rx="20.53" ry="20.52" style="fill: url(#b73f7bbc-6f02-4da1-93c8-3ccfccd228d1)"/>
-        <ellipse cx="807.15" cy="566.73" rx="37.17" ry="37.14" style="fill: url(#e6ba2b19-1ab1-4d40-9bfe-f6bc46473ec3)"/>
+        <ellipse cx="807.15" cy="566.73" rx="37.17" ry="37.14" style="fill: url(#e6ba2b19-1ab1-4d40-9bfe-f6bc46473ec3)" onclick="expectFunc();"/>
         <ellipse cx="695.16" cy="1122.11" rx="21.08" ry="21.07" style="fill: url(#ac90ea3f-4bf2-4cbf-ac5f-0687b95cb101)"/>
       </g>
       <g>
@@ -393,7 +396,7 @@
       </g>
       <g>
         <ellipse cx="635.68" cy="653.86" rx="63.03" ry="62.99" style="fill: url(#be591a0c-8083-42da-b5d6-9cc83545cbc4)"/>
-        <ellipse cx="1099.13" cy="726.34" rx="63.03" ry="62.99" style="fill: url(#b68a08e8-0363-4adc-9679-b96f26cf278d)"/>
+        <ellipse cx="1099.13" cy="726.34" rx="63.03" ry="62.99" style="fill: url(#b68a08e8-0363-4adc-9679-b96f26cf278d)" onclick="rabbiFunc();"/>
         <ellipse cx="652.47" cy="443.81" rx="39.07" ry="39.04" style="fill: url(#b42c37c8-782d-4302-92b3-5c52cec6130f)"/>
         <ellipse cx="1107.33" cy="1004.57" rx="39.07" ry="39.04" style="fill: url(#ebce2366-63b9-4470-9750-e4e66089d453)"/>
         <ellipse cx="557.18" cy="1162.7" rx="30.28" ry="30.26" style="fill: url(#bb80487c-fa3e-4e72-97e6-c38b00a122eb)"/>
@@ -2177,7 +2180,7 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function disapoint(){
+  function disapointFunc(){
     resetAllPopups();
     window.svg = document.getElementById("disapoint");
     window.svg.style.opacity = "1";
