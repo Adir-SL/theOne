@@ -206,6 +206,9 @@ h1{
 a, button{
     cursor: pointer;
 }
+#storyMenu hr, #dataMenu hr{
+    color: var(--text);
+}
 .closeButton, .infoButton, .forButton, .backButton{
     position: fixed;
     top: 40px;
