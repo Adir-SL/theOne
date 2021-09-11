@@ -251,7 +251,7 @@
   <g id="a05bfd34-9840-45cf-beac-3f2f17726816" data-name="text">
     <g>
       <g>
-        <ellipse cx="1011.72" cy="1057.42" rx="56.52" ry="56.48" style="fill: url(#b0e48617-ff5f-458f-9109-083c868b6860)"/>
+        <ellipse cx="1011.72" cy="1057.42" rx="56.52" ry="56.48" style="fill: url(#b0e48617-ff5f-458f-9109-083c868b6860)" onclick="exitFunc();"/>
         <ellipse cx="916.9" cy="462.6" rx="39.07" ry="39.04" style="fill: url(#a748d43c-90e3-4ea7-a1c4-b66fdd8aefbe)"/>
         <ellipse cx="801.22" cy="688.47" rx="39.07" ry="39.04" style="fill: url(#e11a827e-b9b2-4199-9bad-81286d26527f)"/>
         <ellipse cx="691.55" cy="1187.59" rx="39.07" ry="39.04" style="fill: url(#b72b4936-c039-42d5-9ddc-1554cad5fe58)"/>
@@ -391,7 +391,7 @@
         <circle cx="732.34" cy="1138.05" r="12.51" style="fill: url(#ac4d11be-875d-4a9d-848c-7c9b815ba618)"/>
         <circle cx="769.21" cy="1091.34" r="12.51" style="fill: url(#a5168105-43c5-4d4c-b757-935a42d1a10b)"/>
         <circle cx="788.22" cy="503.46" r="16.12" style="fill: url(#f6cc7e68-6c5b-4e61-b8c6-4295b8cb15f8)"/>
-        <ellipse cx="408.62" cy="925.85" rx="40.68" ry="40.65" style="fill: url(#ee83411a-e3bf-4d67-9b7d-67d9de1fcfe0)"/>
+        <ellipse cx="408.62" cy="925.85" rx="40.68" ry="40.65" style="fill: url(#ee83411a-e3bf-4d67-9b7d-67d9de1fcfe0)" onclick="wantedFunc();"/>
         <circle cx="645.17" cy="1151.03" r="16.73" style="fill: url(#a6d15bf6-a9d6-449d-9fd6-c459b43079c7)"/>
       </g>
       <g>
@@ -414,7 +414,7 @@
         <ellipse cx="427.82" cy="680.34" rx="26.19" ry="26.17" style="fill: url(#b3204535-67fd-44b2-971b-03b0563c8c6b)"/>
         <ellipse cx="713.12" cy="391.32" rx="26.19" ry="26.17" style="fill: url(#b4448999-2bf2-486a-8c70-5667407f7c7a)"/>
         <path d="M477.38,475.38a26.18,26.18,0,1,1,14.17,34.19,26.2,26.2,0,0,1-14.17-34.19" style="fill: url(#b3d02dd0-1dda-47b8-b56a-283db7523ad9)"/>
-        <ellipse cx="776.56" cy="808.03" rx="39.07" ry="39.04" style="fill: url(#ee9771bc-c1cd-49ce-8fc1-a2ce1d24d675)"/>
+        <ellipse cx="776.56" cy="808.03" rx="39.07" ry="39.04" style="fill: url(#ee9771bc-c1cd-49ce-8fc1-a2ce1d24d675)" onclick="freezeFunc();"/>
         <ellipse cx="617.11" cy="1195.02" rx="30.63" ry="30.61" style="fill: url(#eb02100e-3dec-4cec-ac9b-57d24c85f3a6)"/>
         <ellipse cx="475.39" cy="1090.3" rx="21.08" ry="21.07" style="fill: url(#b15c3873-a1df-4efc-9471-c5d75f10ac5b)"/>
         <ellipse cx="630.89" cy="537.54" rx="39.07" ry="39.04" style="fill: url(#bf4f602c-9b41-42dc-8ed8-e37070f5b11b)"/>
