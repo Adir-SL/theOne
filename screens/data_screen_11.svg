@@ -1423,4 +1423,77 @@
       </g>
     </g>
   </g>
+  <script>
+  function resetAllPopups(){
+    document.getElementsByClassName("popup")[0].style.opacity = "0";
+    document.getElementsByClassName("popup")[1].style.opacity = "0";
+    document.getElementsByClassName("popup")[2].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[4].style.opacity = "0";
+    document.getElementsByClassName("popup")[5].style.opacity = "0";
+    document.getElementsByClassName("popup")[6].style.opacity = "0";
+
+    document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[2].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[6].style.pointerEvents = "none";
+  }
+  function glowingFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("glowing");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function wantedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("wanted");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function behindFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("behind");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function firstFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("first");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function disappearFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("disappear");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function onionFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("onion");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+
+  function makeCloseButton(){
+    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
+    newElement.setAttribute("width","65");
+    newElement.setAttribute("height","65");
+    newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
+    newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y"));
+    newElement.style.fill = "#f00";
+    newElement.style.opacity = "0";
+    newElement.addEventListener("click", resetAllPopups, false); 
+    window.svg.appendChild(newElement);
+  }
+  </script>
 </svg>
