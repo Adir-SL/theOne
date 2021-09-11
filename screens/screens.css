@@ -200,7 +200,7 @@ h1{
     transform: translateY(120%);
     transition: transform 300ms ease-out;
 }
-#storyMenu a, #dataMenu a{
+#storyMenu a, #dataMenu a, #storyMenu b, #dataMenu b{
     color: var(--text);
 }
 a, button{
