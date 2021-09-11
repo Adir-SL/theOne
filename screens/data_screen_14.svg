@@ -333,7 +333,7 @@
         <ellipse cx="528.11" cy="947.39" rx="39.07" ry="39.04" style="fill: url(#ab8e2949-7dab-444e-9deb-d8e3f687534c)"/>
         <ellipse cx="608.18" cy="917.66" rx="39.07" ry="39.04" style="fill: url(#b25c9dbf-ea53-47cc-9fab-ef9d47543f4c)"/>
         <ellipse cx="797.01" cy="1061.45" rx="26.89" ry="26.87" style="fill: url(#a08d8707-5b43-4a80-9b1e-adba6dd46e77)"/>
-        <ellipse cx="810.6" cy="421.73" rx="63.03" ry="62.99" style="fill: url(#b50f79d4-1d2a-4a3d-a52a-9cbedb775c18)"/>
+        <ellipse cx="810.6" cy="421.73" rx="63.03" ry="62.99" style="fill: url(#b50f79d4-1d2a-4a3d-a52a-9cbedb775c18)"  onclick="aristoFunc();"/>
       </g>
       <g>
         <ellipse cx="1009.85" cy="449.47" rx="19.88" ry="19.87" style="fill: url(#e9ce19a2-4c97-4f93-81f4-90498bb68c29)"/>
