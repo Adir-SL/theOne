@@ -1430,6 +1430,8 @@
   <rect x="680" y="1330" height="150" width="180" fill="#f00" opacity="0" onclick="wantedFunc();" />
   <rect x="880" y="1330" height="160" width="180" fill="#f00" opacity="0" onclick="pomelaFunc();" />
   <rect x="950" y="1120" height="150" width="220" fill="#f00" opacity="0" onclick="epilougeFunc();" />
+
+  <rect id="closeButton" width="65" height="65" x="1070" y="420" style="fill: #f00; opacity: 0; pointer-events: none;" onclick="resetAllPopups();"/>
   <script>
   function resetAllPopups(){
     document.getElementsByClassName("popup")[0].style.opacity = "0";
@@ -1447,6 +1449,8 @@
     document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[6].style.pointerEvents = "none";
+
+    document.getElementById("closeButton").style.pointerEvents = "none";
   }
   function glowingFunc(){
     resetAllPopups();
@@ -1499,15 +1503,7 @@
   }
 
   function makeCloseButton(){
-    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
-    newElement.setAttribute("width","65");
-    newElement.setAttribute("height","65");
-    newElement.setAttribute("x",window.svg.getElementsByTagName('line')[0].getAttribute("x1"));
-    newElement.setAttribute("y",window.svg.getElementsByTagName('line')[0].getAttribute("y1"));
-    newElement.style.fill = "#f00";
-    newElement.style.opacity = "0";
-    newElement.addEventListener("click", resetAllPopups, false); 
-    window.svg.appendChild(newElement);
+    document.getElementById("closeButton").style.pointerEvents = "all";
   }
   </script>
 </svg>
