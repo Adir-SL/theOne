@@ -460,9 +460,9 @@
     document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
   }
-  function lecturerFunc(){
+  function expectFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("lecturer");
+    window.svg = document.getElementById("expect");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
