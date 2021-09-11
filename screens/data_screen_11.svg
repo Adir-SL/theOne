@@ -1455,9 +1455,16 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function behindFunc(){
+  function pomelaFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("behind");
+    window.svg = document.getElementById("pomela");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function twinFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("twin");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
@@ -1469,16 +1476,16 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function disappearFunc(){
+  function disapointFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("disappear");
+    window.svg = document.getElementById("disapoint");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function onionFunc(){
+  function epilougeFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("onion");
+    window.svg = document.getElementById("epilouge");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
