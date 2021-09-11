@@ -1,89 +1,96 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1875">
+<style>
+.popup{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms linear 0s;
+}
+</style>
   <g id="aabe7642-462e-43cf-b62b-e1a1972b2892" data-name="text">
     <g>
       <g>
-        <rect x="406.52" y="1426.23" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1397.29" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1368.35" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1339.41" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1310.47" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1281.53" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1252.59" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1223.65" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1194.72" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1165.78" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1136.84" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1107.9" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1078.96" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1050.02" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="1021.08" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="992.14" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="963.2" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="934.26" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="905.32" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="876.38" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="847.44" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="818.5" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="789.56" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="760.62" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="731.68" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="702.74" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="673.8" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="644.86" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="615.92" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="586.98" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="558.04" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="529.11" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="500.17" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="471.23" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="442.29" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="413.35" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="384.41" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="355.47" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="326.53" width="722.96" height="21.2" style="fill: #e3c867"/>
-        <rect x="406.52" y="297.59" width="722.96" height="21.2" style="fill: #e3c867"/>
+        <rect x="406.52" y="1426.23" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1397.29" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1368.35" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1339.41" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1310.47" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1281.53" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1252.59" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1223.65" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1194.72" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1165.78" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1136.84" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1107.9" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1078.96" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1050.02" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="1021.08" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="992.14" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="963.2" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="934.26" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="905.32" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="876.38" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="847.44" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="818.5" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="789.56" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="760.62" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="731.68" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="702.74" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="673.8" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="644.86" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="615.92" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="586.98" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="558.04" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="529.11" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="500.17" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="471.23" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="442.29" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="413.35" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="384.41" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="355.47" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="326.53" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
+        <rect x="406.52" y="297.59" width="722.96" height="21.2" style="fill: #e3c867" onclick="commonFunc();"/>
       </g>
       <g>
-        <rect x="932.65" y="1426.23" width="196.83" height="21.2" style="fill: #3d576e"/>
-        <rect x="842.57" y="1397.29" width="286.91" height="21.2" style="fill: #3d576e"/>
-        <rect x="716.17" y="1368.35" width="413.31" height="21.2" style="fill: #3d576e"/>
-        <rect x="1037.83" y="1339.41" width="91.65" height="21.2" style="fill: #3d576e"/>
-        <rect x="406.52" y="1310.47" width="722.96" height="21.2" style="fill: #3d576e"/>
-        <rect x="834.08" y="1281.53" width="295.4" height="21.2" style="fill: #3d576e"/>
-        <rect x="851.4" y="1252.59" width="278.08" height="21.2" style="fill: #3d576e"/>
-        <rect x="538.68" y="1223.65" width="590.8" height="21.2" style="fill: #3d576e"/>
-        <rect x="842.57" y="1194.72" width="286.91" height="21.2" style="fill: #3d576e"/>
-        <rect x="807.69" y="1165.78" width="321.79" height="21.2" style="fill: #3d576e"/>
-        <rect x="1089.8" y="1136.84" width="39.68" height="21.2" style="fill: #3d576e"/>
-        <rect x="839.96" y="1107.9" width="289.52" height="21.2" style="fill: #3d576e"/>
-        <rect x="908.14" y="1078.96" width="221.34" height="21.2" style="fill: #3d576e"/>
-        <rect x="809.27" y="1050.02" width="320.21" height="21.2" style="fill: #3d576e"/>
-        <rect x="762.31" y="1021.08" width="367.17" height="21.2" style="fill: #3d576e"/>
-        <rect x="474.14" y="992.14" width="655.33" height="21.2" style="fill: #3d576e"/>
-        <rect x="850.97" y="963.2" width="278.51" height="21.2" style="fill: #3d576e"/>
-        <rect x="998.94" y="934.26" width="130.54" height="21.2" style="fill: #3d576e"/>
-        <rect x="800.16" y="905.32" width="329.32" height="21.2" style="fill: #3d576e"/>
-        <rect x="976.36" y="876.38" width="153.12" height="21.2" style="fill: #3d576e"/>
-        <rect x="1061.14" y="847.44" width="68.34" height="21.2" style="fill: #3d576e"/>
-        <rect x="862.34" y="818.5" width="267.14" height="21.2" style="fill: #3d576e"/>
-        <rect x="758.84" y="789.56" width="370.64" height="21.2" style="fill: #3d576e"/>
-        <rect x="643.51" y="760.62" width="485.97" height="21.2" style="fill: #3d576e"/>
-        <rect x="597.11" y="731.68" width="532.37" height="21.2" style="fill: #3d576e"/>
-        <rect x="1061.14" y="702.74" width="68.34" height="21.2" style="fill: #3d576e"/>
-        <rect x="917.78" y="673.8" width="211.7" height="21.2" style="fill: #3d576e"/>
-        <rect x="894.83" y="644.86" width="234.65" height="21.2" style="fill: #3d576e"/>
-        <rect x="721.29" y="615.92" width="408.19" height="21.2" style="fill: #3d576e"/>
-        <rect x="752.63" y="586.98" width="376.85" height="21.2" style="fill: #3d576e"/>
-        <rect x="794.38" y="558.04" width="335.09" height="21.2" style="fill: #3d576e"/>
-        <rect x="794.38" y="529.11" width="335.09" height="21.2" style="fill: #3d576e"/>
-        <rect x="842.48" y="500.17" width="287" height="21.2" style="fill: #3d576e"/>
-        <rect x="610.95" y="471.23" width="518.53" height="21.2" style="fill: #3d576e"/>
-        <rect x="516.42" y="442.29" width="613.06" height="21.2" style="fill: #3d576e"/>
-        <rect x="853.86" y="413.35" width="275.62" height="21.2" style="fill: #3d576e"/>
-        <rect x="781.69" y="384.41" width="347.79" height="21.2" style="fill: #3d576e"/>
-        <rect x="661.67" y="355.47" width="467.81" height="21.2" style="fill: #3d576e"/>
-        <rect x="788.78" y="326.53" width="340.7" height="21.2" style="fill: #3d576e"/>
-        <rect x="695.98" y="297.59" width="433.49" height="21.2" style="fill: #3d576e"/>
+        <rect x="932.65" y="1426.23" width="196.83" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="842.57" y="1397.29" width="286.91" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="716.17" y="1368.35" width="413.31" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="1037.83" y="1339.41" width="91.65" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="406.52" y="1310.47" width="722.96" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="834.08" y="1281.53" width="295.4" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="851.4" y="1252.59" width="278.08" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="538.68" y="1223.65" width="590.8" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="842.57" y="1194.72" width="286.91" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="807.69" y="1165.78" width="321.79" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="1089.8" y="1136.84" width="39.68" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="839.96" y="1107.9" width="289.52" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="908.14" y="1078.96" width="221.34" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="809.27" y="1050.02" width="320.21" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="762.31" y="1021.08" width="367.17" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="474.14" y="992.14" width="655.33" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="850.97" y="963.2" width="278.51" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="998.94" y="934.26" width="130.54" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="800.16" y="905.32" width="329.32" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="976.36" y="876.38" width="153.12" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="1061.14" y="847.44" width="68.34" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="862.34" y="818.5" width="267.14" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="758.84" y="789.56" width="370.64" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="643.51" y="760.62" width="485.97" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="597.11" y="731.68" width="532.37" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="1061.14" y="702.74" width="68.34" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="917.78" y="673.8" width="211.7" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="894.83" y="644.86" width="234.65" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="721.29" y="615.92" width="408.19" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="752.63" y="586.98" width="376.85" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="794.38" y="558.04" width="335.09" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="794.38" y="529.11" width="335.09" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="842.48" y="500.17" width="287" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="610.95" y="471.23" width="518.53" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="516.42" y="442.29" width="613.06" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="853.86" y="413.35" width="275.62" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="781.69" y="384.41" width="347.79" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="661.67" y="355.47" width="467.81" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="788.78" y="326.53" width="340.7" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
+        <rect x="695.98" y="297.59" width="433.49" height="21.2" style="fill: #3d576e" onclick="expectFunc();"/>
       </g>
     </g>
     <g>
