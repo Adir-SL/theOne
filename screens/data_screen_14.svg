@@ -2078,6 +2078,43 @@
       </g>
     </g>
   </g>
+  <g xmlns="http://www.w3.org/2000/svg" id="bc317294-b750-4395-9b89-d62f4b073316" data-name="nav">
+    
+    <g>
+      <line x1="1085.52147" y1="726.33884" x2="1113.26706" y2="726.33889" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="1099.39429" y1="712.46607" x2="1099.39424" y2="740.21166" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="762.94419" y1="808.02971" x2="790.68978" y2="808.02977" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="776.81701" y1="794.15695" x2="776.81696" y2="821.90253" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="998.10371" y1="1057.42339" x2="1025.84897" y2="1057.42345" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="1011.97637" y1="1043.55079" x2="1011.97631" y2="1071.29605" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="394.74784" y1="925.84757" x2="422.49326" y2="925.84762" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="408.62058" y1="911.97489" x2="408.62052" y2="939.7203" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="796.99198" y1="421.73015" x2="824.73724" y2="421.7302" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="810.86464" y1="407.85755" x2="810.86458" y2="435.6028" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="794.86814" y1="565.98131" x2="822.61373" y2="565.98136" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="808.74096" y1="552.10854" x2="808.74091" y2="579.85413" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="489.48383" y1="560.80344" x2="517.22908" y2="560.8035" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="503.35648" y1="546.93084" x2="503.35643" y2="574.6761" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="923.72011" y1="661.48222" x2="951.46537" y2="661.48228" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="937.59277" y1="647.60962" x2="937.59271" y2="675.35488" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    
+    
+  </g>
   <script>
   function resetAllPopups(){
     document.getElementsByClassName("popup")[0].style.opacity = "0";
