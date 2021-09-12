@@ -507,16 +507,44 @@
     document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
   }
-  function expectFunc(){
+  function lecturerFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("expect");
+    window.svg = document.getElementById("lecturer");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function commonFunc(){
+  function blinkFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("common");
+    window.svg = document.getElementById("blink");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function sisterFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("sister");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function surpriseFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("surprise");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function lateFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("late");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function emberessedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("emberessed");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
