@@ -122,7 +122,7 @@
         <polygon points="618.08 640.05 632.73 614.68 647.38 640.05 618.08 640.05" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="682.71 591.59 697.35 566.22 712 591.59 682.71 591.59" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="754.67 591.59 769.32 566.22 783.97 591.59 754.67 591.59" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="754.67 819.24 769.32 793.87 783.97 819.24 754.67 819.24" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+        <polygon points="754.67 819.24 769.32 793.87 783.97 819.24 754.67 819.24" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="twinFunc();"/>
         <polygon points="832.51 736.99 847.16 711.62 861.81 736.99 832.51 736.99" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="816 1291.49 847.16 1237.53 878.32 1291.49 816 1291.49" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="832.51 1281.96 847.16 1256.59 861.81 1281.96 832.51 1281.96" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
@@ -185,7 +185,7 @@
           <polygon points="779.56 1407.35 750.26 1407.35 764.91 1381.98 779.56 1407.35" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="738.6 863.03 676.28 863.03 707.44 809.07 738.6 863.03" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="738.6 863.03 676.28 863.03 707.44 809.07 738.6 863.03" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="decideFunc();"/>
           <polygon points="722.09 853.5 692.79 853.5 707.44 828.13 722.09 853.5" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
