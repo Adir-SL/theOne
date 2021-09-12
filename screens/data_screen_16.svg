@@ -1,4 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1875">
+<style>
+#e2da663e-731d-4fe0-be53-4f293e6bd129{
+  pointer-events: none;
+}
+</style>
   <g id="b749d5c5-4ceb-4c6d-b818-0b95718065c1" data-name="text">
     <g>
       <g>
@@ -449,6 +454,35 @@
         <line x1="459.29" y1="395.42" x2="445.32" y2="409.38" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
       <circle cx="614.18" cy="448.77" r="9.12" style="fill: #e3c867"/>
+    </g>
+  </g>
+  <g xmlns="http://www.w3.org/2000/svg" id="e2da663e-731d-4fe0-be53-4f293e6bd129" data-name="nav" style="&#10;">
+    
+    
+    
+    <g>
+      <line x1="355.59" y1="324.49" x2="383.34" y2="324.49" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="369.47" y1="310.62" x2="369.47" y2="338.36" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="355.59" y1="404.26" x2="383.34" y2="404.26" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="369.47" y1="390.38" x2="369.47" y2="418.13" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="355.59" y1="481.93" x2="383.34" y2="481.93" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="369.47" y1="468.06" x2="369.47" y2="495.81" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="355.59" y1="551" x2="383.34" y2="551" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="369.47" y1="537.12" x2="369.47" y2="564.87" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="355.59" y1="621.87" x2="383.34" y2="621.87" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="369.47" y1="608" x2="369.47" y2="635.74" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+    </g>
+    <g>
+      <line x1="355.59" y1="689.16" x2="383.34" y2="689.16" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
+      <line x1="369.47" y1="675.29" x2="369.47" y2="703.04" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.69815125061961px"/>
     </g>
   </g>
 </svg>
