@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1875">
 <style>
 #a3354d49-99d6-4447-abbf-6bf778bc35b3{
-  display: none;
+  <!-- display: none; -->
 }
 .popup{
   opacity: 0;
@@ -91,7 +91,7 @@
         <path d="M1117.32,1499.4a.56.56,0,0,1,.54-.57h8a2.91,2.91,0,0,1,2.94,2.91V1514a.46.46,0,0,1-.44.45h-1.5a.43.43,0,0,1-.42-.45v-12.39a.45.45,0,0,0-.49-.45h-6.26V1514a.46.46,0,0,1-.45.45h-1.47a.46.46,0,0,1-.45-.45Z" style="fill: #f8b090"/>
       </g>
       <g>
-        <polygon points="1106.89 420.47 1138.05 366.51 1169.21 420.47 1106.89 420.47" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+        <polygon points="1106.89 420.47 1138.05 366.51 1169.21 420.47 1106.89 420.47" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="importantFunc();"/>
         <polygon points="941.15 462.15 972.31 408.18 1003.47 462.15 941.15 462.15" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="862.64 460.21 893.8 406.25 924.96 460.21 862.64 460.21" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="779.28 468.94 810.44 414.97 841.6 468.94 779.28 468.94" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
@@ -2068,7 +2068,6 @@
     document.getElementsByClassName("popup")[37].style.opacity = "0";
     document.getElementsByClassName("popup")[38].style.opacity = "0";
     document.getElementsByClassName("popup")[39].style.opacity = "0";
-    document.getElementsByClassName("popup")[40].style.opacity = "0";
 
     document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
@@ -2110,11 +2109,10 @@
     document.getElementsByClassName("popup")[37].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[38].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[39].style.pointerEvents = "none";
-    document.getElementsByClassName("popup")[40].style.pointerEvents = "none";
   }
-  function lecturerFunc(){
+  function importantFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("lecturer");
+    window.svg = document.getElementById("important");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
