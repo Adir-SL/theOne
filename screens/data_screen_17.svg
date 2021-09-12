@@ -104,11 +104,11 @@
         <polygon points="738.16 828.77 769.32 774.8 800.48 828.77 738.16 828.77" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="816 746.52 847.16 692.55 878.32 746.52 816 746.52" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="sisterFunc();"/>
         <polygon points="1037.78 731.84 1068.93 677.87 1100.09 731.84 1037.78 731.84" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="rightwingFunc();"/>
-        <polygon points="818.94 871.36 850.1 817.39 881.25 871.36 818.94 871.36" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="683.82 944.8 714.98 890.83 746.13 944.8 683.82 944.8" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="579.54 972.7 610.7 918.73 641.86 972.7 579.54 972.7" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="495.82 1013.83 526.98 959.86 558.14 1013.83 495.82 1013.83" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="422.39 1013.83 453.55 959.86 484.7 1013.83 422.39 1013.83" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+        <polygon points="818.94 871.36 850.1 817.39 881.25 871.36 818.94 871.36" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="shanonFunc();"/>
+        <polygon points="683.82 944.8 714.98 890.83 746.13 944.8 683.82 944.8" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="onionFunc();"/>
+        <polygon points="579.54 972.7 610.7 918.73 641.86 972.7 579.54 972.7" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="glowingFunc();"/>
+        <polygon points="495.82 1013.83 526.98 959.86 558.14 1013.83 495.82 1013.83" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="pomelaFunc();"/>
+        <polygon points="422.39 1013.83 453.55 959.86 484.7 1013.83 422.39 1013.83" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="epilougeFunc();"/>
         <polygon points="664.72 736.24 695.88 682.27 727.04 736.24 664.72 736.24" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="firstFunc();"/>
         <polygon points="586.88 736.24 618.04 682.27 649.2 736.24 586.88 736.24" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="surpriseFunc();"/>
         <polygon points="511.98 778.83 543.14 724.87 574.3 778.83 511.98 778.83" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="rabbiFunc();"/>
@@ -124,7 +124,7 @@
         <polygon points="754.67 591.59 769.32 566.22 783.97 591.59 754.67 591.59" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="754.67 819.24 769.32 793.87 783.97 819.24 754.67 819.24" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="twinFunc();"/>
         <polygon points="832.51 736.99 847.16 711.62 861.81 736.99 832.51 736.99" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="816 1291.49 847.16 1237.53 878.32 1291.49 816 1291.49" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+        <polygon points="816 1291.49 847.16 1237.53 878.32 1291.49 816 1291.49" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="masmasFunc();"/>
         <polygon points="832.51 1281.96 847.16 1256.59 861.81 1281.96 832.51 1281.96" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="1054.29 722.3 1068.93 696.93 1083.58 722.3 1054.29 722.3" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="835.45 861.83 850.1 836.46 864.74 861.83 835.45 861.83" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
@@ -133,47 +133,47 @@
         <polygon points="551.79 853.8 582.95 799.83 614.11 853.8 551.79 853.8" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="cheapFunc();"/>
         <polygon points="568.31 844.27 582.95 818.9 597.6 844.27 568.31 844.27" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <g>
-          <polygon points="746.13 1045.31 683.82 1045.31 714.98 991.34 746.13 1045.31" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="746.13 1045.31 683.82 1045.31 714.98 991.34 746.13 1045.31" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="poetFunc();"/>
           <polygon points="729.62 1035.77 700.33 1035.77 714.98 1010.4 729.62 1035.77" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="800.48 1079.09 738.16 1079.09 769.32 1025.12 800.48 1079.09" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="800.48 1079.09 738.16 1079.09 769.32 1025.12 800.48 1079.09" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="emberessedFunc();"/>
           <polygon points="783.97 1069.55 754.67 1069.55 769.32 1044.18 783.97 1069.55" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="870.97 1123.15 808.66 1123.15 839.82 1069.18 870.97 1123.15" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="870.97 1123.15 808.66 1123.15 839.82 1069.18 870.97 1123.15" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="disapointFunc();"/>
           <polygon points="854.46 1113.61 825.17 1113.61 839.82 1088.24 854.46 1113.61" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="851.88 1211.27 789.56 1211.27 820.72 1157.3 851.88 1211.27" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="851.88 1211.27 789.56 1211.27 820.72 1157.3 851.88 1211.27" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="behindFunc();"/>
           <polygon points="835.37 1201.74 806.08 1201.74 820.72 1176.37 835.37 1201.74" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="638.92 1165.74 576.6 1165.74 607.76 1111.77 638.92 1165.74" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="638.92 1165.74 576.6 1165.74 607.76 1111.77 638.92 1165.74" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="detectiveFunc();"/>
           <polygon points="622.41 1156.21 593.11 1156.21 607.76 1130.84 622.41 1156.21" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="497.92 1158.39 435.61 1158.39 466.77 1104.43 497.92 1158.39" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="497.92 1158.39 435.61 1158.39 466.77 1104.43 497.92 1158.39" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclcick="laughFunc();"/>
           <polygon points="481.41 1148.86 452.12 1148.86 466.77 1123.49 481.41 1148.86" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="430.36 1187.77 368.05 1187.77 399.2 1133.8 430.36 1187.77" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="430.36 1187.77 368.05 1187.77 399.2 1133.8 430.36 1187.77" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="beforeFunc();"/>
           <polygon points="413.85 1178.24 384.56 1178.24 399.2 1152.87 413.85 1178.24" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="445.05 1340.52 382.73 1340.52 413.89 1286.55 445.05 1340.52" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="445.05 1340.52 382.73 1340.52 413.89 1286.55 445.05 1340.52" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="memrableFunc();"/>
           <polygon points="428.54 1330.98 399.24 1330.98 413.89 1305.61 428.54 1330.98" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="522.89 1340.52 460.57 1340.52 491.73 1286.55 522.89 1340.52" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="522.89 1340.52 460.57 1340.52 491.73 1286.55 522.89 1340.52" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="disappearFunc();"/>
           <polygon points="506.38 1330.98 477.09 1330.98 491.73 1305.61 506.38 1330.98" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="624.23 1290.58 561.91 1290.58 593.07 1236.61 624.23 1290.58" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="624.23 1290.58 561.91 1290.58 593.07 1236.61 624.23 1290.58" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="psychoFunc();"/>
           <polygon points="607.72 1281.05 578.43 1281.05 593.07 1255.68 607.72 1281.05" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="525.83 1518.23 463.51 1518.23 494.67 1464.26 525.83 1518.23" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="525.83 1518.23 463.51 1518.23 494.67 1464.26 525.83 1518.23" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="blinkFunc();"/>
           <polygon points="509.32 1508.69 480.02 1508.69 494.67 1483.33 509.32 1508.69" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
@@ -181,7 +181,7 @@
           <polygon points="591.57 1407.35 562.27 1407.35 576.92 1381.98 591.57 1407.35" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="796.07 1416.89 733.75 1416.89 764.91 1362.92 796.07 1416.89" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="796.07 1416.89 733.75 1416.89 764.91 1362.92 796.07 1416.89" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="wantedFunc();"/>
           <polygon points="779.56 1407.35 750.26 1407.35 764.91 1381.98 779.56 1407.35" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
@@ -189,7 +189,7 @@
           <polygon points="722.09 853.5 692.79 853.5 707.44 828.13 722.09 853.5" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="797.1 1150.72 734.78 1150.72 765.94 1096.75 797.1 1150.72" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="797.1 1150.72 734.78 1150.72 765.94 1096.75 797.1 1150.72" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="presuadeFunc();"/>
           <polygon points="780.59 1141.19 751.29 1141.19 765.94 1115.82 780.59 1141.19" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
@@ -2222,10 +2222,164 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
+  function pomelaFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("pomela");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function shanonFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("shanon");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function glowingFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("glowing");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function decideFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("decide");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function onionFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("onion");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function epilougeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("epilouge");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   
   function emberessedFunc(){
     resetAllPopups();
     window.svg = document.getElementById("emberessed");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function poetFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("poet");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function disapointFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("disapoint");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function presuadeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("presuade");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function detectiveFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("detective");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function laughFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("laugh");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function beforeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("before");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function behindFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("behind");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function masmasFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("masmas");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function psychoFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("psycho");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function disappearFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("disappear");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function memrableFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("memrable");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function freezeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("freeze");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function wantedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("wanted");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function cordoroyFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("cordoroy");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function blinkFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("blink");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function disappointFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("disappoint");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
