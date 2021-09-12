@@ -152,8 +152,8 @@
           <polygon points="638.92 1165.74 576.6 1165.74 607.76 1111.77 638.92 1165.74" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="detectiveFunc();"/>
           <polygon points="622.41 1156.21 593.11 1156.21 607.76 1130.84 622.41 1156.21" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
-        <g>
-          <polygon points="497.92 1158.39 435.61 1158.39 466.77 1104.43 497.92 1158.39" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclcick="laughFunc();"/>
+        <g onclcick="laughFunc();">
+          <polygon points="497.92 1158.39 435.61 1158.39 466.77 1104.43 497.92 1158.39" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
           <polygon points="481.41 1148.86 452.12 1148.86 466.77 1123.49 481.41 1148.86" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
