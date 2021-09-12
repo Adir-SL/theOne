@@ -98,20 +98,20 @@
         <polygon points="830.69 557.06 861.85 503.09 893 557.06 830.69 557.06" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="lateFunc();"/>
         <polygon points="597.16 549.72 628.32 495.75 659.48 549.72 597.16 549.72" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="mansplainFunc();"/>
         <polygon points="390.08 599.65 421.24 545.68 452.39 599.65 390.08 599.65" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="breatheFunc();"/>
-        <polygon points="601.57 649.59 632.73 595.62 663.89 649.59 601.57 649.59" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="666.19 601.12 697.35 547.15 728.51 601.12 666.19 601.12" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="738.16 601.12 769.32 547.15 800.48 601.12 738.16 601.12" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+        <polygon points="601.57 649.59 632.73 595.62 663.89 649.59 601.57 649.59" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="exitFunc();"/>
+        <polygon points="666.19 601.12 697.35 547.15 728.51 601.12 666.19 601.12" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="aristoFunc();"/>
+        <polygon points="738.16 601.12 769.32 547.15 800.48 601.12 738.16 601.12" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="liedFunc();"/>
         <polygon points="738.16 828.77 769.32 774.8 800.48 828.77 738.16 828.77" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="816 746.52 847.16 692.55 878.32 746.52 816 746.52" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="1037.78 731.84 1068.93 677.87 1100.09 731.84 1037.78 731.84" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+        <polygon points="816 746.52 847.16 692.55 878.32 746.52 816 746.52" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="sisterFunc();"/>
+        <polygon points="1037.78 731.84 1068.93 677.87 1100.09 731.84 1037.78 731.84" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="rightwingFunc();"/>
         <polygon points="818.94 871.36 850.1 817.39 881.25 871.36 818.94 871.36" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="683.82 944.8 714.98 890.83 746.13 944.8 683.82 944.8" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="579.54 972.7 610.7 918.73 641.86 972.7 579.54 972.7" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="495.82 1013.83 526.98 959.86 558.14 1013.83 495.82 1013.83" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="422.39 1013.83 453.55 959.86 484.7 1013.83 422.39 1013.83" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="664.72 736.24 695.88 682.27 727.04 736.24 664.72 736.24" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="586.88 736.24 618.04 682.27 649.2 736.24 586.88 736.24" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="511.98 778.83 543.14 724.87 574.3 778.83 511.98 778.83" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+        <polygon points="664.72 736.24 695.88 682.27 727.04 736.24 664.72 736.24" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="firstFunc();"/>
+        <polygon points="586.88 736.24 618.04 682.27 649.2 736.24 586.88 736.24" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="surpriseFunc();"/>
+        <polygon points="511.98 778.83 543.14 724.87 574.3 778.83 511.98 778.83" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="rabbiFunc();"/>
         <polygon points="1123.4 410.94 1138.05 385.57 1152.7 410.94 1123.4 410.94" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="957.66 452.62 972.31 427.25 986.96 452.62 957.66 452.62" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="879.15 450.68 893.8 425.31 908.45 450.68 879.15 450.68" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
@@ -130,7 +130,7 @@
         <polygon points="835.45 861.83 850.1 836.46 864.74 861.83 835.45 861.83" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="700.33 935.26 714.98 909.89 729.62 935.26 700.33 935.26" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="596.05 963.17 610.7 937.8 625.35 963.17 596.05 963.17" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="551.79 853.8 582.95 799.83 614.11 853.8 551.79 853.8" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+        <polygon points="551.79 853.8 582.95 799.83 614.11 853.8 551.79 853.8" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="cheapFunc();"/>
         <polygon points="568.31 844.27 582.95 818.9 597.6 844.27 568.31 844.27" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <g>
           <polygon points="746.13 1045.31 683.82 1045.31 714.98 991.34 746.13 1045.31" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
@@ -2159,9 +2159,37 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function sisterFunc(){
+  function rightwingFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("sister");
+    window.svg = document.getElementById("rightwing");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function liedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("lied");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function aristoFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("aristo");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function exitFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("exit");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function firstFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("first");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
@@ -2173,13 +2201,28 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function lateFunc(){
+  function rabbiFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("late");
+    window.svg = document.getElementById("rabbi");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
+  function cheapFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("cheap");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function sisterFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("sister");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  
   function emberessedFunc(){
     resetAllPopups();
     window.svg = document.getElementById("emberessed");
