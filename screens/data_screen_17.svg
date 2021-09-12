@@ -92,12 +92,12 @@
       </g>
       <g>
         <polygon points="1106.89 420.47 1138.05 366.51 1169.21 420.47 1106.89 420.47" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="importantFunc();"/>
-        <polygon points="941.15 462.15 972.31 408.18 1003.47 462.15 941.15 462.15" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="862.64 460.21 893.8 406.25 924.96 460.21 862.64 460.21" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="779.28 468.94 810.44 414.97 841.6 468.94 779.28 468.94" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="830.69 557.06 861.85 503.09 893 557.06 830.69 557.06" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="597.16 549.72 628.32 495.75 659.48 549.72 597.16 549.72" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
-        <polygon points="390.08 599.65 421.24 545.68 452.39 599.65 390.08 599.65" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+        <polygon points="941.15 462.15 972.31 408.18 1003.47 462.15 941.15 462.15" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="lecturerFunc();"/>
+        <polygon points="862.64 460.21 893.8 406.25 924.96 460.21 862.64 460.21" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="expectFunc();"/>
+        <polygon points="779.28 468.94 810.44 414.97 841.6 468.94 779.28 468.94" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="commonFunc();"/>
+        <polygon points="830.69 557.06 861.85 503.09 893 557.06 830.69 557.06" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="lateFunc();"/>
+        <polygon points="597.16 549.72 628.32 495.75 659.48 549.72 597.16 549.72" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="mansplainFunc();"/>
+        <polygon points="390.08 599.65 421.24 545.68 452.39 599.65 390.08 599.65" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="breatheFunc();"/>
         <polygon points="601.57 649.59 632.73 595.62 663.89 649.59 601.57 649.59" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="666.19 601.12 697.35 547.15 728.51 601.12 666.19 601.12" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         <polygon points="738.16 601.12 769.32 547.15 800.48 601.12 738.16 601.12" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
@@ -2117,9 +2117,44 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function blinkFunc(){
+  function lecturerFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("blink");
+    window.svg = document.getElementById("lecturer");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function expectFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("expect");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function commonFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("common");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function lateFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("late");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function mansplainFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("mansplain");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function breatheFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("breathe");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
