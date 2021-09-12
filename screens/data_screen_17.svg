@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1875">
 <style>
 #a3354d49-99d6-4447-abbf-6bf778bc35b3{
-  <!-- display: none; -->
+  display: none;
 }
 .popup{
   opacity: 0;
@@ -177,7 +177,7 @@
           <polygon points="509.32 1508.69 480.02 1508.69 494.67 1483.33 509.32 1508.69" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="608.08 1416.89 545.76 1416.89 576.92 1362.92 608.08 1416.89" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="608.08 1416.89 545.76 1416.89 576.92 1362.92 608.08 1416.89" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="freezeFunc();"/>
           <polygon points="591.57 1407.35 562.27 1407.35 576.92 1381.98 591.57 1407.35" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
@@ -193,11 +193,11 @@
           <polygon points="780.59 1141.19 751.29 1141.19 765.94 1115.82 780.59 1141.19" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="801.95 1509.42 739.63 1509.42 770.79 1455.45 801.95 1509.42" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="801.95 1509.42 739.63 1509.42 770.79 1455.45 801.95 1509.42" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="cordoroyFunc();"/>
           <polygon points="785.43 1499.88 756.14 1499.88 770.79 1474.51 785.43 1499.88" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="618.36 1559.35 556.04 1559.35 587.2 1505.38 618.36 1559.35" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
+          <polygon points="618.36 1559.35 556.04 1559.35 587.2 1505.38 618.36 1559.35" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="disappointFunc();"/>
           <polygon points="601.85 1549.82 572.55 1549.82 587.2 1524.45 601.85 1549.82" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <polygon points="512.34 1004.29 526.98 978.92 541.63 1004.29 512.34 1004.29" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
@@ -2373,6 +2373,13 @@
   function blinkFunc(){
     resetAllPopups();
     window.svg = document.getElementById("blink");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function twinFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("twin");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
