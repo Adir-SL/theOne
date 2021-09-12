@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1875">
 <style>
-#e2da663e-731d-4fe0-be53-4f293e6bd129{
-  pointer-events: none;
+#a3354d49-99d6-4447-abbf-6bf778bc35b3{
+  display: none;
 }
 .popup{
   opacity: 0;
