@@ -141,7 +141,7 @@
           <polygon points="783.97 1069.55 754.67 1069.55 769.32 1044.18 783.97 1069.55" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="870.97 1123.15 808.66 1123.15 839.82 1069.18 870.97 1123.15" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="disapointFunc();"/>
+          <polygon points="870.97 1123.15 808.66 1123.15 839.82 1069.18 870.97 1123.15" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="disappointFunc();"/>
           <polygon points="854.46 1113.61 825.17 1113.61 839.82 1088.24 854.46 1113.61" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
@@ -197,7 +197,7 @@
           <polygon points="785.43 1499.88 756.14 1499.88 770.79 1474.51 785.43 1499.88" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <g>
-          <polygon points="618.36 1559.35 556.04 1559.35 587.2 1505.38 618.36 1559.35" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="disappointFunc();"/>
+          <polygon points="618.36 1559.35 556.04 1559.35 587.2 1505.38 618.36 1559.35" style="fill: #e3c867;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px" onclick="disapointFunc();"/>
           <polygon points="601.85 1549.82 572.55 1549.82 587.2 1524.45 601.85 1549.82" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
         </g>
         <polygon points="512.34 1004.29 526.98 978.92 541.63 1004.29 512.34 1004.29" style="fill: none;stroke: #954299;stroke-miterlimit: 10;stroke-width: 2.3831196085607px"/>
