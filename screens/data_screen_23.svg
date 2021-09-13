@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
+<style>
+.popup{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms linear 0s;
+}
+</style>
   <defs>
     <radialGradient id="ff039fd9-e081-44cc-bc16-682dcd786e83" cx="768" cy="608.65" r="224.54" gradientUnits="userSpaceOnUse">
       <stop offset="0.5" stop-color="#e3c867" stop-opacity="0"/>
@@ -47,13 +54,13 @@
   </defs>
   <g style="isolation: isolate">
     <g id="bca9fb2a-a6f5-4ce5-bb92-47bb53e6a9f0" data-name="text">
-      <g style="mix-blend-mode: multiply">
+      <g style="mix-blend-mode: multiply" onclick="laughFunc();">
         <circle cx="768" cy="608.65" r="224.54" style="fill: url(#ff039fd9-e081-44cc-bc16-682dcd786e83)"/>
       </g>
-      <g style="mix-blend-mode: multiply">
+      <g style="mix-blend-mode: multiply" onclick="pomelaFunc();">
         <circle cx="768" cy="932.07" r="224.54" style="fill: url(#af6da32e-356d-48f3-b3b1-483d03149513)"/>
       </g>
-      <g style="mix-blend-mode: multiply">
+      <g style="mix-blend-mode: multiply" onclick="expectFunc();">
         <circle cx="768" cy="1253.01" r="224.54" style="fill: url(#ac118665-fcce-4d43-8db8-2ba9349e1591)"/>
       </g>
     </g>
