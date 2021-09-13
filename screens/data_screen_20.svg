@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
 <style>
 .popup{
-  opacity: 0;
+  <!-- opacity: 0; -->
   pointer-events: none;
   transition: opacity 300ms linear 0s;
 }
@@ -79,9 +79,9 @@
   </defs>
   <g id="bdffbe60-2cc7-4b47-acb3-a62bc6b48eb6" data-name="text">
     <circle onclick="cordoroyFunc();" cx="887.08" cy="724.96" r="251.63" style="fill: url(#a5f01f1f-206a-4780-b136-6d5663ba74e3)"/>
-    <circle cx="953.92" cy="1167.32" r="179.74" style="fill: url(#a8d271dc-2a3a-4454-a1e6-035e23cb2ad4)"/>
-    <circle cx="563.6" cy="704.3" r="131.81" style="fill: url(#e21676ba-a634-49c3-b050-40009d69c37b)"/>
-    <circle cx="724.37" cy="1031.94" r="167.75" style="fill: url(#a7f9100f-d93f-4185-aa58-e7970b9a6282)"/>
+    <circle onclick="psychoFunc();" cx="953.92" cy="1167.32" r="179.74" style="fill: url(#a8d271dc-2a3a-4454-a1e6-035e23cb2ad4)"/>
+    <circle onclick="blinkFunc();" cx="563.6" cy="704.3" r="131.81" style="fill: url(#e21676ba-a634-49c3-b050-40009d69c37b)"/>
+    <circle onclick="disapointFunc();" cx="724.37" cy="1031.94" r="167.75" style="fill: url(#a7f9100f-d93f-4185-aa58-e7970b9a6282)"/>
     <g>
       <line x1="545.2" y1="925.02" x2="717.12" y2="1031.94" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.39647643178401px"/>
       <path d="M540.82,932.91a9,9,0,1,1,12.41-2.9A9,9,0,0,1,540.82,932.91Z" style="fill: #e3c867"/>
