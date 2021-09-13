@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
+<style>
+.popup{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms linear 0s;
+}
+</style>
   <defs>
     <radialGradient id="a5f01f1f-206a-4780-b136-6d5663ba74e3" cx="887.08" cy="724.96" r="251.63" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#e3c867"/>
@@ -881,4 +888,84 @@
       </g>
     </g>
   </g>
+  <script>
+  function resetAllPopups(){
+    document.getElementsByClassName("popup")[0].style.opacity = "0";
+    document.getElementsByClassName("popup")[1].style.opacity = "0";
+    document.getElementsByClassName("popup")[2].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[4].style.opacity = "0";
+    document.getElementsByClassName("popup")[5].style.opacity = "0";
+    document.getElementsByClassName("popup")[6].style.opacity = "0";
+
+    document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[2].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[6].style.pointerEvents = "none";
+  }
+  function exitFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("exit");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function disapointFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("disapoint");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function epilougeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("epilouge");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function psychoFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("psycho");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function surpriseFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("surprise");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function emberessedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("emberessed");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function wantedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("wanted");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  
+  function makeCloseButton(){
+    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
+    newElement.setAttribute("width","65");
+    newElement.setAttribute("height","65");
+    newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
+    newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y"));
+    newElement.style.fill = "#f00";
+    newElement.style.opacity = "0";
+    newElement.addEventListener("click", resetAllPopups, false); 
+    window.svg.appendChild(newElement);
+  }
+  </script>
 </svg>
