@@ -207,6 +207,7 @@ a, button{
     cursor: pointer;
 }
 #storyMenu hr, #dataMenu hr{
+    margin: 40px 0;
     color: var(--text);
 }
 .closeButton, .infoButton, .forButton, .backButton{
