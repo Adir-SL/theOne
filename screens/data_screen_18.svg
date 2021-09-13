@@ -180,11 +180,13 @@
       <circle cx="767.92" cy="1128.09" r="30.59" style="fill: #e3c867"/>
       <circle cx="642.43" cy="1255.82" r="30.59" style="fill: #e3c867"/>
       <circle cx="767.92" cy="1255.82" r="30.59" style="fill: #954299"/>
-      <g>
+      <g onclick="firstFunc();">
+      <rect x="955" y="298" width="126" height="126" fill="#ff0000" opacity="0.5" />
         <line x1="975.54" y1="318.1" x2="1062.52" y2="405.08" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="1062.3" y1="318.1" x2="975.54" y2="405.3" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
-      <g>
+      <g onclick="exitFunc();">
+      <rect x="703" y="298" width="126" height="126" fill="#ff0000" opacity="0.5" />
         <line x1="724.43" y1="318.1" x2="811.41" y2="405.08" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="811.19" y1="318.1" x2="724.43" y2="405.3" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
