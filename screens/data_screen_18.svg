@@ -271,7 +271,7 @@
     </g>
   </g>
   <g id="f95f5eaf-0786-4c62-9c06-93ca2a7acd31" data-name="+">
-    <g>
+    <g class="popup" id="rightwing">
       <rect x="489.63" y="1099.94" width="220" height="220" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M624.94,1178a.45.45,0,0,1-.66,0l-1-.9a.43.43,0,0,1,0-.6c1.86-2,1.83-2.64,1.83-5.4a.19.19,0,0,0-.21-.21h-4.5a.46.46,0,0,1-.45-.45v-1.5a.44.44,0,0,1,.45-.42h5.49a1.54,1.54,0,0,1,1.59,1.5v1.86A7.49,7.49,0,0,1,624.94,1178Z" style="fill: #48554e"/>
@@ -963,7 +963,7 @@
         <path d="M553.08,367h-.64a.2.2,0,0,1-.19-.2v-4.69a.88.88,0,0,0-.89-.88h-2.81a.21.21,0,0,1-.2-.19v-.65a.19.19,0,0,1,.2-.18h2.81a1.89,1.89,0,0,1,1.91,1.9v4.69A.2.2,0,0,1,553.08,367Zm-3.64-2.38v2.18a.19.19,0,0,1-.19.2h-.65a.2.2,0,0,1-.19-.2v-2.21c0-.31.13-1.56.13-1.56a.17.17,0,0,1,.21-.17l.63.06a.18.18,0,0,1,.17.21S549.44,364.29,549.44,364.58Z" style="fill: #48554e"/>
       </g>
     </g>
-    <g>
+    <g class="popup" id="rabbi">
       <rect x="616.14" y="1228.26" width="220" height="220" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M686.74,1312.54h-1.47a.46.46,0,0,1-.45-.45v-10.83a2,2,0,0,0-2-2H676.3a.46.46,0,0,1-.45-.45v-1.5a.44.44,0,0,1,.45-.42h6.48a4.39,4.39,0,0,1,4.41,4.38v10.83A.46.46,0,0,1,686.74,1312.54Zm-8.4-5.49v5a.44.44,0,0,1-.42.45h-1.5a.46.46,0,0,1-.45-.45V1307c0-.72.3-3.6.3-3.6a.4.4,0,0,1,.48-.39l1.47.15a.4.4,0,0,1,.39.48S678.34,1306.39,678.34,1307.05Z" style="fill: #48554e"/>
@@ -1085,6 +1085,34 @@
   function breatheFunc_02(){
     resetAllPopups();
     window.svg = document.getElementById("breathe_02");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function surpriseFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("surprise");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function surpriseFunc_02(){
+    resetAllPopups();
+    window.svg = document.getElementById("surprise_02");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function rightwingFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("rightwing");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function rabbiFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("rabbi");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
