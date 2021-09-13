@@ -194,15 +194,18 @@
         <line x1="473.45" y1="318.1" x2="560.43" y2="405.08" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="560.21" y1="318.1" x2="473.45" y2="405.3" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
-      <g>
+      <g onclick="juiceFunc();">
+      <rect x="577" y="298" width="126" height="126" fill="#ff0000" opacity="0.5" />
         <line x1="599" y1="318.1" x2="685.97" y2="405.08" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="685.75" y1="318.1" x2="599" y2="405.3" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
-      <g>
+      <g onclick="juiceFunc_02();">
+      <rect x="451" y="298" width="126" height="126" fill="#ff0000" opacity="0.5" />
         <line x1="975.38" y1="445.86" x2="1062.36" y2="532.84" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="1062.13" y1="445.86" x2="975.38" y2="533.06" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
-      <g>
+      <g onclick="lecturerFunc();">
+      <rect x="955" y="426" width="126" height="126" fill="#ff0000" opacity="0.5" />
         <line x1="975.38" y1="573.63" x2="1062.36" y2="660.6" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="1062.13" y1="573.63" x2="975.38" y2="660.82" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
