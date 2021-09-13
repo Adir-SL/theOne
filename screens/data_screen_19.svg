@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
 <style>
 .popup{
-  opacity: 0;
+  <!-- opacity: 0; -->
   pointer-events: none;
   transition: opacity 300ms linear 0s;
 }
@@ -286,5 +286,45 @@
         <line x1="1091.25" y1="863.75" x2="1077.29" y2="877.71" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
+  </g>
+  <g xmlns="http://www.w3.org/2000/svg" id="e1cb16f9-aeaf-4d44-a6f7-e0d11d0ccaa6" data-name="nav">
+    
+    <g>
+      <line x1="737.96" y1="542.4" x2="765.04" y2="542.4" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+      <line x1="751.5" y1="528.86" x2="751.5" y2="555.95" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    </g>
+    <g>
+      <line x1="431.59" y1="841.81" x2="458.67" y2="841.81" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+      <line x1="445.13" y1="828.27" x2="445.13" y2="855.35" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    </g>
+    <g>
+      <line x1="1058.26" y1="858.06" x2="1085.34" y2="858.06" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+      <line x1="1071.8" y1="844.52" x2="1071.8" y2="871.6" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    </g>
+    <g>
+      <line x1="758.85" y1="1031.75" x2="785.93" y2="1031.75" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+      <line x1="772.39" y1="1018.21" x2="772.39" y2="1045.29" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    </g>
+    <g>
+      <line x1="686.9" y1="836.79" x2="713.98" y2="836.79" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+      <line x1="700.44" y1="823.24" x2="700.44" y2="850.33" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    </g>
+    <g>
+      <line x1="496.57" y1="1124.59" x2="523.66" y2="1124.59" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+      <line x1="510.12" y1="1111.05" x2="510.12" y2="1138.13" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    </g>
+    <g>
+      <line x1="1037.37" y1="635.63" x2="1064.45" y2="635.63" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+      <line x1="1050.91" y1="622.09" x2="1050.91" y2="649.17" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    </g>
+    
+    
+    <rect onclick="psychoFunc();" x="713.52" y="503.48" width="79.63" height="79.63" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    <rect x="660.23" y="796" width="79.63" height="79.63" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    <rect onclick="disapointFunc();" x="405.23" y="803" width="79.63" height="79.63" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    <rect onclick="epilougeFunc();" x="1010.23" y="596" width="79.63" height="79.63" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    <rect onclick="exitFunc();" x="1031.23" y="818" width="79.63" height="79.63" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    <rect onclick="emberessedFunc();" x="731.23" y="991" width="79.63" height="79.63" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
+    <rect onclick="wantedFunc();" x="469.23" y="1086" width="79.63" height="79.63" style="fill: none;stroke: #f1eeec;stroke-miterlimit: 10;stroke-width: 2.63382577764353px"/>
   </g>
 </svg>
