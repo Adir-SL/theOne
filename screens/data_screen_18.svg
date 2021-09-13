@@ -200,7 +200,7 @@
         <line x1="685.75" y1="318.1" x2="599" y2="405.3" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
       <g onclick="juiceFunc_02();">
-      <rect x="451" y="298" width="126" height="126" fill="#ff0000" opacity="0.5" />
+      <rect x="454" y="298" width="126" height="126" fill="#ff0000" opacity="0.5" />
         <line x1="975.38" y1="445.86" x2="1062.36" y2="532.84" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="1062.13" y1="445.86" x2="975.38" y2="533.06" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
@@ -209,15 +209,18 @@
         <line x1="975.38" y1="573.63" x2="1062.36" y2="660.6" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="1062.13" y1="573.63" x2="975.38" y2="660.82" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
-      <g>
+      <g onclick="twinFunc();">
+      <rect x="955" y="554" width="126" height="126" fill="#ff0000" opacity="0.5" />
         <line x1="724.53" y1="573.63" x2="811.5" y2="660.6" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="811.28" y1="573.63" x2="724.53" y2="660.82" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
-      <g>
+      <g onclick="sisterFunc();">
+      <rect x="703" y="554" width="126" height="126" fill="#ff0000" opacity="0.5" />
         <line x1="724.53" y1="956.76" x2="811.5" y2="1043.73" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="811.28" y1="956.76" x2="724.53" y2="1043.96" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
-      <g>
+      <g onclick="mansplainFunc();">
+      <rect x="454" y="682" width="126" height="126" fill="#ff0000" opacity="0.5" />
         <line x1="1100.9" y1="956.76" x2="1187.87" y2="1043.73" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
         <line x1="1187.65" y1="956.76" x2="1100.9" y2="1043.96" style="fill: none;stroke: #3d576e;stroke-miterlimit: 10;stroke-width: 5.73006555175775px"/>
       </g>
