@@ -895,34 +895,30 @@
     document.getElementsByClassName("popup")[2].style.opacity = "0";
     document.getElementsByClassName("popup")[3].style.opacity = "0";
     document.getElementsByClassName("popup")[4].style.opacity = "0";
-    document.getElementsByClassName("popup")[5].style.opacity = "0";
-    document.getElementsByClassName("popup")[6].style.opacity = "0";
 
     document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[2].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
-    document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
-    document.getElementsByClassName("popup")[6].style.pointerEvents = "none";
   }
-  function exitFunc(){
+  function cordoroyFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("exit");
+    window.svg = document.getElementById("cordoroy");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function disapointFunc(){
+  function blinkFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("disapoint");
+    window.svg = document.getElementById("blink");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function epilougeFunc(){
+  function detectiveFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("epilouge");
+    window.svg = document.getElementById("detective");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
@@ -934,23 +930,16 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function surpriseFunc(){
+  function disapointFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("surprise");
+    window.svg = document.getElementById("disapoint");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function emberessedFunc(){
+  function psychoFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("emberessed");
-    window.svg.style.opacity = "1";
-    window.svg.style.pointerEvents = "all";
-    makeCloseButton();
-  }
-  function wantedFunc(){
-    resetAllPopups();
-    window.svg = document.getElementById("wanted");
+    window.svg = document.getElementById("psycho");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
