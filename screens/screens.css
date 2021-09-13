@@ -193,6 +193,7 @@ h1{
     background-color: #F8F6F5;
     color: rgba(0,0,0,0.2);
     font-size: 15px;
+    font-weight: 300;
     line-height: 30px;
     margin: 0;
     overflow: scroll;
@@ -200,8 +201,12 @@ h1{
     transform: translateY(120%);
     transition: transform 300ms ease-out;
 }
-#storyMenu a, #dataMenu a, #storyMenu b, #dataMenu b{
+#storyMenu a, #dataMenu a{
     color: var(--text);
+}
+#storyMenu b, #dataMenu b{
+    color: var(--text);
+    font-weight: 600;
 }
 a, button{
     cursor: pointer;
