@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
 <style>
 .popup{
-  <!-- opacity: 0; -->
+  opacity: 0;
   pointer-events: none;
   transition: opacity 300ms linear 0s;
 }
@@ -86,7 +86,7 @@
       <line x1="545.2" y1="925.02" x2="717.12" y2="1031.94" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.39647643178401px"/>
       <path d="M540.82,932.91a9,9,0,1,1,12.41-2.9A9,9,0,0,1,540.82,932.91Z" style="fill: #e3c867"/>
     </g>
-    <circle cx="582.09" cy="1177.8" r="95.84" style="fill: url(#bfbcaee5-89cc-4f34-b6cb-5ff32891edae)"/>
+    <circle onclick="detectiveFunc();" cx="582.09" cy="1177.8" r="95.84" style="fill: url(#bfbcaee5-89cc-4f34-b6cb-5ff32891edae)"/>
     <g>
       <line x1="582.09" y1="1352.67" x2="582.09" y2="1181.93" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.39647643178401px"/>
       <circle cx="582.09" cy="1352.22" r="9.01" style="fill: #e3c867"/>
