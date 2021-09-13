@@ -335,6 +335,7 @@
     document.getElementsByClassName("popup")[3].style.opacity = "0";
     document.getElementsByClassName("popup")[4].style.opacity = "0";
     document.getElementsByClassName("popup")[5].style.opacity = "0";
+    document.getElementsByClassName("popup")[6].style.opacity = "0";
 
     document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
@@ -342,6 +343,7 @@
     document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[6].style.pointerEvents = "none";
   }
   function exitFunc(){
     resetAllPopups();
