@@ -446,7 +446,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#ae110d18-d2cf-427a-a07c-493f86173978)">
+    <g style="clip-path: url(#ae110d18-d2cf-427a-a07c-493f86173978)" onclick="memrableFunc();">
       <g>
         <g>
           <g>
@@ -510,7 +510,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#e3eaee92-a6d8-4936-9438-63dc9ad5182b)">
+    <g style="clip-path: url(#e3eaee92-a6d8-4936-9438-63dc9ad5182b)" onclick="exitFunc();">
       <g>
         <g>
           <g>
@@ -552,7 +552,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#e8f80919-4bb9-46cb-9a05-6820a29578ac)">
+    <g style="clip-path: url(#e8f80919-4bb9-46cb-9a05-6820a29578ac)" onclick="aristoFunc();">
       <g>
         <g>
           <g>
@@ -766,7 +766,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#e038c69b-3b41-48b4-b8bf-2ed50757e9ce)">
+    <g style="clip-path: url(#e038c69b-3b41-48b4-b8bf-2ed50757e9ce)" onclick="lecturerFunc();">
       <g>
         <g>
           <g>
@@ -1096,7 +1096,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#bb0c210d-b5be-4c8e-82d9-21c9433968ec)">
+    <g style="clip-path: url(#bb0c210d-b5be-4c8e-82d9-21c9433968ec)" onclick="pomelaFunc();">
       <g>
         <g>
           <g>
@@ -1171,7 +1171,7 @@
       <circle cx="951.77" cy="1594.79" r="9.12" style="fill: #9dcbc1"/>
       <circle cx="796.12" cy="1594.79" r="9.12" style="fill: #f8b090"/>
     </g>
-    <g style="clip-path: url(#a1b3bc17-0794-4306-8a0d-0f74af087b0a)">
+    <g style="clip-path: url(#a1b3bc17-0794-4306-8a0d-0f74af087b0a)" onclick="firstFunc();">
       <g>
         <g>
           <g>
@@ -1213,7 +1213,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#f88cdc8e-51c2-43d2-abfb-089ea169b4bb)">
+    <g style="clip-path: url(#f88cdc8e-51c2-43d2-abfb-089ea169b4bb)" onclick="juiceFunc();">
       <g>
         <g>
           <g>
@@ -1255,7 +1255,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#ba1bd1db-9aa3-436a-bf2a-ea104419da5e)">
+    <g style="clip-path: url(#ba1bd1db-9aa3-436a-bf2a-ea104419da5e)" onclick="emberessedFunc();">
       <g>
         <g>
           <g>
