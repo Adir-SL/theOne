@@ -3447,6 +3447,20 @@
     document.getElementsByClassName("popup")[37].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[38].style.pointerEvents = "none";
   }
+  function firstFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("first");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function memrableFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("memrable");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   function exitFunc(){
     resetAllPopups();
     window.svg = document.getElementById("exit");
@@ -3454,30 +3468,23 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function disapointFunc(){
+  function glowingFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("disapoint");
+    window.svg = document.getElementById("glowing");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function epilougeFunc(){
+  function aristoFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("epilouge");
+    window.svg = document.getElementById("aristo");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function psychoFunc(){
+  function lecturerFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("psycho");
-    window.svg.style.opacity = "1";
-    window.svg.style.pointerEvents = "all";
-    makeCloseButton();
-  }
-  function surpriseFunc(){
-    resetAllPopups();
-    window.svg = document.getElementById("surprise");
+    window.svg = document.getElementById("lecturer");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
@@ -3489,9 +3496,9 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function wantedFunc(){
+  function onionFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("wanted");
+    window.svg = document.getElementById("onion");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
