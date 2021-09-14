@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1875">
 <style>
+#e64f6343-a721-4b7e-9da1-2ff331215df9{
+  pointer-events: none;
+}
 .popup{
   opacity: 0;
   pointer-events: none;
