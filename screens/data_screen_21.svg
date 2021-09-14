@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
 <style>
 .popup{
-  opacity: 0;
-  pointer-events: none;
+  <!-- opacity: 0; -->
+  <!-- pointer-events: none; -->
   transition: opacity 300ms linear 0s;
 }
 </style>
@@ -1856,7 +1856,7 @@
         <line x1="497.02" y1="321.29" x2="483.06" y2="335.25" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g class="popup" id="diapoint">
+    <g class="popup" id="disapoint">
       <rect x="310.11" y="470.79" width="220" height="220" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M455.77,541.9h-2.25v12.84a.46.46,0,0,1-.45.45H451.6a.44.44,0,0,1-.45-.45V541.9H445a.46.46,0,0,1-.45-.45V540a.44.44,0,0,1,.45-.42h10.8a.44.44,0,0,1,.45.42v1.5A.46.46,0,0,1,455.77,541.9Z" style="fill: #48554e"/>
@@ -2236,7 +2236,7 @@
         <line x1="779.47" y1="780.88" x2="765.51" y2="794.84" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g class="popup" id="diappoint">
+    <g class="popup" id="disappoint">
       <rect x="854.79" y="760.98" width="220" height="220" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M1000.44,832.08h-2.25v12.84a.46.46,0,0,1-.45.45h-1.47a.44.44,0,0,1-.45-.45V832.08h-6.18a.46.46,0,0,1-.45-.45v-1.5a.44.44,0,0,1,.45-.42h10.8a.44.44,0,0,1,.45.42v1.5A.46.46,0,0,1,1000.44,832.08Z" style="fill: #48554e"/>
