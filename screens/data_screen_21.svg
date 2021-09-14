@@ -3608,6 +3608,48 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
+  function disappointFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("disappoint");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function decideFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("decide");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function disappear(){
+    resetAllPopups();
+    window.svg = document.getElementById("disappearFunc");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function breatheFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("breathe");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function psychoFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("psycho");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function surpriseFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("surprise");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   
   function makeCloseButton(){
     var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
