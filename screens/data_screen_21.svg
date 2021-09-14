@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
 <style>
+#e8197085-5c56-4758-b4a8-b5a2bc214178{
+  display: none;
+}
 .popup{
   opacity: 0;
   pointer-events: none;
@@ -478,7 +481,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#f0f7ffe2-8fd5-441b-af9d-e6e1016e7054)">
+    <g style="clip-path: url(#f0f7ffe2-8fd5-441b-af9d-e6e1016e7054)" onclick="behindFunc();">
       <g>
         <g>
           <g>
@@ -1213,7 +1216,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#f88cdc8e-51c2-43d2-abfb-089ea169b4bb)" onclick="juiceFunc();">
+    <g style="clip-path: url(#f88cdc8e-51c2-43d2-abfb-089ea169b4bb)" onclick="glowingFunc();">
       <g>
         <g>
           <g>
@@ -1298,7 +1301,7 @@
       </g>
     </g>
     <g>
-      <g style="clip-path: url(#fe4f6e1f-a3ea-47aa-a5a0-bbcbe1e7de3e)">
+      <g style="clip-path: url(#fe4f6e1f-a3ea-47aa-a5a0-bbcbe1e7de3e)" onclick="onionFunc();">
         <g>
           <g>
             <g>
