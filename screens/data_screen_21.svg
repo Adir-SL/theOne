@@ -126,7 +126,7 @@
     </clipPath>
   </defs>
   <g id="f88dc0dd-5a9e-4fc9-9ccd-8c98d57c49b1" data-name="text">
-    <g style="clip-path: url(#a530390c-5983-4583-8342-5b6a35f41720)">
+    <g style="clip-path: url(#a530390c-5983-4583-8342-5b6a35f41720)" onclick="laughFunc();">
       <g>
         <g>
           <g>
@@ -158,7 +158,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#a8cb3bf9-a7fa-4eef-8888-088bea0f7e6d)">
+    <g style="clip-path: url(#a8cb3bf9-a7fa-4eef-8888-088bea0f7e6d)" onclick="lateFunc();">
       <g>
         <g>
           <g>
@@ -190,7 +190,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#a783939a-92f9-4530-bf0c-9630be68f679)">
+    <g style="clip-path: url(#a783939a-92f9-4530-bf0c-9630be68f679)" onclick="mansplainFunc();">
       <g>
         <g>
           <g>
@@ -222,7 +222,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#f5170726-ad2d-4406-8f0c-f2e0004f220a)">
+    <g style="clip-path: url(#f5170726-ad2d-4406-8f0c-f2e0004f220a)" onclick="cordoroyFunc();">
       <g>
         <g>
           <g>
@@ -254,7 +254,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#bce4e370-3079-40e8-a40e-11d87ef0368f)">
+    <g style="clip-path: url(#bce4e370-3079-40e8-a40e-11d87ef0368f)" onclick="blinkFunc();">
       <g>
         <g>
           <g>
@@ -286,7 +286,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#b710e77b-3a5f-4061-80f9-07026862af94)">
+    <g style="clip-path: url(#b710e77b-3a5f-4061-80f9-07026862af94)" onclick="masmasFunc();">
       <g>
         <g>
           <g>
@@ -350,7 +350,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#a1376530-5b11-4e66-9105-103c3263e2d2)">
+    <g style="clip-path: url(#a1376530-5b11-4e66-9105-103c3263e2d2)" onclick="shanonFunc();">
       <g>
         <g>
           <g>
@@ -382,7 +382,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#b3933da2-0a7a-4f2b-8510-d2c3d67c7dd3)">
+    <g style="clip-path: url(#b3933da2-0a7a-4f2b-8510-d2c3d67c7dd3)" onclick="psychoFunc();">
       <g>
         <g>
           <g>
@@ -414,7 +414,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#f9c934ec-70dd-40f9-9c1d-4620ae100375)">
+    <g style="clip-path: url(#f9c934ec-70dd-40f9-9c1d-4620ae100375)" onclick="wantedFunc();">
       <g>
         <g>
           <g>
@@ -596,7 +596,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#a4d93060-c1fb-4260-a932-e4ed194a4bf8)">
+    <g style="clip-path: url(#a4d93060-c1fb-4260-a932-e4ed194a4bf8)" onclick="disappearFunc();">
       <g>
         <g>
           <g>
@@ -640,7 +640,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#bcdddbd2-a6fe-4732-915c-207ca1a50a4e)">
+    <g style="clip-path: url(#bcdddbd2-a6fe-4732-915c-207ca1a50a4e)" onclick="expectFunc();">
       <g>
         <g>
           <g>
@@ -682,7 +682,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#b014d227-0b1c-43a2-82c1-624e3baf45b5)">
+    <g style="clip-path: url(#b014d227-0b1c-43a2-82c1-624e3baf45b5)" onclick="rabbiFunc();">
       <g>
         <g>
           <g>
@@ -724,7 +724,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#ad455154-9e8f-42b4-9241-6ae7e7f795be)">
+    <g style="clip-path: url(#ad455154-9e8f-42b4-9241-6ae7e7f795be)" onclick="commonFunc();">
       <g>
         <g>
           <g>
@@ -798,7 +798,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#e4743d46-99c8-4c77-ba28-0a6691bcc157)">
+    <g style="clip-path: url(#e4743d46-99c8-4c77-ba28-0a6691bcc157)" onclick="twinFunc();">
       <g>
         <g>
           <g>
@@ -830,7 +830,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#ab4c64d6-0e17-4172-9f10-4d459975ea78)">
+    <g style="clip-path: url(#ab4c64d6-0e17-4172-9f10-4d459975ea78)" onclick="liedFunc();">
       <g>
         <g>
           <g>
@@ -872,7 +872,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#e4f139b1-5cb4-4fdb-a175-4e6a7812266c)">
+    <g style="clip-path: url(#e4f139b1-5cb4-4fdb-a175-4e6a7812266c)" onclick="disapointFunc();">
       <g>
         <g>
           <g>
@@ -904,7 +904,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#b3402f3a-7bf0-4d57-9ff4-183501a204a2)">
+    <g style="clip-path: url(#b3402f3a-7bf0-4d57-9ff4-183501a204a2)" onclick="sisterFunc();">
       <g>
         <g>
           <g>
@@ -936,7 +936,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#ed340a92-7c65-4bb5-bcbe-e6992586b4fe)">
+    <g style="clip-path: url(#ed340a92-7c65-4bb5-bcbe-e6992586b4fe)" onclick="decideFunc();">
       <g>
         <g>
           <g>
@@ -968,7 +968,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#a1645c7a-ebc1-4f47-8b68-218b875c9a16)">
+    <g style="clip-path: url(#a1645c7a-ebc1-4f47-8b68-218b875c9a16)" onclick="presuadeFunc();">
       <g>
         <g>
           <g>
@@ -1000,7 +1000,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#b7e4e365-dffb-40e0-abe1-524b03ab7b61)">
+    <g style="clip-path: url(#b7e4e365-dffb-40e0-abe1-524b03ab7b61)" onclick="cheapFunc();">
       <g>
         <g>
           <g>
@@ -1032,7 +1032,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#ae6b07e5-0c16-46cb-bc81-1f6ed223b41e)">
+    <g style="clip-path: url(#ae6b07e5-0c16-46cb-bc81-1f6ed223b41e)" onclick="breatheFunc();">
       <g>
         <g>
           <g>
@@ -1064,7 +1064,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#a630e497-dc63-4a01-90b0-f3286ffa6c6c)">
+    <g style="clip-path: url(#a630e497-dc63-4a01-90b0-f3286ffa6c6c)" onclick="surpriseFunc();">
       <g>
         <g>
           <g>
@@ -1342,7 +1342,7 @@
       </g>
     </g>
     <g>
-      <g style="clip-path: url(#aca2b217-f578-48e3-817f-1b2db508a883)">
+      <g style="clip-path: url(#aca2b217-f578-48e3-817f-1b2db508a883)" onclick="freezeFunc();">
         <g>
           <g>
             <g>
@@ -1385,7 +1385,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#a6a46159-ae13-405c-97ef-1c0e2d65acca)">
+    <g style="clip-path: url(#a6a46159-ae13-405c-97ef-1c0e2d65acca)" onclick="disappointFunc();">
       <g>
         <g>
           <g>
@@ -1427,7 +1427,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#ab6c0ce2-4db1-490b-8a69-310d63f6a242)">
+    <g style="clip-path: url(#ab6c0ce2-4db1-490b-8a69-310d63f6a242)" onclick="rightwingFunc();">
       <g>
         <g>
           <g>
@@ -1459,7 +1459,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#a4e5a4ff-ac21-4833-8c22-f174e5e9e2a9)">
+    <g style="clip-path: url(#a4e5a4ff-ac21-4833-8c22-f174e5e9e2a9)" onclick="importantFunc();">
       <g>
         <g>
           <g>
@@ -1501,7 +1501,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#aedf0534-31b9-4d34-a404-4ada69089d08)">
+    <g style="clip-path: url(#aedf0534-31b9-4d34-a404-4ada69089d08)" onclick="detectiveFunc();">
       <g>
         <g>
           <g>
@@ -1543,7 +1543,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#ffb00e31-0aeb-4376-b589-fbb652e5d214)">
+    <g style="clip-path: url(#ffb00e31-0aeb-4376-b589-fbb652e5d214)" onclick="beforeFunc();">
       <g>
         <g>
           <g>
