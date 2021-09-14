@@ -936,4 +936,57 @@
       <circle cx="627.65" cy="548.39" r="9.12" style="fill: #f8b090"/>
     </g>
   </g>
+  <script>
+  function resetAllPopups(){
+    document.getElementsByClassName("popup")[0].style.opacity = "0";
+    document.getElementsByClassName("popup")[1].style.opacity = "0";
+    document.getElementsByClassName("popup")[2].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+
+    document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[2].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
+  }
+  function pomelaFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("pomela");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function disapointFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("disapoint");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function decideFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("decide");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function rabbiFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("rabbi");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  
+  function makeCloseButton(){
+    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
+    newElement.setAttribute("width","65");
+    newElement.setAttribute("height","65");
+    newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
+    newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y"));
+    newElement.style.fill = "#f00";
+    newElement.style.opacity = "0";
+    newElement.addEventListener("click", resetAllPopups, false); 
+    window.svg.appendChild(newElement);
+  }
+  </script>
 </svg>
