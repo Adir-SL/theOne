@@ -3503,6 +3503,111 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
+  function behindFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("behind");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function disapointFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("disapoint");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function liedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("lied");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function sisterFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("sister");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function twinFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("twin");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function freezeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("freeze");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function laughFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("laugh");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function shanonFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("shanon");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function poetFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("poet");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function pomelaFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("pomela");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function commonFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("common");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function laughFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("laugh");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function mansplainFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("mansplain");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function cordoroyFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("cordoroy");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function masmasFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("masmas");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   
   function makeCloseButton(){
     var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
