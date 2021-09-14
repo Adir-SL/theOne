@@ -3650,6 +3650,76 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
+  function wantedFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("wanted");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function blinkFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("blink");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function cheapFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("cheap");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function expectFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("expect");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function rightwingFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("rightwing");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function presuadeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("presuade");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function beforeFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("before");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function rabbiFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("rabbi");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function importantFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("important");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function detectiveFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("detective");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   
   function makeCloseButton(){
     var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
