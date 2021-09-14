@@ -321,7 +321,7 @@
         </g>
       </g>
     </g>
-    <g style="clip-path: url(#ac5df125-3267-4e04-a9c5-a837af9b58c2)">
+    <g style="clip-path: url(#ac5df125-3267-4e04-a9c5-a837af9b58c2)" onclick="poetFunc();">
       <g>
         <g>
           <g>
@@ -2128,7 +2128,7 @@
         <line x1="781.94" y1="748.66" x2="767.98" y2="762.62" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g class="popup" id="laugh">
+    <g class="popup" id="late">
       <rect x="854.79" y="617.82" width="220" height="220" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M983.73,702.22h-1.5a.44.44,0,0,1-.42-.45V690.94a2,2,0,0,0-2-2h-6.42a.46.46,0,0,1-.45-.45V687a.44.44,0,0,1,.45-.42h6.42a4.39,4.39,0,0,1,4.41,4.38v10.83A.46.46,0,0,1,983.73,702.22Z" style="fill: #48554e"/>
@@ -3625,9 +3625,9 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function disappear(){
+  function disappearFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("disappearFunc");
+    window.svg = document.getElementById("disappear");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
@@ -3719,6 +3719,13 @@
   function detectiveFunc(){
     resetAllPopups();
     window.svg = document.getElementById("detective");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function lateFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("late");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
