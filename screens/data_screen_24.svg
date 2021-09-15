@@ -1143,7 +1143,7 @@
         <line x1="786.55" y1="629.8" x2="772.59" y2="643.76" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g>
+    <g class="popup" id="disappear">
       <rect x="574.78" y="387.5" width="373.03" height="352.89" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M619.32,473.09c.1-.41.2-.48.56-.48h1.7c.24,0,.36.17.24.43l-2.06,4.68a.38.38,0,0,1-.56.22l-.57-.24a.41.41,0,0,1-.29-.53Z" style="fill: #48554e"/>
