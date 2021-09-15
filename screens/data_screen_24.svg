@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1875">
+<style>
+.popup{
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 300ms linear 0s;
+}
+</style>
   <g id="e99fffae-a07e-4f8b-b27f-9c0a114d2511" data-name="text">
     <g>
       <g>
