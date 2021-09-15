@@ -2147,6 +2147,13 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
+  function rightwingFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("rightwing");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   
   function makeCloseButton(){
     var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
