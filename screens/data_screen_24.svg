@@ -2100,9 +2100,9 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function disapointFunc(){
+  function behindFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("disapoint");
+    window.svg = document.getElementById("behind");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
