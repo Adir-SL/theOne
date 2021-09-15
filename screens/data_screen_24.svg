@@ -2116,9 +2116,9 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function rabbiFunc(){
+  function freezeFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("rabbi");
+    window.svg = document.getElementById("freeze");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
