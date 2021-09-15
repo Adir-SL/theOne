@@ -2092,9 +2092,9 @@
     document.getElementsByClassName("popup")[9].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[10].style.pointerEvents = "none";
   }
-  function pomelaFunc(){
+  function emberessedFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("pomela");
+    window.svg = document.getElementById("emberessed");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
