@@ -2131,6 +2131,13 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
+  function pomelaFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("pomela");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
   
   function makeCloseButton(){
     var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
