@@ -671,7 +671,7 @@
         <line x1="412.9" y1="1052.22" x2="398.94" y2="1066.18" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g>
+    <g class="popup" id="common">
       <rect x="764.65" y="880.69" width="373.03" height="379.77" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M832,966.28c.09-.41.19-.48.55-.48h1.7c.24,0,.36.17.24.43l-2.06,4.68a.37.37,0,0,1-.55.22l-.58-.24a.4.4,0,0,1-.29-.53Z" style="fill: #48554e"/>
@@ -1474,7 +1474,7 @@
         <line x1="513" y1="733.08" x2="499.04" y2="747.04" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g>
+    <g class="popup" id="freeze">
       <rect x="846.95" y="680.51" width="373.03" height="379.57" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M890.77,763a.35.35,0,0,1-.52,0l-.77-.72a.33.33,0,0,1,0-.48c1.48-1.56,1.46-2.11,1.46-4.32,0-.12-.07-.16-.17-.16h-3.6a.37.37,0,0,1-.36-.37v-1.2a.35.35,0,0,1,.36-.33h4.39a1.24,1.24,0,0,1,1.28,1.2v1.49A6,6,0,0,1,890.77,763Z" style="fill: #48554e"/>
@@ -1748,7 +1748,7 @@
         <line x1="492.47" y1="493.21" x2="478.51" y2="507.18" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g>
+    <g class="popup" id="lied">
       <rect x="746.31" y="588.85" width="373.03" height="343.11" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M802.45,674.46c.1-.41.19-.48.55-.48h1.71c.24,0,.36.17.24.43l-2.07,4.68a.37.37,0,0,1-.55.22l-.58-.24a.4.4,0,0,1-.28-.53Z" style="fill: #48554e"/>
