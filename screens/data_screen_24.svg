@@ -182,7 +182,7 @@
       <rect x="508.24" y="1394.04" width="81.57" height="17.02" transform="translate(-853.52 1951.57) rotate(-90)" style="fill: #f0e0d4"/>
       <rect x="487.27" y="1394.04" width="81.57" height="17.02" transform="translate(-874.48 1930.61) rotate(-90)" style="fill: #f0e0d4"/>
       <rect x="466.3" y="1394.04" width="81.57" height="17.02" transform="translate(-895.45 1909.64) rotate(-90)" style="fill: #f1eeec"/>
-      <rect x="19.77" y="886.9" width="932.7" height="17.02" transform="translate(1381.52 409.29) rotate(90)" style="fill: #954299"/>
+      <rect x="19.77" y="886.9" width="932.7" height="17.02" transform="translate(1381.52 409.29) rotate(90)" style="fill: #954299" onclick="expectFunc();"/>
       <g>
         <rect x="361.26" y="1394.04" width="81.57" height="17.02" transform="translate(-1000.5 1804.59) rotate(-90)" style="fill: #f0e0d4"/>
         <rect x="340.29" y="1394.04" width="81.57" height="17.02" transform="translate(-1021.47 1783.62) rotate(-90)" style="fill: #f0e0d4"/>
@@ -2150,6 +2150,13 @@
   function rightwingFunc(){
     resetAllPopups();
     window.svg = document.getElementById("rightwing");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function expectFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("expect");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
