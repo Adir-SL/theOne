@@ -441,7 +441,7 @@
         <line x1="746.53" y1="922.99" x2="732.57" y2="936.95" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g>
+    <g class="popup" id="emberessed">
       <rect x="765.59" y="1024.6" width="373.03" height="308.5" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M856.27,1109.32a1.47,1.47,0,1,1-1.47,1.47A1.48,1.48,0,0,1,856.27,1109.32Z" style="fill: #48554e"/>
