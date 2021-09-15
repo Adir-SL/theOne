@@ -131,7 +131,7 @@
         <rect x="1027.28" y="1073.83" width="8.05" height="17.02" transform="translate(2113.64 51.03) rotate(90)" style="fill: #954299"/>
       </g>
       <rect x="780.83" y="1394.04" width="81.57" height="17.02" transform="translate(-580.92 2224.17) rotate(-90)" style="fill: #f0e0d4"/>
-      <rect x="343.72" y="896.32" width="913.86" height="17.02" transform="translate(1705.47 104.18) rotate(90)" style="fill: #954299"/>
+      <rect x="343.72" y="896.32" width="913.86" height="17.02" transform="translate(1705.47 104.18) rotate(90)" style="fill: #954299" onclick="commonFunc();"/>
       <rect x="263.42" y="836.99" width="1032.52" height="17.02" transform="translate(1625.18 65.81) rotate(90)" style="fill: #e3c867"/>
       <rect x="717.93" y="1394.04" width="81.57" height="17.02" transform="translate(-643.83 2161.26) rotate(-90)" style="fill: #f0e0d4"/>
       <rect x="696.96" y="1394.04" width="81.57" height="17.02" transform="translate(-664.8 2140.29) rotate(-90)" style="fill: #f0e0d4"/>
@@ -2119,6 +2119,13 @@
   function freezeFunc(){
     resetAllPopups();
     window.svg = document.getElementById("freeze");
+    window.svg.style.opacity = "1";
+    window.svg.style.pointerEvents = "all";
+    makeCloseButton();
+  }
+  function commonFunc(){
+    resetAllPopups();
+    window.svg = document.getElementById("common");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
