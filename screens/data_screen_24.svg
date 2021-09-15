@@ -188,7 +188,7 @@
         <rect x="340.29" y="1394.04" width="81.57" height="17.02" transform="translate(-1021.47 1783.62) rotate(-90)" style="fill: #f0e0d4"/>
         <rect x="319.32" y="1394.04" width="81.57" height="17.02" transform="translate(-1042.44 1762.65) rotate(-90)" style="fill: #f0e0d4"/>
         <g>
-          <rect x="59.23" y="1031.4" width="643.69" height="17.02" transform="translate(1420.99 658.83) rotate(90)" style="fill: #954299"/>
+          <rect x="59.23" y="1031.4" width="643.69" height="17.02" transform="translate(1420.99 658.83) rotate(90)" style="fill: #954299" onclick="rabbiFunc();"/>
           <rect x="377.05" y="1326.26" width="8.05" height="17.02" transform="translate(1715.84 953.69) rotate(90)" style="fill: #e3c867"/>
           <rect x="377.05" y="1294.7" width="8.05" height="17.02" transform="translate(1684.29 922.14) rotate(90)" style="fill: #e3c867"/>
           <rect x="377.05" y="1263.15" width="8.05" height="17.02" transform="translate(1652.74 890.58) rotate(90)" style="fill: #e3c867"/>
