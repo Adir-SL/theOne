@@ -224,7 +224,8 @@
       <rect x="403.4" y="1394.04" width="81.57" height="17.02" transform="translate(-958.36 1846.73) rotate(-90)" style="fill: #f0e0d4"/>
     </g>
     <rect x="849.22" y="1171.16" width="364.16" height="17.02" transform="translate(2210.98 148.37) rotate(90)" style="fill: #9dcbc1" opacity="0" onclick="behindFunc();"/>
-    <rect x="935.89" y="522.71" width="842" height="17.02" transform="translate(1478.65 -416.21) rotate(90)" style="fill: #f00" onclick="liedfFunc();"/>
+    <rect x="935.89" y="522.71" width="842" height="17.02" transform="translate(1478.65 -416.21) rotate(90)" style="fill: #f00" opacity="0" onclick="liedfFunc();"/>
+    <rect x="524.74" y="993.46" width="719.58" height="17.02" transform="translate(1886.49 117.44) rotate(90)" style="fill: #954299" opacity="0" onclick="freezeFunc();"/>
   </g>
   <g id="b58378d9-2606-43f4-b59b-fcd948caac45" data-name="+">
     <g class="popup" id="behind">
@@ -2110,7 +2111,7 @@
   }
   function liedfFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("liedf");
+    window.svg = document.getElementById("lied");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
