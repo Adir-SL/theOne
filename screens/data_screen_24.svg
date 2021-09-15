@@ -2084,6 +2084,13 @@
     document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[2].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[3].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[4].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[5].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[6].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[7].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[8].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[9].style.pointerEvents = "none";
+    document.getElementsByClassName("popup")[10].style.pointerEvents = "none";
   }
   function pomelaFunc(){
     resetAllPopups();
