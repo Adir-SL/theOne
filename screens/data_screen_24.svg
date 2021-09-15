@@ -56,7 +56,6 @@
       </g>
     </g>
     <g>
-    <rect x="849.22" y="1171.16" width="364.16" height="17.02" transform="translate(2210.98 148.37) rotate(90)" style="fill: #9dcbc1" opacity="0" onclick="behindFunc();"/>
       <rect x="1137.3" y="1394.04" width="81.57" height="17.02" transform="translate(-224.45 2580.64) rotate(-90)" style="fill: #f0e0d4"/>
       <rect x="1116.33" y="1394.04" width="81.57" height="17.02" transform="translate(-245.42 2559.67) rotate(-90)" style="fill: #f0e0d4"/>
       <rect x="1095.37" y="1394.04" width="81.57" height="17.02" transform="translate(-266.39 2538.7) rotate(-90)" style="fill: #f0e0d4"/>
@@ -224,6 +223,7 @@
       <rect x="424.37" y="1394.04" width="81.57" height="17.02" transform="translate(-937.39 1867.7) rotate(-90)" style="fill: #f0e0d4"/>
       <rect x="403.4" y="1394.04" width="81.57" height="17.02" transform="translate(-958.36 1846.73) rotate(-90)" style="fill: #f0e0d4"/>
     </g>
+    <rect x="849.22" y="1171.16" width="364.16" height="17.02" transform="translate(2210.98 148.37) rotate(90)" style="fill: #9dcbc1" opacity="0" onclick="behindFunc();"/>
   </g>
   <g id="b58378d9-2606-43f4-b59b-fcd948caac45" data-name="+">
     <g class="popup" id="behind">
