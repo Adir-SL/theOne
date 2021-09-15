@@ -228,6 +228,7 @@
     <rect x="524.74" y="993.46" width="719.58" height="17.02" transform="translate(1886.49 117.44) rotate(90)" style="fill: #954299" opacity="0" onclick="freezeFunc();"/>
     <rect x="263.42" y="836.99" width="1032.52" height="17.02" transform="translate(1625.18 65.81) rotate(90)" style="fill: #e3c867" opacity="0" onclick="pomelaFunc();"/>
     <rect x="95.67" y="836.99" width="1032.52" height="17.02" transform="translate(1457.43 233.56) rotate(90)" style="fill: #9dcbc1" opacity="0" onclick="disappearFunc();"/>
+    <rect x="495.54" y="648.71" width="716" height="17.02" transform="translate(1164.31 150.13) rotate(90)" style="fill: #f00" opacity="0" onclick="rightwingFunc();"/>
   </g>
   <g id="b58378d9-2606-43f4-b59b-fcd948caac45" data-name="+">
     <g class="popup" id="behind">
