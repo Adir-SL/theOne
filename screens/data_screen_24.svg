@@ -2072,6 +2072,14 @@
     document.getElementsByClassName("popup")[1].style.opacity = "0";
     document.getElementsByClassName("popup")[2].style.opacity = "0";
     document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
+    document.getElementsByClassName("popup")[3].style.opacity = "0";
 
     document.getElementsByClassName("popup")[0].style.pointerEvents = "none";
     document.getElementsByClassName("popup")[1].style.pointerEvents = "none";
