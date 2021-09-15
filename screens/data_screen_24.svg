@@ -60,7 +60,7 @@
       <rect x="1116.33" y="1394.04" width="81.57" height="17.02" transform="translate(-245.42 2559.67) rotate(-90)" style="fill: #f0e0d4"/>
       <rect x="1095.37" y="1394.04" width="81.57" height="17.02" transform="translate(-266.39 2538.7) rotate(-90)" style="fill: #f0e0d4"/>
       <rect x="1074.4" y="1394.04" width="81.57" height="17.02" transform="translate(-287.36 2517.73) rotate(-90)" style="fill: #f0e0d4"/>
-      <rect x="1026.01" y="1285.05" width="136.4" height="17.02" transform="translate(2387.77 199.34) rotate(90)" style="fill: #9dcbc1"/>
+      <rect x="1026.01" y="1285.05" width="136.4" height="17.02" transform="translate(2387.77 199.34) rotate(90)" style="fill: #9dcbc1" onclick="emberessedFunc();"/>
       <rect x="355.02" y="1285.05" width="136.4" height="17.02" transform="translate(1716.77 870.34) rotate(90)" style="fill: #9dcbc1"/>
       <rect x="1032.46" y="1394.04" width="81.57" height="17.02" transform="translate(-329.3 2475.79) rotate(-90)" style="fill: #f0e0d4"/>
       <rect x="1011.49" y="1394.04" width="81.57" height="17.02" transform="translate(-350.27 2454.82) rotate(-90)" style="fill: #f0e0d4"/>
