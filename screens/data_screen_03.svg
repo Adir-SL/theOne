@@ -2464,7 +2464,7 @@
     newElement.setAttribute("width",window.svg.getElementsByTagName('rect')[0].getAttribute("width"));
     newElement.setAttribute("height","55");
     newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
-    newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y"));
+    newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y") + (window.svg.getElementsByTagName('rect')[0].getAttribute("height")-55));
     newElement.style.fill = "#f00";
     newElement.style.opacity = "0.5";
     newElement.addEventListener("click", resetAllPopups, false); 
