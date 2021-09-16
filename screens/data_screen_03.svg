@@ -2467,8 +2467,13 @@
     newElement.setAttribute("y",Number(window.svg.getElementsByTagName('rect')[0].getAttribute("height")) + Number(window.svg.getElementsByTagName('rect')[0].getAttribute("y")) - 80);
     newElement.style.fill = "#f00";
     newElement.style.opacity = "0.5";
-    newElement.addEventListener("click", resetAllPopups, false); 
+    newElement.addEventListener("click", openLink, false); 
     window.svg.appendChild(newElement);
+  }
+  function openLink(){
+    if(window.svg.id == "first"){
+      window.location = "screen_05.html";
+    }
   }
   </script>
 </svg>
