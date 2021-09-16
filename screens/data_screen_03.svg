@@ -2489,6 +2489,9 @@
     if(window.svg.id == "lecturer"){
       window.location = "screen_08.html";
     }
+    if(window.svg.id == "aristo"){
+      window.location = "screen_09.html";
+    }
   }
   </script>
 </svg>
