@@ -2510,8 +2510,8 @@
     if(window.svg.id == "lied"){
       window.location = "screen_14.html";
     }
-    if(window.svg.id == "lied"){
-      window.location = "screen_14.html";
+    if(window.svg.id == "disapoint"){
+      window.location = "screen_15.html";
     }
   }
   </script>
