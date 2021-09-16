@@ -2526,7 +2526,6 @@
       window.location = "screen_19.html";
     }
     if(window.svg.id == "late"){
-      
       window.location = "screen_20.html";
     }
   }
