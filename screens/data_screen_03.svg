@@ -2471,6 +2471,9 @@
     window.svg.appendChild(newElement);
   }
   function openLink(){
+    if(window.svg.id == "prolog" || window.svg.id == "prolouge"){
+      window.location = "screen_02.html";
+    }
     if(window.svg.id == "first"){
       window.location = "screen_03.html";
     }
@@ -2500,6 +2503,9 @@
     }
     if(window.svg.id == "twin"){
       window.location = "screen_12.html";
+    }
+    if(window.svg.id == "sister"){
+      window.location = "screen_13.html";
     }
   }
   </script>
