@@ -2472,7 +2472,10 @@
   }
   function openLink(){
     if(window.svg.id == "first"){
-      window.location = "screen_05.html";
+      window.location = "screen_03.html";
+    }
+    if(window.svg.id == "memreble"){
+      window.location = "screen_04.html";
     }
   }
   </script>
