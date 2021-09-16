@@ -2474,11 +2474,17 @@
     if(window.svg.id == "first"){
       window.location = "screen_03.html";
     }
-    if(window.svg.id == "memreble"){
+    if(window.svg.id == "memreble" || window.svg.id == "memrable"){
       window.location = "screen_04.html";
     }
     if(window.svg.id == "exit"){
       window.location = "screen_05.html";
+    }
+    if(window.svg.id == "glowing" || window.svg.id == "juice"){
+      window.location = "screen_06.html";
+    }
+    if(window.svg.id == "emberessed"){
+      window.location = "screen_07.html";
     }
   }
   </script>
