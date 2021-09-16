@@ -2477,6 +2477,9 @@
     if(window.svg.id == "memreble"){
       window.location = "screen_04.html";
     }
+    if(window.svg.id == "exit"){
+      window.location = "screen_05.html";
+    }
   }
   </script>
 </svg>
