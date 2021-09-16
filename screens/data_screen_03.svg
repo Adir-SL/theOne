@@ -2492,6 +2492,9 @@
     if(window.svg.id == "aristo"){
       window.location = "screen_09.html";
     }
+    if(window.svg.id == "behind"){
+      window.location = "screen_10.html";
+    }
   }
   </script>
 </svg>
