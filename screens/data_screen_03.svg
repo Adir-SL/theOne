@@ -2516,6 +2516,18 @@
     if(window.svg.id == "laugh"){
       window.location = "screen_16.html";
     }
+    if(window.svg.id == "freeze"){
+      window.location = "screen_17.html";
+    }
+    if(window.svg.id == "forgot"){
+      window.location = "screen_18.html";
+    }
+    if(window.svg.id == "mansplain"){
+      window.location = "screen_19.html";
+    }
+    if(window.svg.id == "late"){
+      window.location = "screen_20.html";
+    }
   }
   </script>
 </svg>
