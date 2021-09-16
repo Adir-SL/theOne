@@ -2498,6 +2498,9 @@
     if(window.svg.id == "onion" || window.svg.id == "soup"){
       window.location = "screen_11.html";
     }
+    if(window.svg.id == "twin"){
+      window.location = "screen_12.html";
+    }
   }
   </script>
 </svg>
