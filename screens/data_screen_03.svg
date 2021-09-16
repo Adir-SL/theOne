@@ -2457,5 +2457,17 @@
     newElement.addEventListener("click", resetAllPopups, false); 
     window.svg.appendChild(newElement);
   }
+  
+  function makeLink(){
+    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
+    newElement.setAttribute("width","55");
+    newElement.setAttribute("height","55");
+    newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
+    newElement.setAttribute("y",window.svg.getElementsByTagName('rect')[0].getAttribute("y"));
+    newElement.style.fill = "#f00";
+    newElement.style.opacity = "0.5";
+    newElement.addEventListener("click", resetAllPopups, false); 
+    window.svg.appendChild(newElement);
+  }
   </script>
 </svg>
