@@ -2495,6 +2495,9 @@
     if(window.svg.id == "behind"){
       window.location = "screen_10.html";
     }
+    if(window.svg.id == "onion" || window.svg.id == "soup"){
+      window.location = "screen_11.html";
+    }
   }
   </script>
 </svg>
