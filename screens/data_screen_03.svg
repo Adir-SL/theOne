@@ -2486,6 +2486,9 @@
     if(window.svg.id == "emberessed"){
       window.location = "screen_07.html";
     }
+    if(window.svg.id == "lecturer"){
+      window.location = "screen_08.html";
+    }
   }
   </script>
 </svg>
