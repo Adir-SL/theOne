@@ -2456,6 +2456,7 @@
     newElement.style.opacity = "0";
     newElement.addEventListener("click", resetAllPopups, false); 
     window.svg.appendChild(newElement);
+    makeLink();
   }
   
   function makeLink(){
