@@ -2507,6 +2507,12 @@
     if(window.svg.id == "sister"){
       window.location = "screen_13.html";
     }
+    if(window.svg.id == "lied"){
+      window.location = "screen_14.html";
+    }
+    if(window.svg.id == "lied"){
+      window.location = "screen_14.html";
+    }
   }
   </script>
 </svg>
