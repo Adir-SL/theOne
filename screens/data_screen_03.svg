@@ -2513,6 +2513,9 @@
     if(window.svg.id == "disapoint"){
       window.location = "screen_15.html";
     }
+    if(window.svg.id == "laugh"){
+      window.location = "screen_16.html";
+    }
   }
   </script>
 </svg>
