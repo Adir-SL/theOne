@@ -2528,6 +2528,12 @@
     if(window.svg.id == "late"){
       window.location = "screen_20.html";
     }
+    if(window.svg.id == "common" || window.svg.id == "commonist"){
+      window.location = "screen_21.html";
+    }
+    if(window.svg.id == "disapoint"){
+      window.location = "screen_15.html";
+    }
   }
   </script>
 </svg>
