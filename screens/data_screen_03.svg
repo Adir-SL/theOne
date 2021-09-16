@@ -2466,7 +2466,7 @@
     newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
     newElement.setAttribute("y",Number(window.svg.getElementsByTagName('rect')[0].getAttribute("height")) + Number(window.svg.getElementsByTagName('rect')[0].getAttribute("y")) - 80);
     newElement.style.fill = "#f00";
-    newElement.style.opacity = "0.5";
+    newElement.style.opacity = "0";
     newElement.addEventListener("click", openLink, false); 
     window.svg.appendChild(newElement);
   }
