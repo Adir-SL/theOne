@@ -2549,6 +2549,9 @@
     if(window.svg.id == "shanon"){
       window.location = "screen_27.html";
     }
+    if(window.svg.id == "psycho"){
+      window.location = "screen_28.html";
+    }
   }
   </script>
 </svg>
