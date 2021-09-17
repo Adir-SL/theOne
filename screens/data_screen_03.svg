@@ -2567,6 +2567,9 @@
     if(window.svg.id == "wanted"){
       window.location = "screen_33.html";
     }
+    if(window.svg.id == "surprise"){
+      window.location = "screen_34.html";
+    }
   }
   </script>
 </svg>
