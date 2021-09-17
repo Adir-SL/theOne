@@ -1844,7 +1844,7 @@
     if(window.svg.id == "forgot"){
       parent.openLink(event, "screen_18.html");
     }
-    if(window.svg.id == "mansplain"){
+    if(window.svg.id == "mansplain" || window.svg.id == "raanana"){
       parent.openLink(event, "screen_19.html");
     }
     if(window.svg.id == "late"){
