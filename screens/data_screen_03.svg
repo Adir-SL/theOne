@@ -2570,6 +2570,9 @@
     if(window.svg.id == "surprise"){
       window.location = "screen_34.html";
     }
+    if(window.svg.id == "rightwing"){
+      window.location = "screen_35.html";
+    }
   }
   </script>
 </svg>
