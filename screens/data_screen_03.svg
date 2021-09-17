@@ -2537,6 +2537,9 @@
     if(window.svg.id == "disappoint"){
       window.location = "screen_23.html";
     }
+    if(window.svg.id == "masmas"){
+      window.location = "screen_24.html";
+    }
   }
   </script>
 </svg>
