@@ -2543,6 +2543,9 @@
     if(window.svg.id == "cordoroy"){
       window.location = "screen_25.html";
     }
+    if(window.svg.id == "poet"){
+      window.location = "screen_26.html";
+    }
   }
   </script>
 </svg>
