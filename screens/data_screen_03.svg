@@ -2477,7 +2477,7 @@
     if(window.svg.id == "first"){
       
       <!-- window.location.href = "screen_03.html"; -->
-      window.open("screen_03.html","topWrapper");
+      window.open("screen_03.html","_parent");
     }
     if(window.svg.id == "memreble" || window.svg.id == "memrable"){
       window.location = "screen_04.html";
