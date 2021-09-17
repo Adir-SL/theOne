@@ -758,7 +758,7 @@
     if(window.svg.id == "surprise"){
       parent.openLink(event, "screen_34.html");
     }
-    if(window.svg.id == "rightwing"){
+    if(window.svg.id == "rightwing" || window.svg.id == "abroad"){
       parent.openLink(event, "screen_35.html");
     }
     if(window.svg.id == "expect"){
