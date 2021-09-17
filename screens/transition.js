@@ -29,3 +29,9 @@ function openLink (e, url) {
 }
 
 document.getElementsByClassName("wrapper")[0].addEventListener("beforeunload", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "0";});
+
+function changeHash(){
+    openLink(window.body, window.location.hash);
+}
+
+window.addEventListener("hashchange", changeHash, false);
