@@ -2573,6 +2573,9 @@
     if(window.svg.id == "rightwing"){
       window.location = "screen_35.html";
     }
+    if(window.svg.id == "expect"){
+      window.location = "screen_36.html";
+    }
   }
   </script>
 </svg>
