@@ -8,6 +8,9 @@
   pointer-events: none;
   transition: opacity 300ms linear 0s;
 }
+line{
+  pointer-events: none;
+}
 </style>
   <g id="a73fc6a8-98fa-4c85-af69-44122efb2ebd" data-name="text">
     <g>
