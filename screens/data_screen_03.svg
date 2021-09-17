@@ -2594,6 +2594,9 @@
     if(window.svg.id == "before"){
       window.location = "screen_42.html";
     }
+    if(window.svg.id == "epilouge"){
+      window.location = "screen_43.html";
+    }
   }
   </script>
 </svg>
