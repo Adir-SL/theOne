@@ -1432,7 +1432,7 @@
   <rect x="950" y="1120" height="150" width="220" fill="#f00" opacity="0" onclick="epilougeFunc();" />
 
   <rect id="closeButton" width="65" height="65" x="1070" y="420" style="fill: #f00; opacity: 0; pointer-events: none;" onclick="resetAllPopups();"/>
-  <rect id="openLinkButton" width="400" height="300" x="750" y="700" style="fill: #f00; opacity: 0.5;" onclick="openLink();"/>
+  <rect id="openLinkButton" width="400" height="400" x="750" y="600" style="fill: #f00; opacity: 0.5;pointer-events: none;" onclick="openLink();"/>
   <script>
   function resetAllPopups(){
     document.getElementsByClassName("popup")[0].style.opacity = "0";
@@ -1505,18 +1505,7 @@
 
   function makeCloseButton(){
     document.getElementById("closeButton").style.pointerEvents = "all";
-    makeLink();
-  }
-  function makeLink(){
-    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
-    newElement.setAttribute("width",window.svg.getElementsByTagName('rect')[0].getAttribute("width"));
-    newElement.setAttribute("height","80");
-    newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
-    newElement.setAttribute("y",Number(window.svg.getElementsByTagName('rect')[0].getAttribute("height")) + Number(window.svg.getElementsByTagName('rect')[0].getAttribute("y")) - 80);
-    newElement.style.fill = "#f00";
-    newElement.style.opacity = "0.5";
-    newElement.addEventListener("click", openLink, false); 
-    window.svg.appendChild(newElement);
+    document.getElementById("openLinkButton").style.pointerEvents = "all";
   }
   function openLink(){
     if(window.svg.id == "prolog" || window.svg.id == "prolouge"){
