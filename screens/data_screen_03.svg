@@ -2579,6 +2579,12 @@
     if(window.svg.id == "cheap"){
       window.location = "screen_37.html";
     }
+    if(window.svg.id == "presuade"){
+      window.location = "screen_38.html";
+    }
+    if(window.svg.id == "important"){
+      window.location = "screen_33.html";
+    }
   }
   </script>
 </svg>
