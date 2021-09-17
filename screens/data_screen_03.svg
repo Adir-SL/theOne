@@ -2585,6 +2585,9 @@
     if(window.svg.id == "important"){
       window.location = "screen_39.html";
     }
+    if(window.svg.id == "detective"){
+      window.location = "screen_40.html";
+    }
   }
   </script>
 </svg>
