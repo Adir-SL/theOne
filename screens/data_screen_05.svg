@@ -692,7 +692,7 @@
     if(window.svg.id == "twin"){
       parent.openLink(event, "screen_12.html");
     }
-    if(window.svg.id == "sister"){
+    if(window.svg.id == "sister" || window.svg.id == "israeli"){
       parent.openLink(event, "screen_13.html");
     }
     if(window.svg.id == "lied"){
