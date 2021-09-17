@@ -2583,7 +2583,7 @@
       window.location = "screen_38.html";
     }
     if(window.svg.id == "important"){
-      window.location = "screen_33.html";
+      window.location = "screen_39.html";
     }
   }
   </script>
