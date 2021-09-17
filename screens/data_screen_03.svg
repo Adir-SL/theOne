@@ -2540,6 +2540,9 @@
     if(window.svg.id == "masmas"){
       window.location = "screen_24.html";
     }
+    if(window.svg.id == "cordoroy"){
+      window.location = "screen_25.html";
+    }
   }
   </script>
 </svg>
