@@ -1811,7 +1811,7 @@
     if(window.svg.id == "emberessed"){
       parent.openLink(event, "screen_07.html");
     }
-    if(window.svg.id == "lecturer"){
+    if(window.svg.id == "lecturer" || window.svg.id == "givatshmuel"){
       parent.openLink(event, "screen_08.html");
     }
     if(window.svg.id == "aristo"){
@@ -1901,13 +1901,13 @@
     if(window.svg.id == "cheap"){
       parent.openLink(event, "screen_37.html");
     }
-    if(window.svg.id == "presuade"){
+    if(window.svg.id == "presuade" || window.svg.id == "telaviv"){
       parent.openLink(event, "screen_38.html");
     }
     if(window.svg.id == "important"){
       parent.openLink(event, "screen_39.html");
     }
-    if(window.svg.id == "detective"){
+    if(window.svg.id == "detective" || window.svg.id == "ashkelon"){
       parent.openLink(event, "screen_40.html");
     }
     if(window.svg.id == "rabbi"){
