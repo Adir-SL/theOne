@@ -2475,7 +2475,9 @@
       window.location = "screen_02.html";
     }
     if(window.svg.id == "first"){
-      window.location = "screen_03.html";
+      <!-- window.location.href = "screen_03.html"; -->
+      <!-- window.open("screen_03.html","_self"); -->
+      document.getElementsByClassName("wrapper")[0].innerHTML = "screen_03.html";
     }
     if(window.svg.id == "memreble" || window.svg.id == "memrable"){
       window.location = "screen_04.html";
