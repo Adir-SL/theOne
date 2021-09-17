@@ -2555,6 +2555,9 @@
     if(window.svg.id == "breathe" || window.svg.id == "breath"){
       window.location = "screen_29.html";
     }
+    if(window.svg.id == "disappear"){
+      window.location = "screen_30.html";
+    }
   }
   </script>
 </svg>
