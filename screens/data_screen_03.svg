@@ -2534,6 +2534,9 @@
     if(window.svg.id == "pomela"){
       window.location = "screen_22.html";
     }
+    if(window.svg.id == "disappoint"){
+      window.location = "screen_23.html";
+    }
   }
   </script>
 </svg>
