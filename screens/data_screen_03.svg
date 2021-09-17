@@ -2591,6 +2591,9 @@
     if(window.svg.id == "rabbi"){
       window.location = "screen_41.html";
     }
+    if(window.svg.id == "before"){
+      window.location = "screen_42.html";
+    }
   }
   </script>
 </svg>
