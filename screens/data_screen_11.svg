@@ -1504,6 +1504,146 @@
 
   function makeCloseButton(){
     document.getElementById("closeButton").style.pointerEvents = "all";
+    makeLink();
+  }
+  function makeLink(){
+    var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
+    newElement.setAttribute("width",window.svg.getElementsByTagName('rect')[0].getAttribute("width"));
+    newElement.setAttribute("height","80");
+    newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
+    newElement.setAttribute("y",Number(window.svg.getElementsByTagName('rect')[0].getAttribute("height")) + Number(window.svg.getElementsByTagName('rect')[0].getAttribute("y")) - 80);
+    newElement.style.fill = "#f00";
+    newElement.style.opacity = "0.5";
+    newElement.addEventListener("click", openLink, false); 
+    window.svg.appendChild(newElement);
+  }
+  function openLink(){
+    if(window.svg.id == "prolog" || window.svg.id == "prolouge"){
+      parent.openLink(event, "screen_02.html");
+    }
+    if(window.svg.id == "first"){
+      parent.openLink(event, "screen_03.html");
+    }
+    if(window.svg.id == "memreble" || window.svg.id == "memrable"){
+      parent.openLink(event, "screen_04.html");
+    }
+    if(window.svg.id == "exit"){
+      parent.openLink(event, "screen_05.html");
+    }
+    if(window.svg.id == "glowing" || window.svg.id == "juice"){
+      parent.openLink(event, "screen_06.html");
+    }
+    if(window.svg.id == "emberessed"){
+      parent.openLink(event, "screen_07.html");
+    }
+    if(window.svg.id == "lecturer"){
+      parent.openLink(event, "screen_08.html");
+    }
+    if(window.svg.id == "aristo"){
+      parent.openLink(event, "screen_09.html");
+    }
+    if(window.svg.id == "behind"){
+      parent.openLink(event, "screen_10.html");
+    }
+    if(window.svg.id == "onion" || window.svg.id == "soup"){
+      parent.openLink(event, "screen_11.html");
+    }
+    if(window.svg.id == "twin"){
+      parent.openLink(event, "screen_12.html");
+    }
+    if(window.svg.id == "sister"){
+      parent.openLink(event, "screen_13.html");
+    }
+    if(window.svg.id == "lied"){
+      parent.openLink(event, "screen_14.html");
+    }
+    if(window.svg.id == "disapoint"){
+      parent.openLink(event, "screen_15.html");
+    }
+    if(window.svg.id == "laugh"){
+      parent.openLink(event, "screen_16.html");
+    }
+    if(window.svg.id == "freeze"){
+      parent.openLink(event, "screen_17.html");
+    }
+    if(window.svg.id == "forgot"){
+      parent.openLink(event, "screen_18.html");
+    }
+    if(window.svg.id == "mansplain"){
+      parent.openLink(event, "screen_19.html");
+    }
+    if(window.svg.id == "late"){
+      parent.openLink(event, "screen_20.html");
+    }
+    if(window.svg.id == "common" || window.svg.id == "commonist"){
+      parent.openLink(event, "screen_21.html");
+    }
+    if(window.svg.id == "pomela"){
+      parent.openLink(event, "screen_22.html");
+    }
+    if(window.svg.id == "disappoint"){
+      parent.openLink(event, "screen_23.html");
+    }
+    if(window.svg.id == "masmas"){
+      parent.openLink(event, "screen_24.html");
+    }
+    if(window.svg.id == "cordoroy"){
+      parent.openLink(event, "screen_25.html");
+    }
+    if(window.svg.id == "poet"){
+      parent.openLink(event, "screen_26.html");
+    }
+    if(window.svg.id == "shanon"){
+      parent.openLink(event, "screen_27.html");
+    }
+    if(window.svg.id == "psycho"){
+      parent.openLink(event, "screen_28.html");
+    }
+    if(window.svg.id == "breathe" || window.svg.id == "breath"){
+      parent.openLink(event, "screen_29.html");
+    }
+    if(window.svg.id == "disappear"){
+      parent.openLink(event, "screen_30.html");
+    }
+    if(window.svg.id == "blink"){
+      parent.openLink(event, "screen_31.html");
+    }
+    if(window.svg.id == "decide"){
+      parent.openLink(event, "screen_32.html");
+    }
+    if(window.svg.id == "wanted"){
+      parent.openLink(event, "screen_33.html");
+    }
+    if(window.svg.id == "surprise"){
+      parent.openLink(event, "screen_34.html");
+    }
+    if(window.svg.id == "rightwing"){
+      parent.openLink(event, "screen_35.html");
+    }
+    if(window.svg.id == "expect"){
+      parent.openLink(event, "screen_36.html");
+    }
+    if(window.svg.id == "cheap"){
+      parent.openLink(event, "screen_37.html");
+    }
+    if(window.svg.id == "presuade"){
+      parent.openLink(event, "screen_38.html");
+    }
+    if(window.svg.id == "important"){
+      parent.openLink(event, "screen_39.html");
+    }
+    if(window.svg.id == "detective"){
+      parent.openLink(event, "screen_40.html");
+    }
+    if(window.svg.id == "rabbi"){
+      parent.openLink(event, "screen_41.html");
+    }
+    if(window.svg.id == "before"){
+      parent.openLink(event, "screen_42.html");
+    }
+    if(window.svg.id == "epilouge"){
+      parent.openLink(event, "screen_43.html");
+    }
   }
   </script>
 </svg>
