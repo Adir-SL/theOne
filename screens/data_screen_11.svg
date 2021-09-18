@@ -1432,7 +1432,7 @@
   <rect x="950" y="1120" height="150" width="220" fill="#f00" opacity="0" onclick="epilougeFunc();" />
 
   <rect id="closeButton" width="65" height="65" x="1070" y="420" style="fill: #f00; opacity: 0; pointer-events: none;" onclick="resetAllPopups();"/>
-  <rect id="openLinkButton" width="400" height="400" x="750" y="600" style="fill: #f00; opacity: 0.5;pointer-events: none;" onclick="openLink();"/>
+  <rect id="openLinkButton" width="400" height="400" x="750" y="600" style="fill: #f00; opacity: 0; pointer-events: none;" onclick="openLink();"/>
   <script>
   function resetAllPopups(){
     document.getElementsByClassName("popup")[0].style.opacity = "0";
