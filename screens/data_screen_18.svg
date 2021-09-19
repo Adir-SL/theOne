@@ -1187,7 +1187,7 @@
     if(window.svg.id == "exit"){
       parent.openLink(event, "screen_05.html");
     }
-    if(window.svg.id == "glowing" || window.svg.id == "juice"){
+    if(window.svg.id == "glowing" || window.svg.id == "juice" || window.svg.id == "juice_02"){
       parent.openLink(event, "screen_06.html");
     }
     if(window.svg.id == "emberessed"){
@@ -1256,7 +1256,7 @@
     if(window.svg.id == "psycho"){
       parent.openLink(event, "screen_28.html");
     }
-    if(window.svg.id == "breathe" || window.svg.id == "breath"){
+    if(window.svg.id == "breathe" || window.svg.id == "breath" || window.svg.id == "breathe_02"){
       parent.openLink(event, "screen_29.html");
     }
     if(window.svg.id == "disappear"){
@@ -1271,7 +1271,7 @@
     if(window.svg.id == "wanted"){
       parent.openLink(event, "screen_33.html");
     }
-    if(window.svg.id == "surprise"){
+    if(window.svg.id == "surprise" || window.svg.id == "surprise_02"){
       parent.openLink(event, "screen_34.html");
     }
     if(window.svg.id == "rightwing"){
