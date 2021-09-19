@@ -81,7 +81,7 @@
     <circle onclick="cordoroyFunc();" cx="887.08" cy="724.96" r="251.63" style="fill: url(#a5f01f1f-206a-4780-b136-6d5663ba74e3)"/>
     <circle onclick="psychoFunc();" cx="953.92" cy="1167.32" r="179.74" style="fill: url(#a8d271dc-2a3a-4454-a1e6-035e23cb2ad4)"/>
     <circle onclick="blinkFunc();" cx="563.6" cy="704.3" r="131.81" style="fill: url(#e21676ba-a634-49c3-b050-40009d69c37b)"/>
-    <circle onclick="disapointFunc();" cx="724.37" cy="1031.94" r="167.75" style="fill: url(#a7f9100f-d93f-4185-aa58-e7970b9a6282)"/>
+    <circle onclick="disappointFunc();" cx="724.37" cy="1031.94" r="167.75" style="fill: url(#a7f9100f-d93f-4185-aa58-e7970b9a6282)"/>
     <g>
       <line x1="545.2" y1="925.02" x2="717.12" y2="1031.94" style="fill: none;stroke: #e3c867;stroke-miterlimit: 10;stroke-width: 2.39647643178401px"/>
       <path d="M540.82,932.91a9,9,0,1,1,12.41-2.9A9,9,0,0,1,540.82,932.91Z" style="fill: #e3c867"/>
@@ -562,7 +562,7 @@
         <line x1="268.83" y1="1185.59" x2="254.87" y2="1199.55" style="fill: none;stroke: #48554e;stroke-miterlimit: 10;stroke-width: 1.92px"/>
       </g>
     </g>
-    <g class="popup" id="disapoint">
+    <g class="popup" id="disappoint">
       <rect x="388.97" y="756.37" width="377.67" height="316.13" style="fill: #e5e4e3;opacity: 0.85"/>
       <g>
         <path d="M485.87,838.92a.35.35,0,0,1-.53,0l-.77-.72a.34.34,0,0,1,0-.48c1.49-1.56,1.46-2.11,1.46-4.32a.15.15,0,0,0-.16-.17h-3.6a.36.36,0,0,1-.36-.36v-1.2a.34.34,0,0,1,.36-.33h4.39a1.23,1.23,0,0,1,1.27,1.2V834A6,6,0,0,1,485.87,838.92Z" style="fill: #48554e"/>
