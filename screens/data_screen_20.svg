@@ -930,9 +930,9 @@
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
   }
-  function disapointFunc(){
+  function disappointFunc(){
     resetAllPopups();
-    window.svg = document.getElementById("disapoint");
+    window.svg = document.getElementById("disappoint");
     window.svg.style.opacity = "1";
     window.svg.style.pointerEvents = "all";
     makeCloseButton();
