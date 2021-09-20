@@ -1777,6 +1777,8 @@
     resetPopups();
     document.getElementById("family").style.opacity = 1;
     document.getElementById("family").style.pointerEvents = "all";
+    window.svg = document.getElementById("family");
+    makeLink();
   }
 
   function motherFriendClick(){
@@ -1791,6 +1793,8 @@
     resetPopups();
     document.getElementById("atar").style.opacity = 1;
     document.getElementById("atar").style.pointerEvents = "all";
+    window.svg = document.getElementById("atar");
+    makeLink();
   }
 
   function friendClick(){
@@ -1873,7 +1877,7 @@
     if(window.svg.id == "lied"){
       parent.openLink(event, "screen_14.html");
     }
-    if(window.svg.id == "disapoint"){
+    if(window.svg.id == "disapoint" || window.svg.id == "atar"){
       parent.openLink(event, "screen_15.html");
     }
     if(window.svg.id == "laugh"){
@@ -1945,7 +1949,7 @@
     if(window.svg.id == "presuade" || window.svg.id == "meizam"){
       parent.openLink(event, "screen_38.html");
     }
-    if(window.svg.id == "important"){
+    if(window.svg.id == "important" || window.svg.id == "family"){
       parent.openLink(event, "screen_39.html");
     }
     if(window.svg.id == "detective"){
