@@ -1898,7 +1898,7 @@
     if(window.svg.id == "expect"){
       parent.openLink(event, "screen_36.html");
     }
-    if(window.svg.id == "cheap"){
+    if(window.svg.id == "cheap" || window.svg.id == "north"){
       parent.openLink(event, "screen_37.html");
     }
     if(window.svg.id == "presuade" || window.svg.id == "telaviv"){
