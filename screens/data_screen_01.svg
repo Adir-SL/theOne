@@ -1807,7 +1807,7 @@
     resetPopups();
     document.getElementById("meizam").style.opacity = 1;
     document.getElementById("meizam").style.pointerEvents = "all";
-    window.svg = "presuade";
+    window.svg = document.getElementById("meizam");
     makeLink();
   }
 
@@ -1815,7 +1815,7 @@
     resetPopups();
     document.getElementById("makar").style.opacity = 1;
     document.getElementById("makar").style.pointerEvents = "all";
-    window.svg = "late";
+    window.svg = document.getElementById("makar");
     makeLink();
   }
   function makeLink(){
@@ -1884,7 +1884,7 @@
     if(window.svg.id == "mansplain"){
       parent.openLink(event, "screen_19.html");
     }
-    if(window.svg.id == "late"){
+    if(window.svg.id == "late" || window.svg.id == "makar"){
       parent.openLink(event, "screen_20.html");
     }
     if(window.svg.id == "common" || window.svg.id == "commonist"){
@@ -1938,7 +1938,7 @@
     if(window.svg.id == "cheap"){
       parent.openLink(event, "screen_37.html");
     }
-    if(window.svg.id == "presuade"){
+    if(window.svg.id == "presuade" || window.svg.id == "meizam"){
       parent.openLink(event, "screen_38.html");
     }
     if(window.svg.id == "important"){
