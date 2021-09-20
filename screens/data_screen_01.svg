@@ -1801,6 +1801,8 @@
     resetPopups();
     document.getElementById("friend").style.opacity = 1;
     document.getElementById("friend").style.pointerEvents = "all";
+    window.svg = document.getElementById("friend");
+    makeLink();
   }
 
   function motherClick(){
@@ -1847,7 +1849,7 @@
     if(window.svg.id == "memreble" || window.svg.id == "memrable"){
       parent.openLink(event, "screen_04.html");
     }
-    if(window.svg.id == "exit"){
+    if(window.svg.id == "exit" || window.svg.id == "friend"){
       parent.openLink(event, "screen_05.html");
     }
     if(window.svg.id == "glowing" || window.svg.id == "juice" || window.svg.id == "mother"){
