@@ -2573,7 +2573,7 @@
     if(window.svg.id == "rightwing"){
       parent.openLink(event, "screen_35.html");
     }
-    if(window.svg.id == "expect"){
+    if(window.svg.id == "expect" || window.svg.id == "high"){
       parent.openLink(event, "screen_36.html");
     }
     if(window.svg.id == "cheap"){
