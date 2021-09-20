@@ -1877,7 +1877,7 @@
     if(window.svg.id == "lied"){
       parent.openLink(event, "screen_14.html");
     }
-    if(window.svg.id == "disapoint" || window.svg.id == "atar"){
+    if(window.svg.id == "disapoint"){
       parent.openLink(event, "screen_15.html");
     }
     if(window.svg.id == "laugh"){
@@ -1901,7 +1901,7 @@
     if(window.svg.id == "pomela"){
       parent.openLink(event, "screen_22.html");
     }
-    if(window.svg.id == "disappoint"){
+    if(window.svg.id == "disappoint" || window.svg.id == "atar"){
       parent.openLink(event, "screen_23.html");
     }
     if(window.svg.id == "masmas"){
