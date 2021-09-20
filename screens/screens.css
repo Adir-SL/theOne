@@ -256,7 +256,7 @@ a, button{
     cursor: pointer;
     pointer-events: none;
     opacity: 0;
-    transition: opacity 200ms linear 0ms, transform 300ms ease-in-out 0s;
+    transition: opacity 100ms linear 0ms, transform 300ms ease-in-out 0s;
 }
 .openCross{
     transform: rotate(135deg);
