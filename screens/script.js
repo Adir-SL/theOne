@@ -41,5 +41,5 @@ function crossReset(){
             document.getElementsByClassName("footer")[0].querySelectorAll("button")[0].classList.add("blackText");
             document.getElementsByClassName("footer")[0].querySelectorAll("button")[1].classList.remove("blackText");
         }
-    }, 200);
+    }, 30);
 }
