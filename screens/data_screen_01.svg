@@ -1783,6 +1783,8 @@
     resetPopups();
     document.getElementById("motherFriend").style.opacity = 1;
     document.getElementById("motherFriend").style.pointerEvents = "all";
+    window.svg = document.getElementById("motherFriend");
+    makeLink();
   }
 
   function atarClick(){
@@ -1801,6 +1803,8 @@
     resetPopups();
     document.getElementById("mother").style.opacity = 1;
     document.getElementById("mother").style.pointerEvents = "all";
+    window.svg = document.getElementById("mother");
+    makeLink();
   }
 
   function meizamClick(){
@@ -1842,7 +1846,7 @@
     if(window.svg.id == "exit"){
       parent.openLink(event, "screen_05.html");
     }
-    if(window.svg.id == "glowing" || window.svg.id == "juice"){
+    if(window.svg.id == "glowing" || window.svg.id == "juice" || window.svg.id == "mother"){
       parent.openLink(event, "screen_06.html");
     }
     if(window.svg.id == "emberessed"){
@@ -1854,7 +1858,7 @@
     if(window.svg.id == "aristo"){
       parent.openLink(event, "screen_09.html");
     }
-    if(window.svg.id == "behind"){
+    if(window.svg.id == "behind" || window.svg.id == "motherFriend"){
       parent.openLink(event, "screen_10.html");
     }
     if(window.svg.id == "onion" || window.svg.id == "soup"){
