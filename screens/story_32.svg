@@ -377,7 +377,7 @@
       <path d="M1156.15,578a3.09,3.09,0,0,0-.45,1.92v2.53a.36.36,0,0,1-.33.37h-1.26a.36.36,0,0,1-.33-.37V580a4.33,4.33,0,0,1,1.35-3.47l-1.44-2.11a.39.39,0,0,1,.06-.48l1-.73a.37.37,0,0,1,.51.06l2.56,3.75,1.49-3.3a.44.44,0,0,1,.46-.31h1.09c.37,0,.57.28.42.57l-2.28,4.81,2,3a.37.37,0,0,1,0,.47l-1,.73a.35.35,0,0,1-.51-.05Z" style="fill: #f59774"/>
       <path d="M1070.21,585.07v-.44h92.18v.44Z" style="fill: #f59774"/>
 
-      <a href="data_isuk.html" target="_top"><rect x="1027.94" y="497.75" width="159.69" height="111.15" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="1027.94" y="497.75" width="159.69" height="111.15" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_08.html');"/>
       <a href="data_dati.html" target="_top"><rect x="414.18" y="1005.86" width="193.91" height="80.94" style="fill: #f59774;opacity: 0"/></a>
       <a href="data_ends.html" target="_top"><rect x="414.18" y="1640.8" width="193.91" height="80.94" style="fill: #f59774;opacity: 0"/></a>
     </g>
