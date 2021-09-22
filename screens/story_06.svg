@@ -495,7 +495,7 @@
         <rect x="994.38" y="730.29" width="205.85" height="120.27" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_15.html');"/>
       <a href="data_cloth.html" target="_top"><rect x="436.75" y="1310.55" width="192.63" height="73.88" style="fill: #f59774;opacity: 0"/></a>
       <a href="data_dates.html" target="_top"><rect x="1017.54" y="1619.15" width="164.12" height="120.27" style="fill: #f59774;opacity: 0"/></a>
-      <a href="data_dati.html" target="_top"><rect x="385.92" y="2006.8" width="145.54" height="112.63" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="385.92" y="2006.8" width="145.54" height="112.63" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_03.html');"/>
       </g>
     </g>
   </g>
