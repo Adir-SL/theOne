@@ -363,7 +363,7 @@
       <path d="M641.64,524.57h7.55V510.66h-3.84a.8.8,0,0,1-.86-.82v-3.16a.86.86,0,0,1,.9-.81h4.93a3.72,3.72,0,0,1,3.7,3.7v16.71a3,3,0,0,1-3.07,3.07h-9.31a.79.79,0,0,1-.85-.81v-3.16a.85.85,0,0,1,.9-.81Z" style="fill: #f59774"/>
       <path d="M669.42,517.43c-.81,1-1.13,2.57-1.13,4.74v6.28a.85.85,0,0,1-.81.9h-3.12a.85.85,0,0,1-.81-.9v-6.28c0-3.52.9-6.46,3.34-8.58l-3.57-5.24a.94.94,0,0,1,.14-1.17l2.44-1.81a.91.91,0,0,1,1.26.14l6.32,9.3,3.71-8.17a1.09,1.09,0,0,1,1.13-.77H681c.9,0,1.4.68,1,1.4l-5.65,11.92,5,7.5a.93.93,0,0,1-.13,1.17l-2.44,1.81a.88.88,0,0,1-1.27-.13Z" style="fill: #f59774"/>
     </g>
-    <a href="data_dati.html" target="_top"><rect x="1032.53" y="438.08" width="152.02" height="114.22" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="1032.53" y="438.08" width="152.02" height="114.22" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_03.html');"/>
     <rect x="369.63" y="919.9" width="241.4" height="79.47" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_01.html');"/>
     <a href="data_ends.html" target="_top"><rect x="1033.18" y="1713.72" width="152.02" height="114.22" style="fill: #f59774;opacity: 0"/></a>
     <a href="data_where.html" target="_top"><rect x="1013.54" y="2125.99" width="167.77" height="114.22" style="fill: #f59774;opacity: 0"/></a>
