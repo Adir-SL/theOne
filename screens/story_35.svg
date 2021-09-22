@@ -481,7 +481,7 @@
     </g>
     <text transform="translate(986.3 727.63)" style="font-size: 18.18021011352539px;fill: #f59774;font-family: ArbelHagilda-Bold, ArbelHagilda;font-weight: 700;text-decoration: underline"><tspan xml:space="preserve"> ויהש םיפסונ םירבד</tspan><tspan x="77.05" y="26.26">turn-off</tspan></text>
     <a href="data_turnoffs.html" target="_top"><rect x="968.62" y="690.86" width="205.08" height="90.42" style="fill: #f59774;opacity: 0"/></a>
-    <a href="data_age.html" target="_top"><rect x="400.95" y="656.32" width="205.08" height="101.03" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="400.95" y="656.32" width="205.08" height="101.03" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_17.html');"/>
     <rect x="371.76" y="1301.84" width="241.68" height="68.8" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_04.html');"/>
     <a href="data_cloth.html" target="_top"><rect x="929.35" y="1511.83" width="189.51" height="62.21" style="fill: #f59774;opacity: 0"/></a>
   </g>
