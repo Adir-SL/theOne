@@ -476,6 +476,6 @@
     <rect x="1015.53" y="870.14" width="172.67" height="98.64" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_08.html');"/>
     <a href="data_cloth.html" target="_top"><rect x="420.77" y="1555.69" width="184.88" height="70.04" style="fill: #f59774;opacity: 0"/></a>
     <rect x="411.23" y="2490.48" width="196.18" height="96.14" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_24.html');"/>
-    <a href="data_talks.html" target="_top"><rect x="1030.48" y="407.25" width="157.71" height="90.97" style="fill: #f59774;opacity: 0;transform: translateY(35%);"/></a>
+    <rect x="1030.48" y="407.25" width="157.71" height="90.97" style="fill: #f59774;opacity: 0;transform: translateY(35%);" onclick="parent.openLink(event, 'data_screen_14.html');"/>
   </g>
 </svg>
