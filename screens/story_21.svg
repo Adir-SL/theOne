@@ -376,7 +376,7 @@
 
       <rect x="1040.18" y="506.49" width="163.31" height="132.59" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_03.html');"/>
       <rect x="356.84" y="791.29" width="252.02" height="117.15" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_09.html');"/>
-      <a href="data_drinks.html" target="_top"><rect x="1002.52" y="1566.1" width="191.53" height="83.43" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="1002.52" y="1566.1" width="191.53" height="83.43" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_13.html');"/>
     </g>
   </g>
 </svg>
