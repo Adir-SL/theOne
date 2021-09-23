@@ -377,6 +377,6 @@
     </g>
     <a href="data_navigation.html" target="_top"><rect x="422.99" y="591.21" width="189.19" height="99.71" style="fill: #f59774;opacity: 0"/></a>
     <a href="data_bumps.html" target="_top"><rect x="997.41" y="1366.66" width="191.98" height="123.39" style="fill: #f59774;opacity: 0"/></a>
-    <a href="data_drinks.html" target="_top"><rect x="460.34" y="1284.27" width="158.97" height="99.71" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="460.34" y="1284.27" width="158.97" height="99.71" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_13.html');"/>
   </g>
 </svg>
