@@ -422,7 +422,7 @@
       <path d="M1143,403.28a.82.82,0,0,1-.86-.82v-3.17a.86.86,0,0,1,.91-.81h6a6.86,6.86,0,0,1,6.88,6.93v11.83h1.86a.86.86,0,0,1,.91.81v3.18a.82.82,0,0,1-.86.81H1141.6a.83.83,0,0,1-.86-.81v-3.18a.86.86,0,0,1,.91-.81h9.47V405.37a2.11,2.11,0,0,0-2.08-2.09Z" style="fill: #f59774"/>
 
       <rect x="1001.18" y="1016.32" width="184.17" height="99.71" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
-      <a href="data_passed.html" target="_top"><rect x="385.72" y="1312.36" width="222.17" height="74.7" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="385.72" y="1312.36" width="222.17" height="74.7" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_23.html');"/>
     </g>
   </g>
 </svg>
