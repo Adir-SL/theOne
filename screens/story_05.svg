@@ -383,6 +383,6 @@
       <path d="M1083,1108.71v-.44h79.45v.44Z" style="fill: #f59774"/>
     </g>
     <rect x="1014.7" y="1024.17" width="164.91" height="108.12" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
-    <a href="data_ends.html" target="_top"><rect x="415.43" y="1580.69" width="193.05" height="90.82" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="415.43" y="1580.69" width="193.05" height="90.82" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
   </g>
 </svg>
