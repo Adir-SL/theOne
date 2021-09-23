@@ -359,7 +359,7 @@
       <rect x="1016.12" y="403.92" width="188.05" height="119.25" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_03.html');"/>
       <a href="data_talks.html" target="_top"><rect x="1012.74" y="839.73" width="188.05" height="119.25" style="fill: #f59774;opacity: 0"/></a>
       <a href="data_height.html" target="_top"><rect x="357.66" y="1454.83" width="272.23" height="104.88" style="fill: #f59774;opacity: 0"/></a>
-      <a href="data_ends.html" target="_top"><rect x="1013.61" y="1718.67" width="188.05" height="119.25" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="1013.61" y="1718.67" width="188.05" height="119.25" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
     </g>
   </g>
 </svg>
