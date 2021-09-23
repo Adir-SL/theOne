@@ -633,7 +633,7 @@
       
       <rect x="1042.4" y="560.48" width="152" height="114.38" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_02.html');"/>
       <rect x="390.78" y="610.95" width="259.02" height="81.54" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_01.html');"/>
-      <a href="data_dates.html" target="_top"><rect x="364.07" y="1614.04" width="187.62" height="107.86" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="364.07" y="1614.04" width="187.62" height="107.86" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
       <a href="data_cloth.html" target="_top"><rect x="439.85" y="2381.2" width="172.97" height="63.95" style="fill: #f59774;opacity: 0"/></a>
     </g>
   </g>
