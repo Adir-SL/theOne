@@ -369,6 +369,6 @@
     <rect x="1047.92" y="440.01" width="143.15" height="125.6" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_02.html');"/>
     <a href="data_cloth.html" target="_top"><rect x="444.6" y="1118.48" width="159.69" height="54.04" style="fill: #f59774;opacity: 0"/></a>
     <rect x="1030.31" y="1252.96" width="159.69" height="118.8" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_16.html');"/>
-    <a href="data_payments.html" target="_top"><rect x="374.2" y="1696.07" width="178.33" height="90.81" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="374.2" y="1696.07" width="178.33" height="90.81" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_18.html');"/>
   </g>
 </svg>
