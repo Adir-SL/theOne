@@ -274,7 +274,7 @@
       <path d="M1132.74,748.61l-2.13-1.9a.94.94,0,0,1,0-1.32l1.81-2a.92.92,0,0,1,1.36-.09l2.63,2.36c2.67-1.36,11.19-4.17,11.6,4l.73,14.78a2.85,2.85,0,0,1-2.86,3.22h-5.71a.83.83,0,0,1-.86-.82v-3.17a.87.87,0,0,1,.91-.82H1144l-.59-12.6c-.14-2.9-4-1.27-6-.45l-2.08,17.09a.78.78,0,0,1-.91.77h-3c-.68,0-.91-.5-.86-1Z" style="fill: #f59774"/>
     </g>
     <rect x="1009.36" y="448.89" width="174.58" height="90.82" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_02.html');"/>
-    <a href="data_drinks.html" target="_top"><rect x="371.12" y="986.09" width="238.83" height="71.36" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="371.12" y="986.09" width="238.83" height="71.36" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_13.html');"/>
     <a href="data_cloth.html" target="_top"><rect x="1000.8" y="1252.6" width="177.98" height="71.36" style="fill: #f59774;opacity: 0"/></a>
   </g>
 </svg>
