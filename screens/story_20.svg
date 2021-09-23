@@ -316,7 +316,7 @@
       <path d="M453.7,1026.38v-.44H586.5v.44Z" style="fill: #f59774"/>
 
       <rect x="1027.11" y="668.53" width="178.86" height="124.95" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_03.html');"/>
-      <a href="data_dates.html" target="_top"><rect x="421.11" y="957.14" width="207.19" height="99.71" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="421.11" y="957.14" width="207.19" height="99.71" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
       <a href="data_cloth.html" target="_top"><rect x="434.44" y="2235.28" width="185.8" height="61.28" style="fill: #f59774;opacity: 0"/></a>
     </g>
   </g>
