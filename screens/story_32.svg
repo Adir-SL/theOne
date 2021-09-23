@@ -379,7 +379,7 @@
 
       <rect x="1027.94" y="497.75" width="159.69" height="111.15" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_08.html');"/>
       <rect x="414.18" y="1005.86" width="193.91" height="80.94" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_03.html');"/>
-      <a href="data_ends.html" target="_top"><rect x="414.18" y="1640.8" width="193.91" height="80.94" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="414.18" y="1640.8" width="193.91" height="80.94" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
     </g>
   </g>
 </svg>
