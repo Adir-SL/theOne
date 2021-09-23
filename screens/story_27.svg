@@ -153,6 +153,6 @@
       <path d="M1143,524.28a.82.82,0,0,1-.86-.81V520.3a.87.87,0,0,1,.91-.82h6a6.87,6.87,0,0,1,6.89,6.93v11.83h1.86a.87.87,0,0,1,.91.82v3.17a.84.84,0,0,1-.87.82H1141.6a.83.83,0,0,1-.86-.82v-3.17a.87.87,0,0,1,.91-.82h9.47V526.37a2.12,2.12,0,0,0-2.09-2.09Z" style="fill: #f59774"/>
     </g>
     <rect x="514.69" y="502.06" width="159.69" height="97.04" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_08.html');"/>
-    <a href="data_dates.html" target="_top"><rect x="451.15" y="1222.61" width="159.69" height="83.14" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="451.15" y="1222.61" width="159.69" height="83.14" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
   </g>
 </svg>
