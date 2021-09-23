@@ -282,6 +282,6 @@
     </g>
     <rect x="461.58" y="697.86" width="159.69" height="97.04" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_04.html');"/>
     <a href="data_cloth.html" target="_top"><rect x="447.72" y="1465.54" width="172.64" height="77.79" style="fill: #f59774;opacity: 0"/></a>
-    <a href="data_ends.html" target="_top"><rect x="1001.53" y="1849.09" width="188.8" height="97.04" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="1001.53" y="1849.09" width="188.8" height="97.04" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
   </g>
 </svg>
