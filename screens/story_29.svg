@@ -417,7 +417,7 @@
       <path d="M454.61,2875.38v-.44H586.5v.44Z" style="fill: #f59774"/>
     </g>
     <a href="data_important.html" target="_top"><rect x="399" y="782.85" width="216.57" height="97.04" style="fill: #f59774;opacity: 0"/></a>
-    <a href="data_height.html" target="_top"><rect x="1033" y="1154.82" width="147.91" height="147.91" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="1033" y="1154.82" width="147.91" height="147.91" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_06.html');"/>
     <a href="data_cloth.html" target="_top"><rect x="442.11" y="2427.6" width="169.86" height="57.75" style="fill: #f59774;opacity: 0"/></a>
     <rect x="409.93" y="2814.96" width="202.15" height="87.89" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
   </g>
