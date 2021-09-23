@@ -607,7 +607,7 @@
     <rect x="426.14" y="710.72" width="210.42" height="126.61" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_09.html');"/>
     <rect x="440.42" y="1194.21" width="159.42" height="99.47" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_01.html');"/>
     <a href="data_cloth.html" target="_top"><rect x="447.54" y="1946.13" width="159.42" height="91.46" style="fill: #f59774;opacity: 0"/></a>
-    <a href="data_where.html" target="_top"><rect x="1001.91" y="2547.5" width="176.66" height="99.47" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="1001.91" y="2547.5" width="176.66" height="99.47" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_02.html');"/>
     <a href="data_ends.html" target="_top"><rect x="404.81" y="2750.59" width="176.66" height="99.47" style="fill: #f59774;opacity: 0"/></a>
   </g>
 </svg>
