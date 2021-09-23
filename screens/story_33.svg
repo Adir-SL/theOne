@@ -604,7 +604,7 @@
       <path d="M571.38,1444l-2.12-1.89a.93.93,0,0,1,0-1.31l1.8-2a.92.92,0,0,1,1.36-.09L575,1441c2.66-1.35,11.15-4.15,11.56,4l.72,14.73a2.83,2.83,0,0,1-2.84,3.2h-5.69a.82.82,0,0,1-.86-.81V1459a.85.85,0,0,1,.9-.81h3.75l-.59-12.56c-.13-2.89-4-1.27-6-.45l-2.08,17a.78.78,0,0,1-.9.77h-3c-.67,0-.9-.49-.85-1Z" style="fill: #f59774"/>
     </g>
     <rect x="997.97" y="410.13" width="193.91" height="80.94" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_08.html');"/>
-    <a href="data_nerds.html" target="_top"><rect x="426.14" y="710.72" width="210.42" height="126.61" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="426.14" y="710.72" width="210.42" height="126.61" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_09.html');"/>
     <rect x="440.42" y="1194.21" width="159.42" height="99.47" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_01.html');"/>
     <a href="data_cloth.html" target="_top"><rect x="447.54" y="1946.13" width="159.42" height="91.46" style="fill: #f59774;opacity: 0"/></a>
     <a href="data_where.html" target="_top"><rect x="1001.91" y="2547.5" width="176.66" height="99.47" style="fill: #f59774;opacity: 0"/></a>
