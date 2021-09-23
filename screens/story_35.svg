@@ -480,7 +480,7 @@
       <path d="M596.53,420c-.82,1-1.13,2.58-1.13,4.75V431a.86.86,0,0,1-.81.91h-3.12a.86.86,0,0,1-.81-.91v-6.27c0-3.53.9-6.46,3.34-8.58L590.43,411a.94.94,0,0,1,.14-1.18L593,408a.91.91,0,0,1,1.26.14l6.32,9.3,3.71-8.17a1.08,1.08,0,0,1,1.13-.77h2.71c.9,0,1.4.68,1,1.4l-5.64,11.93,5,7.49a1,1,0,0,1-.13,1.18l-2.44,1.8a.88.88,0,0,1-1.27-.13Z" style="fill: #f59774"/>
     </g>
     <text transform="translate(986.3 727.63)" style="font-size: 18.18021011352539px;fill: #f59774;font-family: ArbelHagilda-Bold, ArbelHagilda;font-weight: 700;text-decoration: underline"><tspan xml:space="preserve"> ויהש םיפסונ םירבד</tspan><tspan x="77.05" y="26.26">turn-off</tspan></text>
-    <a href="data_turnoffs.html" target="_top"><rect x="968.62" y="690.86" width="205.08" height="90.42" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="968.62" y="690.86" width="205.08" height="90.42" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_16.html');"/>
     <rect x="400.95" y="656.32" width="205.08" height="101.03" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_17.html');"/>
     <rect x="371.76" y="1301.84" width="241.68" height="68.8" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_04.html');"/>
     <a href="data_cloth.html" target="_top"><rect x="929.35" y="1511.83" width="189.51" height="62.21" style="fill: #f59774;opacity: 0"/></a>
