@@ -904,9 +904,9 @@
   function makeLink(){
     var newElement = document.createElementNS("http://www.w3.org/2000/svg", 'rect');
     newElement.setAttribute("width",window.svg.getElementsByTagName('rect')[0].getAttribute("width"));
-    newElement.setAttribute("height","80");
+    newElement.setAttribute("height","160");
     newElement.setAttribute("x",window.svg.getElementsByTagName('rect')[0].getAttribute("x"));
-    newElement.setAttribute("y",Number(window.svg.getElementsByTagName('rect')[0].getAttribute("height")) + Number(window.svg.getElementsByTagName('rect')[0].getAttribute("y")) - 80);
+    newElement.setAttribute("y",Number(window.svg.getElementsByTagName('rect')[0].getAttribute("height")) + Number(window.svg.getElementsByTagName('rect')[0].getAttribute("y")) - 160);
     newElement.style.fill = "#f00";
     newElement.style.opacity = "0";
     newElement.addEventListener("click", openLink, false); 
