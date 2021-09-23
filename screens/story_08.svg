@@ -304,7 +304,7 @@
       <path d="M1080.47,723.51v-.44h81.93v.44Z" style="fill: #f59774"/>
     </g>
     <a href="data_cloth.html" target="_top"><rect x="932.32" y="1372.92" width="207.9" height="63.5" style="fill: #f59774;opacity: 0"/></a>
-    <a href="data_height.html" target="_top"><rect x="1006.92" y="651.03" width="190.6" height="109.99" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="1006.92" y="651.03" width="190.6" height="109.99" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_06.html');"/>
     <rect x="358.69" y="1040.52" width="246.04" height="109.99" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_02.html');"/>
   </g>
 </svg>
