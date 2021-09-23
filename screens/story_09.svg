@@ -371,6 +371,6 @@
       <path d="M1144.72,410.17a.82.82,0,0,1-.86-.82v-3.17a.87.87,0,0,1,.91-.82h6a6.88,6.88,0,0,1,6.89,6.94v11.83h1.86a.86.86,0,0,1,.91.81v3.17a.83.83,0,0,1-.87.82h-16.22a.82.82,0,0,1-.86-.82v-3.17a.86.86,0,0,1,.91-.81h9.47V412.25a2.11,2.11,0,0,0-2.09-2.08Z" style="fill: #f59774"/>
     </g>
     <rect x="420.52" y="1279.69" width="190.6" height="109.99" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
-    <a href="data_ends.html" target="_top"><rect x="420.56" y="1677.06" width="190.6" height="109.99" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="420.56" y="1677.06" width="190.6" height="109.99" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
   </g>
 </svg>
