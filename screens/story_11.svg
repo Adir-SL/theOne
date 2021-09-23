@@ -554,7 +554,7 @@
       <path d="M760.9,1470.45l-.73-.69a.39.39,0,0,1,0-.6,3.19,3.19,0,0,0,1-2.76h-2.56a.33.33,0,0,1-.35-.33v-1.27a.36.36,0,0,1,.37-.33h3.27a1.19,1.19,0,0,1,1.2,1.17v1a4.8,4.8,0,0,1-1.62,3.77A.44.44,0,0,1,760.9,1470.45Z" style="fill: #f59774"/>
 
       <rect x="423.17" y="1769.62" width="210.6" height="109.99" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
-      <a href="data_ends.html" target="_top"><rect x="1022.07" y="2715.94" width="179.03" height="109.99" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="1022.07" y="2715.94" width="179.03" height="109.99" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
       <a href="data_cloth.html" target="_top"><rect x="433.17" y="2619.02" width="190.6" height="67.93" style="fill: #f59774;opacity: 0"/></a>
     </g>
   </g>
