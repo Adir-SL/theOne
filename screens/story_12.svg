@@ -331,7 +331,7 @@
       
       <rect x="1033.23" y="439.09" width="158.97" height="99.71" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_04.html');"/>
       <rect x="982.37" y="1226.5" width="200.33" height="99.71" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_11.html');"/>
-      <a href="data_cloth.html" target="_top"><rect x="445.84" y="1476.86" width="171.67" height="71.19" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="445.84" y="1476.86" width="171.67" height="71.19" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_cloth.html');"/>
     </g>
   </g>
 </svg>
