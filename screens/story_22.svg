@@ -344,7 +344,7 @@
 
       <rect x="389.14" y="737.92" width="210.38" height="117.44" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_09.html');"/>
       <rect x="1007.43" y="1521.85" width="193.24" height="88.08" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_23.html');"/>
-      <a href="data_cloth.html" target="_top"><rect x="423.2" y="1444.19" width="216.31" height="75.26" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="423.2" y="1444.19" width="216.31" height="75.26" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_cloth.html');"/>
     </g>
   </g>
 </svg>
