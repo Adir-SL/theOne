@@ -513,7 +513,7 @@
 
       <rect x="971.44" y="796.77" width="212.52" height="97.04" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
       <rect x="362.28" y="1093.69" width="251.59" height="97.04" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_14.html');"/>
-      <a href="data_cloth.html" target="_top"><rect x="927.93" y="1589.64" width="165.62" height="62.59" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="927.93" y="1589.64" width="165.62" height="62.59" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_cloth.html');"/>
     </g>
   </g>
 </svg>
