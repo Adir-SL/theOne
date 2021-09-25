@@ -428,6 +428,6 @@
     </g>
     <rect x="404.45" y="891.11" width="205.08" height="76.85" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_06.html');"/>
     <rect x="981.55" y="1451.95" width="205.08" height="98.51" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_16.html');"/>
-    <a href="data_cloth.html" target="_top"><rect x="394.91" y="1551.46" width="170.46" height="49.25" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="394.91" y="1551.46" width="170.46" height="49.25" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_cloth.html');"/>
   </g>
 </svg>
