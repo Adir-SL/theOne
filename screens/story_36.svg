@@ -418,7 +418,7 @@
 
       <rect x="1030.2" y="393.18" width="152.99" height="136.98" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_03.html');"/>
       <rect x="414.03" y="724.19" width="189.51" height="111.77" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
-      <a href="data_cloth.html" target="_top"><rect x="417.97" y="1555.77" width="189.51" height="62.21" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="417.97" y="1555.77" width="189.51" height="62.21" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_cloth.html');"/>
       <rect x="443.6" y="2492.77" width="171.12" height="91.78" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_13.html');"/>
     </g>
   </g>
