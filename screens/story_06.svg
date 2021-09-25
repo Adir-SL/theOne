@@ -493,7 +493,7 @@
         <path d="M498.87,2081.24a.85.85,0,0,0-.86-.83h-3.92a.32.32,0,0,1-.35-.33v-1.27a.35.35,0,0,1,.36-.33H498a2.78,2.78,0,0,1,2.8,2.78v6.31a.34.34,0,0,1-.33.36h-1.27a.34.34,0,0,1-.32-.36Zm-4.48,1.06,1.17.07a.37.37,0,0,1,.36.44s-.2,1.74-.2,2.07v2.69a.34.34,0,0,1-.33.36h-1.27a.35.35,0,0,1-.33-.36v-2.73c0-.38.2-2.22.2-2.22A.34.34,0,0,1,494.39,2082.3Z" style="fill: #f59774"/>
         <path d="M414.55,2090.15v-.44h87.84v.44Z" style="fill: #f59774"/>
         <rect x="994.38" y="730.29" width="205.85" height="120.27" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_15.html');"/>
-      <a href="data_cloth.html" target="_top"><rect x="436.75" y="1310.55" width="192.63" height="73.88" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="436.75" y="1310.55" width="192.63" height="73.88" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_cloth.html');"/>
       <rect x="1017.54" y="1619.15" width="164.12" height="120.27" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
       <rect x="385.92" y="2006.8" width="145.54" height="112.63" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_03.html');"/>
       </g>
