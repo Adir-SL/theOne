@@ -426,6 +426,6 @@
     </g>
     <rect x="418.11" y="596.96" width="193.1" height="105.86" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_12.html');"/>
     <rect x="897.14" y="1408.22" width="282.4" height="79.15" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
-    <a href="data_cloth.html" target="_top"><rect x="427.95" y="1365.65" width="198.97" height="70.77" style="fill: #f59774;opacity: 0"/></a>
+    <rect x="427.95" y="1365.65" width="198.97" height="70.77" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_cloth.html');"/>
   </g>
 </svg>
