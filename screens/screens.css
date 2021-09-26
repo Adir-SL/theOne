@@ -278,6 +278,17 @@ a, button{
     /* top: 132px;
     height: calc(100% - 132px); */
 }
+#clothFrame{
+    position: absolute;
+    border: none;
+    outline: none;
+    width: 100vw;
+    height: calc(100vh - 132px - 95px);
+    top: 132px;
+    left: 0;
+    z-index: 9999;
+    pointer-events: none;
+}
 @media only screen and (max-device-width: 480px){
     #svgLayer{
         transform: scale(1.6);
