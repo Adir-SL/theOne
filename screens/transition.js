@@ -28,6 +28,7 @@ function openLink (e, url) {
     crossReset();
 }
 function openCloth(x){
+    alert(x);
     document.getElementById("clothFrame").src = x;
 }
 
