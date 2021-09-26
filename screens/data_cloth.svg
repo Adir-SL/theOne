@@ -232,4 +232,9 @@
       <line x1="653.48" y1="327.1" x2="882.52" y2="327.1" style="fill: none;stroke: #647c6e;stroke-miterlimit: 10;stroke-width: 2.18135196459353px"/>
     </g>
   </g>
+  <script>
+  function clothClick(){
+    parent.openLink("data_cloth_01.html");
+  }
+  </script>
 </svg>
