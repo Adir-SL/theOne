@@ -1,12 +1,12 @@
 /* Arbel */
 @font-face {
     font-family: 'Arbel';
-    src: url('../ArbelHagilda/ArbelHagilda_Bold.ttf') format("opentype");
+    src: url('../ArbelHagilda/ArbelHagilda_Bold.otf') format("opentype");
     font-weight: 500;
 }
 @font-face {
     font-family: 'Arbel';
-    src: url('../ArbelHagilda/ArbelHagilda_Regular.ttf') format("opentype");
+    src: url('../ArbelHagilda/ArbelHagilda_Regular.otf') format("opentype");
     font-weight: 300;
 }
 
@@ -45,7 +45,12 @@ body{
     padding: 0;
     margin-bottom: 16px;
     text-align: right;
+    font-family: 'Franky', serif;
 }
+/* .header h1{
+    font-family: 'Franky', serif;
+    font-weight: 300;
+} */
 .storyDiv h1{
     font-family: 'Arbel';
     font-weight: 300;
