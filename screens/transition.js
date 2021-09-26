@@ -31,5 +31,9 @@ function openCloth(x){
     document.getElementById("clothFrame").src = x;
     document.getElementById("clothFrame").style.pointerEvents = "all";
 }
+function closeFrame(){
+    document.getElementById("clothFrame").src = "";
+    document.getElementById("clothFrame").style.pointerEvents = "none";
+}
 
 document.getElementsByClassName("wrapper")[0].addEventListener("beforeunload", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "0";});
