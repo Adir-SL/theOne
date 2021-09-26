@@ -24,3 +24,13 @@ body{
     width: 250px;
     text-align: right;
 }
+.clothImg{
+    background-image: url(../img/cloth/OD1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: calc(100vh - 300px);
+}
+.header, h1{
+    background: none;
+}
