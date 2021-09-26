@@ -1,3 +1,6 @@
+body{
+    background-color: var(--primary);
+}
 #clothFrame{
     position: absolute;
     width: 100vw;
