@@ -1,5 +1,6 @@
 body{
     background-color: #F1EEEC;
+    overflow: hidden;
 }
 #clothFrame{
     position: absolute;
@@ -9,7 +10,7 @@ body{
     height: calc(100vh - 132px - 95px);
     top: 132px;
     left: 0;
-    z-index: 10;
+    z-index: 9999;
     pointer-events: none;
 }
 .storyDiv{
@@ -17,10 +18,14 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    overflow: hidden;
 }
-.storyDiv. .wrapper{
-    margin: 0;
-    padding: 0;
+.wrapper{
+    overflow: visible;
+}
+.storyDiv, .wrapper{
+    margin: 0 !important;
+    padding: 0 !important;
 }
 .storyDiv p, .storyDiv h1{
     width: 250px;
@@ -40,5 +45,11 @@ body{
 }
 .backButtonC, .forButtonC{
     top: auto;
-    bottom: 220px;
+    bottom: 140px;
+}
+.forButtonC{
+    left: 240px;
+}
+.backButtonC{
+    right: 240px;
 }
