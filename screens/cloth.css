@@ -14,17 +14,6 @@ body{
     background-color: #F1EEEC;
     overflow: hidden;
 }
-#clothFrame{
-    position: absolute;
-    border: none;
-    outline: none;
-    width: 100vw;
-    height: calc(100vh - 132px - 95px);
-    top: 132px;
-    left: 0;
-    z-index: 9999;
-    pointer-events: none;
-}
 .storyDiv{
     display: flex;
     align-items: center;
