@@ -201,6 +201,9 @@ h1{
     transform: translateY(120%);
     transition: transform 300ms ease-out;
 }
+p{
+    font-family: var(--frankFont);
+}
 #storyMenu a, #dataMenu a{
     color: var(--text);
 }
