@@ -1,8 +1,10 @@
 body{
-    background-color: var(--primary);
+    background-color: #F1EEEC;
 }
 #clothFrame{
     position: absolute;
+    border: none;
+    outline: none;
     width: 100vw;
     height: calc(100vh - 132px - 95px);
     top: 132px;
