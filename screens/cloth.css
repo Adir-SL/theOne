@@ -1,5 +1,4 @@
 #clothFrame{
-    box-shadow: 0 0 1px black inset;
     position: absolute;
     width: 100vw;
     height: calc(100vh - 132px - 95px);
