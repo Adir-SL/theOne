@@ -12,3 +12,13 @@ body{
     z-index: 10;
     pointer-events: none;
 }
+.storyDiv{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+.storyDiv p, .storyDiv h1{
+    width: 28ch;
+}
