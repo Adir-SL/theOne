@@ -203,6 +203,7 @@ h1{
 }
 p{
     font-family: var(--frankFont);
+    color: var(--text);
 }
 #storyMenu a, #dataMenu a{
     color: var(--text);
