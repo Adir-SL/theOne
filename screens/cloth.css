@@ -34,3 +34,7 @@ body{
     flex-grow: 1;
     width: 100%;
 }
+.backButtonC, .forButtonC{
+    top: auto;
+    bottom: 220px;
+}
