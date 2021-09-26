@@ -234,7 +234,7 @@
   </g>
   <script>
   function clothClick(x){
-    parent.openLink(x);
+    parent.openCloth(x);
   }
   </script>
 </svg>
