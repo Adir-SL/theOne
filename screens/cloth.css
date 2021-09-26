@@ -27,6 +27,7 @@ body{
 }
 .clothImg{
     background-image: url(../img/cloth/OD1.jpg);
+    background-color: #F0E3E1;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
