@@ -1,28 +1,13 @@
 /* Arbel */
 @font-face {
-    font-family: 'Franky';
-    src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Light.ttf') format("truetype");
-    font-weight: 200;
-}
-@font-face {
-    font-family: 'Franky';
-    src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Regular.ttf') format("truetype");
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'Franky';
-    src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Medium.ttf') format("truetype");
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Franky';
-    src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Bold.ttf') format("truetype");
+    font-family: 'Arbel';
+    src: url('../ArbelHagilda/ArbelHagilda_Bold.ttf') format("opentype");
     font-weight: 500;
 }
 @font-face {
-    font-family: 'Franky';
-    src: url('../Frank_Ruhl_Libre/FrankRuhlLibre-Black.ttf') format("truetype");
-    font-weight: 600;
+    font-family: 'Arbel';
+    src: url('../ArbelHagilda/ArbelHagilda_Regular.ttf') format("opentype");
+    font-weight: 300;
 }
 
 body{
@@ -60,6 +45,10 @@ body{
     padding: 0;
     margin-bottom: 16px;
     text-align: right;
+}
+.storyDiv h1{
+    font-family: 'Arbel';
+    font-weight: 300;
 }
 .clothImg{
     background-image: url(../img/cloth/OD1.jpg);
