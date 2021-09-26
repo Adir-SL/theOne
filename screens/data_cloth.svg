@@ -69,7 +69,7 @@
     <circle cx="676.39" cy="1594.79" r="9.12" style="fill: #e3c867"/>
   </g>
   <g>
-    <circle onclick="clothClick('data_cloth_01');" cx="1040.67" cy="436.47" r="78.49" style="fill: url(#b9984309-22d0-441c-839a-f544e5411c1f)"/>
+    <circle onclick="clothClick('data_cloth_01.html');" cx="1040.67" cy="436.47" r="78.49" style="fill: url(#b9984309-22d0-441c-839a-f544e5411c1f)"/>
     <circle cx="768" cy="436.47" r="78.49" style="fill: url(#f95d43cf-3ffc-45cc-a927-42ab296da76b)"/>
     <circle cx="495.33" cy="436.47" r="78.49" style="fill: url(#a9f7c850-02ff-48c0-9657-1202e3597268)"/>
     <circle cx="1040.67" cy="656.36" r="78.49" style="fill: url(#acdcbeef-949f-434c-8d84-8f537cd351cf)"/>
