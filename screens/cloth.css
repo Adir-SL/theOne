@@ -18,7 +18,9 @@ body{
     align-items: center;
     justify-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .storyDiv p, .storyDiv h1{
-    width: 28ch;
+    width: 250px;
+    text-align: right;
 }
