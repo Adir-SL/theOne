@@ -18,6 +18,10 @@ body{
     flex-direction: column;
     height: 100vh;
 }
+.storyDiv. .wrapper{
+    margin: 0;
+    padding: 0;
+}
 .storyDiv p, .storyDiv h1{
     width: 250px;
     margin: 0;
