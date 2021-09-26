@@ -30,10 +30,8 @@ function openLink (e, url) {
 function openCloth(x){
     document.getElementById("clothFrame").src = x;
     document.getElementById("clothFrame").style.pointerEvents = "all";
-}
-function closeFrame(){
-    document.getElementById("clothFrame").src = "";
-    document.getElementById("clothFrame").style.pointerEvents = "none";
+    document.getElementById("closeFrame").style.pointerEvents = "all";
+    document.getElementById("closeFrame").style.opacity = "1";
 }
 
 document.getElementsByClassName("wrapper")[0].addEventListener("beforeunload", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "0";});
