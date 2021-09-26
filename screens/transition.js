@@ -30,6 +30,7 @@ function openLink (e, url) {
 function openCloth(x){
     alert(x);
     document.getElementById("clothFrame").src = x;
+    document.getElementById("clothFrame").style.pointerEvents = "all";
 }
 
 document.getElementsByClassName("wrapper")[0].addEventListener("beforeunload", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "0";});
