@@ -27,5 +27,8 @@ function openLink (e, url) {
 
     crossReset();
 }
+function openCloth(x){
+    
+}
 
 document.getElementsByClassName("wrapper")[0].addEventListener("beforeunload", function(event) { document.getElementsByClassName("wrapper")[0].style.opacity = "0";});
