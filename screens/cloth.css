@@ -80,6 +80,10 @@ body{
     font-weight: 300;
     background-color: rgba(242, 239, 237, 0.8);
 }
+.leftCard{
+    left: 50%;
+    right: auto;
+}
 .backButtonC, .forButtonC{
     top: auto;
     bottom: 140px;
