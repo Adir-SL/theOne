@@ -58,6 +58,17 @@ body{
     flex-grow: 1;
     width: 100%;
 }
+.plusIcon{
+    background-image: url(../img/plus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+}
 .backButtonC, .forButtonC{
     top: auto;
     bottom: 140px;
