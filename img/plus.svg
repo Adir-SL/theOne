@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41.52 41.52">
+  <g id="e06f92c5-c614-4a36-9ade-37c6cd9a1eff" data-name="Layer 2">
+    <g id="bacf8ad2-1ac1-41de-a892-781ad33efadc" data-name="nav">
+      <g>
+        <g>
+          <line x1="10.34" y1="20.76" x2="31.18" y2="20.76" style="fill: none;stroke: #647c6e;stroke-miterlimit: 10;stroke-width: 2.02666666666667px"/>
+          <line x1="20.76" y1="10.34" x2="20.76" y2="31.18" style="fill: none;stroke: #647c6e;stroke-miterlimit: 10;stroke-width: 2.02666666666667px"/>
+        </g>
+        <circle cx="20.76" cy="20.76" r="19.75" style="fill: none;stroke: #647c6e;stroke-miterlimit: 10;stroke-width: 2.02666666666667px"/>
+      </g>
+    </g>
+  </g>
+</svg>
