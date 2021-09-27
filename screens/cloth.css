@@ -28,6 +28,9 @@ body{
     margin: 0 !important;
     padding: 0 !important;
 }
+.storyDiv{
+    background-color: #F0E3E1;
+}
 .storyDiv p, .storyDiv h1{
     width: 250px;
     margin: 0;
@@ -36,6 +39,7 @@ body{
     text-align: right;
     font-family: 'Arbel', serif;
     font-weight: 300;
+    background: none;
 }
 /* .header h1{
     font-family: 'Franky', serif;
