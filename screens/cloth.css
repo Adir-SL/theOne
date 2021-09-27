@@ -89,7 +89,7 @@ body{
 }
 .backButtonC, .forButtonC{
     top: auto;
-    bottom: 140px;
+    bottom: 31.5vh;
 }
 .forButtonC{
     left: 200px;
