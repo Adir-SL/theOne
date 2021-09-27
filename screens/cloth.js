@@ -4,5 +4,9 @@ function openCard(e){
 }
 
 function resetCards(){
-    
+    var x = document.getElementsByClassName("clothCard");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.opacity = "0";
+    }
 }
