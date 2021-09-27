@@ -1,4 +1,4 @@
 function openCard(e){
-    resetCards();
+    // resetCards();
     e.target.getElementByClassName("clothCard")[0].style.opacity = "1";
 }
