@@ -19,6 +19,9 @@ function addCross(){
 function crossClick(){
     document.getElementById('moreData').classList.toggle("openCross");
     whatPageSlice = whatPage.slice(whatPage.indexOf("_"), whatPage.indexOf("."));
+    // if(document.getElementById("svgLayer").data.slice(-4) = "html"){
+    //     document.getElementById("svgLayer").data = "story"+document.getElementById("svgLayer").data.slice(-8, -4)+"svg";
+    // }
     if(document.getElementById('moreData').className == "openCross"){
         document.getElementById("svgLayer").style.opacity = "1";
         document.getElementById("svgLayer").style.pointerEvents = "all";
