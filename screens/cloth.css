@@ -80,6 +80,7 @@ body{
     font-weight: 300;
     background-color: rgba(242, 239, 237, 0.8);
     opacity: 0;
+    transition: opacity 300ms linear 0s;
 }
 .leftCard{
     left: 50%;
