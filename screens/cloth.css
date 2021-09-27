@@ -79,6 +79,7 @@ body{
     font-family: 'Arbel';
     font-weight: 300;
     background-color: rgba(242, 239, 237, 0.8);
+    opacity: 0;
 }
 .leftCard{
     left: 50%;
