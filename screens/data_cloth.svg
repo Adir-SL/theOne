@@ -75,9 +75,9 @@
     <circle onclick="clothClick('data_cloth_04.html');" cx="1040.67" cy="656.36" r="78.49" style="fill: url(#acdcbeef-949f-434c-8d84-8f537cd351cf)"/>
     <circle onclick="clothClick('data_cloth_05.html');" cx="768" cy="656.36" r="78.49" style="fill: url(#ef47575d-5a31-4430-aec0-ab604ca7230b)"/>
     <circle onclick="clothClick('data_cloth_06.html');" cx="495.33" cy="656.36" r="78.49" style="fill: url(#a2134cd4-5f6c-4b37-9a23-0c59a7415b49)"/>
-    <circle cx="1040.67" cy="876.26" r="78.49" style="fill: url(#a03dfcff-314a-48f8-a56c-aead6401cef0)"/>
-    <circle cx="768" cy="876.26" r="78.49" style="fill: url(#e12cdc51-3df9-4efe-98f7-6c74d69a0f3d)"/>
-    <circle cx="495.33" cy="876.26" r="78.49" style="fill: url(#a7ca55ec-99d2-445f-95b3-e399ad78ba07)"/>
+    <circle onclick="clothClick('data_cloth_07.html');" cx="1040.67" cy="876.26" r="78.49" style="fill: url(#a03dfcff-314a-48f8-a56c-aead6401cef0)"/>
+    <circle onclick="clothClick('data_cloth_08.html');" cx="768" cy="876.26" r="78.49" style="fill: url(#e12cdc51-3df9-4efe-98f7-6c74d69a0f3d)"/>
+    <circle onclick="clothClick('data_cloth_09.html');" cx="495.33" cy="876.26" r="78.49" style="fill: url(#a7ca55ec-99d2-445f-95b3-e399ad78ba07)"/>
     <circle cx="1040.67" cy="1096.16" r="78.49" style="fill: url(#a03676c0-4254-4de1-bd97-020bb43df9bc)"/>
     <circle cx="768" cy="1096.16" r="78.49" style="fill: url(#a22fd74f-4f5e-428f-8cde-4a38b5db8a1b)"/>
     <circle cx="495.33" cy="1096.16" r="78.49" style="fill: url(#a05e73d3-2307-4dca-b4fe-fb7a915bedf4)"/>
