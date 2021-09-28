@@ -1,4 +1,9 @@
 <svg id="ba141bad-1ea6-4c0d-81f3-e88854b2527e" data-name="text" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1536 1875">
+<style>
+g{
+  pointer-events: none;
+}
+</style>
   <defs>
     <radialGradient id="b9984309-22d0-441c-839a-f544e5411c1f" data-name="New Gradient Swatch copy 12" cx="1040.67" cy="436.47" r="78.49" gradientUnits="userSpaceOnUse">
       <stop offset="0.2" stop-color="#f8b090"/>
@@ -68,7 +73,7 @@
     </g>
     <circle cx="676.39" cy="1594.79" r="9.12" style="fill: #e3c867"/>
   </g>
-  <g>
+  <g style="pointer-events: all;">
     <circle onclick="clothClick('data_cloth_01.html');" cx="1040.67" cy="436.47" r="78.49" style="fill: url(#b9984309-22d0-441c-839a-f544e5411c1f)"/>
     <circle onclick="clothClick('data_cloth_02.html');" cx="768" cy="436.47" r="78.49" style="fill: url(#f95d43cf-3ffc-45cc-a927-42ab296da76b)"/>
     <circle onclick="clothClick('data_cloth_03.html');" cx="495.33" cy="436.47" r="78.49" style="fill: url(#a9f7c850-02ff-48c0-9657-1202e3597268)"/>
