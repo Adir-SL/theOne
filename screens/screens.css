@@ -92,6 +92,7 @@ body{
     position: absolute;
     bottom: 20vh;
     z-index: 2;
+    pointer-events: none;
 }
 
 .header{
