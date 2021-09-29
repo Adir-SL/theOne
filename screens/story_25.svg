@@ -563,7 +563,7 @@
     </g>
     <rect x="1044.77" y="713.83" width="154.08" height="123.4" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_03.html');"/>
     <rect x="439.68" y="1091.31" width="162.34" height="61.7" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_cloth.html');"/>
-    <rect x="424.5" y="1644.69" width="180.73" height="105.27" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
-    <rect x="981.44" y="1982.2" width="208.38" height="105.27" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_01.html');"/>
+    <rect x="424.5" y="1644.69" width="180.73" height="105.27" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_19.html');"/>
+    <rect x="981.44" y="1982.2" width="208.38" height="105.27" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
   </g>
 </svg>
