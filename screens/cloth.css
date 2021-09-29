@@ -75,10 +75,12 @@ body{
     position: absolute;
     top: 100%;
     right: 50%;
-    width: 250px;
+    width: 200px;
     padding: 16px;
     font-family: 'Arbel';
     font-weight: 300;
+    font-size: 0.8em;
+    line-height: 1.5em;
     background-color: rgba(242, 239, 237, 0.8);
     opacity: 0;
     transition: opacity 300ms linear 0s;
