@@ -500,7 +500,7 @@
 
       <rect x="1016.29" y="665.32" width="162.02" height="95.4" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_08.html');"/>
       <rect x="448.29" y="1542.47" width="162.02" height="112.05" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_10.html');"/>
-      <a href="epilouge.html" target="_top"><rect x="477.23" y="2211.21" width="138.35" height="70.84" style="fill: #f59774;opacity: 0"/></a>
+      <rect x="477.23" y="2211.21" width="138.35" height="70.84" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'screen_43.html');"/>
     </g>
   </g>
 </svg>
