@@ -365,7 +365,7 @@
     </g>
     <rect x="1032.53" y="438.08" width="152.02" height="114.22" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_03.html');"/>
     <rect x="369.63" y="919.9" width="241.4" height="79.47" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_01.html');"/>
-    <rect x="1033.18" y="1713.72" width="152.02" height="114.22" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_20.html');"/>
+    <rect x="1033.18" y="1713.72" width="152.02" height="114.22" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_19.html');"/>
     <rect x="1013.54" y="2125.99" width="167.77" height="114.22" style="fill: #f59774;opacity: 0" onclick="parent.openLink(event, 'data_screen_02.html');"/>
   </g>
 </svg>
