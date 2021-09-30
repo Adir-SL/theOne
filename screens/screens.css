@@ -268,7 +268,7 @@ a, button{
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background-color: #F8F6F5;
+    background-color: var(--primary);
     color: var(--text);
     font-family: 'Franky', serif;
     font-weight: 300;
@@ -277,6 +277,13 @@ a, button{
 }
 #infoPage::first-line{
     font-weight: 700;
+}
+.infoTop{
+    padding: 128px;
+    background-image: url(../img/first_screen_01.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
 }
 .openCross{
     transform: rotate(135deg);
