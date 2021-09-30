@@ -295,12 +295,15 @@ a, button{
 .infoBottom{
     padding: 128px;
     padding-top: 0;
+    padding-bottom: 64px;
+    position: absolute;
+    bottom: 0;
 }
 .infoImg{
     position: absolute;
-    bottom: 32px;
-    left: 32px;
-    width: 50%;
+    bottom: 64px;
+    left: 64px;
+    width: 40%;
     height: 25%;
     background-image: url(../img/Bezalel.png);
     background-repeat: no-repeat;
