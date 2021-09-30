@@ -275,8 +275,8 @@ a, button{
     opacity: 0;
     pointer-events: none;
 }
-#infoPage::first-line{
-    font-weight: 700;
+#infoPage b{
+    font-weight: 600;
 }
 .infoTop{
     padding: 128px;
@@ -284,6 +284,10 @@ a, button{
     background-repeat: no-repeat;
     background-position: top right;
     background-size: contain;
+}
+.infoBottom{
+    padding: 128px;
+    padding-top: 0;
 }
 .openCross{
     transform: rotate(135deg);
