@@ -262,6 +262,16 @@ a, button{
     transition: opacity 100ms linear 0ms, transform 300ms ease-in-out 0s;
 }
 #infoPage{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: var(--primary);
+    color: var(--text);
+    font-family: 'Franky', serif;
+    font-weight: 300;
     opacity: 0;
     pointer-events: none;
 }
