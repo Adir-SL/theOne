@@ -274,9 +274,15 @@ a, button{
     font-weight: 300;
     opacity: 0;
     pointer-events: none;
+    direction: rtl;
+    overflow: hidden;
 }
 #infoPage b{
     font-weight: 600;
+}
+#infoPage a{
+    color: var(--text);
+    text-decoration: none;
 }
 .infoTop{
     padding: 128px;
