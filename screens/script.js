@@ -48,3 +48,7 @@ function moreInfo(e){
     document.getElementById("infoPage").style.opacity = "1";
     document.getElementById("infoPage").style.pointerEvents = "all";
 }
+function resetInfo(){
+    document.getElementById("infoPage").style.opacity = "0";
+    document.getElementById("infoPage").style.pointerEvents = "none";
+}
