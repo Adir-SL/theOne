@@ -43,3 +43,8 @@ function crossReset(){
         }
     }, 300);
 }
+
+function moreInfo(e){
+    document.getElementById("infoPage").style.opacity = "1";
+    document.getElementById("infoPage").style.pointerEvents = "all";
+}
