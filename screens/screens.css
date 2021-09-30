@@ -275,6 +275,9 @@ a, button{
     opacity: 0;
     pointer-events: none;
 }
+#infoPage::first-line{
+    font-weight: 700;
+}
 .openCross{
     transform: rotate(135deg);
 }
