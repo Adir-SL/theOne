@@ -261,6 +261,10 @@ a, button{
     border-radius: 50%;
     transition: opacity 100ms linear 0ms, transform 300ms ease-in-out 0s;
 }
+.infoPage{
+    opacity: 0;
+    pointer-events: none;
+}
 .openCross{
     transform: rotate(135deg);
 }
