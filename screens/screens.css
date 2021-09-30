@@ -276,6 +276,7 @@ a, button{
     pointer-events: none;
     direction: rtl;
     overflow: hidden;
+    transition: opacity 200ms linear 0s;
 }
 #infoPage b{
     font-weight: 600;
