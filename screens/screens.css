@@ -257,7 +257,7 @@ a, button{
     cursor: pointer;
     pointer-events: none;
     opacity: 0;
-    box-shadow: 0 0 0 1px #f59774 inset;
+    box-shadow: 0 0 0 2px #f59774 inset;
     border-radius: 50%;
     transition: opacity 100ms linear 0ms, transform 300ms ease-in-out 0s;
 }
