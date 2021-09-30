@@ -295,6 +295,10 @@ a, button{
 .infoBottom{
     padding: 128px;
     padding-top: 0;
+    background-image: url(../img/Bezalel.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 50%;
 }
 .openCross{
     transform: rotate(135deg);
